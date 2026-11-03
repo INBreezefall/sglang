@@ -6,7 +6,7 @@ Four hosts, eight 64-GiB Ascend 910B4-1 NPUs on each. The model ran on two prefi
 
 The original 300-second first-token control warmed 24/24 sessions, then attempted 50/72 formal requests: 38 succeeded and 12 failed. The stop-on-error policy prevents interpreting a survivors-only mean as a complete-replay performance result. All 12 timeouts changed prefill shard relative to that session's previous turn, including its warm turn. Among the successful requests, 17/38 also changed prefill shard. On decode, 11/12 timeouts moved. These are associations in the control.
 
-The SGLang baseline is `40a64e1b5ba00c73b7f8a123a903a2123b7d467c` plus a common A2/C8 compatibility patch with SHA-256 `95eab8a2a6fa981b94ca76e1370aa2b45d994e98b72d4290099acff4653bdb17`. The patch is present in every arm. It carries packed A2 INT8 DSA/indexer support, target/draft pool layout handling, W4 tensor-parallel bias slicing, worker-thread NPU device binding for the installed Mooncake backend, and the same instrumentation. The unmodified pinned main rejects the A2 C8 configuration. The results isolate each PR on that fixed baseline.
+The SGLang baseline is `40a64e1b5ba00c73b7f8a123a903a2123b7d467c` plus a common A2/C8 compatibility patch with SHA-256 `95eab8a2a6fa981b94ca76e1370aa2b45d994e98b72d4290099acff4653bdb17`. The patch is present in every arm. It carries packed A2 INT8 DSA/indexer support, target/draft pool layout handling, W4 tensor-parallel bias slicing, worker-thread NPU device binding for the installed Mooncake backend, and the same instrumentation. The unmodified pinned main rejects the A2 C8 configuration. The results isolate each PR on that fixed baseline. This public record contains source hashes and anonymized request samples. The complete compatibility overlay and original conversations are retained in the experiment workspace.
 
 The reference Ascend kernel source is `bc2b60032f99bf36dd098babc914e9c42bbe7cea`. For the H2D comparison, the exact native transfer operator and its high-level Python wrapper from each reference/candidate source were installed over the same operator runtime and checked via the PrivateUse1 dispatcher. Both Python wrappers pass the same five-dimensional empty V descriptor to the unchanged native signature for sparse-index and scale copies. Both directions were verified byte-for-byte on device. The remaining native operators used the identical installed wheel. Software versions: CANN 9.1.0, torch 2.10.0+cpu, torch-npu 2.10.0.post6, Mooncake NPU 0.3.13.post1, transformers 5.19.0.
 
@@ -18,7 +18,7 @@ The reference Ascend kernel source is `bc2b60032f99bf36dd098babc914e9c42bbe7cea`
 | Arm | Complete replays | Mean TTFT, s ↓ | Mean per-request decode, tok/s ↑ | D ITL inverse, tok/s ↑ | Output TPS ↑ |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Shared-fix control | 1 | 296.74 | 94.71 | 36.41 | 9.47 |
-| #48096 D eviction | 1 | 241.30 | 87.57 | 38.67 | 8.96 |
+| #48096 D eviction | 2 | 240.48 | 90.62 | 41.96 | 9.12 |
 | #48098 P session routing | 2 | 26.55 | 48.49 | 20.86 | 88.48 |
 | #947 P H2D | 2 | 253.07 | 87.03 | 44.46 | 9.27 |
 | Restored control | 1 | 272.47 | 119.61 | 45.99 | 9.31 |
@@ -27,7 +27,7 @@ Equal-replay means relative to the mean of both independent controls. Observed r
 
 | Candidate | Replays | TTFT change | Client per-request decode change | Native D ITL inverse change | Output throughput change |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| #48096 D eviction | 1 | -15.2% | -18.3% | -6.1% | -4.6% |
+| #48096 D eviction | 2 | -15.5% | -15.4% | +1.8% | -2.8% |
 | #48098 P session routing | 2 | -90.7% | -54.7% | -49.4% | +842.4% |
 | #947 P H2D | 2 | -11.1% | -18.8% | +7.9% | -1.3% |
 
@@ -40,6 +40,7 @@ Equal-replay means relative to the mean of both independent controls. Observed r
 | anchor-tail | 72/72 | 272.47 / 580.21 / 873.78 | 26 | 119.61 | 45.99 | 9.31 | 11235 / 1207.19 |
 | k-r2-tail | 72/72 | 248.90 / 711.67 / 905.01 | 21 | 96.42 | 44.51 | 8.90 | 10887 / 1223.59 |
 | p-r2-tail | 72/72 | 24.64 / 46.58 / 57.35 | 0 | 60.80 | 26.66 | 95.62 | 10745 / 112.37 |
+| d-r2-tail | 72/72 | 239.67 / 741.02 / 881.38 | 21 | 93.67 | 45.25 | 9.28 | 11147 / 1200.85 |
 
 | Replay | P same rank / formal continuations | D same rank / formal continuations | D evicted leaf tokens | P H2D calls / GiB |
 | --- | ---: | ---: | ---: | ---: |
@@ -50,6 +51,20 @@ Equal-replay means relative to the mean of both independent controls. Observed r
 | anchor-tail | 12/48 | 22/48 | 6,282,112 | 60 / 103.44 |
 | k-r2-tail | 13/48 | 25/48 | 4,705,664 | 68 / 95.10 |
 | p-r2-tail | 48/48 | 6/48 | 6,408,064 | 208 / 328.35 |
+| d-r2-tail | 19/48 | 13/48 | 5,311,232 | 48 / 71.43 |
+
+| Replay | P prompt tokens | HBM hits | L2 hits | No cache hit | D post-first overlap | Client decode samples |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| base-tail | 7,877,978 | 1,332,992 | 1,437,568 | 5,107,418 | 0.26 | 53/72 |
+| d-tail | 7,877,467 | 1,762,048 | 933,888 | 5,181,531 | 0.23 | 57/72 |
+| p-tail | 7,878,000 | 5,019,392 | 2,720,384 | 138,224 | 5.36 | 66/72 |
+| k-tail | 7,878,845 | 1,847,296 | 781,184 | 5,250,365 | 0.22 | 48/72 |
+| anchor-tail | 7,875,319 | 1,903,104 | 870,016 | 5,102,199 | 0.20 | 57/72 |
+| k-r2-tail | 7,878,168 | 1,879,680 | 773,888 | 5,224,600 | 0.20 | 57/72 |
+| p-r2-tail | 7,875,067 | 5,009,920 | 2,728,576 | 136,571 | 3.56 | 48/72 |
+| d-r2-tail | 7,875,378 | 2,109,184 | 581,248 | 5,184,946 | 0.20 | 51/72 |
+
+P prompt and cache-hit tokens are differences in the prefill request counters at the two formal boundaries. D post-first overlap is the summed duration of all D token intervals divided by the formal wall window. The live operator evidence includes a short, file-scoped probe on the candidate function: it observed the first native K-only invocation on both P hosts and immediately detached. It was not used to estimate copy duration. All 576 formal requests in the completed eight-replay matrix can be matched to their P and D ranks.
 
 The lower P cache cap and chunk used in this comparison were chosen before collecting any formal samples. With 327,680 P tokens and 2,048 tokens per local chunk, the W4 MoE forward ran out of NPU memory during cold warm-up. A D cap of 291,840 had also exhausted memory during MTP graph capture. Those preflights are excluded.
 
