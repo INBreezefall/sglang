@@ -19,7 +19,7 @@ The reference Ascend kernel source is `bc2b60032f99bf36dd098babc914e9c42bbe7cea`
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Shared-fix control | 1 | 296.74 | 94.71 | 36.41 | 9.47 |
 | #48096 D eviction | 1 | 241.30 | 87.57 | 38.67 | 8.96 |
-| #48098 P session routing | 1 | 28.47 | 36.18 | 15.07 | 81.34 |
+| #48098 P session routing | 2 | 26.55 | 48.49 | 20.86 | 88.48 |
 | #947 P H2D | 2 | 253.07 | 87.03 | 44.46 | 9.27 |
 | Restored control | 1 | 272.47 | 119.61 | 45.99 | 9.31 |
 
@@ -28,7 +28,7 @@ Equal-replay means relative to the mean of both independent controls. Observed r
 | Candidate | Replays | TTFT change | Client per-request decode change | Native D ITL inverse change | Output throughput change |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | #48096 D eviction | 1 | -15.2% | -18.3% | -6.1% | -4.6% |
-| #48098 P session routing | 1 | -90.0% | -66.2% | -63.4% | +766.4% |
+| #48098 P session routing | 2 | -90.7% | -54.7% | -49.4% | +842.4% |
 | #947 P H2D | 2 | -11.1% | -18.8% | +7.9% | -1.3% |
 
 | Replay | Success | TTFT mean / p95 / worst, s | TTFT >300s | Client decode, tok/s | D ITL inverse, tok/s | Output tok/s | Output tokens / window, s |
@@ -39,6 +39,7 @@ Equal-replay means relative to the mean of both independent controls. Observed r
 | k-tail | 72/72 | 257.24 / 593.59 / 650.55 | 30 | 77.64 | 44.41 | 9.63 | 11646 / 1208.91 |
 | anchor-tail | 72/72 | 272.47 / 580.21 / 873.78 | 26 | 119.61 | 45.99 | 9.31 | 11235 / 1207.19 |
 | k-r2-tail | 72/72 | 248.90 / 711.67 / 905.01 | 21 | 96.42 | 44.51 | 8.90 | 10887 / 1223.59 |
+| p-r2-tail | 72/72 | 24.64 / 46.58 / 57.35 | 0 | 60.80 | 26.66 | 95.62 | 10745 / 112.37 |
 
 | Replay | P same rank / formal continuations | D same rank / formal continuations | D evicted leaf tokens | P H2D calls / GiB |
 | --- | ---: | ---: | ---: | ---: |
@@ -48,6 +49,7 @@ Equal-replay means relative to the mean of both independent controls. Observed r
 | k-tail | 13/48 | 21/48 | 5,302,144 | 60 / 91.38 |
 | anchor-tail | 12/48 | 22/48 | 6,282,112 | 60 / 103.44 |
 | k-r2-tail | 13/48 | 25/48 | 4,705,664 | 68 / 95.10 |
+| p-r2-tail | 48/48 | 6/48 | 6,408,064 | 208 / 328.35 |
 
 The lower P cache cap and chunk used in this comparison were chosen before collecting any formal samples. With 327,680 P tokens and 2,048 tokens per local chunk, the W4 MoE forward ran out of NPU memory during cold warm-up. A D cap of 291,840 had also exhausted memory during MTP graph capture. Those preflights are excluded.
 
