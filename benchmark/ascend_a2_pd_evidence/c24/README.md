@@ -19,16 +19,19 @@ The reference Ascend kernel source is `bc2b60032f99bf36dd098babc914e9c42bbe7cea`
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Shared-fix control | 1 | 296.74 | 94.71 | 36.41 | 9.47 |
 | #48096 D eviction | 1 | 241.30 | 87.57 | 38.67 | 8.96 |
+| #48098 P session routing | 1 | 28.47 | 36.18 | 15.07 | 81.34 |
 
 | Replay | Success | TTFT mean / p95 / worst, s | TTFT >300s | Client decode, tok/s | D ITL inverse, tok/s | Output tok/s | Output tokens / window, s |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | base-tail | 72/72 | 296.74 / 620.25 / 755.92 | 31 | 94.71 | 36.41 | 9.47 | 11040 / 1165.82 |
 | d-tail | 72/72 | 241.30 / 710.53 / 859.64 | 17 | 87.57 | 38.67 | 8.96 | 11301 / 1261.34 |
+| p-tail | 72/72 | 28.47 / 59.80 / 69.88 | 0 | 36.18 | 15.07 | 81.34 | 11255 / 138.37 |
 
 | Replay | P same rank / formal continuations | D same rank / formal continuations | D evicted leaf tokens | P H2D calls / GiB |
 | --- | ---: | ---: | ---: | ---: |
 | base-tail | 8/48 | 24/48 | 6,367,104 | 100 / 174.74 |
 | d-tail | 9/48 | 21/48 | 4,525,824 | 76 / 109.69 |
+| p-tail | 48/48 | 5/48 | 6,462,336 | 180 / 319.64 |
 
 The lower P cache cap and chunk used in this comparison were chosen before collecting any formal samples. With 327,680 P tokens and 2,048 tokens per local chunk, the W4 MoE forward ran out of NPU memory during cold warm-up. A D cap of 291,840 had also exhausted memory during MTP graph capture. Those preflights are excluded.
 
