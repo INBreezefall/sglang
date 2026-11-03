@@ -1,0 +1,1332 @@
+{
+  "baselines": {
+    "sglang": "40a64e1b5ba00c73b7f8a123a903a2123b7d467c",
+    "sgl-kernel-npu": "bc2b60032f99bf36dd098babc914e9c42bbe7cea"
+  },
+  "hardware": "Ascend 910B4-1, 64 GiB per device",
+  "runtime": "CANN 9.1.0, torch 2.10.0+cpu, torch-npu 2.10.0.post6, ARM64",
+  "P_results": [
+    {
+      "host": "D",
+      "sessions": 8,
+      "arm": "main",
+      "order": "fixed",
+      "seed": null,
+      "same_rank_transitions": 16,
+      "continuation_input": 86016,
+      "matched": 77824,
+      "missing": 8192,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        5120,
+        7168,
+        3072,
+        9216,
+        8192,
+        4096,
+        2048,
+        6144
+      ]
+    },
+    {
+      "host": "D",
+      "sessions": 8,
+      "arm": "main",
+      "order": "permuted",
+      "seed": null,
+      "same_rank_transitions": 3,
+      "continuation_input": 86016,
+      "matched": 16896,
+      "missing": 69120,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        17920,
+        10752,
+        8704,
+        19968,
+        16896,
+        5120,
+        13824,
+        12800
+      ]
+    },
+    {
+      "host": "D",
+      "sessions": 8,
+      "arm": "opt",
+      "order": "fixed",
+      "seed": null,
+      "same_rank_transitions": 16,
+      "continuation_input": 86016,
+      "matched": 77824,
+      "missing": 8192,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        5120,
+        7168,
+        3072,
+        9216,
+        8192,
+        4096,
+        2048,
+        6144
+      ]
+    },
+    {
+      "host": "D",
+      "sessions": 8,
+      "arm": "opt",
+      "order": "permuted",
+      "seed": null,
+      "same_rank_transitions": 16,
+      "continuation_input": 86016,
+      "matched": 77824,
+      "missing": 8192,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        5120,
+        7168,
+        3072,
+        9216,
+        8192,
+        4096,
+        2048,
+        6144
+      ]
+    },
+    {
+      "host": "A",
+      "sessions": 24,
+      "arm": "main",
+      "order": "fixed",
+      "seed": 11,
+      "same_rank_transitions": 36,
+      "continuation_input": 399360,
+      "matched": 281600,
+      "missing": 117760,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        45568,
+        24576,
+        47616,
+        20480,
+        31232,
+        47616,
+        42496,
+        39424
+      ]
+    },
+    {
+      "host": "A",
+      "sessions": 24,
+      "arm": "main",
+      "order": "permuted",
+      "seed": 11,
+      "same_rank_transitions": 8,
+      "continuation_input": 399360,
+      "matched": 65536,
+      "missing": 333824,
+      "evicted": 221184,
+      "all_turn_missing_by_rank": [
+        63488,
+        62976,
+        74240,
+        71680,
+        66048,
+        61440,
+        59392,
+        55808
+      ]
+    },
+    {
+      "host": "A",
+      "sessions": 24,
+      "arm": "opt",
+      "order": "fixed",
+      "seed": 11,
+      "same_rank_transitions": 48,
+      "continuation_input": 399360,
+      "matched": 374784,
+      "missing": 24576,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        24576,
+        23552,
+        29696,
+        21504,
+        33792,
+        25600,
+        22528,
+        24576
+      ]
+    },
+    {
+      "host": "A",
+      "sessions": 24,
+      "arm": "opt",
+      "order": "permuted",
+      "seed": 11,
+      "same_rank_transitions": 48,
+      "continuation_input": 399360,
+      "matched": 374784,
+      "missing": 24576,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        24576,
+        23552,
+        29696,
+        21504,
+        33792,
+        25600,
+        22528,
+        24576
+      ]
+    },
+    {
+      "host": "D",
+      "sessions": 24,
+      "arm": "main",
+      "order": "fixed",
+      "seed": 29,
+      "same_rank_transitions": 46,
+      "continuation_input": 399360,
+      "matched": 353280,
+      "missing": 46080,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        26624,
+        25600,
+        27648,
+        25600,
+        20480,
+        39424,
+        39424,
+        22528
+      ]
+    },
+    {
+      "host": "D",
+      "sessions": 24,
+      "arm": "main",
+      "order": "permuted",
+      "seed": 29,
+      "same_rank_transitions": 6,
+      "continuation_input": 399360,
+      "matched": 33280,
+      "missing": 366080,
+      "evicted": 298496,
+      "all_turn_missing_by_rank": [
+        66048,
+        64512,
+        76288,
+        77312,
+        48640,
+        81408,
+        74752,
+        58368
+      ]
+    },
+    {
+      "host": "D",
+      "sessions": 24,
+      "arm": "opt",
+      "order": "fixed",
+      "seed": 29,
+      "same_rank_transitions": 48,
+      "continuation_input": 399360,
+      "matched": 374784,
+      "missing": 24576,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        23552,
+        25600,
+        19456,
+        27648,
+        32768,
+        20480,
+        29696,
+        26624
+      ]
+    },
+    {
+      "host": "D",
+      "sessions": 24,
+      "arm": "opt",
+      "order": "permuted",
+      "seed": 29,
+      "same_rank_transitions": 48,
+      "continuation_input": 399360,
+      "matched": 374784,
+      "missing": 24576,
+      "evicted": 0,
+      "all_turn_missing_by_rank": [
+        23552,
+        25600,
+        19456,
+        27648,
+        32768,
+        20480,
+        29696,
+        26624
+      ]
+    }
+  ],
+  "H2D_results": [
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "run",
+      "width": 656,
+      "rep": 0,
+      "bytes": 838336512,
+      "main": {
+        "submit_ms": 50.6312,
+        "stream_ms": 50.8667,
+        "wall_ms": 58.8214
+      },
+      "off": {
+        "submit_ms": 50.3855,
+        "stream_ms": 50.6154,
+        "wall_ms": 58.8276
+      },
+      "on": {
+        "submit_ms": 45.8412,
+        "stream_ms": 46.2086,
+        "wall_ms": 60.925
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": 656,
+      "rep": 0,
+      "bytes": 838336512,
+      "main": {
+        "submit_ms": 50.4982,
+        "stream_ms": 50.7316,
+        "wall_ms": 61.2241
+      },
+      "off": {
+        "submit_ms": 50.4169,
+        "stream_ms": 50.6586,
+        "wall_ms": 60.7047
+      },
+      "on": {
+        "submit_ms": 46.5571,
+        "stream_ms": 46.7923,
+        "wall_ms": 56.8526
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 256,
+      "mapping": "run",
+      "width": 128,
+      "rep": 0,
+      "bytes": 327155712,
+      "main": {
+        "submit_ms": 64.8365,
+        "stream_ms": 64.9569,
+        "wall_ms": 71.1807
+      },
+      "off": {
+        "submit_ms": 64.8598,
+        "stream_ms": 64.9836,
+        "wall_ms": 70.9982
+      },
+      "on": {
+        "submit_ms": 51.3577,
+        "stream_ms": 51.4948,
+        "wall_ms": 68.3746
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "run",
+      "width": 576,
+      "rep": 0,
+      "bytes": 736100352,
+      "main": {
+        "submit_ms": 47.8639,
+        "stream_ms": 48.0658,
+        "wall_ms": 55.158
+      },
+      "off": {
+        "submit_ms": 47.8447,
+        "stream_ms": 48.0574,
+        "wall_ms": 55.1705
+      },
+      "on": {
+        "submit_ms": 43.1431,
+        "stream_ms": 43.4952,
+        "wall_ms": 57.6897
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": 576,
+      "rep": 0,
+      "bytes": 736100352,
+      "main": {
+        "submit_ms": 47.9179,
+        "stream_ms": 48.0962,
+        "wall_ms": 57.6864
+      },
+      "off": {
+        "submit_ms": 47.702,
+        "stream_ms": 47.9127,
+        "wall_ms": 57.9917
+      },
+      "on": {
+        "submit_ms": 43.6055,
+        "stream_ms": 43.8033,
+        "wall_ms": 53.8003
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 32,
+      "mapping": "run",
+      "width": 128,
+      "rep": 0,
+      "bytes": 40894464,
+      "main": {
+        "submit_ms": 7.8336,
+        "stream_ms": 7.9248,
+        "wall_ms": 11.6042
+      },
+      "off": {
+        "submit_ms": 7.9156,
+        "stream_ms": 8.0078,
+        "wall_ms": 11.9997
+      },
+      "on": {
+        "submit_ms": 7.0164,
+        "stream_ms": 7.1039,
+        "wall_ms": 10.653
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 256,
+      "mapping": "run",
+      "width": 4,
+      "rep": 0,
+      "bytes": 10223616,
+      "main": {
+        "submit_ms": 54.1548,
+        "stream_ms": 54.2919,
+        "wall_ms": 58.7925
+      },
+      "off": {
+        "submit_ms": 53.9514,
+        "stream_ms": 54.0769,
+        "wall_ms": 58.6106
+      },
+      "on": {
+        "submit_ms": 42.2338,
+        "stream_ms": 42.3588,
+        "wall_ms": 55.632
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 256,
+      "mapping": "run",
+      "width": 4,
+      "rep": 1,
+      "bytes": 10223616,
+      "main": {
+        "submit_ms": 53.9862,
+        "stream_ms": 54.1015,
+        "wall_ms": 58.7486
+      },
+      "off": {
+        "submit_ms": 53.9017,
+        "stream_ms": 54.0175,
+        "wall_ms": 58.4966
+      },
+      "on": {
+        "submit_ms": 42.3875,
+        "stream_ms": 42.5186,
+        "wall_ms": 57.6438
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 32,
+      "mapping": "run",
+      "width": 128,
+      "rep": 1,
+      "bytes": 40894464,
+      "main": {
+        "submit_ms": 7.8127,
+        "stream_ms": 7.9223,
+        "wall_ms": 11.9421
+      },
+      "off": {
+        "submit_ms": 7.7351,
+        "stream_ms": 7.8289,
+        "wall_ms": 11.6103
+      },
+      "on": {
+        "submit_ms": 6.8182,
+        "stream_ms": 6.9066,
+        "wall_ms": 10.1991
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": 576,
+      "rep": 1,
+      "bytes": 736100352,
+      "main": {
+        "submit_ms": 48.4734,
+        "stream_ms": 48.679,
+        "wall_ms": 55.598
+      },
+      "off": {
+        "submit_ms": 48.6885,
+        "stream_ms": 48.8951,
+        "wall_ms": 55.0693
+      },
+      "on": {
+        "submit_ms": 44.695,
+        "stream_ms": 44.8982,
+        "wall_ms": 52.298
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "run",
+      "width": 576,
+      "rep": 1,
+      "bytes": 736100352,
+      "main": {
+        "submit_ms": 49.1437,
+        "stream_ms": 49.3547,
+        "wall_ms": 58.1518
+      },
+      "off": {
+        "submit_ms": 49.425,
+        "stream_ms": 49.6213,
+        "wall_ms": 57.7101
+      },
+      "on": {
+        "submit_ms": 43.9554,
+        "stream_ms": 44.3071,
+        "wall_ms": 59.1298
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 256,
+      "mapping": "run",
+      "width": 128,
+      "rep": 1,
+      "bytes": 327155712,
+      "main": {
+        "submit_ms": 66.1062,
+        "stream_ms": 66.2474,
+        "wall_ms": 72.169
+      },
+      "off": {
+        "submit_ms": 65.9162,
+        "stream_ms": 66.0494,
+        "wall_ms": 72.4638
+      },
+      "on": {
+        "submit_ms": 53.5014,
+        "stream_ms": 53.6347,
+        "wall_ms": 71.0042
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": 656,
+      "rep": 1,
+      "bytes": 838336512,
+      "main": {
+        "submit_ms": 52.4494,
+        "stream_ms": 52.6872,
+        "wall_ms": 61.8641
+      },
+      "off": {
+        "submit_ms": 53.0095,
+        "stream_ms": 53.2493,
+        "wall_ms": 60.3763
+      },
+      "on": {
+        "submit_ms": 48.7881,
+        "stream_ms": 49.0231,
+        "wall_ms": 57.2525
+      }
+    },
+    {
+      "host": "B",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "run",
+      "width": 656,
+      "rep": 1,
+      "bytes": 838336512,
+      "main": {
+        "submit_ms": 52.8964,
+        "stream_ms": 53.1331,
+        "wall_ms": 62.2507
+      },
+      "off": {
+        "submit_ms": 52.5124,
+        "stream_ms": 52.7423,
+        "wall_ms": 60.6196
+      },
+      "on": {
+        "submit_ms": 47.4422,
+        "stream_ms": 47.8435,
+        "wall_ms": 65.7839
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "run",
+      "width": 656,
+      "rep": 0,
+      "bytes": 838336512,
+      "main": {
+        "submit_ms": 46.5964,
+        "stream_ms": 46.7894,
+        "wall_ms": 57.1703
+      },
+      "off": {
+        "submit_ms": 46.9281,
+        "stream_ms": 47.1264,
+        "wall_ms": 57.7528
+      },
+      "on": {
+        "submit_ms": 43.8854,
+        "stream_ms": 44.2442,
+        "wall_ms": 59.3502
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": 656,
+      "rep": 0,
+      "bytes": 838336512,
+      "main": {
+        "submit_ms": 53.5809,
+        "stream_ms": 53.7913,
+        "wall_ms": 67.2986
+      },
+      "off": {
+        "submit_ms": 58.2818,
+        "stream_ms": 58.4886,
+        "wall_ms": 69.7522
+      },
+      "on": {
+        "submit_ms": 43.936,
+        "stream_ms": 44.0853,
+        "wall_ms": 52.7219
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 256,
+      "mapping": "run",
+      "width": 128,
+      "rep": 0,
+      "bytes": 327155712,
+      "main": {
+        "submit_ms": 73.6047,
+        "stream_ms": 73.7375,
+        "wall_ms": 80.4021
+      },
+      "off": {
+        "submit_ms": 73.606,
+        "stream_ms": 73.735,
+        "wall_ms": 80.625
+      },
+      "on": {
+        "submit_ms": 57.9867,
+        "stream_ms": 58.1272,
+        "wall_ms": 76.4126
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "run",
+      "width": 576,
+      "rep": 0,
+      "bytes": 736100352,
+      "main": {
+        "submit_ms": 56.8024,
+        "stream_ms": 56.9955,
+        "wall_ms": 64.1425
+      },
+      "off": {
+        "submit_ms": 55.4573,
+        "stream_ms": 55.639,
+        "wall_ms": 64.6826
+      },
+      "on": {
+        "submit_ms": 49.2374,
+        "stream_ms": 49.5603,
+        "wall_ms": 64.494
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": 576,
+      "rep": 0,
+      "bytes": 736100352,
+      "main": {
+        "submit_ms": 45.2343,
+        "stream_ms": 45.4092,
+        "wall_ms": 54.4876
+      },
+      "off": {
+        "submit_ms": 45.4525,
+        "stream_ms": 45.6367,
+        "wall_ms": 53.713
+      },
+      "on": {
+        "submit_ms": 40.5999,
+        "stream_ms": 40.7731,
+        "wall_ms": 49.5546
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 32,
+      "mapping": "run",
+      "width": 128,
+      "rep": 0,
+      "bytes": 40894464,
+      "main": {
+        "submit_ms": 8.4194,
+        "stream_ms": 8.5208,
+        "wall_ms": 12.2597
+      },
+      "off": {
+        "submit_ms": 8.3263,
+        "stream_ms": 8.4284,
+        "wall_ms": 12.4532
+      },
+      "on": {
+        "submit_ms": 7.4469,
+        "stream_ms": 7.5455,
+        "wall_ms": 10.9649
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 256,
+      "mapping": "run",
+      "width": 4,
+      "rep": 0,
+      "bytes": 10223616,
+      "main": {
+        "submit_ms": 60.7282,
+        "stream_ms": 60.8518,
+        "wall_ms": 65.6353
+      },
+      "off": {
+        "submit_ms": 60.4352,
+        "stream_ms": 60.5513,
+        "wall_ms": 65.8032
+      },
+      "on": {
+        "submit_ms": 47.8113,
+        "stream_ms": 47.9896,
+        "wall_ms": 61.8124
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 256,
+      "mapping": "run",
+      "width": 4,
+      "rep": 1,
+      "bytes": 10223616,
+      "main": {
+        "submit_ms": 61.5347,
+        "stream_ms": 61.6761,
+        "wall_ms": 66.4435
+      },
+      "off": {
+        "submit_ms": 61.4225,
+        "stream_ms": 61.5562,
+        "wall_ms": 65.3209
+      },
+      "on": {
+        "submit_ms": 47.2574,
+        "stream_ms": 47.3958,
+        "wall_ms": 62.9055
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 32,
+      "mapping": "run",
+      "width": 128,
+      "rep": 1,
+      "bytes": 40894464,
+      "main": {
+        "submit_ms": 6.2073,
+        "stream_ms": 6.3082,
+        "wall_ms": 8.808
+      },
+      "off": {
+        "submit_ms": 6.2439,
+        "stream_ms": 6.3468,
+        "wall_ms": 8.8059
+      },
+      "on": {
+        "submit_ms": 5.323,
+        "stream_ms": 5.4016,
+        "wall_ms": 7.4002
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": 576,
+      "rep": 1,
+      "bytes": 736100352,
+      "main": {
+        "submit_ms": 57.5777,
+        "stream_ms": 57.7576,
+        "wall_ms": 66.6614
+      },
+      "off": {
+        "submit_ms": 57.5067,
+        "stream_ms": 57.6827,
+        "wall_ms": 66.5548
+      },
+      "on": {
+        "submit_ms": 53.4445,
+        "stream_ms": 53.6239,
+        "wall_ms": 62.3418
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "run",
+      "width": 576,
+      "rep": 1,
+      "bytes": 736100352,
+      "main": {
+        "submit_ms": 57.2923,
+        "stream_ms": 57.459,
+        "wall_ms": 66.3171
+      },
+      "off": {
+        "submit_ms": 57.2055,
+        "stream_ms": 57.3637,
+        "wall_ms": 66.2755
+      },
+      "on": {
+        "submit_ms": 49.6661,
+        "stream_ms": 49.9628,
+        "wall_ms": 66.398
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 256,
+      "mapping": "run",
+      "width": 128,
+      "rep": 1,
+      "bytes": 327155712,
+      "main": {
+        "submit_ms": 74.1823,
+        "stream_ms": 74.3255,
+        "wall_ms": 80.5443
+      },
+      "off": {
+        "submit_ms": 74.2289,
+        "stream_ms": 74.3738,
+        "wall_ms": 79.9714
+      },
+      "on": {
+        "submit_ms": 59.964,
+        "stream_ms": 60.1546,
+        "wall_ms": 76.0859
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": 656,
+      "rep": 1,
+      "bytes": 838336512,
+      "main": {
+        "submit_ms": 47.4336,
+        "stream_ms": 47.6404,
+        "wall_ms": 55.7465
+      },
+      "off": {
+        "submit_ms": 47.7287,
+        "stream_ms": 47.9335,
+        "wall_ms": 57.3808
+      },
+      "on": {
+        "submit_ms": 43.5276,
+        "stream_ms": 43.7231,
+        "wall_ms": 52.6815
+      }
+    },
+    {
+      "host": "C",
+      "kind": "paired",
+      "pages": 128,
+      "mapping": "run",
+      "width": 656,
+      "rep": 1,
+      "bytes": 838336512,
+      "main": {
+        "submit_ms": 61.4636,
+        "stream_ms": 61.6736,
+        "wall_ms": 70.3394
+      },
+      "off": {
+        "submit_ms": 61.237,
+        "stream_ms": 61.4482,
+        "wall_ms": 70.9332
+      },
+      "on": {
+        "submit_ms": 53.8749,
+        "stream_ms": 54.2317,
+        "wall_ms": 71.3831
+      }
+    },
+    {
+      "host": "B",
+      "kind": "packed",
+      "pages": 32,
+      "mapping": "run",
+      "width": null,
+      "rep": 0,
+      "bytes": 220766208,
+      "main": {
+        "submit_ms": 18.4068,
+        "stream_ms": 18.5217,
+        "wall_ms": 22.8907
+      },
+      "off": {
+        "submit_ms": 18.4445,
+        "stream_ms": 18.5561,
+        "wall_ms": 24.2053
+      },
+      "on": {
+        "submit_ms": 15.8978,
+        "stream_ms": 15.9983,
+        "wall_ms": 23.2729
+      }
+    },
+    {
+      "host": "B",
+      "kind": "packed",
+      "pages": 128,
+      "mapping": "run",
+      "width": null,
+      "rep": 0,
+      "bytes": 883064832,
+      "main": {
+        "submit_ms": 73.5068,
+        "stream_ms": 73.6592,
+        "wall_ms": 74.5794
+      },
+      "off": {
+        "submit_ms": 73.6019,
+        "stream_ms": 73.7334,
+        "wall_ms": 74.9821
+      },
+      "on": {
+        "submit_ms": 61.0435,
+        "stream_ms": 61.2031,
+        "wall_ms": 76.3167
+      }
+    },
+    {
+      "host": "B",
+      "kind": "packed",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": null,
+      "rep": 0,
+      "bytes": 883064832,
+      "main": {
+        "submit_ms": 74.5571,
+        "stream_ms": 74.6957,
+        "wall_ms": 75.6684
+      },
+      "off": {
+        "submit_ms": 74.8208,
+        "stream_ms": 74.9488,
+        "wall_ms": 75.5447
+      },
+      "on": {
+        "submit_ms": 65.6435,
+        "stream_ms": 65.7947,
+        "wall_ms": 70.6931
+      }
+    },
+    {
+      "host": "B",
+      "kind": "packed",
+      "pages": 256,
+      "mapping": "run",
+      "width": null,
+      "rep": 0,
+      "bytes": 1766129664,
+      "main": {
+        "submit_ms": 149.1755,
+        "stream_ms": 149.3561,
+        "wall_ms": 151.4487
+      },
+      "off": {
+        "submit_ms": 149.3728,
+        "stream_ms": 149.5197,
+        "wall_ms": 151.5729
+      },
+      "on": {
+        "submit_ms": 120.1885,
+        "stream_ms": 120.3674,
+        "wall_ms": 147.2514
+      }
+    },
+    {
+      "host": "B",
+      "kind": "packed",
+      "pages": 256,
+      "mapping": "run",
+      "width": null,
+      "rep": 1,
+      "bytes": 1766129664,
+      "main": {
+        "submit_ms": 150.8409,
+        "stream_ms": 150.9953,
+        "wall_ms": 152.7713
+      },
+      "off": {
+        "submit_ms": 151.7604,
+        "stream_ms": 151.971,
+        "wall_ms": 153.7094
+      },
+      "on": {
+        "submit_ms": 123.3509,
+        "stream_ms": 123.5361,
+        "wall_ms": 149.4785
+      }
+    },
+    {
+      "host": "B",
+      "kind": "packed",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": null,
+      "rep": 1,
+      "bytes": 883064832,
+      "main": {
+        "submit_ms": 76.2257,
+        "stream_ms": 76.3644,
+        "wall_ms": 77.288
+      },
+      "off": {
+        "submit_ms": 76.112,
+        "stream_ms": 76.2637,
+        "wall_ms": 77.2218
+      },
+      "on": {
+        "submit_ms": 67.75,
+        "stream_ms": 67.9017,
+        "wall_ms": 71.7367
+      }
+    },
+    {
+      "host": "B",
+      "kind": "packed",
+      "pages": 128,
+      "mapping": "run",
+      "width": null,
+      "rep": 1,
+      "bytes": 883064832,
+      "main": {
+        "submit_ms": 65.1529,
+        "stream_ms": 65.3012,
+        "wall_ms": 66.3963
+      },
+      "off": {
+        "submit_ms": 65.25,
+        "stream_ms": 65.4028,
+        "wall_ms": 66.3953
+      },
+      "on": {
+        "submit_ms": 54.5963,
+        "stream_ms": 54.745,
+        "wall_ms": 69.0386
+      }
+    },
+    {
+      "host": "B",
+      "kind": "packed",
+      "pages": 32,
+      "mapping": "run",
+      "width": null,
+      "rep": 1,
+      "bytes": 220766208,
+      "main": {
+        "submit_ms": 17.4579,
+        "stream_ms": 17.5717,
+        "wall_ms": 22.1807
+      },
+      "off": {
+        "submit_ms": 17.7628,
+        "stream_ms": 17.8909,
+        "wall_ms": 22.7708
+      },
+      "on": {
+        "submit_ms": 15.4416,
+        "stream_ms": 15.5531,
+        "wall_ms": 21.1865
+      }
+    },
+    {
+      "host": "C",
+      "kind": "packed",
+      "pages": 32,
+      "mapping": "run",
+      "width": null,
+      "rep": 0,
+      "bytes": 220766208,
+      "main": {
+        "submit_ms": 21.1648,
+        "stream_ms": 21.2792,
+        "wall_ms": 26.1052
+      },
+      "off": {
+        "submit_ms": 20.8147,
+        "stream_ms": 20.9344,
+        "wall_ms": 27.1927
+      },
+      "on": {
+        "submit_ms": 17.8911,
+        "stream_ms": 17.9997,
+        "wall_ms": 25.9881
+      }
+    },
+    {
+      "host": "C",
+      "kind": "packed",
+      "pages": 128,
+      "mapping": "run",
+      "width": null,
+      "rep": 0,
+      "bytes": 883064832,
+      "main": {
+        "submit_ms": 68.2425,
+        "stream_ms": 68.4668,
+        "wall_ms": 69.5921
+      },
+      "off": {
+        "submit_ms": 68.567,
+        "stream_ms": 68.7327,
+        "wall_ms": 69.7612
+      },
+      "on": {
+        "submit_ms": 57.3779,
+        "stream_ms": 57.5775,
+        "wall_ms": 71.0137
+      }
+    },
+    {
+      "host": "C",
+      "kind": "packed",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": null,
+      "rep": 0,
+      "bytes": 883064832,
+      "main": {
+        "submit_ms": 87.5801,
+        "stream_ms": 87.7444,
+        "wall_ms": 88.8798
+      },
+      "off": {
+        "submit_ms": 87.7768,
+        "stream_ms": 87.9521,
+        "wall_ms": 89.1493
+      },
+      "on": {
+        "submit_ms": 77.384,
+        "stream_ms": 77.5717,
+        "wall_ms": 82.9143
+      }
+    },
+    {
+      "host": "C",
+      "kind": "packed",
+      "pages": 256,
+      "mapping": "run",
+      "width": null,
+      "rep": 0,
+      "bytes": 1766129664,
+      "main": {
+        "submit_ms": 172.0465,
+        "stream_ms": 172.2185,
+        "wall_ms": 174.2646
+      },
+      "off": {
+        "submit_ms": 174.3892,
+        "stream_ms": 174.5692,
+        "wall_ms": 176.4684
+      },
+      "on": {
+        "submit_ms": 115.5936,
+        "stream_ms": 115.8206,
+        "wall_ms": 141.5451
+      }
+    },
+    {
+      "host": "C",
+      "kind": "packed",
+      "pages": 256,
+      "mapping": "run",
+      "width": null,
+      "rep": 1,
+      "bytes": 1766129664,
+      "main": {
+        "submit_ms": 177.6303,
+        "stream_ms": 177.8506,
+        "wall_ms": 179.6745
+      },
+      "off": {
+        "submit_ms": 176.5545,
+        "stream_ms": 176.786,
+        "wall_ms": 178.5039
+      },
+      "on": {
+        "submit_ms": 140.2467,
+        "stream_ms": 140.5113,
+        "wall_ms": 166.0484
+      }
+    },
+    {
+      "host": "C",
+      "kind": "packed",
+      "pages": 128,
+      "mapping": "gaps",
+      "width": null,
+      "rep": 1,
+      "bytes": 883064832,
+      "main": {
+        "submit_ms": 88.6334,
+        "stream_ms": 88.797,
+        "wall_ms": 89.5221
+      },
+      "off": {
+        "submit_ms": 89.1648,
+        "stream_ms": 89.333,
+        "wall_ms": 90.5967
+      },
+      "on": {
+        "submit_ms": 79.7113,
+        "stream_ms": 79.9136,
+        "wall_ms": 83.4684
+      }
+    },
+    {
+      "host": "C",
+      "kind": "packed",
+      "pages": 128,
+      "mapping": "run",
+      "width": null,
+      "rep": 1,
+      "bytes": 883064832,
+      "main": {
+        "submit_ms": 87.2036,
+        "stream_ms": 87.3703,
+        "wall_ms": 88.6959
+      },
+      "off": {
+        "submit_ms": 87.2298,
+        "stream_ms": 87.399,
+        "wall_ms": 88.7934
+      },
+      "on": {
+        "submit_ms": 71.8612,
+        "stream_ms": 72.0231,
+        "wall_ms": 87.3842
+      }
+    },
+    {
+      "host": "C",
+      "kind": "packed",
+      "pages": 32,
+      "mapping": "run",
+      "width": null,
+      "rep": 1,
+      "bytes": 220766208,
+      "main": {
+        "submit_ms": 15.5072,
+        "stream_ms": 15.6192,
+        "wall_ms": 19.3082
+      },
+      "off": {
+        "submit_ms": 16.2246,
+        "stream_ms": 16.3446,
+        "wall_ms": 20.4148
+      },
+      "on": {
+        "submit_ms": 13.1385,
+        "stream_ms": 13.2342,
+        "wall_ms": 17.0588
+      }
+    }
+  ]
+}

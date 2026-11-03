@@ -1,0 +1,6062 @@
+[
+  {
+    "host": "D",
+    "arm": "main",
+    "order": "fixed",
+    "rows": [
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 0,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 1,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 4,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 5,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 7,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 0,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 1,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 2,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 3,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 4,
+        "input": 7680,
+        "matched": 7168,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 5,
+        "input": 3584,
+        "matched": 3072,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 6,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 7,
+        "input": 5632,
+        "matched": 5120,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 0,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 1,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 2,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 3,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 4,
+        "input": 8192,
+        "matched": 7680,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 5,
+        "input": 4096,
+        "matched": 3584,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 6,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 7,
+        "input": 6144,
+        "matched": 5632,
+        "missing": 512
+      }
+    ]
+  },
+  {
+    "host": "D",
+    "arm": "main",
+    "order": "permuted",
+    "rows": [
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 0,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 1,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 4,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 5,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 7,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 0,
+        "input": 5632,
+        "matched": 0,
+        "missing": 5632
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 1,
+        "input": 3584,
+        "matched": 0,
+        "missing": 3584
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 2,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 3,
+        "input": 6656,
+        "matched": 0,
+        "missing": 6656
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 4,
+        "input": 7680,
+        "matched": 7168,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 5,
+        "input": 1536,
+        "matched": 0,
+        "missing": 1536
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 6,
+        "input": 8704,
+        "matched": 0,
+        "missing": 8704
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 7,
+        "input": 4608,
+        "matched": 0,
+        "missing": 4608
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 0,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 1,
+        "input": 7168,
+        "matched": 6144,
+        "missing": 1024
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 3,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 4,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 5,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 6,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 7,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072
+      }
+    ]
+  },
+  {
+    "host": "D",
+    "arm": "opt",
+    "order": "fixed",
+    "rows": [
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 0,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 1,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 4,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 5,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 7,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 0,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 1,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 2,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 3,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 4,
+        "input": 7680,
+        "matched": 7168,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 5,
+        "input": 3584,
+        "matched": 3072,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 6,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 7,
+        "input": 5632,
+        "matched": 5120,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 0,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 1,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 2,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 3,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 4,
+        "input": 8192,
+        "matched": 7680,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 5,
+        "input": 4096,
+        "matched": 3584,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 6,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 7,
+        "input": 6144,
+        "matched": 5632,
+        "missing": 512
+      }
+    ]
+  },
+  {
+    "host": "D",
+    "arm": "opt",
+    "order": "permuted",
+    "rows": [
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 0,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 1,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 4,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 5,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 7,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 7,
+        "input": 5632,
+        "matched": 5120,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 5,
+        "input": 3584,
+        "matched": 3072,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 2,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 1,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 4,
+        "input": 7680,
+        "matched": 7168,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 6,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 3,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 0,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 4,
+        "input": 8192,
+        "matched": 7680,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 1,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 7,
+        "input": 6144,
+        "matched": 5632,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 0,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 3,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 6,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 5,
+        "input": 4096,
+        "matched": 3584,
+        "missing": 512
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 2,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512
+      }
+    ]
+  },
+  {
+    "host": "A",
+    "arm": "main",
+    "order": "fixed",
+    "seed": 11,
+    "capacity": 32768,
+    "sessions": 24,
+    "rows": [
+      {
+        "turn": 1,
+        "session": 13,
+        "rank": 0,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 19,
+        "rank": 1,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 20,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 3,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 22,
+        "rank": 4,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 8,
+        "rank": 5,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 6,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 11,
+        "rank": 7,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 4,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 0,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 0,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 2,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 12,
+        "rank": 4,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 9,
+        "rank": 1,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 10,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 15,
+        "rank": 7,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 7,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 18,
+        "rank": 4,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 16,
+        "rank": 7,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 21,
+        "rank": 5,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 23,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 17,
+        "rank": 2,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 14,
+        "rank": 6,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 13,
+        "rank": 0,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 19,
+        "rank": 1,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 20,
+        "rank": 2,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 3,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 22,
+        "rank": 4,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 8,
+        "rank": 5,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 6,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 11,
+        "rank": 7,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 4,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 0,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 0,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 2,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 12,
+        "rank": 4,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 9,
+        "rank": 1,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 10,
+        "rank": 3,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 15,
+        "rank": 7,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 7,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 2,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 18,
+        "rank": 4,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 16,
+        "rank": 5,
+        "input": 16896,
+        "matched": 0,
+        "missing": 16896,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 21,
+        "rank": 6,
+        "input": 4608,
+        "matched": 0,
+        "missing": 4608,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 23,
+        "rank": 7,
+        "input": 1536,
+        "matched": 0,
+        "missing": 1536,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 17,
+        "rank": 2,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 14,
+        "rank": 7,
+        "input": 2560,
+        "matched": 0,
+        "missing": 2560,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 13,
+        "rank": 0,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 19,
+        "rank": 1,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 20,
+        "rank": 2,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 3,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 22,
+        "rank": 4,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 8,
+        "rank": 5,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 6,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 11,
+        "rank": 7,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 4,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 0,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 2,
+        "input": 13312,
+        "matched": 0,
+        "missing": 13312,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 0,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 12,
+        "rank": 4,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 9,
+        "rank": 1,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 10,
+        "rank": 3,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 15,
+        "rank": 7,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 7,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 0,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 18,
+        "rank": 5,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 16,
+        "rank": 6,
+        "input": 17408,
+        "matched": 0,
+        "missing": 17408,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 21,
+        "rank": 4,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 23,
+        "rank": 7,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 17,
+        "rank": 0,
+        "input": 13312,
+        "matched": 0,
+        "missing": 13312,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 14,
+        "rank": 2,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072,
+        "evicted": 0
+      }
+    ]
+  },
+  {
+    "host": "A",
+    "arm": "main",
+    "order": "permuted",
+    "seed": 11,
+    "capacity": 32768,
+    "sessions": 24,
+    "rows": [
+      {
+        "turn": 1,
+        "session": 13,
+        "rank": 0,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 19,
+        "rank": 1,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 20,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 3,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 22,
+        "rank": 4,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 8,
+        "rank": 5,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 6,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 11,
+        "rank": 7,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 4,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 0,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 0,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 2,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 12,
+        "rank": 4,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 9,
+        "rank": 1,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 10,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 15,
+        "rank": 7,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 7,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 18,
+        "rank": 4,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 16,
+        "rank": 7,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 21,
+        "rank": 5,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 23,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 17,
+        "rank": 2,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 14,
+        "rank": 6,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 16,
+        "rank": 0,
+        "input": 16896,
+        "matched": 0,
+        "missing": 16896,
+        "evicted": 4096
+      },
+      {
+        "turn": 2,
+        "session": 13,
+        "rank": 1,
+        "input": 4608,
+        "matched": 0,
+        "missing": 4608,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 2,
+        "input": 4608,
+        "matched": 0,
+        "missing": 4608,
+        "evicted": 6144
+      },
+      {
+        "turn": 2,
+        "session": 20,
+        "rank": 3,
+        "input": 6656,
+        "matched": 0,
+        "missing": 6656,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 19,
+        "rank": 4,
+        "input": 10752,
+        "matched": 0,
+        "missing": 10752,
+        "evicted": 2048
+      },
+      {
+        "turn": 2,
+        "session": 14,
+        "rank": 5,
+        "input": 2560,
+        "matched": 0,
+        "missing": 2560,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 6,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 11,
+        "rank": 7,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 17,
+        "rank": 5,
+        "input": 12800,
+        "matched": 0,
+        "missing": 12800,
+        "evicted": 16384
+      },
+      {
+        "turn": 2,
+        "session": 12,
+        "rank": 1,
+        "input": 6656,
+        "matched": 0,
+        "missing": 6656,
+        "evicted": 10240
+      },
+      {
+        "turn": 2,
+        "session": 23,
+        "rank": 2,
+        "input": 1536,
+        "matched": 0,
+        "missing": 1536,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 8,
+        "rank": 2,
+        "input": 16896,
+        "matched": 0,
+        "missing": 16896,
+        "evicted": 22528
+      },
+      {
+        "turn": 2,
+        "session": 9,
+        "rank": 3,
+        "input": 12800,
+        "matched": 0,
+        "missing": 12800,
+        "evicted": 10240
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 4,
+        "input": 1536,
+        "matched": 0,
+        "missing": 1536,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 7,
+        "input": 10752,
+        "matched": 0,
+        "missing": 10752,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 1,
+        "input": 6656,
+        "matched": 0,
+        "missing": 6656,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 4,
+        "input": 12800,
+        "matched": 0,
+        "missing": 12800,
+        "evicted": 20480
+      },
+      {
+        "turn": 2,
+        "session": 10,
+        "rank": 5,
+        "input": 8704,
+        "matched": 0,
+        "missing": 8704,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 21,
+        "rank": 0,
+        "input": 4608,
+        "matched": 0,
+        "missing": 4608,
+        "evicted": 13312
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 6,
+        "input": 8704,
+        "matched": 0,
+        "missing": 8704,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 15,
+        "rank": 1,
+        "input": 1536,
+        "matched": 0,
+        "missing": 1536,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 3,
+        "input": 2560,
+        "matched": 0,
+        "missing": 2560,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 22,
+        "rank": 1,
+        "input": 2560,
+        "matched": 0,
+        "missing": 2560,
+        "evicted": 12288
+      },
+      {
+        "turn": 2,
+        "session": 18,
+        "rank": 0,
+        "input": 8704,
+        "matched": 0,
+        "missing": 8704,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 21,
+        "rank": 0,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 1,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 9,
+        "rank": 2,
+        "input": 13312,
+        "matched": 0,
+        "missing": 13312,
+        "evicted": 4608
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 3,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 20,
+        "rank": 4,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 17,
+        "rank": 5,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 6,
+        "input": 13312,
+        "matched": 0,
+        "missing": 13312,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 11,
+        "rank": 7,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 1024
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 3,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 13,
+        "rank": 0,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 19,
+        "rank": 3,
+        "input": 11264,
+        "matched": 0,
+        "missing": 11264,
+        "evicted": 14848
+      },
+      {
+        "turn": 3,
+        "session": 15,
+        "rank": 1,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 23,
+        "rank": 4,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 10752
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 1,
+        "input": 17408,
+        "matched": 0,
+        "missing": 17408,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 4,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 22,
+        "rank": 0,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072,
+        "evicted": 16896
+      },
+      {
+        "turn": 3,
+        "session": 14,
+        "rank": 7,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 10,
+        "rank": 2,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 18432
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 5,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 8,
+        "rank": 6,
+        "input": 17408,
+        "matched": 0,
+        "missing": 17408,
+        "evicted": 19968
+      },
+      {
+        "turn": 3,
+        "session": 12,
+        "rank": 0,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 18,
+        "rank": 7,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 4096
+      },
+      {
+        "turn": 3,
+        "session": 16,
+        "rank": 3,
+        "input": 17408,
+        "matched": 0,
+        "missing": 17408,
+        "evicted": 12800
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 5,
+        "input": 11264,
+        "matched": 0,
+        "missing": 11264,
+        "evicted": 0
+      }
+    ]
+  },
+  {
+    "host": "A",
+    "arm": "opt",
+    "order": "fixed",
+    "seed": 11,
+    "capacity": 32768,
+    "sessions": 24,
+    "rows": [
+      {
+        "turn": 1,
+        "session": 13,
+        "rank": 0,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 19,
+        "rank": 1,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 20,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 3,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 22,
+        "rank": 4,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 8,
+        "rank": 0,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 4,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 11,
+        "rank": 5,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 6,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 7,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 2,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 1,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 12,
+        "rank": 3,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 9,
+        "rank": 6,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 10,
+        "rank": 5,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 15,
+        "rank": 0,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 7,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 1,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 18,
+        "rank": 2,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 16,
+        "rank": 7,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 21,
+        "rank": 5,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 23,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 17,
+        "rank": 4,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 14,
+        "rank": 3,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 13,
+        "rank": 0,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 19,
+        "rank": 1,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 20,
+        "rank": 2,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 3,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 22,
+        "rank": 4,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 8,
+        "rank": 0,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 4,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 11,
+        "rank": 5,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 6,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 7,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 2,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 1,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 12,
+        "rank": 3,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 9,
+        "rank": 6,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 10,
+        "rank": 5,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 15,
+        "rank": 0,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 7,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 1,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 18,
+        "rank": 2,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 16,
+        "rank": 7,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 21,
+        "rank": 5,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 23,
+        "rank": 6,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 17,
+        "rank": 4,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 14,
+        "rank": 3,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 13,
+        "rank": 0,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 19,
+        "rank": 1,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 20,
+        "rank": 2,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 3,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 22,
+        "rank": 4,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 8,
+        "rank": 0,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 4,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 11,
+        "rank": 5,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 6,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 7,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 2,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 1,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 12,
+        "rank": 3,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 9,
+        "rank": 6,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 10,
+        "rank": 5,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 15,
+        "rank": 0,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 7,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 1,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 18,
+        "rank": 2,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 16,
+        "rank": 7,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 21,
+        "rank": 5,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 23,
+        "rank": 6,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 17,
+        "rank": 4,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 14,
+        "rank": 3,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      }
+    ]
+  },
+  {
+    "host": "A",
+    "arm": "opt",
+    "order": "permuted",
+    "seed": 11,
+    "capacity": 32768,
+    "sessions": 24,
+    "rows": [
+      {
+        "turn": 1,
+        "session": 13,
+        "rank": 0,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 19,
+        "rank": 1,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 20,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 3,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 22,
+        "rank": 4,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 8,
+        "rank": 0,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 4,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 11,
+        "rank": 5,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 6,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 7,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 2,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 1,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 12,
+        "rank": 3,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 9,
+        "rank": 6,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 10,
+        "rank": 5,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 15,
+        "rank": 0,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 7,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 1,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 18,
+        "rank": 2,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 16,
+        "rank": 7,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 21,
+        "rank": 5,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 23,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 17,
+        "rank": 4,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 14,
+        "rank": 3,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 16,
+        "rank": 7,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 13,
+        "rank": 0,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 7,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 20,
+        "rank": 2,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 19,
+        "rank": 1,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 14,
+        "rank": 3,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 4,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 11,
+        "rank": 5,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 17,
+        "rank": 4,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 12,
+        "rank": 3,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 23,
+        "rank": 6,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 8,
+        "rank": 0,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 9,
+        "rank": 6,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 7,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 3,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 6,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 2,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 10,
+        "rank": 5,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 21,
+        "rank": 5,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 1,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 15,
+        "rank": 0,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 1,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 22,
+        "rank": 4,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 18,
+        "rank": 2,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 21,
+        "rank": 5,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 6,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 9,
+        "rank": 6,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 1,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 20,
+        "rank": 2,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 17,
+        "rank": 4,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 2,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 11,
+        "rank": 5,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 7,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 13,
+        "rank": 0,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 19,
+        "rank": 1,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 15,
+        "rank": 0,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 23,
+        "rank": 6,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 4,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 1,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 22,
+        "rank": 4,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 14,
+        "rank": 3,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 10,
+        "rank": 5,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 7,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 8,
+        "rank": 0,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 12,
+        "rank": 3,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 18,
+        "rank": 2,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 16,
+        "rank": 7,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 3,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      }
+    ]
+  },
+  {
+    "host": "D",
+    "arm": "main",
+    "order": "fixed",
+    "seed": 29,
+    "capacity": 32768,
+    "sessions": 24,
+    "rows": [
+      {
+        "turn": 1,
+        "session": 10,
+        "rank": 0,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 13,
+        "rank": 1,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 18,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 23,
+        "rank": 4,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 8,
+        "rank": 5,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 15,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 7,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 4,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 6,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 12,
+        "rank": 1,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 7,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 14,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 0,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 21,
+        "rank": 3,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 16,
+        "rank": 2,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 22,
+        "rank": 0,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 9,
+        "rank": 1,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 20,
+        "rank": 4,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 19,
+        "rank": 3,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 11,
+        "rank": 0,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 6,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 17,
+        "rank": 5,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 10,
+        "rank": 0,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 13,
+        "rank": 1,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 2,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 18,
+        "rank": 3,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 23,
+        "rank": 4,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 8,
+        "rank": 5,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 15,
+        "rank": 6,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 7,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 4,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 6,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 6,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 12,
+        "rank": 1,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 7,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 14,
+        "rank": 2,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 0,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 21,
+        "rank": 3,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 16,
+        "rank": 2,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 22,
+        "rank": 0,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 9,
+        "rank": 1,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 20,
+        "rank": 4,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 19,
+        "rank": 3,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 11,
+        "rank": 0,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 6,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 17,
+        "rank": 5,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 10,
+        "rank": 0,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 13,
+        "rank": 1,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 2,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 18,
+        "rank": 3,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 23,
+        "rank": 4,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 8,
+        "rank": 5,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 15,
+        "rank": 6,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 7,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 4,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 6,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 6,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 12,
+        "rank": 1,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 7,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 14,
+        "rank": 2,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 0,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 21,
+        "rank": 3,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 16,
+        "rank": 2,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 22,
+        "rank": 0,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 9,
+        "rank": 1,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 20,
+        "rank": 4,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 19,
+        "rank": 3,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 11,
+        "rank": 0,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 5,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 17,
+        "rank": 6,
+        "input": 13312,
+        "matched": 0,
+        "missing": 13312,
+        "evicted": 0
+      }
+    ]
+  },
+  {
+    "host": "D",
+    "arm": "main",
+    "order": "permuted",
+    "seed": 29,
+    "capacity": 32768,
+    "sessions": 24,
+    "rows": [
+      {
+        "turn": 1,
+        "session": 10,
+        "rank": 0,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 13,
+        "rank": 1,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 18,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 23,
+        "rank": 4,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 8,
+        "rank": 5,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 15,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 7,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 4,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 6,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 6,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 12,
+        "rank": 1,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 7,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 14,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 0,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 21,
+        "rank": 3,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 16,
+        "rank": 2,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 22,
+        "rank": 0,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 9,
+        "rank": 1,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 20,
+        "rank": 4,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 19,
+        "rank": 3,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 11,
+        "rank": 0,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 6,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 17,
+        "rank": 5,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 0,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 8,
+        "rank": 1,
+        "input": 16896,
+        "matched": 0,
+        "missing": 16896,
+        "evicted": 10240
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 2,
+        "input": 4608,
+        "matched": 0,
+        "missing": 4608,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 14,
+        "rank": 3,
+        "input": 2560,
+        "matched": 0,
+        "missing": 2560,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 19,
+        "rank": 4,
+        "input": 10752,
+        "matched": 0,
+        "missing": 10752,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 9,
+        "rank": 5,
+        "input": 12800,
+        "matched": 0,
+        "missing": 12800,
+        "evicted": 16384
+      },
+      {
+        "turn": 2,
+        "session": 16,
+        "rank": 6,
+        "input": 16896,
+        "matched": 0,
+        "missing": 16896,
+        "evicted": 14336
+      },
+      {
+        "turn": 2,
+        "session": 15,
+        "rank": 7,
+        "input": 1536,
+        "matched": 0,
+        "missing": 1536,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 20,
+        "rank": 7,
+        "input": 6656,
+        "matched": 0,
+        "missing": 6656,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 23,
+        "rank": 0,
+        "input": 1536,
+        "matched": 0,
+        "missing": 1536,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 17,
+        "rank": 3,
+        "input": 12800,
+        "matched": 0,
+        "missing": 12800,
+        "evicted": 8192
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 0,
+        "input": 10752,
+        "matched": 0,
+        "missing": 10752,
+        "evicted": 8192
+      },
+      {
+        "turn": 2,
+        "session": 18,
+        "rank": 2,
+        "input": 8704,
+        "matched": 0,
+        "missing": 8704,
+        "evicted": 6144
+      },
+      {
+        "turn": 2,
+        "session": 22,
+        "rank": 7,
+        "input": 2560,
+        "matched": 0,
+        "missing": 2560,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 11,
+        "rank": 4,
+        "input": 10752,
+        "matched": 0,
+        "missing": 10752,
+        "evicted": 11264
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 7,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 5,
+        "input": 6656,
+        "matched": 0,
+        "missing": 6656,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 2,
+        "input": 12800,
+        "matched": 0,
+        "missing": 12800,
+        "evicted": 18432
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 0,
+        "input": 1536,
+        "matched": 0,
+        "missing": 1536,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 3,
+        "input": 8704,
+        "matched": 0,
+        "missing": 8704,
+        "evicted": 14336
+      },
+      {
+        "turn": 2,
+        "session": 12,
+        "rank": 0,
+        "input": 6656,
+        "matched": 0,
+        "missing": 6656,
+        "evicted": 2048
+      },
+      {
+        "turn": 2,
+        "session": 13,
+        "rank": 1,
+        "input": 4608,
+        "matched": 0,
+        "missing": 4608,
+        "evicted": 12288
+      },
+      {
+        "turn": 2,
+        "session": 10,
+        "rank": 6,
+        "input": 8704,
+        "matched": 0,
+        "missing": 8704,
+        "evicted": 8192
+      },
+      {
+        "turn": 2,
+        "session": 21,
+        "rank": 5,
+        "input": 4608,
+        "matched": 0,
+        "missing": 4608,
+        "evicted": 12288
+      },
+      {
+        "turn": 3,
+        "session": 23,
+        "rank": 0,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 1,
+        "input": 11264,
+        "matched": 0,
+        "missing": 11264,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 17,
+        "rank": 2,
+        "input": 13312,
+        "matched": 0,
+        "missing": 13312,
+        "evicted": 13312
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 3,
+        "input": 13312,
+        "matched": 0,
+        "missing": 13312,
+        "evicted": 15360
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 4,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168,
+        "evicted": 6144
+      },
+      {
+        "turn": 3,
+        "session": 22,
+        "rank": 5,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 6,
+        "input": 17408,
+        "matched": 0,
+        "missing": 17408,
+        "evicted": 16896
+      },
+      {
+        "turn": 3,
+        "session": 8,
+        "rank": 7,
+        "input": 17408,
+        "matched": 0,
+        "missing": 17408,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 14,
+        "rank": 0,
+        "input": 3072,
+        "matched": 0,
+        "missing": 3072,
+        "evicted": 10240
+      },
+      {
+        "turn": 3,
+        "session": 19,
+        "rank": 5,
+        "input": 11264,
+        "matched": 0,
+        "missing": 11264,
+        "evicted": 12800
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 0,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 15,
+        "rank": 4,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 0,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 11,
+        "rank": 4,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 1,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 16896
+      },
+      {
+        "turn": 3,
+        "session": 20,
+        "rank": 2,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168,
+        "evicted": 12800
+      },
+      {
+        "turn": 3,
+        "session": 16,
+        "rank": 3,
+        "input": 17408,
+        "matched": 0,
+        "missing": 17408,
+        "evicted": 8704
+      },
+      {
+        "turn": 3,
+        "session": 12,
+        "rank": 1,
+        "input": 7168,
+        "matched": 0,
+        "missing": 7168,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 9,
+        "rank": 0,
+        "input": 13312,
+        "matched": 0,
+        "missing": 13312,
+        "evicted": 10752
+      },
+      {
+        "turn": 3,
+        "session": 13,
+        "rank": 5,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 6,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 8704
+      },
+      {
+        "turn": 3,
+        "session": 10,
+        "rank": 7,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 12288
+      },
+      {
+        "turn": 3,
+        "session": 18,
+        "rank": 5,
+        "input": 9216,
+        "matched": 0,
+        "missing": 9216,
+        "evicted": 11264
+      },
+      {
+        "turn": 3,
+        "session": 21,
+        "rank": 2,
+        "input": 5120,
+        "matched": 0,
+        "missing": 5120,
+        "evicted": 0
+      }
+    ]
+  },
+  {
+    "host": "D",
+    "arm": "opt",
+    "order": "fixed",
+    "seed": 29,
+    "capacity": 32768,
+    "sessions": 24,
+    "rows": [
+      {
+        "turn": 1,
+        "session": 10,
+        "rank": 0,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 13,
+        "rank": 1,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 18,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 23,
+        "rank": 4,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 8,
+        "rank": 1,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 15,
+        "rank": 5,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 6,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 0,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 7,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 6,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 12,
+        "rank": 3,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 4,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 14,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 1,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 21,
+        "rank": 5,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 16,
+        "rank": 7,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 22,
+        "rank": 0,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 9,
+        "rank": 4,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 20,
+        "rank": 7,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 19,
+        "rank": 6,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 11,
+        "rank": 3,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 2,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 17,
+        "rank": 5,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 10,
+        "rank": 0,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 13,
+        "rank": 1,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 2,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 18,
+        "rank": 3,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 23,
+        "rank": 4,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 8,
+        "rank": 1,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 15,
+        "rank": 5,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 6,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 0,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 7,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 6,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 12,
+        "rank": 3,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 4,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 14,
+        "rank": 2,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 1,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 21,
+        "rank": 5,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 16,
+        "rank": 7,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 22,
+        "rank": 0,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 9,
+        "rank": 4,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 20,
+        "rank": 7,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 19,
+        "rank": 6,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 11,
+        "rank": 3,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 2,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 17,
+        "rank": 5,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 10,
+        "rank": 0,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 13,
+        "rank": 1,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 2,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 18,
+        "rank": 3,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 23,
+        "rank": 4,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 8,
+        "rank": 1,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 15,
+        "rank": 5,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 6,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 0,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 7,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 6,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 12,
+        "rank": 3,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 4,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 14,
+        "rank": 2,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 1,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 21,
+        "rank": 5,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 16,
+        "rank": 7,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 22,
+        "rank": 0,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 9,
+        "rank": 4,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 20,
+        "rank": 7,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 19,
+        "rank": 6,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 11,
+        "rank": 3,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 2,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 17,
+        "rank": 5,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      }
+    ]
+  },
+  {
+    "host": "D",
+    "arm": "opt",
+    "order": "permuted",
+    "seed": 29,
+    "capacity": 32768,
+    "sessions": 24,
+    "rows": [
+      {
+        "turn": 1,
+        "session": 10,
+        "rank": 0,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 13,
+        "rank": 1,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 4,
+        "rank": 2,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 18,
+        "rank": 3,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 23,
+        "rank": 4,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 8,
+        "rank": 1,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 15,
+        "rank": 5,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 5,
+        "rank": 6,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 3,
+        "rank": 0,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 7,
+        "rank": 7,
+        "input": 1024,
+        "matched": 0,
+        "missing": 1024,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 1,
+        "rank": 6,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 12,
+        "rank": 3,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 0,
+        "rank": 4,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 14,
+        "rank": 2,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 6,
+        "rank": 1,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 21,
+        "rank": 5,
+        "input": 4096,
+        "matched": 0,
+        "missing": 4096,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 16,
+        "rank": 7,
+        "input": 16384,
+        "matched": 0,
+        "missing": 16384,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 22,
+        "rank": 0,
+        "input": 2048,
+        "matched": 0,
+        "missing": 2048,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 9,
+        "rank": 4,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 20,
+        "rank": 7,
+        "input": 6144,
+        "matched": 0,
+        "missing": 6144,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 19,
+        "rank": 6,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 11,
+        "rank": 3,
+        "input": 10240,
+        "matched": 0,
+        "missing": 10240,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 2,
+        "rank": 2,
+        "input": 8192,
+        "matched": 0,
+        "missing": 8192,
+        "evicted": 0
+      },
+      {
+        "turn": 1,
+        "session": 17,
+        "rank": 5,
+        "input": 12288,
+        "matched": 0,
+        "missing": 12288,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 6,
+        "rank": 1,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 8,
+        "rank": 1,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 5,
+        "rank": 6,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 14,
+        "rank": 2,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 19,
+        "rank": 6,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 9,
+        "rank": 4,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 16,
+        "rank": 7,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 15,
+        "rank": 5,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 20,
+        "rank": 7,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 23,
+        "rank": 4,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 17,
+        "rank": 5,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 3,
+        "rank": 0,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 18,
+        "rank": 3,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 22,
+        "rank": 0,
+        "input": 2560,
+        "matched": 2048,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 11,
+        "rank": 3,
+        "input": 10752,
+        "matched": 10240,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 0,
+        "rank": 4,
+        "input": 16896,
+        "matched": 16384,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 4,
+        "rank": 2,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 1,
+        "rank": 6,
+        "input": 12800,
+        "matched": 12288,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 7,
+        "rank": 7,
+        "input": 1536,
+        "matched": 1024,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 2,
+        "rank": 2,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 12,
+        "rank": 3,
+        "input": 6656,
+        "matched": 6144,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 13,
+        "rank": 1,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 10,
+        "rank": 0,
+        "input": 8704,
+        "matched": 8192,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 2,
+        "session": 21,
+        "rank": 5,
+        "input": 4608,
+        "matched": 4096,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 23,
+        "rank": 4,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 3,
+        "rank": 0,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 17,
+        "rank": 5,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 1,
+        "rank": 6,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 4,
+        "rank": 2,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 22,
+        "rank": 0,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 0,
+        "rank": 4,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 8,
+        "rank": 1,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 14,
+        "rank": 2,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 19,
+        "rank": 6,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 6,
+        "rank": 1,
+        "input": 3072,
+        "matched": 2560,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 15,
+        "rank": 5,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 5,
+        "rank": 6,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 11,
+        "rank": 3,
+        "input": 11264,
+        "matched": 10752,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 7,
+        "rank": 7,
+        "input": 2048,
+        "matched": 1536,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 20,
+        "rank": 7,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 16,
+        "rank": 7,
+        "input": 17408,
+        "matched": 16896,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 12,
+        "rank": 3,
+        "input": 7168,
+        "matched": 6656,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 9,
+        "rank": 4,
+        "input": 13312,
+        "matched": 12800,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 13,
+        "rank": 1,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 2,
+        "rank": 2,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 10,
+        "rank": 0,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 18,
+        "rank": 3,
+        "input": 9216,
+        "matched": 8704,
+        "missing": 512,
+        "evicted": 0
+      },
+      {
+        "turn": 3,
+        "session": 21,
+        "rank": 5,
+        "input": 5120,
+        "matched": 4608,
+        "missing": 512,
+        "evicted": 0
+      }
+    ]
+  }
+]
