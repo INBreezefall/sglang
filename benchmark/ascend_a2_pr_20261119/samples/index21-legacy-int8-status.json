@@ -1,0 +1,12 @@
+{
+  "control_sha": "89ddc8785e2786d50b8d26e19647d435d9f1e7f4",
+  "mode": "existing INT8 boundary",
+  "device": "Ascend 910B4-1",
+  "logical_heads": 16,
+  "layer_count": 21,
+  "status": "process exited before timings",
+  "exit_code": 139,
+  "first_native_frame": "aclnnQuantLightningIndexerGetWorkspaceSize",
+  "candidate": 48562,
+  "completed_samples": 0
+}

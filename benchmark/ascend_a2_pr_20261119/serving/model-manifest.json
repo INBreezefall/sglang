@@ -1,0 +1,8 @@
+{
+  "shards": 96,
+  "bytes": 404794116064,
+  "shard_name_size_sha256": "34e301cb6a8dfa9fbca44122a2eaf22e6cdc595578c3da32a9b793489bc88edf",
+  "config_sha256": "817f5fb39ca5d4c4b5648de89ca00deaea7537d8c2f130172a459252a05c1073",
+  "index_sha256": "0e69a90937d7b14d4c699bbfbe0d86f1c476f4ee90c38b2b91236f1a25cfed82",
+  "tokenizer_sha256": "19e773648cb4e65de8660ea6365e10acca112d42a854923df93db4a6f333a82d"
+}

@@ -54,3 +54,7 @@ For each row below, invoke the script with a fresh output path followed by the a
 | `index_stack_bench.py` | `bf16 21` on #48560 | `int8 21` on #48562 |
 
 The scripts were collected from the completed hardware jobs and formatted for this archive. The Python abstract syntax tree of each published script was verified against its measured copy. [Script checksums](scripts/checksums.json)
+
+## Four-host model serving
+
+[Full-model serving measurements and exact-work checks](serving/README.md).
