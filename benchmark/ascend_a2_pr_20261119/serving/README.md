@@ -5,6 +5,7 @@ The 32 Ascend 910B4-1 devices served the full GLM-5.2 W4A8C8 checkpoint. Two hos
 | Deployment | Mean TTFT (s) | p95 TTFT (s) | Decode (tok/s/request) | Output (tok/s) | P same rank | D same rank | Uncached P tokens on turns 2–3 | Exact token outputs vs main |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | [main](base-c24.json) | 24.67 | 35.41 | 1.55 | 11.13 | 7/48 | 8/48 | 91,008 | 72/72 |
+| [#48098](p48098.json) | 10.99 | 13.57 | 1.73 | 19.91 | 48/48 | 13/48 | 6,144 | 15/72 |
 
 ## Workload and timing
 
