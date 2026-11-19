@@ -9,9 +9,24 @@
     "measured_sha256": "6db341033f5ed4556467fb9ccafa887496764fddeec0c5de41adc58d5ab6cb88",
     "public_sha256": "e4a097410d7894c905a76989b4a9751dfdc98e266f0e7b1f7f9c706226fd04a5"
   },
+  "evict-control": {
+    "launcher": "../launchers/launch-55ca9f29dfa4.sh",
+    "measured_sha256": "55ca9f29dfa4722f75f28fcbceb1508bad0fe6dba18b68620c6ffc3a7193d108",
+    "public_sha256": "f878b2146b1c1926867dd3815ca15f8afb101af7284dcd986b1227536fc83e5c"
+  },
+  "evict-tail": {
+    "launcher": "../launchers/launch-55ca9f29dfa4.sh",
+    "measured_sha256": "55ca9f29dfa4722f75f28fcbceb1508bad0fe6dba18b68620c6ffc3a7193d108",
+    "public_sha256": "f878b2146b1c1926867dd3815ca15f8afb101af7284dcd986b1227536fc83e5c"
+  },
   "moe-tile": {
     "launcher": "../launchers/launch-988764d3c5d7.sh",
     "measured_sha256": "988764d3c5d75b717c7e80cea9b71e0fb100735fea6c890a7a2f75bd63511727",
     "public_sha256": "67dbd8383f8d9df7b567a1e82391d00b1d1d457709b0e98b52ffd1859ea99420"
+  },
+  "scan-trace": {
+    "launcher": "../launchers/launch-55ca9f29dfa4.sh",
+    "measured_sha256": "55ca9f29dfa4722f75f28fcbceb1508bad0fe6dba18b68620c6ffc3a7193d108",
+    "public_sha256": "f878b2146b1c1926867dd3815ca15f8afb101af7284dcd986b1227536fc83e5c"
   }
 }

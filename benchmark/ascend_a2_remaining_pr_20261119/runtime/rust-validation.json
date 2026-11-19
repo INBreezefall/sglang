@@ -1,0 +1,10 @@
+{
+  "head": "7541d7410e7c37dd35130e16167f83b1b30516b5",
+  "linux_arm64_rust": "1.92.0",
+  "clippy": "cargo clippy --locked -p sglang-server --lib -- -D warnings",
+  "clippy_exit": 0,
+  "api_type_tests_passed": 22,
+  "generated_python_git_blob": "9605f023e2ebc28c2cde3625d68ba2cfa0246e18",
+  "gen_api": "vendored protoc, cargo gen-api --locked, clean regenerated tree",
+  "log_sha256": "30ebb62cd39fa1a1afe5ffdc23ea38e1a334b7e2541886b1357f211e41be85f4"
+}

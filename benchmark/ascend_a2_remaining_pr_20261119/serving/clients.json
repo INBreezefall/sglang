@@ -9,9 +9,24 @@
     "result_sha256": "2cdaf63d9b483be2e04bf4d9fe18621a7f4ef6fa05cf0c13d8741058d52ccfd8",
     "client": "../probes/client-8b768e8a88c4.py"
   },
+  "evict-control": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "67b406f9f9aa4f81d93d357ea77267e29792be71897f6e7286b5e4c22bb86d0f",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
+  "evict-tail": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "f7ec3ddd6244005d1504bfb4c5c9eb86ac12147aaf1c7643c995435fc5b7534f",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
   "moe-tile": {
     "script_sha256": "306866803a4a43097d8190be08c85b85f02eab62c8534608983479a39052fdd7",
     "result_sha256": "ea3c2e4bb01abd09719587279d747e77f5325bb4a1aed89b1bd3f497071dcef9",
     "client": "../probes/client-306866803a4a.py"
+  },
+  "scan-trace": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "aed62a4b582550c99505a771edccb437634316fef57463dc44c610b7d3c6721d",
+    "client": "../probes/client-8b768e8a88c4.py"
   }
 }

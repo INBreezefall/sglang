@@ -1,0 +1,268 @@
+{
+  "feature": 48537,
+  "raw_sha256": [
+    "bfaf4ee81daaff767d3c3cfd33305a115049d6c5dc7687d92fd8c46e68c5d6b4",
+    "faeaa33d7555a12596ab4db276168da1ae917f5df3c456d9fde938dce1b6faab",
+    "830bef8382d80e2008b26cc5262a36a230f4c33557d58773b8cc12eec9a27b84",
+    "3bbbdad8c206318eacfd264590fc5357da498e1044e42c3fb9e45bd3cc043efc",
+    "774040172d6d810bcd313fad45800a3446afee335b23a291562d47608359ad05",
+    "6c3f1c14a7b9c58c4056a7c66865590a4363a98701305f24921cf28a0aebfeb4",
+    "cc0236451c97b46489596cfcac9373b260428d50f711f4f8a4e37cae441734f2",
+    "9bc23870ffee58673e5d51049aa28948925a8bb403f08787194b13359a5794df"
+  ],
+  "script_sha256": "8faf6dc592a6d3d01262d672681f7101998d7efa0bee3dee6b0ca9966498b567",
+  "runs": [
+    [
+      {
+        "feature": 48537,
+        "flag": 0,
+        "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+        "role": 0,
+        "physical_device": 1,
+        "views": 8,
+        "regions": 8,
+        "planned_bytes": 8388608,
+        "registration_ms": 1001.041371,
+        "registration_rc": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "writes": [],
+        "destination": {
+          "correct_slices": 0,
+          "count": 8,
+          "data_sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+        }
+      },
+      {
+        "feature": 48537,
+        "flag": 0,
+        "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+        "role": 1,
+        "physical_device": 2,
+        "views": 8,
+        "regions": 8,
+        "planned_bytes": 8388608,
+        "registration_ms": 1195.643081,
+        "registration_rc": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "correct_slices": 0,
+        "count": 8,
+        "data_sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+      }
+    ],
+    [
+      {
+        "feature": 48537,
+        "flag": 1,
+        "sha": "877b20c1303ae59de3af2c9d82f1bfd11c4b8f57",
+        "role": 0,
+        "physical_device": 1,
+        "views": 8,
+        "regions": 1,
+        "planned_bytes": 8519680,
+        "registration_ms": 865.586475,
+        "registration_rc": [
+          0
+        ],
+        "probe_rc": 0,
+        "writes": [
+          {
+            "rc": 0,
+            "ms": 25.477878
+          },
+          {
+            "rc": 0,
+            "ms": 1.057432
+          },
+          {
+            "rc": 0,
+            "ms": 1.006001
+          },
+          {
+            "rc": 0,
+            "ms": 1.068132
+          },
+          {
+            "rc": 0,
+            "ms": 0.918402
+          },
+          {
+            "rc": 0,
+            "ms": 0.878161
+          },
+          {
+            "rc": 0,
+            "ms": 0.28982
+          },
+          {
+            "rc": 0,
+            "ms": 0.419161
+          }
+        ],
+        "destination": {
+          "correct_slices": 8,
+          "count": 8,
+          "data_sha256": "b65ea376e05fe7c28221d63e168df873584f5ae75c49279e6c48c3f629c17052"
+        }
+      },
+      {
+        "feature": 48537,
+        "flag": 1,
+        "sha": "877b20c1303ae59de3af2c9d82f1bfd11c4b8f57",
+        "role": 1,
+        "physical_device": 2,
+        "views": 8,
+        "regions": 1,
+        "planned_bytes": 8519680,
+        "registration_ms": 982.517996,
+        "registration_rc": [
+          0
+        ],
+        "correct_slices": 8,
+        "count": 8,
+        "data_sha256": "b65ea376e05fe7c28221d63e168df873584f5ae75c49279e6c48c3f629c17052"
+      }
+    ],
+    [
+      {
+        "feature": 48537,
+        "flag": 1,
+        "sha": "877b20c1303ae59de3af2c9d82f1bfd11c4b8f57",
+        "role": 0,
+        "physical_device": 1,
+        "views": 8,
+        "regions": 1,
+        "planned_bytes": 8519680,
+        "registration_ms": 1024.372777,
+        "registration_rc": [
+          0
+        ],
+        "probe_rc": 0,
+        "writes": [
+          {
+            "rc": 0,
+            "ms": 24.758087
+          },
+          {
+            "rc": 0,
+            "ms": 1.437842
+          },
+          {
+            "rc": 0,
+            "ms": 0.972792
+          },
+          {
+            "rc": 0,
+            "ms": 0.950511
+          },
+          {
+            "rc": 0,
+            "ms": 1.029222
+          },
+          {
+            "rc": 0,
+            "ms": 1.003362
+          },
+          {
+            "rc": 0,
+            "ms": 0.42885
+          },
+          {
+            "rc": 0,
+            "ms": 0.405501
+          }
+        ],
+        "destination": {
+          "correct_slices": 8,
+          "count": 8,
+          "data_sha256": "b65ea376e05fe7c28221d63e168df873584f5ae75c49279e6c48c3f629c17052"
+        }
+      },
+      {
+        "feature": 48537,
+        "flag": 1,
+        "sha": "877b20c1303ae59de3af2c9d82f1bfd11c4b8f57",
+        "role": 1,
+        "physical_device": 2,
+        "views": 8,
+        "regions": 1,
+        "planned_bytes": 8519680,
+        "registration_ms": 1002.074019,
+        "registration_rc": [
+          0
+        ],
+        "correct_slices": 8,
+        "count": 8,
+        "data_sha256": "b65ea376e05fe7c28221d63e168df873584f5ae75c49279e6c48c3f629c17052"
+      }
+    ],
+    [
+      {
+        "feature": 48537,
+        "flag": 0,
+        "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+        "role": 0,
+        "physical_device": 1,
+        "views": 8,
+        "regions": 8,
+        "planned_bytes": 8388608,
+        "registration_ms": 1012.830689,
+        "registration_rc": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "writes": [],
+        "destination": {
+          "correct_slices": 0,
+          "count": 8,
+          "data_sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+        }
+      },
+      {
+        "feature": 48537,
+        "flag": 0,
+        "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+        "role": 1,
+        "physical_device": 2,
+        "views": 8,
+        "regions": 8,
+        "planned_bytes": 8388608,
+        "registration_ms": 1099.477947,
+        "registration_rc": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "correct_slices": 0,
+        "count": 8,
+        "data_sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+      }
+    ]
+  ]
+}

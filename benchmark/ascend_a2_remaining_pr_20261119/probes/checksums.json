@@ -7,6 +7,10 @@
     "measured_sha256": "b1a426a7512763b6b53a89771396b847055d046ed759e15476db34196ab864dc",
     "published_sha256": "640896215ee817fe6c66495fe9eb4ca1dc00567df9e80dbb8bb32770a91d45df"
   },
+  "probe-8faf6dc592a6.py": {
+    "measured_sha256": "8faf6dc592a6d3d01262d672681f7101998d7efa0bee3dee6b0ca9966498b567",
+    "published_sha256": "4fe777a4ee3f7b043f0a5f61d0aae07d6d269a0c485e17e2ba1000b7e390629e"
+  },
   "probe-28c37fb9ffcd.py": {
     "measured_sha256": "28c37fb9ffcdae2b15e60d3b601ecfd1c8bda3fc65e83b97b5026cc832eff8a1",
     "published_sha256": "69bd3c2cf1bd3d22ad902a41b1845727e634d7ab5fb4358eeade34b0a35c867a"
@@ -19,10 +23,6 @@
     "measured_sha256": "8b5652eb619413f2cc25e472fa16d1cff87d8aaa28fe7fbbab25668ff103e0ad",
     "published_sha256": "e44c9f45c91b656ce5e1efc1286cfac008e581a06624b44abb199ce49684cd63"
   },
-  "probe-d9458cb74b0f.py": {
-    "measured_sha256": "d9458cb74b0fefed786db1594a8130e482a3e919fae86dbaf5dd2b2e793c382d",
-    "published_sha256": "ab6646823f4e639f49acbd57cb6207f3b3cf6f276c7b9182d32a8606d135bc57"
-  },
   "probe-7b3180a698ac.py": {
     "measured_sha256": "7b3180a698ac681086b0121c87063ae1b57d9929c2d68885ee2313416525b29b",
     "published_sha256": "2fc2540482ca6b5ffa75d041ffd3fadb8d5e4baac33b5104ccc44fc23084efb2"
@@ -30,6 +30,10 @@
   "probe-560f32dde003.py": {
     "measured_sha256": "560f32dde003e4d1a15064aaf5d8fad0bea77144a92af7d655dbb121ffb534ee",
     "published_sha256": "203c53eee94d1cf4a37b2ca7abce0f9c66c7f9bec0a4fc810b76f8ae095724b0"
+  },
+  "probe-d9458cb74b0f.py": {
+    "measured_sha256": "d9458cb74b0fefed786db1594a8130e482a3e919fae86dbaf5dd2b2e793c382d",
+    "published_sha256": "ab6646823f4e639f49acbd57cb6207f3b3cf6f276c7b9182d32a8606d135bc57"
   },
   "probe-07a339d3efd1.py": {
     "measured_sha256": "07a339d3efd10bb29edfa958287eaed31e52b3aa642f9bea48fb82d7eac957f1",
@@ -50,5 +54,9 @@
   "client-8b768e8a88c4.py": {
     "measured_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
     "published_sha256": "4b99c6f075e2e47458a2bd7e944d5c60923800a9399a746223e3812a9c11cf97"
+  },
+  "answer-checks.py": {
+    "measured_sha256": "b66a0351d1eb81500569d67fba2638e0088f4daa8cd89161dc3f7e680b8e21b0",
+    "published_sha256": "ea5ad5476c0dcbe34d68e2dea5efc774a4b99549b220c3ae9ba9dc4136d5a99e"
   }
 }

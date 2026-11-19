@@ -12,10 +12,10 @@ All 20 candidates were rebased onto upstream main `1ed3e1d04b25ab007b4c80481b7b6
 | [#48543](results/48543.md) | Exact-size ACL host allocation | `2877db5d3bf6` |
 | [#48574](results/48574.md) | DeepEP Normal and LowLatency dtypes | `9ba34b92034e` |
 | [#48575](results/48575.md) | Pinned allocator prewarming | `d225360ab183` |
-| [#48576](results/48576.md) | Per-request prefetch timing | `a9270183dea9` |
+| [#48576](results/48576.md) | Per-request prefetch timing | `a14908162bc2` |
 | [#48577](results/48577.md) | HiCache backup metrics | `5239c4443cfb` |
 | [#48597](results/48597.md) | PD rebootstrap failure handling | `d09125946350` |
-| [#48599](results/48599.md) | Resident L2 hit origins | `1b200dd8c13a` |
+| [#48599](results/48599.md) | Resident L2 hit origins | `7541d7410e7c` |
 | [#48630](results/48630.md) | Prefill admission and forward tracing | `f0f024dcfd70` |
 | [#48631](results/48631.md) | Packed NZ checkpoint round trip | `50cf45054aae` |
 | [#48632](results/48632.md) | Mooncake worker binding failures | `77ba9f6f799f` |
@@ -58,7 +58,7 @@ Use flag 0 for main and 1 for the PR. The listed rank count is the number of ran
 | 48543 | [probe](probes/probe-2ebd0678168f.py) | 1 | [samples](samples/48543.json) |
 | 48574 | [probe](probes/probe-8b5652eb6194.py) | 8 | [samples](samples/48574.json) |
 | 48575 | [probe](probes/probe-2ebd0678168f.py) | 1 | [samples](samples/48575.json) |
-| 48576 | [probe](probes/probe-d9458cb74b0f.py) | 1 | [samples](samples/48576.json) |
+| 48576 | [probe](probes/probe-7b3180a698ac.py) | 1 | [samples](samples/48576.json) |
 | 48577 | [probe](probes/probe-7b3180a698ac.py) | 1 | [samples](samples/48577.json) |
 | 48597 | [probe](probes/probe-560f32dde003.py) | 1 | [samples](samples/48597.json) |
 | 48599 | [probe](probes/probe-28c37fb9ffcd.py) | 1 | [samples](samples/48599.json) |

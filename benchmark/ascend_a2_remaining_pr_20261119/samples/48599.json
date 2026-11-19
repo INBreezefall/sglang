@@ -4,10 +4,10 @@
   "mode": "default",
   "script_sha256": "28c37fb9ffcdae2b15e60d3b601ecfd1c8bda3fc65e83b97b5026cc832eff8a1",
   "raw_hashes": [
-    "0106ff981ac00d02f2026321c6a37dc72cc6efd39a92ea7d4bf3d45bc25957c0",
-    "7b2b71450f52b101d2786049a1c65f4dbd175dfee3a7954a7419cc25fddd0143",
-    "d6a0ca66f50b2dba6104ceff7464f551b340ad0f2bfb7aa84343b5683948ef85",
-    "6796cff94d4e76b69b951e0db84e757f17c97feaea00f387dd4f3bcb1d0f6c20"
+    "9a9b3f4571e6db0c27092e0c241feb72b56996b9ffdc2473b69e3e12ae2ddfe2",
+    "d3e59bd40f4e6471567c32cf334c203ab4bdcb6eda0931069845d135f090c15b",
+    "b5c374e3eeca6c5389d47faa543e774a49a15f1bae1b47a3e36a1f7275cb67d2",
+    "024d94544ff7f13c254cd161a2e831374e35350f80478988ba68e25b6bd08e6e"
   ],
   "runs": [
     {
@@ -30,11 +30,11 @@
             128,
             128
           ],
-          "backup_ms": 0.587902,
-          "insert_ms": 0.251791,
+          "backup_ms": 0.555321,
+          "insert_ms": 0.244231,
           "restore_ms": [
-            0.1243,
-            0.09119
+            0.1196,
+            0.08733
           ],
           "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
         },
@@ -52,11 +52,11 @@
             256,
             256
           ],
-          "backup_ms": 0.266781,
-          "insert_ms": 0.206031,
+          "backup_ms": 0.283911,
+          "insert_ms": 0.21132,
           "restore_ms": [
-            0.10843,
-            0.08612
+            0.11883,
+            0.08869
           ],
           "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
         },
@@ -74,11 +74,11 @@
             384,
             384
           ],
-          "backup_ms": 0.21604,
-          "insert_ms": 0.182991,
+          "backup_ms": 0.599691,
+          "insert_ms": 0.18962,
           "restore_ms": [
-            0.10614,
-            0.08862
+            0.478301,
+            0.08501
           ],
           "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
         },
@@ -96,11 +96,11 @@
             512,
             512
           ],
-          "backup_ms": 0.309881,
-          "insert_ms": 0.197501,
+          "backup_ms": 0.204111,
+          "insert_ms": 0.188461,
           "restore_ms": [
-            0.18668,
-            0.11596
+            0.10897,
+            0.09075
           ],
           "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
         },
@@ -118,11 +118,11 @@
             128,
             128
           ],
-          "backup_ms": 0.262901,
-          "insert_ms": 0.18838,
+          "backup_ms": 0.220151,
+          "insert_ms": 0.18573,
           "restore_ms": [
-            0.166461,
-            0.12012
+            0.11149,
+            0.085811
           ],
           "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
         },
@@ -140,11 +140,11 @@
             256,
             256
           ],
-          "backup_ms": 0.220441,
-          "insert_ms": 0.18992,
+          "backup_ms": 0.21617,
+          "insert_ms": 0.18348,
           "restore_ms": [
-            0.11037,
-            0.122881
+            0.11302,
+            0.09299
           ],
           "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
         },
@@ -162,11 +162,11 @@
             384,
             384
           ],
-          "backup_ms": 0.227831,
-          "insert_ms": 0.18717,
+          "backup_ms": 0.20584,
+          "insert_ms": 0.17673,
           "restore_ms": [
-            0.1207,
-            0.10148
+            0.10578,
+            0.08918
           ],
           "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
         },
@@ -184,11 +184,11 @@
             512,
             512
           ],
-          "backup_ms": 0.240491,
-          "insert_ms": 0.20532,
+          "backup_ms": 0.198431,
+          "insert_ms": 0.17546,
           "restore_ms": [
-            0.12621,
-            0.142431
+            0.10177,
+            0.079791
           ],
           "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
         }
@@ -197,7 +197,7 @@
     {
       "feature": 48599,
       "flag": 1,
-      "sha": "1b200dd8c13a200a634b1d6920e58755b84fc677",
+      "sha": "7541d7410e7c37dd35130e16167f83b1b30516b5",
       "device": "Ascend910B4-1",
       "rows": [
         {
@@ -214,11 +214,11 @@
             128,
             128
           ],
-          "backup_ms": 0.591172,
-          "insert_ms": 0.249851,
+          "backup_ms": 0.597172,
+          "insert_ms": 0.24674,
           "restore_ms": [
-            0.13347,
-            0.09545
+            0.13791,
+            0.207801
           ],
           "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
         },
@@ -236,11 +236,11 @@
             256,
             256
           ],
-          "backup_ms": 0.253241,
-          "insert_ms": 0.20365,
+          "backup_ms": 0.276661,
+          "insert_ms": 0.20867,
           "restore_ms": [
-            0.115021,
-            0.0997
+            4.053518,
+            0.24988
           ],
           "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
         },
@@ -258,11 +258,11 @@
             384,
             384
           ],
-          "backup_ms": 0.217751,
-          "insert_ms": 0.17958,
+          "backup_ms": 0.21971,
+          "insert_ms": 0.19168,
           "restore_ms": [
-            0.11361,
-            0.09789
+            0.12329,
+            0.09844
           ],
           "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
         },
@@ -280,11 +280,11 @@
             512,
             512
           ],
-          "backup_ms": 0.278191,
-          "insert_ms": 0.181321,
+          "backup_ms": 0.22421,
+          "insert_ms": 0.18984,
           "restore_ms": [
-            0.11423,
-            0.09639
+            0.12084,
+            0.09905
           ],
           "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
         },
@@ -302,11 +302,11 @@
             128,
             128
           ],
-          "backup_ms": 0.270101,
-          "insert_ms": 0.17686,
+          "backup_ms": 0.224611,
+          "insert_ms": 0.18503,
           "restore_ms": [
-            0.1186,
-            0.104141
+            0.1219,
+            0.0968
           ],
           "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
         },
@@ -324,11 +324,11 @@
             256,
             256
           ],
-          "backup_ms": 0.218231,
-          "insert_ms": 0.17811,
+          "backup_ms": 0.222651,
+          "insert_ms": 0.19381,
           "restore_ms": [
-            0.1103,
-            0.09314
+            0.14976,
+            0.183111
           ],
           "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
         },
@@ -346,11 +346,11 @@
             384,
             384
           ],
-          "backup_ms": 0.21352,
-          "insert_ms": 0.176621,
+          "backup_ms": 0.24036,
+          "insert_ms": 0.184771,
           "restore_ms": [
-            0.10521,
-            0.09522
+            0.154301,
+            0.11356
           ],
           "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
         },
@@ -368,11 +368,11 @@
             512,
             512
           ],
-          "backup_ms": 0.237771,
-          "insert_ms": 0.20373,
+          "backup_ms": 0.257421,
+          "insert_ms": 0.18334,
           "restore_ms": [
-            0.122491,
-            0.10261
+            0.11293,
+            0.094631
           ],
           "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
         }
@@ -381,7 +381,7 @@
     {
       "feature": 48599,
       "flag": 1,
-      "sha": "1b200dd8c13a200a634b1d6920e58755b84fc677",
+      "sha": "7541d7410e7c37dd35130e16167f83b1b30516b5",
       "device": "Ascend910B4-1",
       "rows": [
         {
@@ -398,11 +398,11 @@
             128,
             128
           ],
-          "backup_ms": 0.626261,
-          "insert_ms": 0.265301,
+          "backup_ms": 0.605191,
+          "insert_ms": 0.245881,
           "restore_ms": [
-            0.133931,
-            0.09472
+            0.134341,
+            0.088
           ],
           "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
         },
@@ -420,11 +420,11 @@
             256,
             256
           ],
-          "backup_ms": 0.258491,
-          "insert_ms": 0.20693,
+          "backup_ms": 0.299421,
+          "insert_ms": 0.20952,
           "restore_ms": [
-            0.11783,
-            0.09278
+            0.12237,
+            0.09287
           ],
           "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
         },
@@ -442,11 +442,11 @@
             384,
             384
           ],
-          "backup_ms": 0.22035,
-          "insert_ms": 0.177871,
+          "backup_ms": 0.315731,
+          "insert_ms": 0.188551,
           "restore_ms": [
-            0.11121,
-            0.09214
+            0.152551,
+            0.10984
           ],
           "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
         },
@@ -464,11 +464,11 @@
             512,
             512
           ],
-          "backup_ms": 0.281671,
-          "insert_ms": 0.211711,
+          "backup_ms": 0.268681,
+          "insert_ms": 0.2125,
           "restore_ms": [
-            0.11886,
-            0.0915
+            0.1135,
+            0.091201
           ],
           "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
         },
@@ -486,11 +486,11 @@
             128,
             128
           ],
-          "backup_ms": 0.22075,
-          "insert_ms": 0.193391,
+          "backup_ms": 0.215541,
+          "insert_ms": 0.184321,
           "restore_ms": [
-            0.11719,
-            0.08978
+            0.10962,
+            0.087331
           ],
           "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
         },
@@ -508,11 +508,11 @@
             256,
             256
           ],
-          "backup_ms": 0.259811,
-          "insert_ms": 0.1883,
+          "backup_ms": 0.20986,
+          "insert_ms": 0.18615,
           "restore_ms": [
-            0.179431,
-            0.09895
+            0.11047,
+            0.09601
           ],
           "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
         },
@@ -530,11 +530,11 @@
             384,
             384
           ],
-          "backup_ms": 0.230081,
-          "insert_ms": 0.1895,
+          "backup_ms": 0.21106,
+          "insert_ms": 0.186111,
           "restore_ms": [
-            0.120671,
-            0.09394
+            0.108821,
+            0.085
           ],
           "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
         },
@@ -552,11 +552,11 @@
             512,
             512
           ],
-          "backup_ms": 0.245171,
-          "insert_ms": 0.18903,
+          "backup_ms": 0.21258,
+          "insert_ms": 0.180321,
           "restore_ms": [
-            0.11705,
-            0.114061
+            0.106851,
+            0.08428
           ],
           "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
         }
@@ -582,11 +582,11 @@
             128,
             128
           ],
-          "backup_ms": 0.557821,
-          "insert_ms": 0.254411,
+          "backup_ms": 0.527851,
+          "insert_ms": 0.22715,
           "restore_ms": [
-            0.1812,
-            0.105321
+            0.12049,
+            0.094301
           ],
           "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
         },
@@ -604,11 +604,11 @@
             256,
             256
           ],
-          "backup_ms": 0.268801,
-          "insert_ms": 0.214001,
+          "backup_ms": 0.28514,
+          "insert_ms": 0.214731,
           "restore_ms": [
-            0.12712,
-            0.098681
+            0.121251,
+            0.09403
           ],
           "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
         },
@@ -626,11 +626,11 @@
             384,
             384
           ],
-          "backup_ms": 0.22093,
-          "insert_ms": 0.21288,
+          "backup_ms": 0.22142,
+          "insert_ms": 0.186891,
           "restore_ms": [
-            0.12211,
-            0.09456
+            0.110741,
+            0.09313
           ],
           "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
         },
@@ -648,11 +648,11 @@
             512,
             512
           ],
-          "backup_ms": 0.306761,
-          "insert_ms": 0.20806,
+          "backup_ms": 0.2284,
+          "insert_ms": 0.196961,
           "restore_ms": [
-            0.132401,
-            0.09815
+            0.12054,
+            0.10975
           ],
           "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
         },
@@ -670,11 +670,11 @@
             128,
             128
           ],
-          "backup_ms": 0.450261,
-          "insert_ms": 0.212931,
+          "backup_ms": 0.22461,
+          "insert_ms": 0.188901,
           "restore_ms": [
-            0.12129,
-            0.13479
+            0.111611,
+            0.10157
           ],
           "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
         },
@@ -692,11 +692,11 @@
             256,
             256
           ],
-          "backup_ms": 0.25637,
-          "insert_ms": 0.217141,
+          "backup_ms": 0.22652,
+          "insert_ms": 0.187961,
           "restore_ms": [
-            0.13264,
-            0.10279
+            0.115521,
+            0.09498
           ],
           "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
         },
@@ -714,11 +714,11 @@
             384,
             384
           ],
-          "backup_ms": 0.315121,
-          "insert_ms": 0.209631,
+          "backup_ms": 0.241111,
+          "insert_ms": 0.186811,
           "restore_ms": [
-            0.175601,
-            0.25157
+            0.1137,
+            0.10061
           ],
           "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
         },
@@ -736,11 +736,11 @@
             512,
             512
           ],
-          "backup_ms": 0.256031,
-          "insert_ms": 0.20901,
+          "backup_ms": 0.205471,
+          "insert_ms": 0.19587,
           "restore_ms": [
-            0.12291,
-            0.09629
+            0.10204,
+            0.088521
           ],
           "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
         }

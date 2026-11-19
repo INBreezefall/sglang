@@ -1,0 +1,50 @@
+{
+  "scope": "Four short deterministic-answer checks after formal measurement",
+  "rows": [
+    {
+      "task": "addition",
+      "prompt": "Reply only with the number. What is 17 + 19?",
+      "expected": "36",
+      "reply": "36",
+      "normalized": "36",
+      "exact": true,
+      "input_hash": "be951c298112bf807026bc124172eeddc225de41ed3e5212ec473c34176a0d4d",
+      "output_ids_sha256": "9249a55054af579e1de06f64dadbe8e446891d5bba2b868b788852d84b1b63e4",
+      "tokens": 2
+    },
+    {
+      "task": "multiplication",
+      "prompt": "Reply only with the number. What is 6 times 7?",
+      "expected": "42",
+      "reply": "42",
+      "normalized": "42",
+      "exact": true,
+      "input_hash": "0ddfd33dc5fcad2490988078344d1676b74eb97170814fba05030a32282bb7a1",
+      "output_ids_sha256": "f4c458d34051e48729a17f9d820cfc0905d9bfdb6c84aec3af4b995ce89bcbb7",
+      "tokens": 2
+    },
+    {
+      "task": "copy",
+      "prompt": "Copy the following three digits exactly. Reply with just the digits. The digits are 815.",
+      "expected": "815",
+      "reply": "815",
+      "normalized": "815",
+      "exact": true,
+      "input_hash": "2401cc99586b74a250e59f426e7686b224227d808711fa12db02c5dd1cab9157",
+      "output_ids_sha256": "e3573985053c283081b550e1e0396b81856aaba33a9e05a92fcb713b802cd142",
+      "tokens": 3
+    },
+    {
+      "task": "subtraction",
+      "prompt": "Reply only with the number. What is 205 minus 17?",
+      "expected": "188",
+      "reply": "188",
+      "normalized": "188",
+      "exact": true,
+      "input_hash": "c06960e43e4f277b8c57756475070c45117a6633ae3feb18913cca9e1369402f",
+      "output_ids_sha256": "ea57ad07db5b7327f035fe01104ed5cc40f65909b2075c9307291bbe93dd2333",
+      "tokens": 2
+    }
+  ],
+  "script_sha256": "b66a0351d1eb81500569d67fba2638e0088f4daa8cd89161dc3f7e680b8e21b0"
+}
