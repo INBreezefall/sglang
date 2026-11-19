@@ -18,4 +18,6 @@ Mean and p95 TTFT use the time from client dispatch to the first streamed event 
 
 The initial main deployment also ran a one-request, four-token connectivity check before its formal cohort. The fixture clears prefix caches before each cohort and after its warmup. Driver and filesystem caches persist between deployments. The table reports one cohort per named deployment. Use the raw data to inspect countervailing effects and the run order. All four hosts independently read and SHA-256 hashed every byte of each of the 96 weight shards (404,794,116,064 bytes per host). The individual hashes, configuration, tokenizer and index agree across the four copies. [Actual anonymized server arguments](service-argv.json) · [Model manifest](model-manifest.json) · [Replay client](pd_client.py)
 
+Both main controls used the same source and complete checkpoint. Mean TTFT varied from 24.67 to 9.36 s and output throughput from 11.13 to 18.16 tok/s. Their generated token sequences agreed for 13/72 requests. Interpret each candidate against both controls.
+
 Cohort launch order was base-c24 (04:38 UTC), p48098 (04:55 UTC), d48541 (05:06 UTC), d49103 (05:25 UTC), restore-c24 (05:38 UTC).
