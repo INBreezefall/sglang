@@ -1,0 +1,44 @@
+{
+  "client_started": false,
+  "completed_formal_requests": 0,
+  "client_errors": [],
+  "role_status": {
+    "prefill-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 1,
+      "weight_load_end": 16,
+      "error_examples": [],
+      "errors": {
+        "ImportError": 1
+      }
+    },
+    "prefill-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 16,
+      "error_examples": [],
+      "errors": {}
+    },
+    "decode-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 8,
+      "error_examples": [],
+      "errors": {}
+    },
+    "decode-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 8,
+      "error_examples": [],
+      "errors": {}
+    }
+  },
+  "operator_observation": {
+    "stage": "Decode draft model initialization, before decode HTTP readiness",
+    "sampled_twice": true,
+    "observation": "Decode TP0 was waiting in the TP worker seed broadcast. Decode TP2, TP5, TP8, TP10 and TP13 were waiting in the logits gatherer topology broadcast. Prefill was HTTP-ready. Neither decode node updated its log for more than three minutes.",
+    "action": "Time-boxed the readiness waiter. The fresh one-step control uses the DP LM head to avoid the distributed logits-gatherer topology probe and one speculative step to bypass the idle multi-step loop.",
+    "observed_at": "2026-11-19T19:06:12.838749+08:00"
+  }
+}

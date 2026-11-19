@@ -19,6 +19,11 @@
     "result_sha256": "f7ec3ddd6244005d1504bfb4c5c9eb86ac12147aaf1c7643c995435fc5b7534f",
     "client": "../probes/client-8b768e8a88c4.py"
   },
+  "input-only-one": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "e34fdee1d5f0447708cb14b560a62dc1eefcf66f84153f5cfbc596384260b899",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
   "moe-tile": {
     "script_sha256": "306866803a4a43097d8190be08c85b85f02eab62c8534608983479a39052fdd7",
     "result_sha256": "ea3c2e4bb01abd09719587279d747e77f5325bb4a1aed89b1bd3f497071dcef9",
@@ -32,6 +37,11 @@
   "spec-control-r2": {
     "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
     "result_sha256": "67455e7841c487e7867f2aa98ee0d403d8bbaaf25c767b714ae5be0f548a6bac",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
+  "spec-moon-one": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "efc37eeba471d0dcb3501d8f92d7d5af70897ad243ef5091add7279b9c3b616d",
     "client": "../probes/client-8b768e8a88c4.py"
   },
   "store-control-r2": {

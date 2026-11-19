@@ -1,0 +1,55 @@
+{
+  "client_started": true,
+  "completed_formal_requests": 0,
+  "client_errors": [
+    "RuntimeError: prefill HTTP 500 {\"object\":\"error\",\"message\":\"Prefill transfer failed for request rank=15 req.rid='ab-5861788-0-0-1' req.bootstrap_room=98344483422209 with exception KVTransferError(bootstrap_room=983444834"
+  ],
+  "role_status": {
+    "prefill-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 1,
+      "weight_load_end": 16,
+      "error_examples": [],
+      "errors": {
+        "ImportError": 1
+      }
+    },
+    "prefill-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 16,
+      "error_examples": [],
+      "errors": {}
+    },
+    "decode-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 1,
+      "weight_load_end": 16,
+      "error_examples": [
+        "'NoneType' object has no attribute 'seq_lens_cpu_int'"
+      ],
+      "errors": {
+        "ImportError": 1,
+        "AttributeError": 1
+      }
+    },
+    "decode-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 16,
+      "error_examples": [
+        "'NoneType' object has no attribute 'seq_lens_cpu_int'"
+      ],
+      "errors": {
+        "AttributeError": 6
+      }
+    }
+  },
+  "operator_observation": {
+    "stage": "First formal wave after eight successful warmups",
+    "decode_source": "upstream main",
+    "decode_stack": "eagle_worker_v2._draft_forward_idle -> eager_runner._execute_idle -> dsa_npu_indexer.forward_npu",
+    "decode_error": "Idle draft forward accessed seq_lens_cpu_int on absent forward_metadata. The main profile used synchronous decode scheduling.",
+    "native_transport": "Initialization and buffer registration completed before both HTTP roles became ready."
+  }
+}

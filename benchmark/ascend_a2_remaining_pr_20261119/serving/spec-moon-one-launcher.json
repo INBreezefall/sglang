@@ -1,0 +1,983 @@
+{
+  "prefill-0": {
+    "service_profile": "spec-mooncake-one-ranklocal",
+    "admission_link": {
+      "scheduler_processes": 0,
+      "tagged_forward_rounds": 0,
+      "matched_to_scan": 0
+    },
+    "host_pool_configs": [
+      {
+        "label": "kv",
+        "tokens": 49280,
+        "reported_decimal_gb": 5.47,
+        "packed_mtp": true,
+        "reports": 8
+      }
+    ],
+    "worker_linux_memory_kib": {
+      "4": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11642364,
+        "VmRSS": 9808716
+      },
+      "6": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 12811328,
+        "VmRSS": 9780112
+      },
+      "7": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11618560,
+        "VmRSS": 9792724
+      },
+      "5": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 12622808,
+        "VmRSS": 9790396
+      },
+      "3": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11588684,
+        "VmRSS": 9735432
+      },
+      "2": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11643688,
+        "VmRSS": 9775488
+      },
+      "1": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11610996,
+        "VmRSS": 9767340
+      },
+      "0": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11607060,
+        "VmRSS": 9801196
+      }
+    },
+    "prefetch_event_sets": {},
+    "component": "multi-process log counts include all warmups and ranks",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "argv": [
+      "python3",
+      "-u",
+      "-m",
+      "sglang.launch_server",
+      "--model-path",
+      "/model",
+      "--served-model-name",
+      "glm52",
+      "--trust-remote-code",
+      "--device",
+      "npu",
+      "--dtype",
+      "bfloat16",
+      "--attention-backend",
+      "ascend",
+      "--sampling-backend",
+      "ascend",
+      "--quantization",
+      "modelslim",
+      "--tp-size",
+      "16",
+      "--attn-dp-size",
+      "16",
+      "--ep-size",
+      "1",
+      "--moe-a2a-backend",
+      "none",
+      "--nnodes",
+      "2",
+      "--node-rank",
+      "0",
+      "--dist-init-addr",
+      "<role-rendezvous>",
+      "--dist-timeout",
+      "360",
+      "--page-size",
+      "128",
+      "--kv-cache-dtype",
+      "bf16",
+      "--context-length",
+      "16384",
+      "--max-total-tokens",
+      "32768",
+      "--chunked-prefill-size",
+      "4096",
+      "--max-prefill-tokens",
+      "8192",
+      "--max-running-requests",
+      "32",
+      "--mem-fraction-static",
+      "0.9",
+      "--cuda-graph-backend-decode",
+      "disabled",
+      "--cuda-graph-backend-prefill",
+      "disabled",
+      "--disable-shared-experts-fusion",
+      "--host",
+      "<node-address>",
+      "--port",
+      "18684",
+      "--enable-metrics",
+      "--enable-cache-report",
+      "--disaggregation-mode",
+      "prefill",
+      "--disaggregation-transfer-backend",
+      "mooncake",
+      "--disaggregation-bootstrap-port",
+      "18784",
+      "--load-balance-method",
+      "total_tokens",
+      "--skip-server-warmup",
+      "--enable-dp-lm-head",
+      "--speculative-algorithm",
+      "NEXTN",
+      "--speculative-num-steps",
+      "1",
+      "--speculative-eagle-topk",
+      "1",
+      "--speculative-num-draft-tokens",
+      "2",
+      "--speculative-draft-model-quantization",
+      "modelslim",
+      "--enable-hierarchical-cache",
+      "--hicache-ratio",
+      "1.5",
+      "--hicache-size",
+      "0",
+      "--hicache-write-policy",
+      "write_through",
+      "--hicache-io-backend",
+      "kernel_ascend",
+      "--hicache-mem-layout",
+      "page_first_kv_split",
+      "--schedule-policy",
+      "lpm"
+    ],
+    "launch_script_sha256": "10d14866353eac0fdaae6d9b8fa7138eada26cbb4b2602d00ee7792f739169d0",
+    "counts": {
+      "runtime": 1,
+      "mooncake_support_imports": 19,
+      "distributed_initialized": 8,
+      "load_start": 16,
+      "load_complete": 16,
+      "mooncake_common_registration": 8,
+      "http_ready": 1,
+      "prefill_batches": 500
+    },
+    "utc_stage_bounds": {
+      "distributed_initialized": [
+        "2026-11-19 11:08:12",
+        "2026-11-19 11:08:12"
+      ],
+      "load_start": [
+        "2026-11-19 11:08:33",
+        "2026-11-19 11:13:27"
+      ],
+      "load_complete": [
+        "2026-11-19 11:12:29",
+        "2026-11-19 11:14:04"
+      ],
+      "http_ready": [
+        "2026-11-19 11:14:15",
+        "2026-11-19 11:14:15"
+      ],
+      "prefill_batches": [
+        "2026-11-19 11:14:34",
+        "2026-11-19 11:17:47"
+      ]
+    },
+    "traces": {},
+    "admission_stop_counts": {},
+    "admission_field_totals": {},
+    "errors": {
+      "ImportError": 1
+    },
+    "error_examples": [],
+    "metrics": {
+      "sglang:hicache_backup_bytes_total": {
+        "series": 8,
+        "summed": 11929387008.0,
+        "peak": 1936588800.0
+      },
+      "sglang:hicache_backup_duration_seconds_sum": {
+        "series": 8,
+        "summed": 0.8574523413181305,
+        "peak": 0.15033146023750305
+      },
+      "sglang:hicache_backup_tokens_total": {
+        "series": 8,
+        "summed": 118272.0,
+        "peak": 19200.0
+      },
+      "sglang:hicache_dropped_tokens_total": {
+        "series": 16,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:hicache_host_total_tokens": {
+        "series": 8,
+        "summed": 394240.0,
+        "peak": 49280.0
+      },
+      "sglang:hicache_host_used_tokens": {
+        "series": 8,
+        "summed": 97664.0,
+        "peak": 15104.0
+      },
+      "sglang:spec_accept_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_accept_rate": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_block_accept_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_cap_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_num_draft_tokens": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_num_steps": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      }
+    },
+    "storage_files": 0,
+    "storage_bytes": 0,
+    "object_stats": null
+  },
+  "prefill-1": {
+    "service_profile": "spec-mooncake-one-ranklocal",
+    "admission_link": {
+      "scheduler_processes": 0,
+      "tagged_forward_rounds": 0,
+      "matched_to_scan": 0
+    },
+    "host_pool_configs": [
+      {
+        "label": "kv",
+        "tokens": 49280,
+        "reported_decimal_gb": 5.47,
+        "packed_mtp": true,
+        "reports": 8
+      }
+    ],
+    "worker_linux_memory_kib": {
+      "11": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 12185404,
+        "VmRSS": 9826720
+      },
+      "8": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11664156,
+        "VmRSS": 9795812
+      },
+      "12": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11769132,
+        "VmRSS": 9807892
+      },
+      "10": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11813968,
+        "VmRSS": 9808956
+      },
+      "9": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11729436,
+        "VmRSS": 9841776
+      },
+      "14": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 12018984,
+        "VmRSS": 9792788
+      },
+      "13": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11789008,
+        "VmRSS": 9833680
+      },
+      "15": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11715104,
+        "VmRSS": 10411404
+      }
+    },
+    "prefetch_event_sets": {},
+    "component": "multi-process log counts include all warmups and ranks",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "argv": [
+      "python3",
+      "-u",
+      "-m",
+      "sglang.launch_server",
+      "--model-path",
+      "/model",
+      "--served-model-name",
+      "glm52",
+      "--trust-remote-code",
+      "--device",
+      "npu",
+      "--dtype",
+      "bfloat16",
+      "--attention-backend",
+      "ascend",
+      "--sampling-backend",
+      "ascend",
+      "--quantization",
+      "modelslim",
+      "--tp-size",
+      "16",
+      "--attn-dp-size",
+      "16",
+      "--ep-size",
+      "1",
+      "--moe-a2a-backend",
+      "none",
+      "--nnodes",
+      "2",
+      "--node-rank",
+      "1",
+      "--dist-init-addr",
+      "<role-rendezvous>",
+      "--dist-timeout",
+      "360",
+      "--page-size",
+      "128",
+      "--kv-cache-dtype",
+      "bf16",
+      "--context-length",
+      "16384",
+      "--max-total-tokens",
+      "32768",
+      "--chunked-prefill-size",
+      "4096",
+      "--max-prefill-tokens",
+      "8192",
+      "--max-running-requests",
+      "32",
+      "--mem-fraction-static",
+      "0.9",
+      "--cuda-graph-backend-decode",
+      "disabled",
+      "--cuda-graph-backend-prefill",
+      "disabled",
+      "--disable-shared-experts-fusion",
+      "--host",
+      "<node-address>",
+      "--port",
+      "18684",
+      "--enable-metrics",
+      "--enable-cache-report",
+      "--disaggregation-mode",
+      "prefill",
+      "--disaggregation-transfer-backend",
+      "mooncake",
+      "--disaggregation-bootstrap-port",
+      "18784",
+      "--load-balance-method",
+      "total_tokens",
+      "--skip-server-warmup",
+      "--enable-dp-lm-head",
+      "--speculative-algorithm",
+      "NEXTN",
+      "--speculative-num-steps",
+      "1",
+      "--speculative-eagle-topk",
+      "1",
+      "--speculative-num-draft-tokens",
+      "2",
+      "--speculative-draft-model-quantization",
+      "modelslim",
+      "--enable-hierarchical-cache",
+      "--hicache-ratio",
+      "1.5",
+      "--hicache-size",
+      "0",
+      "--hicache-write-policy",
+      "write_through",
+      "--hicache-io-backend",
+      "kernel_ascend",
+      "--hicache-mem-layout",
+      "page_first_kv_split",
+      "--schedule-policy",
+      "lpm"
+    ],
+    "launch_script_sha256": "10d14866353eac0fdaae6d9b8fa7138eada26cbb4b2602d00ee7792f739169d0",
+    "counts": {
+      "runtime": 1,
+      "mooncake_support_imports": 18,
+      "distributed_initialized": 8,
+      "load_start": 16,
+      "load_complete": 16,
+      "mooncake_common_registration": 8,
+      "prefill_batches": 176
+    },
+    "utc_stage_bounds": {
+      "distributed_initialized": [
+        "2026-11-19 11:08:12",
+        "2026-11-19 11:08:12"
+      ],
+      "load_start": [
+        "2026-11-19 11:08:33",
+        "2026-11-19 11:13:27"
+      ],
+      "load_complete": [
+        "2026-11-19 11:12:46",
+        "2026-11-19 11:14:02"
+      ],
+      "prefill_batches": [
+        "2026-11-19 11:14:35",
+        "2026-11-19 11:17:43"
+      ]
+    },
+    "traces": {},
+    "admission_stop_counts": {},
+    "admission_field_totals": {},
+    "errors": {},
+    "error_examples": [],
+    "metrics": {
+      "sglang:hicache_backup_bytes_total": {
+        "series": 8,
+        "summed": 4105568256.0,
+        "peak": 916652032.0
+      },
+      "sglang:hicache_backup_duration_seconds_sum": {
+        "series": 8,
+        "summed": 0.3026757201552391,
+        "peak": 0.0614151599407196
+      },
+      "sglang:hicache_backup_tokens_total": {
+        "series": 8,
+        "summed": 40704.0,
+        "peak": 9088.0
+      },
+      "sglang:hicache_dropped_tokens_total": {
+        "series": 16,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:hicache_host_total_tokens": {
+        "series": 8,
+        "summed": 394240.0,
+        "peak": 49280.0
+      },
+      "sglang:hicache_host_used_tokens": {
+        "series": 8,
+        "summed": 37632.0,
+        "peak": 8704.0
+      },
+      "sglang:spec_accept_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_accept_rate": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_block_accept_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_cap_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_num_draft_tokens": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_num_steps": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      }
+    },
+    "storage_files": 0,
+    "storage_bytes": 0,
+    "object_stats": null
+  },
+  "decode-0": {
+    "service_profile": "spec-mooncake-one-ranklocal",
+    "admission_link": {
+      "scheduler_processes": 0,
+      "tagged_forward_rounds": 0,
+      "matched_to_scan": 0
+    },
+    "host_pool_configs": [],
+    "worker_linux_memory_kib": {
+      "1": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 12116188,
+        "VmRSS": 4467080
+      },
+      "3": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11696964,
+        "VmRSS": 4488224
+      },
+      "0": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11611876,
+        "VmRSS": 4472756
+      },
+      "4": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11830864,
+        "VmRSS": 4479540
+      },
+      "6": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11638716,
+        "VmRSS": 4472868
+      },
+      "5": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11577236,
+        "VmRSS": 4971192
+      },
+      "2": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11827928,
+        "VmRSS": 4498088
+      },
+      "7": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11781776,
+        "VmRSS": 4458656
+      }
+    },
+    "prefetch_event_sets": {},
+    "component": "multi-process log counts include all warmups and ranks",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "argv": [
+      "python3",
+      "-u",
+      "-m",
+      "sglang.launch_server",
+      "--model-path",
+      "/model",
+      "--served-model-name",
+      "glm52",
+      "--trust-remote-code",
+      "--device",
+      "npu",
+      "--dtype",
+      "bfloat16",
+      "--attention-backend",
+      "ascend",
+      "--sampling-backend",
+      "ascend",
+      "--quantization",
+      "modelslim",
+      "--tp-size",
+      "16",
+      "--attn-dp-size",
+      "16",
+      "--ep-size",
+      "1",
+      "--moe-a2a-backend",
+      "none",
+      "--nnodes",
+      "2",
+      "--node-rank",
+      "0",
+      "--dist-init-addr",
+      "<role-rendezvous>",
+      "--dist-timeout",
+      "360",
+      "--page-size",
+      "128",
+      "--kv-cache-dtype",
+      "bf16",
+      "--context-length",
+      "16384",
+      "--max-total-tokens",
+      "32768",
+      "--chunked-prefill-size",
+      "4096",
+      "--max-prefill-tokens",
+      "8192",
+      "--max-running-requests",
+      "32",
+      "--mem-fraction-static",
+      "0.9",
+      "--cuda-graph-backend-decode",
+      "disabled",
+      "--cuda-graph-backend-prefill",
+      "disabled",
+      "--disable-shared-experts-fusion",
+      "--host",
+      "<node-address>",
+      "--port",
+      "18684",
+      "--enable-metrics",
+      "--enable-cache-report",
+      "--disaggregation-mode",
+      "decode",
+      "--disaggregation-transfer-backend",
+      "mooncake",
+      "--disaggregation-bootstrap-port",
+      "18784",
+      "--load-balance-method",
+      "total_tokens",
+      "--skip-server-warmup",
+      "--enable-dp-lm-head",
+      "--speculative-algorithm",
+      "NEXTN",
+      "--speculative-num-steps",
+      "1",
+      "--speculative-eagle-topk",
+      "1",
+      "--speculative-num-draft-tokens",
+      "2",
+      "--speculative-draft-model-quantization",
+      "modelslim",
+      "--disable-overlap-schedule",
+      "--disaggregation-decode-enable-radix-cache"
+    ],
+    "launch_script_sha256": "10d14866353eac0fdaae6d9b8fa7138eada26cbb4b2602d00ee7792f739169d0",
+    "counts": {
+      "runtime": 1,
+      "mooncake_support_imports": 19,
+      "distributed_initialized": 8,
+      "load_start": 16,
+      "load_complete": 16,
+      "mooncake_common_registration": 8,
+      "http_ready": 1,
+      "decode_batches": 9
+    },
+    "utc_stage_bounds": {
+      "distributed_initialized": [
+        "2026-11-19 11:08:05",
+        "2026-11-19 11:08:05"
+      ],
+      "load_start": [
+        "2026-11-19 11:08:26",
+        "2026-11-19 11:13:08"
+      ],
+      "load_complete": [
+        "2026-11-19 11:12:15",
+        "2026-11-19 11:13:45"
+      ],
+      "http_ready": [
+        "2026-11-19 11:13:49",
+        "2026-11-19 11:13:49"
+      ],
+      "decode_batches": [
+        "2026-11-19 11:15:37",
+        "2026-11-19 11:17:51"
+      ]
+    },
+    "traces": {},
+    "admission_stop_counts": {},
+    "admission_field_totals": {},
+    "errors": {
+      "ImportError": 1
+    },
+    "error_examples": [],
+    "metrics": {
+      "sglang:spec_accept_length": {
+        "series": 8,
+        "summed": 12.298075075047358,
+        "peak": 1.7
+      },
+      "sglang:spec_accept_rate": {
+        "series": 8,
+        "summed": 4.298075075047357,
+        "peak": 0.7
+      },
+      "sglang:spec_block_accept_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_cap_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_num_draft_tokens": {
+        "series": 8,
+        "summed": 16.0,
+        "peak": 2.0
+      },
+      "sglang:spec_num_steps": {
+        "series": 8,
+        "summed": 8.0,
+        "peak": 1.0
+      },
+      "sglang:spec_verify_calls_total": {
+        "series": 1,
+        "summed": 1384.0,
+        "peak": 1384.0
+      }
+    },
+    "storage_files": 0,
+    "storage_bytes": 0,
+    "object_stats": null
+  },
+  "decode-1": {
+    "service_profile": "spec-mooncake-one-ranklocal",
+    "admission_link": {
+      "scheduler_processes": 0,
+      "tagged_forward_rounds": 0,
+      "matched_to_scan": 0
+    },
+    "host_pool_configs": [],
+    "worker_linux_memory_kib": {
+      "11": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11580660,
+        "VmRSS": 4931464
+      },
+      "14": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11560672,
+        "VmRSS": 4972004
+      },
+      "8": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11568308,
+        "VmRSS": 4995556
+      },
+      "10": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 12882876,
+        "VmRSS": 4977680
+      },
+      "12": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11539580,
+        "VmRSS": 4907696
+      },
+      "9": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11585152,
+        "VmRSS": 5018988
+      },
+      "13": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11871936,
+        "VmRSS": 4499428
+      },
+      "15": {
+        "VmLck": 0,
+        "VmPin": 0,
+        "VmHWM": 11511020,
+        "VmRSS": 4965304
+      }
+    },
+    "prefetch_event_sets": {},
+    "component": "multi-process log counts include all warmups and ranks",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "argv": [
+      "python3",
+      "-u",
+      "-m",
+      "sglang.launch_server",
+      "--model-path",
+      "/model",
+      "--served-model-name",
+      "glm52",
+      "--trust-remote-code",
+      "--device",
+      "npu",
+      "--dtype",
+      "bfloat16",
+      "--attention-backend",
+      "ascend",
+      "--sampling-backend",
+      "ascend",
+      "--quantization",
+      "modelslim",
+      "--tp-size",
+      "16",
+      "--attn-dp-size",
+      "16",
+      "--ep-size",
+      "1",
+      "--moe-a2a-backend",
+      "none",
+      "--nnodes",
+      "2",
+      "--node-rank",
+      "1",
+      "--dist-init-addr",
+      "<role-rendezvous>",
+      "--dist-timeout",
+      "360",
+      "--page-size",
+      "128",
+      "--kv-cache-dtype",
+      "bf16",
+      "--context-length",
+      "16384",
+      "--max-total-tokens",
+      "32768",
+      "--chunked-prefill-size",
+      "4096",
+      "--max-prefill-tokens",
+      "8192",
+      "--max-running-requests",
+      "32",
+      "--mem-fraction-static",
+      "0.9",
+      "--cuda-graph-backend-decode",
+      "disabled",
+      "--cuda-graph-backend-prefill",
+      "disabled",
+      "--disable-shared-experts-fusion",
+      "--host",
+      "<node-address>",
+      "--port",
+      "18684",
+      "--enable-metrics",
+      "--enable-cache-report",
+      "--disaggregation-mode",
+      "decode",
+      "--disaggregation-transfer-backend",
+      "mooncake",
+      "--disaggregation-bootstrap-port",
+      "18784",
+      "--load-balance-method",
+      "total_tokens",
+      "--skip-server-warmup",
+      "--enable-dp-lm-head",
+      "--speculative-algorithm",
+      "NEXTN",
+      "--speculative-num-steps",
+      "1",
+      "--speculative-eagle-topk",
+      "1",
+      "--speculative-num-draft-tokens",
+      "2",
+      "--speculative-draft-model-quantization",
+      "modelslim",
+      "--disable-overlap-schedule",
+      "--disaggregation-decode-enable-radix-cache"
+    ],
+    "launch_script_sha256": "10d14866353eac0fdaae6d9b8fa7138eada26cbb4b2602d00ee7792f739169d0",
+    "counts": {
+      "runtime": 1,
+      "mooncake_support_imports": 18,
+      "distributed_initialized": 8,
+      "load_start": 16,
+      "load_complete": 16,
+      "mooncake_common_registration": 8,
+      "decode_batches": 8
+    },
+    "utc_stage_bounds": {
+      "distributed_initialized": [
+        "2026-11-19 11:08:05",
+        "2026-11-19 11:08:05"
+      ],
+      "load_start": [
+        "2026-11-19 11:08:25",
+        "2026-11-19 11:13:08"
+      ],
+      "load_complete": [
+        "2026-11-19 11:11:53",
+        "2026-11-19 11:13:44"
+      ],
+      "decode_batches": [
+        "2026-11-19 11:17:21",
+        "2026-11-19 11:17:52"
+      ]
+    },
+    "traces": {},
+    "admission_stop_counts": {},
+    "admission_field_totals": {},
+    "errors": {},
+    "error_examples": [],
+    "metrics": {
+      "sglang:spec_accept_length": {
+        "series": 8,
+        "summed": 10.581840683431869,
+        "peak": 1.625
+      },
+      "sglang:spec_accept_rate": {
+        "series": 8,
+        "summed": 3.581840683431869,
+        "peak": 0.625
+      },
+      "sglang:spec_block_accept_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_cap_length": {
+        "series": 8,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:spec_num_draft_tokens": {
+        "series": 8,
+        "summed": 14.0,
+        "peak": 2.0
+      },
+      "sglang:spec_num_steps": {
+        "series": 8,
+        "summed": 7.0,
+        "peak": 1.0
+      }
+    },
+    "storage_files": 0,
+    "storage_bytes": 0,
+    "object_stats": null
+  }
+}

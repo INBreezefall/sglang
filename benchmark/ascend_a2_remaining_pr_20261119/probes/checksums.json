@@ -3,6 +3,10 @@
     "measured_sha256": "97d0841a817bfcdac97174a262c0fecddabbb7a58d8bdef90b73989f62f7aa39",
     "published_sha256": "541073853ee17aafd98b04e158c17040b739baf085f54f508f56797094747800"
   },
+  "retention-client.py": {
+    "measured_sha256": "90e50d5358722ee80ee53da643c8f5771a68815e59adcc24652e3f2ca5142cd1",
+    "published_sha256": "66eae1e82dd228ed03029fb9083771ed954823568f182b073a34c6562b3e2f29"
+  },
   "probe-b1a426a75127.py": {
     "measured_sha256": "b1a426a7512763b6b53a89771396b847055d046ed759e15476db34196ab864dc",
     "published_sha256": "640896215ee817fe6c66495fe9eb4ca1dc00567df9e80dbb8bb32770a91d45df"
@@ -74,5 +78,9 @@
   "answer-checks.py": {
     "measured_sha256": "b66a0351d1eb81500569d67fba2638e0088f4daa8cd89161dc3f7e680b8e21b0",
     "published_sha256": "ea5ad5476c0dcbe34d68e2dea5efc774a4b99549b220c3ae9ba9dc4136d5a99e"
+  },
+  "rank-seed-d577218e438e.py": {
+    "measured_sha256": "d577218e438ede32eee30b06ac49c74949eab8a242a19338f7f5eb07816dfed1",
+    "published_sha256": "47a7b35ca26c8a3c40d2cc9e205ce2f85fe5e56afdb817843b596c9ca23e8ab1"
   }
 }

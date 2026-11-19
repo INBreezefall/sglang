@@ -19,6 +19,11 @@
     "measured_sha256": "55ca9f29dfa4722f75f28fcbceb1508bad0fe6dba18b68620c6ffc3a7193d108",
     "public_sha256": "f878b2146b1c1926867dd3815ca15f8afb101af7284dcd986b1227536fc83e5c"
   },
+  "input-only-one": {
+    "launcher": "../launchers/launch-10d14866353e.sh",
+    "measured_sha256": "10d14866353eac0fdaae6d9b8fa7138eada26cbb4b2602d00ee7792f739169d0",
+    "public_sha256": "8b62812060f4416048523b116e458d8721365719c3cb66cd5c137560abf9b58b"
+  },
   "moe-tile": {
     "launcher": "../launchers/launch-988764d3c5d7.sh",
     "measured_sha256": "988764d3c5d75b717c7e80cea9b71e0fb100735fea6c890a7a2f75bd63511727",
@@ -33,6 +38,11 @@
     "launcher": "../launchers/launch-bcdf2d5ace03.sh",
     "measured_sha256": "bcdf2d5ace03bb978cbd0451ccf9d3115b732a978cec5d079ff20a26d5b9b41f",
     "public_sha256": "f04580be86fd65be27b9b9016a1e00ebfe3d6a130bad53d646d5e2048b82cf21"
+  },
+  "spec-moon-one": {
+    "launcher": "../launchers/launch-10d14866353e.sh",
+    "measured_sha256": "10d14866353eac0fdaae6d9b8fa7138eada26cbb4b2602d00ee7792f739169d0",
+    "public_sha256": "8b62812060f4416048523b116e458d8721365719c3cb66cd5c137560abf9b58b"
   },
   "store-control-r2": {
     "launcher": "../launchers/launch-e21f1997dd87.sh",

@@ -1,0 +1,43 @@
+{
+  "client_started": false,
+  "completed_formal_requests": 0,
+  "client_errors": [],
+  "role_status": {
+    "prefill-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [],
+      "errors": {}
+    },
+    "prefill-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [],
+      "errors": {}
+    },
+    "decode-0": {
+      "sha": "778d5a2d93c93a7a138ae072efc8f1332749e4aa",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:23927"
+      ],
+      "errors": {
+        "RuntimeError": 1
+      }
+    },
+    "decode-1": {
+      "sha": "778d5a2d93c93a7a138ae072efc8f1332749e4aa",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:65404"
+      ],
+      "errors": {
+        "RuntimeError": 1
+      }
+    }
+  }
+}

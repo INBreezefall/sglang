@@ -9,6 +9,7 @@ Each comparison verifies that all 72 request hashes and input lengths agree, tha
 | Change | Control → candidate | Mean TTFT (s) | Output tok/s | Exact candidate sequences vs control |
 | --- | --- | ---: | ---: | ---: |
 | [#48096](../results/48096.md) | evict-control → evict-tail | 12.29 → 12.93 | 11.11 → 12.43 | 11/72 |
+| [#48520](../results/48520.md) | spec-moon-one → input-only-one | 10.64 → 10.52 | 19.57 → 21.42 | 14/72 |
 | [#48540](../results/48540.md) | base1 → moe-tile | 23.36 → 17.90 | 11.83 → 13.13 | 13/72 |
 | [#48576](../results/48576.md) | store-object-main → store-trace-object | 11.12 → 9.06 | 16.83 → 16.76 | 13/72 |
 | [#48577](../results/48577.md) | store-object-main → store-metrics | 11.12 → 8.48 | 16.83 → 18.78 | 19/72 |
@@ -21,9 +22,11 @@ Each comparison verifies that all 72 request hashes and input lengths agree, tha
 | base2 | [72 requests](base2.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](base2-launcher.json) |
 | evict-control | [72 requests](evict-control.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](evict-control-launcher.json) |
 | evict-tail | [72 requests](evict-tail.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](evict-tail-launcher.json) |
+| input-only-one | [72 requests](input-only-one.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](input-only-one-launcher.json) |
 | moe-tile | [72 requests](moe-tile.json) | [client](../probes/client-306866803a4a.py) | [launcher](moe-tile-launcher.json) |
 | scan-trace | [72 requests](scan-trace.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](scan-trace-launcher.json) |
 | spec-control-r2 | [72 requests](spec-control-r2.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](spec-control-r2-launcher.json) |
+| spec-moon-one | [72 requests](spec-moon-one.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](spec-moon-one-launcher.json) |
 | store-control-r2 | [72 requests](store-control-r2.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-control-r2-launcher.json) |
 | store-metrics | [72 requests](store-metrics.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-metrics-launcher.json) |
 | store-object-main | [72 requests](store-object-main.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-object-main-launcher.json) |
@@ -39,9 +42,11 @@ The launchers below are the original measured scripts with node IP addresses rep
 | base2 | [launcher](../launchers/launch-6db341033f5e.sh) | Not collected |
 | evict-control | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](evict-control-answer-checks.json) |
 | evict-tail | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](evict-tail-answer-checks.json) |
+| input-only-one | [launcher](../launchers/launch-10d14866353e.sh) | [answers](input-only-one-answer-checks.json) |
 | moe-tile | [launcher](../launchers/launch-988764d3c5d7.sh) | Not collected |
 | scan-trace | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](scan-trace-answer-checks.json) |
 | spec-control-r2 | [launcher](../launchers/launch-bcdf2d5ace03.sh) | [answers](spec-control-r2-answer-checks.json) |
+| spec-moon-one | [launcher](../launchers/launch-10d14866353e.sh) | [answers](spec-moon-one-answer-checks.json) |
 | store-control-r2 | [launcher](../launchers/launch-e21f1997dd87.sh) | [answers](store-control-r2-answer-checks.json) |
 | store-metrics | [launcher](../launchers/launch-dc5f0368d108.sh) | [answers](store-metrics-answer-checks.json) |
 | store-object-main | [launcher](../launchers/launch-85d3f28d9ef2.sh) | [answers](store-object-main-answer-checks.json) |
@@ -52,14 +57,27 @@ The launchers below are the original measured scripts with node IP addresses rep
 Mooncake service launchers load a shared Python fixture on both arms. The thread mode binds the scheduler device on the native initialization thread. The thread-regions mode also uses the same allocation-region helper for both arms. Store the two files under /bench/moon-fixture. [Startup fixture](../launchers/mooncake/sitecustomize.py) · [Allocation-region helper](../launchers/mooncake/acl_regions.py) · [Original source and checksums](../runtime/mooncake-support.json) · [Unmodified initialization controls](../runtime/mooncake-init.json)
 
 
+The rank-primed NEXTN deployments attempted one synchronized set of 16 requests, one per decode rank, before the ordinary eight warmups and formal cache flush. The earlier main failed in the DSA indexer on an idle draft rank, even with synchronous decode. Successful priming was followed by the untimed one-page retention workload before the formal client.
+
+| Deployment | Rank priming | Receipts |
+| --- | --- | --- |
+| input-only-one | complete | [Rank results](input-only-one-rank-seeds.json) · [Client](../probes/rank-seed-d577218e438e.py) |
+| spec-moon-one | complete | [Rank results](spec-moon-one-rank-seeds.json) · [Client](../probes/rank-seed-d577218e438e.py) |
+
+The one-step NEXTN profile used one speculative step, two draft tokens, a DP-local LM head and synchronous decode on both source revisions. Multi-step main had raised an exception in `_draft_forward_idle` when an idle decode rank accessed absent DSA forward metadata. Another main launch stalled in two different Gloo broadcasts during draft-model initialization. The one-step profile omits the extra idle draft forwards, and the DP-local head avoids the TP logits-gatherer topology probe.
+
+
 ## Incomplete deployments
 
 | Deployment | Completed formal requests | Observed failure |
 | --- | ---: | --- |
+| decode-input-only | 0/72 | [observations](decode-input-only-attempt.json) |
 | draft-budget | 0/72 | [observations](draft-budget-attempt.json) |
 | draft-layout-r2 | 0/72 | [observations](draft-layout-r2-attempt.json) |
 | draft-layout | 0/72 | [observations](draft-layout-attempt.json) |
 | spec-control | 0/72 | [observations](spec-control-attempt.json) |
+| spec-moon-control-r2 | 0/72 | [observations](spec-moon-control-r2-attempt.json) |
+| spec-moon-control | 0/72 | [observations](spec-moon-control-attempt.json) |
 | store-control | 0/72 | [observations](store-control-attempt.json) |
 
 

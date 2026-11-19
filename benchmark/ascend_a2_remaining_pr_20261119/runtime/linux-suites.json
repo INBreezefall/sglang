@@ -3,114 +3,200 @@
     "sha": "877b20c1303ae59de3af2c9d82f1bfd11c4b8f57",
     "rc": 0,
     "summary": "8 passed, 14 warnings in 19.04s",
-    "log_sha256": "888cd43358fada7ccd64c5459c6af1196d24ac3daa290663c7a7cd88c6e261d2"
+    "log_sha256": "888cd43358fada7ccd64c5459c6af1196d24ac3daa290663c7a7cd88c6e261d2",
+    "test_files": [
+      "test/registered/unit/disaggregation/test_mooncake_ascend_registration.py"
+    ],
+    "pytest_output": "........                                                                 [100%]\n8 passed, 14 warnings in 19.04s\n"
   },
   "48632": {
     "sha": "77ba9f6f799f26e4ab0a43093d2a9dbd60f2ab4b",
     "rc": 0,
     "summary": "2 passed, 14 warnings in 17.88s",
-    "log_sha256": "c9a41992b0a76c1adf7e760a5f2ed1b1109982715ffdbdba2a5b5ba117a9ff76"
+    "log_sha256": "c9a41992b0a76c1adf7e760a5f2ed1b1109982715ffdbdba2a5b5ba117a9ff76",
+    "test_files": [
+      "test/registered/unit/disaggregation/test_mooncake_transfer_device_failure.py"
+    ],
+    "pytest_output": "..                                                                       [100%]\n2 passed, 14 warnings in 17.88s\n"
   },
   "48575": {
     "sha": "d225360ab183cb679885e3433d0a631e578a8ab0",
     "rc": 0,
     "summary": "5 passed, 16 warnings in 26.07s",
-    "log_sha256": "53020e9bf88b00a1d01430d30cfc5db7de8ef142a7434fd470cc09ee8cdffcfe"
+    "log_sha256": "53020e9bf88b00a1d01430d30cfc5db7de8ef142a7434fd470cc09ee8cdffcfe",
+    "test_files": [
+      "test/registered/unit/npu/test_npu_pinned_host_warmup.py"
+    ],
+    "pytest_output": ".....                                                                    [100%]\n5 passed, 16 warnings in 26.07s\n"
   },
   "49077": {
     "sha": "bb9c53a98e828ec38a3b4493b10c046858314837",
     "rc": 0,
     "summary": "3 passed, 14 warnings in 19.90s",
-    "log_sha256": "c80a5474695c80aeb3e958a8a19bd65d64dd1112f5dc21c90ce7ef783d6b95b4"
+    "log_sha256": "c80a5474695c80aeb3e958a8a19bd65d64dd1112f5dc21c90ce7ef783d6b95b4",
+    "test_files": [
+      "test/registered/unit/distributed/test_mooncake_transfer_engine.py"
+    ],
+    "pytest_output": "...                                                                      [100%]\n3 passed, 14 warnings in 19.90s\n"
   },
   "49029": {
     "sha": "7d66973c2b1e1103f612e129146628bb170d485a",
     "rc": 0,
     "summary": "4 passed, 14 warnings in 16.47s",
-    "log_sha256": "60fbb73ea5a1508344d7ffd8ef1ad2fb96696d1440b5c5cc26b6f5c1b1ba7098"
+    "log_sha256": "60fbb73ea5a1508344d7ffd8ef1ad2fb96696d1440b5c5cc26b6f5c1b1ba7098",
+    "test_files": [
+      "test/registered/unit/npu/test_cpu_retraction_host_oom.py"
+    ],
+    "pytest_output": "....                                                                     [100%]\n4 passed, 14 warnings in 16.47s\n"
   },
   "48096": {
     "sha": "4529862bc1ba51d239f68a29cfb8249abc4c0224",
     "rc": 0,
     "summary": "4 passed, 14 warnings in 39.35s",
-    "log_sha256": "ceb394b3ce6994ea6a207d496c69076b17e7cf38a8a68c2fa138b3134205cae2"
+    "log_sha256": "ceb394b3ce6994ea6a207d496c69076b17e7cf38a8a68c2fa138b3134205cae2",
+    "test_files": [
+      "test/registered/unit/mem_cache/test_full_leaf_tail_eviction.py"
+    ],
+    "pytest_output": "....                                                                     [100%]\n4 passed, 14 warnings in 39.35s\n"
   },
   "48538": {
     "sha": "05717bb9fda5c3e27647ffe5c8de71932dac8d8d",
     "rc": 0,
     "summary": "6 passed, 14 warnings in 18.95s",
-    "log_sha256": "de8d999ea05fe878bd3477959587172a2cd0ae0e8bc1fd94bf62d1de3e3be0bc"
+    "log_sha256": "de8d999ea05fe878bd3477959587172a2cd0ae0e8bc1fd94bf62d1de3e3be0bc",
+    "test_files": [
+      "test/registered/unit/mem_cache/test_hicache_mla_draft_layout.py"
+    ],
+    "pytest_output": "......                                                                   [100%]\n6 passed, 14 warnings in 18.95s\n"
   },
   "48576": {
     "sha": "a14908162bc267f96a1c9d8628bd46ca4792d065",
     "rc": 0,
     "summary": "13 passed, 14 warnings in 21.94s",
-    "log_sha256": "cab6ba7526a081d2eb52c2073d031cd0dbf6b0e242aa934eeedc86fdb05734e7"
+    "log_sha256": "cab6ba7526a081d2eb52c2073d031cd0dbf6b0e242aa934eeedc86fdb05734e7",
+    "test_files": [
+      "test/registered/unit/mem_cache/test_hicache_prefetch_timing_trace.py"
+    ],
+    "pytest_output": ".............                                                            [100%]\n13 passed, 14 warnings in 21.94s\n"
   },
   "48631": {
     "sha": "50cf45054aae04217bc20d9fead1f3dd4d8f1770",
     "rc": 0,
     "summary": "4 passed, 14 warnings in 18.05s",
-    "log_sha256": "197d39df6ecbceea476aa3631dedbef8d1ec37693181af43cca92f38e4c54a31"
+    "log_sha256": "197d39df6ecbceea476aa3631dedbef8d1ec37693181af43cca92f38e4c54a31",
+    "test_files": [
+      "test/registered/unit/model_loader/test_presharded_packed_nz.py"
+    ],
+    "pytest_output": "....                                                                     [100%]\n4 passed, 14 warnings in 18.05s\n"
   },
   "48597": {
     "sha": "d09125946350bfbb50d754a9df308b0e6a97748f",
     "rc": 0,
     "summary": "154 passed, 14 warnings in 29.29s",
-    "log_sha256": "b304f8ee397f79480d7faeb7276c2e7772c9ba624880bc46f74d93957cfb6cce"
+    "log_sha256": "b304f8ee397f79480d7faeb7276c2e7772c9ba624880bc46f74d93957cfb6cce",
+    "test_files": [
+      "test/registered/unit/disaggregation/test_decode_queue_cleanup.py",
+      "test/registered/unit/disaggregation/test_disaggregation_wire.py",
+      "test/registered/unit/disaggregation/test_rebootstrap_stage_counts.py",
+      "test/registered/unit/managers/test_priority_scheduling_disaggregation.py"
+    ],
+    "pytest_output": "........................................................................ [ 46%]\n........................................................................ [ 93%]\n..........                                                               [100%]\n154 passed, 14 warnings in 29.29s\n"
   },
   "48543": {
     "sha": "2877db5d3bf6b4e556f5a41d8e11576f7a947401",
     "rc": 0,
     "summary": "5 passed, 14 warnings in 16.73s",
-    "log_sha256": "d485219d5093b23bada71d36f4aa3177d04f83f6bc8137e5a6e4a3867bb3aaaf"
+    "log_sha256": "d485219d5093b23bada71d36f4aa3177d04f83f6bc8137e5a6e4a3867bb3aaaf",
+    "test_files": [
+      "test/registered/unit/mem_cache/test_npu_host_allocator.py"
+    ],
+    "pytest_output": ".....                                                                    [100%]\n5 passed, 14 warnings in 16.73s\n"
   },
   "48599": {
     "sha": "7541d7410e7c37dd35130e16167f83b1b30516b5",
     "rc": 0,
     "summary": "71 passed, 14 warnings in 24.21s",
-    "log_sha256": "ac1fda6a5a20afb7b0ce1e2852812f69e9688d930e0edfa21578d51521f0685c"
+    "log_sha256": "ac1fda6a5a20afb7b0ce1e2852812f69e9688d930e0edfa21578d51521f0685c",
+    "test_files": [
+      "test/registered/unit/managers/test_batch_result_processor_spec_grammar.py",
+      "test/registered/unit/managers/test_hicache_source_breakdown.py",
+      "test/registered/unit/managers/test_output_streamer_customized_info.py",
+      "test/registered/unit/mem_cache/test_unified_hicache_host_source.py"
+    ],
+    "pytest_output": ".......................................................................  [100%]\n71 passed, 14 warnings in 24.21s\n"
   },
   "48574": {
     "sha": "9ba34b92034e82cb7336447e3e3fc9c500465f5d",
     "rc": 0,
     "summary": "3 passed, 14 warnings in 20.22s",
-    "log_sha256": "59588cbdbbeeabaed6109788ebbe50ade5079e9730143664b8629bcd03022e2c"
+    "log_sha256": "59588cbdbbeeabaed6109788ebbe50ade5079e9730143664b8629bcd03022e2c",
+    "test_files": [
+      "test/registered/unit/npu/test_deepep_normal_bf16_policy.py"
+    ],
+    "pytest_output": "...                                                                      [100%]\n3 passed, 14 warnings in 20.22s\n"
   },
   "48630": {
     "sha": "f0f024dcfd70f615066ccd108bac85bb438b1dc0",
     "rc": 0,
     "summary": "3 passed, 14 warnings in 26.58s",
-    "log_sha256": "ac34c87f552ff144ed22729715b531b6ef7ce1c541c77566fd9c02c9aa13183b"
+    "log_sha256": "ac34c87f552ff144ed22729715b531b6ef7ce1c541c77566fd9c02c9aa13183b",
+    "test_files": [
+      "test/registered/unit/managers/test_prefill_admission_trace.py"
+    ],
+    "pytest_output": "...                                                                      [100%]\n3 passed, 14 warnings in 26.58s\n"
   },
   "48843": {
     "sha": "3a760a253bf52904622078190c2e824ada5af666",
     "rc": 0,
     "summary": "8 passed, 14 warnings in 16.29s",
-    "log_sha256": "356521edff73d9e1ec3222c61444df6534da936d60cdb186b938b340940d01a2"
+    "log_sha256": "356521edff73d9e1ec3222c61444df6534da936d60cdb186b938b340940d01a2",
+    "test_files": [
+      "test/registered/unit/distributed/test_shm_broadcast_port_windows.py"
+    ],
+    "pytest_output": "........                                                                 [100%]\n8 passed, 14 warnings in 16.29s\n"
   },
   "48577": {
     "sha": "5239c4443cfbd15a2d6ff8037f1891e8b6a23e2a",
     "rc": 0,
     "summary": "62 passed, 14 warnings in 25.95s",
-    "log_sha256": "5914325ab5f9e1f4e8d2a8f06339a039f5914e5fc3feee8ebfcc099d7e7610ab"
+    "log_sha256": "5914325ab5f9e1f4e8d2a8f06339a039f5914e5fc3feee8ebfcc099d7e7610ab",
+    "test_files": [
+      "test/registered/unit/mem_cache/test_hicache_metrics.py",
+      "test/registered/unit/observability/test_ray_wrappers.py",
+      "test/registered/unit/observability/test_stat_loggers_di.py"
+    ],
+    "pytest_output": "..............................................................           [100%]\n62 passed, 14 warnings in 25.95s\n"
   },
   "48520": {
     "sha": "778d5a2d93c93a7a138ae072efc8f1332749e4aa",
     "rc": 0,
     "summary": "9 passed, 14 warnings in 22.68s",
-    "log_sha256": "07f496fdb4f22fab89807c4789c3e12d44e8778f651c891dd70775a1f9997447"
+    "log_sha256": "07f496fdb4f22fab89807c4789c3e12d44e8778f651c891dd70775a1f9997447",
+    "test_files": [
+      "test/registered/unit/mem_cache/test_pd_decode_input_only_cache.py"
+    ],
+    "pytest_output": ".........                                                                [100%]\n9 passed, 14 warnings in 22.68s\n"
   },
   "49183": {
     "sha": "1b789051388cdf4bdd352c0b013840d93da834fe",
     "rc": 0,
     "summary": "78 passed, 14 warnings in 23.15s",
-    "log_sha256": "92ed8cfb30e0fc663974d2e0835fe7fd58e9e37203eb9a409c5446235727ea5b"
+    "log_sha256": "92ed8cfb30e0fc663974d2e0835fe7fd58e9e37203eb9a409c5446235727ea5b",
+    "test_files": [
+      "test/registered/unit/mem_cache/test_hicache_draft_size.py",
+      "test/registered/unit/mem_cache/test_hybrid_pool_assembler.py",
+      "test/registered/unit/mem_cache/test_linker_pool_assembler.py"
+    ],
+    "pytest_output": "........................................................................ [ 92%]\n......                                                                   [100%]\n78 passed, 14 warnings in 23.15s\n"
   },
   "48540": {
     "sha": "f3abcca21babe692b2b6d90c463341274471ebbb",
     "rc": 0,
     "summary": "4 passed, 14 warnings in 20.16s",
-    "log_sha256": "d6ecf34316498a0f5154498c7b4240c129773a0eb7f3eb212df9d629895e60fc"
+    "log_sha256": "d6ecf34316498a0f5154498c7b4240c129773a0eb7f3eb212df9d629895e60fc",
+    "test_files": [
+      "test/registered/unit/moe/test_prefill_moe_tile.py"
+    ],
+    "pytest_output": "....                                                                     [100%]\n4 passed, 14 warnings in 20.16s\n"
   }
 }
