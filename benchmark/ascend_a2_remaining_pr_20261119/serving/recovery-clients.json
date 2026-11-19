@@ -1,17 +1,9 @@
 {
-  "store-trace": {
-    "source": "../probes/storage-recovery-68df42b28cc5.py",
-    "sha256": "68df42b28cc56314f7c7537d2d87dc8b081a1d7d91b2548a1fc2f870e4e619ef"
+  "store-control-r2": {
+    "source": "../probes/storage-recovery-client.py",
+    "sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4"
   },
   "store-trace-object": {
-    "source": "../probes/storage-recovery-client.py",
-    "sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4"
-  },
-  "store-object-main": {
-    "source": "../probes/storage-recovery-client.py",
-    "sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4"
-  },
-  "store-origins": {
     "source": "../probes/storage-recovery-client.py",
     "sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4"
   },
@@ -19,7 +11,15 @@
     "source": "../probes/storage-recovery-client.py",
     "sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4"
   },
-  "store-control-r2": {
+  "store-trace": {
+    "source": "../probes/storage-recovery-68df42b28cc5.py",
+    "sha256": "68df42b28cc56314f7c7537d2d87dc8b081a1d7d91b2548a1fc2f870e4e619ef"
+  },
+  "store-object-main": {
+    "source": "../probes/storage-recovery-client.py",
+    "sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4"
+  },
+  "store-origins": {
     "source": "../probes/storage-recovery-client.py",
     "sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4"
   }

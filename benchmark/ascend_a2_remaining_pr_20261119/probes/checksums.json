@@ -63,13 +63,13 @@
     "measured_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
     "published_sha256": "4b99c6f075e2e47458a2bd7e944d5c60923800a9399a746223e3812a9c11cf97"
   },
-  "storage-recovery-68df42b28cc5.py": {
-    "measured_sha256": "68df42b28cc56314f7c7537d2d87dc8b081a1d7d91b2548a1fc2f870e4e619ef",
-    "published_sha256": "440f01072f8a5506eb607319bae347f39605c0c48d07929876a715c0825728c7"
-  },
   "storage-recovery-client.py": {
     "measured_sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4",
     "published_sha256": "73965ad2ec1e5cfa19cc4785e9f3e60b5613b0bae1c17f854dbc95036ba01a3c"
+  },
+  "storage-recovery-68df42b28cc5.py": {
+    "measured_sha256": "68df42b28cc56314f7c7537d2d87dc8b081a1d7d91b2548a1fc2f870e4e619ef",
+    "published_sha256": "440f01072f8a5506eb607319bae347f39605c0c48d07929876a715c0825728c7"
   },
   "answer-checks.py": {
     "measured_sha256": "b66a0351d1eb81500569d67fba2638e0088f4daa8cd89161dc3f7e680b8e21b0",

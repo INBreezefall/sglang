@@ -56,6 +56,7 @@ Mooncake service launchers load a shared Python fixture on both arms. The thread
 
 | Deployment | Completed formal requests | Observed failure |
 | --- | ---: | --- |
+| draft-budget | 0/72 | [observations](draft-budget-attempt.json) |
 | draft-layout-r2 | 0/72 | [observations](draft-layout-r2-attempt.json) |
 | draft-layout | 0/72 | [observations](draft-layout-attempt.json) |
 | spec-control | 0/72 | [observations](spec-control-attempt.json) |

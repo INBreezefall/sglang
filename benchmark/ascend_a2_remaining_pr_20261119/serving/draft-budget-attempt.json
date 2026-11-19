@@ -1,0 +1,52 @@
+{
+  "client_started": true,
+  "completed_formal_requests": 0,
+  "client_errors": [
+    "RuntimeError: prefill HTTP 500 {\"object\":\"error\",\"message\":\"Prefill transfer failed for request rank=8 req.rid='ab-118788777-0-0-9' req.bootstrap_room=1992944970104841 with exception KVTransferError(bootstrap_room=199294"
+  ],
+  "role_status": {
+    "prefill-0": {
+      "sha": "1b789051388cdf4bdd352c0b013840d93da834fe",
+      "http_ready": 1,
+      "weight_load_end": 16,
+      "error_examples": [],
+      "errors": {
+        "ImportError": 1
+      }
+    },
+    "prefill-1": {
+      "sha": "1b789051388cdf4bdd352c0b013840d93da834fe",
+      "http_ready": 0,
+      "weight_load_end": 16,
+      "error_examples": [],
+      "errors": {}
+    },
+    "decode-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 1,
+      "weight_load_end": 16,
+      "error_examples": [],
+      "errors": {
+        "ImportError": 1
+      }
+    },
+    "decode-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 16,
+      "error_examples": [
+        "'NoneType' object has no attribute 'seq_lens_cpu_int'"
+      ],
+      "errors": {
+        "AttributeError": 2
+      }
+    }
+  },
+  "operator_observation": {
+    "stage": "First formal wave after all eight warmups",
+    "decode_source": "upstream main",
+    "decode_stack": "deepseek_nextn.forward -> forward_dsa_prepare_npu -> dsa_npu_indexer.forward_npu",
+    "decode_error": "forward_metadata was None when reading seq_lens_cpu_int at dsa_npu_indexer.py:279",
+    "client_outcome": "No full 24-request wave was saved. The client received HTTP 500 from prefill after a KV transfer failed."
+  }
+}
