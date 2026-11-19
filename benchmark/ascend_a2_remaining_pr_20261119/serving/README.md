@@ -15,6 +15,7 @@ Each comparison verifies that all 72 request hashes and input lengths agree, tha
 | [#48577](../results/48577.md) | store-object-main → store-metrics | 11.12 → 8.48 | 16.83 → 18.78 | 19/72 |
 | [#48599](../results/48599.md) | store-object-main → store-origins | 11.12 → 8.07 | 16.83 → 20.18 | 11/72 |
 | [#48630](../results/48630.md) | base2 → scan-trace | 9.58 → 8.51 | 18.13 → 19.39 | 13/72 |
+| [#49077](../results/49077.md) | spec-moon-one → moon-endpoint | 10.64 → 9.62 | 19.57 → 22.48 | 12/72 |
 
 | Deployment | Client data | Measured client | Launcher and counters |
 | --- | --- | --- | --- |
@@ -24,6 +25,7 @@ Each comparison verifies that all 72 request hashes and input lengths agree, tha
 | evict-tail | [72 requests](evict-tail.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](evict-tail-launcher.json) |
 | input-only-one | [72 requests](input-only-one.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](input-only-one-launcher.json) |
 | moe-tile | [72 requests](moe-tile.json) | [client](../probes/client-306866803a4a.py) | [launcher](moe-tile-launcher.json) |
+| moon-endpoint | [72 requests](moon-endpoint.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](moon-endpoint-launcher.json) |
 | scan-trace | [72 requests](scan-trace.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](scan-trace-launcher.json) |
 | spec-control-r2 | [72 requests](spec-control-r2.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](spec-control-r2-launcher.json) |
 | spec-moon-one | [72 requests](spec-moon-one.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](spec-moon-one-launcher.json) |
@@ -44,6 +46,7 @@ The launchers below are the original measured scripts with node IP addresses rep
 | evict-tail | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](evict-tail-answer-checks.json) |
 | input-only-one | [launcher](../launchers/launch-10d14866353e.sh) | [answers](input-only-one-answer-checks.json) |
 | moe-tile | [launcher](../launchers/launch-988764d3c5d7.sh) | Not collected |
+| moon-endpoint | [launcher](../launchers/launch-10d14866353e.sh) | [answers](moon-endpoint-answer-checks.json) |
 | scan-trace | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](scan-trace-answer-checks.json) |
 | spec-control-r2 | [launcher](../launchers/launch-bcdf2d5ace03.sh) | [answers](spec-control-r2-answer-checks.json) |
 | spec-moon-one | [launcher](../launchers/launch-10d14866353e.sh) | [answers](spec-moon-one-answer-checks.json) |
@@ -62,6 +65,7 @@ The rank-primed NEXTN deployments attempted one synchronized set of 16 requests,
 | Deployment | Rank priming | Receipts |
 | --- | --- | --- |
 | input-only-one | complete | [Rank results](input-only-one-rank-seeds.json) · [Client](../probes/rank-seed-d577218e438e.py) |
+| moon-endpoint | complete | [Rank results](moon-endpoint-rank-seeds.json) · [Client](../probes/rank-seed-d577218e438e.py) |
 | spec-moon-one | complete | [Rank results](spec-moon-one-rank-seeds.json) · [Client](../probes/rank-seed-d577218e438e.py) |
 
 The one-step NEXTN profile used one speculative step, two draft tokens, a DP-local LM head and synchronous decode on both source revisions. Multi-step main had raised an exception in `_draft_forward_idle` when an idle decode rank accessed absent DSA forward metadata. Another main launch stalled in two different Gloo broadcasts during draft-model initialization. The one-step profile omits the extra idle draft forwards, and the DP-local head avoids the TP logits-gatherer topology probe.

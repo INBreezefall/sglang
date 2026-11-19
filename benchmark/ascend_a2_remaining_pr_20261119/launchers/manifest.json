@@ -29,6 +29,11 @@
     "measured_sha256": "988764d3c5d75b717c7e80cea9b71e0fb100735fea6c890a7a2f75bd63511727",
     "public_sha256": "67dbd8383f8d9df7b567a1e82391d00b1d1d457709b0e98b52ffd1859ea99420"
   },
+  "moon-endpoint": {
+    "launcher": "../launchers/launch-10d14866353e.sh",
+    "measured_sha256": "10d14866353eac0fdaae6d9b8fa7138eada26cbb4b2602d00ee7792f739169d0",
+    "public_sha256": "8b62812060f4416048523b116e458d8721365719c3cb66cd5c137560abf9b58b"
+  },
   "scan-trace": {
     "launcher": "../launchers/launch-55ca9f29dfa4.sh",
     "measured_sha256": "55ca9f29dfa4722f75f28fcbceb1508bad0fe6dba18b68620c6ffc3a7193d108",

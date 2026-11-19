@@ -1,0 +1,54 @@
+{
+  "probe_sha256": "7fa4eec8b736f5d706908ddb967fc61af4d201499e1e68a85128be4abc0a23ea",
+  "launcher_sha256": "ea81f4ec02ca410498423ffbfb9711585280066487e1b2fcb7aa8c34f9b9bd1c",
+  "main": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+  "head": "9ba34b92034e82cb7336447e3e3fc9c500465f5d",
+  "rounds": [
+    [
+      {
+        "group": 0,
+        "node_rank": 0,
+        "flag": 0,
+        "returncode": 1,
+        "errors": [
+          "[rank0]: RuntimeError: createHCCLCommOrigin:../torch_npu/csrc/distributed/ProcessGroupHCCL.cpp:2801 HCCL function error: hcclGetRootInfo(&hcclID), error code is 1"
+        ],
+        "processes": []
+      },
+      {
+        "group": 0,
+        "node_rank": 1,
+        "flag": 0,
+        "returncode": 1,
+        "errors": [
+          "[rank8]: RuntimeError: [8] is setting up HCCL communicator and retrieving hcclUniqueId from [0] via c10d key-value store by key '0', but store->get('0') got error: Failed to recv, ",
+          "[rank9]: RuntimeError: [9] is setting up HCCL communicator and retrieving hcclUniqueId from [0] via c10d key-value store by key '0', but store->get('0') got error: Failed to recv, ",
+          "[rank11]: RuntimeError: [11] is setting up HCCL communicator and retrieving hcclUniqueId from [0] via c10d key-value store by key '0', but store->get('0') got error: Failed to recv"
+        ],
+        "processes": []
+      },
+      {
+        "group": 1,
+        "node_rank": 0,
+        "flag": 1,
+        "returncode": 1,
+        "errors": [
+          "[rank0]: RuntimeError: createHCCLCommOrigin:../torch_npu/csrc/distributed/ProcessGroupHCCL.cpp:2801 HCCL function error: hcclGetRootInfo(&hcclID), error code is 1"
+        ],
+        "processes": []
+      },
+      {
+        "group": 1,
+        "node_rank": 1,
+        "flag": 1,
+        "returncode": 1,
+        "errors": [
+          "[rank12]: RuntimeError: [12] is setting up HCCL communicator and retrieving hcclUniqueId from [0] via c10d key-value store by key '0', but store->get('0') got error: Failed to recv",
+          "[rank13]: RuntimeError: [13] is setting up HCCL communicator and retrieving hcclUniqueId from [0] via c10d key-value store by key '0', but store->get('0') got error: Failed to recv",
+          "[rank14]: RuntimeError: [14] is setting up HCCL communicator and retrieving hcclUniqueId from [0] via c10d key-value store by key '0', but store->get('0') got error: Failed to recv"
+        ],
+        "processes": []
+      }
+    ]
+  ]
+}

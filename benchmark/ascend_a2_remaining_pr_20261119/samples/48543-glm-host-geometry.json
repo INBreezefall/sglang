@@ -1,0 +1,766 @@
+[
+  {
+    "device": "0",
+    "feature": 48543,
+    "mode": "default",
+    "script_sha256": "9b9885bf72f7241d38bf3749c9e457ebb52803e9e0bbb9e1663a23fcaa71f237",
+    "raw_hashes": [
+      "9a8abd98932d7e5bf65758b52b00f7c57c16c0d861a3bdd79078dc659608b431",
+      "9c2fd29f69333fd133d6f03b3a2147e66e0bf08d9e7f7b06a6306962a4c5ca10",
+      "81a1c72bb5d7015cb83734b2538307a077b654869e4b95ab88e6d425534bdc60",
+      "afd94d3ad1df6df57ffff03c61e25880c1ec788369195a43df424ba817545d17"
+    ],
+    "runs": [
+      {
+        "feature": 48543,
+        "flag": 0,
+        "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+        "device": "Ascend910B4-1",
+        "logical_tokens": 49280,
+        "mappings": [
+          {
+            "label": "latent_k",
+            "shape": [
+              385,
+              78,
+              128,
+              512
+            ],
+            "payload_bytes": 3936092160,
+            "allocation_ms": 29.419401
+          },
+          {
+            "label": "rope",
+            "shape": [
+              385,
+              78,
+              128,
+              64
+            ],
+            "payload_bytes": 492011520,
+            "allocation_ms": 2.944678
+          },
+          {
+            "label": "index_k",
+            "shape": [
+              385,
+              78,
+              128,
+              128
+            ],
+            "payload_bytes": 984023040,
+            "allocation_ms": 5.613865
+          }
+        ],
+        "hook_ms": 0.05443,
+        "transfer_ms": [
+          [
+            7.953722,
+            0.22809
+          ],
+          [
+            0.140591,
+            0.16279
+          ],
+          [
+            0.1129,
+            0.25732
+          ],
+          [
+            0.108211,
+            0.08803
+          ],
+          [
+            0.092631,
+            0.0847
+          ],
+          [
+            0.089511,
+            0.08189
+          ],
+          [
+            0.090961,
+            0.08783
+          ],
+          [
+            0.095021,
+            0.09365
+          ],
+          [
+            0.094681,
+            0.08569
+          ]
+        ],
+        "roundtrip_sha256": [
+          "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2",
+          "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024",
+          "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986",
+          "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a",
+          "4d079cbe3e4dd91d64fadca762af8de2ebad399e1e3dbad3087d9c713944cea5",
+          "d8df11979e6f88ed8db90feac8213d6e73ac8fef6d66b4e7e036743220a9fbd5",
+          "c487d2aac244417adcbc1ef4a82a6d2db0d66051a2231efae7a43a2d62e4aaf9",
+          "77e0d5e1faa3df98eb221b574c6da072bef7699c58dd4b98bdad53538f3e611d",
+          "6e734665315f64124dc314198c4a6ec9521b298086723e4a5cd87b8732dfe876"
+        ]
+      },
+      {
+        "feature": 48543,
+        "flag": 1,
+        "sha": "2877db5d3bf6b4e556f5a41d8e11576f7a947401",
+        "device": "Ascend910B4-1",
+        "logical_tokens": 49280,
+        "mappings": [
+          {
+            "label": "latent_k",
+            "shape": [
+              385,
+              78,
+              128,
+              512
+            ],
+            "payload_bytes": 3936092160,
+            "allocation_ms": 30.995465
+          },
+          {
+            "label": "rope",
+            "shape": [
+              385,
+              78,
+              128,
+              64
+            ],
+            "payload_bytes": 492011520,
+            "allocation_ms": 3.032709
+          },
+          {
+            "label": "index_k",
+            "shape": [
+              385,
+              78,
+              128,
+              128
+            ],
+            "payload_bytes": 984023040,
+            "allocation_ms": 5.685576
+          }
+        ],
+        "hook_ms": 0.05373,
+        "transfer_ms": [
+          [
+            7.704591,
+            0.709191
+          ],
+          [
+            0.217771,
+            0.11206
+          ],
+          [
+            0.264271,
+            0.26586
+          ],
+          [
+            0.105861,
+            0.08747
+          ],
+          [
+            0.100651,
+            0.07882
+          ],
+          [
+            0.088031,
+            0.07317
+          ],
+          [
+            0.094741,
+            0.07794
+          ],
+          [
+            0.088681,
+            0.08674
+          ],
+          [
+            0.135901,
+            0.08245
+          ]
+        ],
+        "roundtrip_sha256": [
+          "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2",
+          "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024",
+          "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986",
+          "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a",
+          "4d079cbe3e4dd91d64fadca762af8de2ebad399e1e3dbad3087d9c713944cea5",
+          "d8df11979e6f88ed8db90feac8213d6e73ac8fef6d66b4e7e036743220a9fbd5",
+          "c487d2aac244417adcbc1ef4a82a6d2db0d66051a2231efae7a43a2d62e4aaf9",
+          "77e0d5e1faa3df98eb221b574c6da072bef7699c58dd4b98bdad53538f3e611d",
+          "6e734665315f64124dc314198c4a6ec9521b298086723e4a5cd87b8732dfe876"
+        ]
+      },
+      {
+        "feature": 48543,
+        "flag": 1,
+        "sha": "2877db5d3bf6b4e556f5a41d8e11576f7a947401",
+        "device": "Ascend910B4-1",
+        "logical_tokens": 49280,
+        "mappings": [
+          {
+            "label": "latent_k",
+            "shape": [
+              385,
+              78,
+              128,
+              512
+            ],
+            "payload_bytes": 3936092160,
+            "allocation_ms": 29.882682
+          },
+          {
+            "label": "rope",
+            "shape": [
+              385,
+              78,
+              128,
+              64
+            ],
+            "payload_bytes": 492011520,
+            "allocation_ms": 3.002918
+          },
+          {
+            "label": "index_k",
+            "shape": [
+              385,
+              78,
+              128,
+              128
+            ],
+            "payload_bytes": 984023040,
+            "allocation_ms": 5.636925
+          }
+        ],
+        "hook_ms": 0.055141,
+        "transfer_ms": [
+          [
+            7.56207,
+            0.695302
+          ],
+          [
+            0.180491,
+            0.14072
+          ],
+          [
+            0.231351,
+            0.19822
+          ],
+          [
+            0.125511,
+            0.1048
+          ],
+          [
+            0.115081,
+            0.13508
+          ],
+          [
+            0.12674,
+            0.09734
+          ],
+          [
+            0.15003,
+            0.09657
+          ],
+          [
+            0.09429,
+            0.08633
+          ],
+          [
+            0.12425,
+            0.074681
+          ]
+        ],
+        "roundtrip_sha256": [
+          "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2",
+          "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024",
+          "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986",
+          "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a",
+          "4d079cbe3e4dd91d64fadca762af8de2ebad399e1e3dbad3087d9c713944cea5",
+          "d8df11979e6f88ed8db90feac8213d6e73ac8fef6d66b4e7e036743220a9fbd5",
+          "c487d2aac244417adcbc1ef4a82a6d2db0d66051a2231efae7a43a2d62e4aaf9",
+          "77e0d5e1faa3df98eb221b574c6da072bef7699c58dd4b98bdad53538f3e611d",
+          "6e734665315f64124dc314198c4a6ec9521b298086723e4a5cd87b8732dfe876"
+        ]
+      },
+      {
+        "feature": 48543,
+        "flag": 0,
+        "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+        "device": "Ascend910B4-1",
+        "logical_tokens": 49280,
+        "mappings": [
+          {
+            "label": "latent_k",
+            "shape": [
+              385,
+              78,
+              128,
+              512
+            ],
+            "payload_bytes": 3936092160,
+            "allocation_ms": 30.138403
+          },
+          {
+            "label": "rope",
+            "shape": [
+              385,
+              78,
+              128,
+              64
+            ],
+            "payload_bytes": 492011520,
+            "allocation_ms": 2.913018
+          },
+          {
+            "label": "index_k",
+            "shape": [
+              385,
+              78,
+              128,
+              128
+            ],
+            "payload_bytes": 984023040,
+            "allocation_ms": 5.538405
+          }
+        ],
+        "hook_ms": 0.05413,
+        "transfer_ms": [
+          [
+            7.749231,
+            0.149191
+          ],
+          [
+            0.12413,
+            0.10819
+          ],
+          [
+            0.11596,
+            0.189441
+          ],
+          [
+            0.10421,
+            0.08869
+          ],
+          [
+            0.09502,
+            0.09395
+          ],
+          [
+            0.09548,
+            0.08413
+          ],
+          [
+            0.09541,
+            0.11756
+          ],
+          [
+            0.09869,
+            0.09275
+          ],
+          [
+            0.09621,
+            0.08675
+          ]
+        ],
+        "roundtrip_sha256": [
+          "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2",
+          "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024",
+          "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986",
+          "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a",
+          "4d079cbe3e4dd91d64fadca762af8de2ebad399e1e3dbad3087d9c713944cea5",
+          "d8df11979e6f88ed8db90feac8213d6e73ac8fef6d66b4e7e036743220a9fbd5",
+          "c487d2aac244417adcbc1ef4a82a6d2db0d66051a2231efae7a43a2d62e4aaf9",
+          "77e0d5e1faa3df98eb221b574c6da072bef7699c58dd4b98bdad53538f3e611d",
+          "6e734665315f64124dc314198c4a6ec9521b298086723e4a5cd87b8732dfe876"
+        ]
+      }
+    ]
+  },
+  {
+    "device": "0",
+    "feature": 48543,
+    "mode": "default",
+    "script_sha256": "9b9885bf72f7241d38bf3749c9e457ebb52803e9e0bbb9e1663a23fcaa71f237",
+    "raw_hashes": [
+      "cf9a8eebe4f143a8e19b80c0d35143fc0a51b230e9b39261679586953e42f501",
+      "e4d66a4a067da6a937e52bce18774296210859669c19c85a0aceecb0346d3af2",
+      "37cbc84ea70fc8869f44bfdebdeb70ba712cfe2bef43f4fa099f8da88d6841a0",
+      "dfe7777e7af417111de34c6e8a86d53725ef5cb70640b57ec1cb9f82eb5ecd6b"
+    ],
+    "runs": [
+      {
+        "feature": 48543,
+        "flag": 0,
+        "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+        "device": "Ascend910B4-1",
+        "logical_tokens": 49280,
+        "mappings": [
+          {
+            "label": "latent_k",
+            "shape": [
+              385,
+              78,
+              128,
+              512
+            ],
+            "payload_bytes": 3936092160,
+            "allocation_ms": 28.445689
+          },
+          {
+            "label": "rope",
+            "shape": [
+              385,
+              78,
+              128,
+              64
+            ],
+            "payload_bytes": 492011520,
+            "allocation_ms": 2.870514
+          },
+          {
+            "label": "index_k",
+            "shape": [
+              385,
+              78,
+              128,
+              128
+            ],
+            "payload_bytes": 984023040,
+            "allocation_ms": 5.366107
+          }
+        ],
+        "hook_ms": 0.05565,
+        "transfer_ms": [
+          [
+            7.58473,
+            0.14345
+          ],
+          [
+            0.13703,
+            0.197001
+          ],
+          [
+            0.17508,
+            0.274401
+          ],
+          [
+            0.12699,
+            0.102071
+          ],
+          [
+            0.15161,
+            0.15362
+          ],
+          [
+            0.104261,
+            0.09806
+          ],
+          [
+            0.09767,
+            0.10954
+          ],
+          [
+            0.105131,
+            0.0977
+          ],
+          [
+            0.10331,
+            0.09391
+          ]
+        ],
+        "roundtrip_sha256": [
+          "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2",
+          "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024",
+          "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986",
+          "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a",
+          "4d079cbe3e4dd91d64fadca762af8de2ebad399e1e3dbad3087d9c713944cea5",
+          "d8df11979e6f88ed8db90feac8213d6e73ac8fef6d66b4e7e036743220a9fbd5",
+          "c487d2aac244417adcbc1ef4a82a6d2db0d66051a2231efae7a43a2d62e4aaf9",
+          "77e0d5e1faa3df98eb221b574c6da072bef7699c58dd4b98bdad53538f3e611d",
+          "6e734665315f64124dc314198c4a6ec9521b298086723e4a5cd87b8732dfe876"
+        ]
+      },
+      {
+        "feature": 48543,
+        "flag": 1,
+        "sha": "2877db5d3bf6b4e556f5a41d8e11576f7a947401",
+        "device": "Ascend910B4-1",
+        "logical_tokens": 49280,
+        "mappings": [
+          {
+            "label": "latent_k",
+            "shape": [
+              385,
+              78,
+              128,
+              512
+            ],
+            "payload_bytes": 3936092160,
+            "allocation_ms": 30.120321
+          },
+          {
+            "label": "rope",
+            "shape": [
+              385,
+              78,
+              128,
+              64
+            ],
+            "payload_bytes": 492011520,
+            "allocation_ms": 3.069144
+          },
+          {
+            "label": "index_k",
+            "shape": [
+              385,
+              78,
+              128,
+              128
+            ],
+            "payload_bytes": 984023040,
+            "allocation_ms": 5.700968
+          }
+        ],
+        "hook_ms": 0.05286,
+        "transfer_ms": [
+          [
+            7.43536,
+            1.073992
+          ],
+          [
+            0.1763,
+            0.10335
+          ],
+          [
+            0.656821,
+            0.18103
+          ],
+          [
+            4.511856,
+            0.22066
+          ],
+          [
+            0.14892,
+            0.09767
+          ],
+          [
+            0.09847,
+            0.08662
+          ],
+          [
+            0.209931,
+            0.09807
+          ],
+          [
+            0.10021,
+            0.0949
+          ],
+          [
+            0.10568,
+            0.08875
+          ]
+        ],
+        "roundtrip_sha256": [
+          "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2",
+          "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024",
+          "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986",
+          "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a",
+          "4d079cbe3e4dd91d64fadca762af8de2ebad399e1e3dbad3087d9c713944cea5",
+          "d8df11979e6f88ed8db90feac8213d6e73ac8fef6d66b4e7e036743220a9fbd5",
+          "c487d2aac244417adcbc1ef4a82a6d2db0d66051a2231efae7a43a2d62e4aaf9",
+          "77e0d5e1faa3df98eb221b574c6da072bef7699c58dd4b98bdad53538f3e611d",
+          "6e734665315f64124dc314198c4a6ec9521b298086723e4a5cd87b8732dfe876"
+        ]
+      },
+      {
+        "feature": 48543,
+        "flag": 1,
+        "sha": "2877db5d3bf6b4e556f5a41d8e11576f7a947401",
+        "device": "Ascend910B4-1",
+        "logical_tokens": 49280,
+        "mappings": [
+          {
+            "label": "latent_k",
+            "shape": [
+              385,
+              78,
+              128,
+              512
+            ],
+            "payload_bytes": 3936092160,
+            "allocation_ms": 30.803152
+          },
+          {
+            "label": "rope",
+            "shape": [
+              385,
+              78,
+              128,
+              64
+            ],
+            "payload_bytes": 492011520,
+            "allocation_ms": 2.998214
+          },
+          {
+            "label": "index_k",
+            "shape": [
+              385,
+              78,
+              128,
+              128
+            ],
+            "payload_bytes": 984023040,
+            "allocation_ms": 5.703558
+          }
+        ],
+        "hook_ms": 0.06236,
+        "transfer_ms": [
+          [
+            7.795021,
+            0.692951
+          ],
+          [
+            0.12784,
+            0.102561
+          ],
+          [
+            0.401091,
+            0.18376
+          ],
+          [
+            2.371104,
+            0.09888
+          ],
+          [
+            0.09822,
+            0.08437
+          ],
+          [
+            0.11278,
+            0.08148
+          ],
+          [
+            0.09331,
+            0.08524
+          ],
+          [
+            0.10356,
+            0.13436
+          ],
+          [
+            0.10545,
+            0.128591
+          ]
+        ],
+        "roundtrip_sha256": [
+          "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2",
+          "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024",
+          "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986",
+          "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a",
+          "4d079cbe3e4dd91d64fadca762af8de2ebad399e1e3dbad3087d9c713944cea5",
+          "d8df11979e6f88ed8db90feac8213d6e73ac8fef6d66b4e7e036743220a9fbd5",
+          "c487d2aac244417adcbc1ef4a82a6d2db0d66051a2231efae7a43a2d62e4aaf9",
+          "77e0d5e1faa3df98eb221b574c6da072bef7699c58dd4b98bdad53538f3e611d",
+          "6e734665315f64124dc314198c4a6ec9521b298086723e4a5cd87b8732dfe876"
+        ]
+      },
+      {
+        "feature": 48543,
+        "flag": 0,
+        "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+        "device": "Ascend910B4-1",
+        "logical_tokens": 49280,
+        "mappings": [
+          {
+            "label": "latent_k",
+            "shape": [
+              385,
+              78,
+              128,
+              512
+            ],
+            "payload_bytes": 3936092160,
+            "allocation_ms": 28.88896
+          },
+          {
+            "label": "rope",
+            "shape": [
+              385,
+              78,
+              128,
+              64
+            ],
+            "payload_bytes": 492011520,
+            "allocation_ms": 2.881104
+          },
+          {
+            "label": "index_k",
+            "shape": [
+              385,
+              78,
+              128,
+              128
+            ],
+            "payload_bytes": 984023040,
+            "allocation_ms": 5.353667
+          }
+        ],
+        "hook_ms": 0.05179,
+        "transfer_ms": [
+          [
+            7.875721,
+            0.13079
+          ],
+          [
+            0.123401,
+            0.09831
+          ],
+          [
+            0.118081,
+            0.1805
+          ],
+          [
+            0.108141,
+            0.09018
+          ],
+          [
+            0.09506,
+            0.08551
+          ],
+          [
+            0.104851,
+            0.08247
+          ],
+          [
+            0.09261,
+            0.0826
+          ],
+          [
+            0.097691,
+            0.09058
+          ],
+          [
+            0.14415,
+            0.08617
+          ]
+        ],
+        "roundtrip_sha256": [
+          "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2",
+          "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024",
+          "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986",
+          "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a",
+          "4d079cbe3e4dd91d64fadca762af8de2ebad399e1e3dbad3087d9c713944cea5",
+          "d8df11979e6f88ed8db90feac8213d6e73ac8fef6d66b4e7e036743220a9fbd5",
+          "c487d2aac244417adcbc1ef4a82a6d2db0d66051a2231efae7a43a2d62e4aaf9",
+          "77e0d5e1faa3df98eb221b574c6da072bef7699c58dd4b98bdad53538f3e611d",
+          "6e734665315f64124dc314198c4a6ec9521b298086723e4a5cd87b8732dfe876"
+        ]
+      }
+    ]
+  }
+]

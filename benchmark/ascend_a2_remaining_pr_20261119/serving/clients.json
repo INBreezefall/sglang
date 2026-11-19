@@ -29,6 +29,11 @@
     "result_sha256": "ea3c2e4bb01abd09719587279d747e77f5325bb4a1aed89b1bd3f497071dcef9",
     "client": "../probes/client-306866803a4a.py"
   },
+  "moon-endpoint": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "32d5b9dcae98548de5263566df6aabe9dba5d46f6e82f172cd9592e43de0318e",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
   "scan-trace": {
     "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
     "result_sha256": "aed62a4b582550c99505a771edccb437634316fef57463dc44c610b7d3c6721d",
