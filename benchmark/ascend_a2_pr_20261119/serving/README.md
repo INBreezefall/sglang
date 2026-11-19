@@ -6,6 +6,7 @@ The 32 Ascend 910B4-1 devices served the full GLM-5.2 W4A8C8 checkpoint. Two hos
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | [main](base-c24.json) | 24.67 | 35.41 | 1.55 | 11.13 | 7/48 | 8/48 | 91,008 | 72/72 |
 | [#48098](p48098.json) | 10.99 | 13.57 | 1.73 | 19.91 | 48/48 | 13/48 | 6,144 | 15/72 |
+| [#48541](d48541.json) | 8.71 | 12.98 | 1.73 | 21.24 | 2/48 | 48/48 | 84,864 | 19/72 |
 
 ## Workload and timing
 
@@ -13,4 +14,6 @@ Each cohort flushed both caches, ran eight fixed warm-up requests and flushed bo
 
 Mean and p95 TTFT use the time from client dispatch to the first streamed event containing generated tokens. Client decode rate is the mean across requests of 23 tokens divided by the elapsed first-to-last streamed span, expressed as tokens per second. Output throughput is 1,728 tokens divided by the complete three-wave wall time. Network buffering and event coalescing can affect client decode rate. Rank reuse counts the 48 adjacent turns per deployment. Uncached P tokens are prompt tokens minus the reported Prefill cached tokens over turns two and three.
 
-The initial main deployment also ran a one-request, four-token connectivity check before its formal cohort. The fixture clears prefix caches before each cohort and after its warmup. Driver and filesystem caches persist between deployments. The table reports one cohort per named deployment. Use the raw data to inspect countervailing effects and the run order. The model manifest covers the configuration, tokenizer, index and 96 shard names/sizes. [Actual anonymized server arguments](service-argv.json) · [Model manifest](model-manifest.json) · [Replay client](pd_client.py)
+The initial main deployment also ran a one-request, four-token connectivity check before its formal cohort. The fixture clears prefix caches before each cohort and after its warmup. Driver and filesystem caches persist between deployments. The table reports one cohort per named deployment. Use the raw data to inspect countervailing effects and the run order. All four hosts independently read and SHA-256 hashed every byte of each of the 96 weight shards (404,794,116,064 bytes per host). The individual hashes, configuration, tokenizer and index agree across the four copies. [Actual anonymized server arguments](service-argv.json) · [Model manifest](model-manifest.json) · [Replay client](pd_client.py)
+
+Cohort launch order was base-c24 (04:38 UTC), p48098 (04:55 UTC), d48541 (05:06 UTC).
