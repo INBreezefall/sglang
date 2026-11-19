@@ -1,0 +1,17 @@
+{
+  "base1": {
+    "launcher": "../launchers/launch-5104d3b0bb8f.sh",
+    "measured_sha256": "5104d3b0bb8fb6f35e1aa6dfebe60deb52ba4c99445b0e72a4f81df2c58012c4",
+    "public_sha256": "5d31a4e4be2974807ea02990eefab84243280b2e59ca416a3132d913c972bc0b"
+  },
+  "base2": {
+    "launcher": "../launchers/launch-6db341033f5e.sh",
+    "measured_sha256": "6db341033f5ed4556467fb9ccafa887496764fddeec0c5de41adc58d5ab6cb88",
+    "public_sha256": "e4a097410d7894c905a76989b4a9751dfdc98e266f0e7b1f7f9c706226fd04a5"
+  },
+  "moe-tile": {
+    "launcher": "../launchers/launch-988764d3c5d7.sh",
+    "measured_sha256": "988764d3c5d75b717c7e80cea9b71e0fb100735fea6c890a7a2f75bd63511727",
+    "public_sha256": "67dbd8383f8d9df7b567a1e82391d00b1d1d457709b0e98b52ffd1859ea99420"
+  }
+}

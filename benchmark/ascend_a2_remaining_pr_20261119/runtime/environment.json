@@ -11,6 +11,6 @@
   "container_image_id": "65c1c06b2519cec57267f4e6d19fdf7f70b99e7390ad186741a0b7e8a65ce78c",
   "mooncake_native": "mooncake-transfer-engine-npu 0.3.13.post1",
   "mooncake_wheel_sha256": "ba134f2cc99784aa32404c3a1406e3c85400792fb2c62bb458cd4757a07cc4bb",
-  "deepep": "1.0.0+1d2bc043",
+  "deepep": "1.0.0+1d2bc043.cann.9.1.0.b243",
   "transformers": "5.19.0"
 }

@@ -4,6 +4,11 @@
     "result_sha256": "290061186674ac3d51db06a6149f94ebf3a03f5fae6ba743b77ba9ccff9c774a",
     "client": "../probes/client-306866803a4a.py"
   },
+  "base2": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "2cdaf63d9b483be2e04bf4d9fe18621a7f4ef6fa05cf0c13d8741058d52ccfd8",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
   "moe-tile": {
     "script_sha256": "306866803a4a43097d8190be08c85b85f02eab62c8534608983479a39052fdd7",
     "result_sha256": "ea3c2e4bb01abd09719587279d747e77f5325bb4a1aed89b1bd3f497071dcef9",

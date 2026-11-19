@@ -46,5 +46,9 @@
   "client-306866803a4a.py": {
     "measured_sha256": "306866803a4a43097d8190be08c85b85f02eab62c8534608983479a39052fdd7",
     "published_sha256": "1ea79d8b83713117422e7615d85f6e5eeb60872caed90f1eeef06b30951c8a47"
+  },
+  "client-8b768e8a88c4.py": {
+    "measured_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "published_sha256": "4b99c6f075e2e47458a2bd7e944d5c60923800a9399a746223e3812a9c11cf97"
   }
 }
