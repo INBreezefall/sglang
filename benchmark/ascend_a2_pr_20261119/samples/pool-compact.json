@@ -1,0 +1,47 @@
+{
+  "sha": "94d9156ae93240ff11ac1e7e350efda5f8d77232",
+  "device": "Ascend910B4-1",
+  "mode": "compact",
+  "physical_indexer_layers": 21,
+  "layers": 78,
+  "token_rows": 1152,
+  "registered_bytes": 109707264,
+  "indexer_bytes": 6193152,
+  "main_bytes": 103514112,
+  "k_dtype": "torch.bfloat16",
+  "index_dtype": "torch.bfloat16",
+  "registered_entries": 177,
+  "roundtrips": 9,
+  "bytes_per_direction": 24379392,
+  "samples": [
+    {
+      "d2h_ms": 1.684581,
+      "h2d_ms": 14.458968
+    },
+    {
+      "d2h_ms": 1.692551,
+      "h2d_ms": 14.244096
+    },
+    {
+      "d2h_ms": 1.688701,
+      "h2d_ms": 14.179326
+    },
+    {
+      "d2h_ms": 1.692971,
+      "h2d_ms": 14.226946
+    },
+    {
+      "d2h_ms": 1.699972,
+      "h2d_ms": 14.021965
+    },
+    {
+      "d2h_ms": 1.691051,
+      "h2d_ms": 13.743303
+    },
+    {
+      "d2h_ms": 1.756942,
+      "h2d_ms": 15.818657
+    }
+  ],
+  "host_budget_bytes_per_token": 95232
+}

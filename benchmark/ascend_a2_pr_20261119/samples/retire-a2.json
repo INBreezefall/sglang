@@ -1,0 +1,98 @@
+{
+  "sha": "f7e7ccbd9f1b9fc7f9373de19ea5ea91a81d359b",
+  "device": "Ascend910B4-1",
+  "enabled": false,
+  "copy_bytes": 8388608,
+  "rows": [
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.472721,
+      "completion_to_forward_end_ms": 0.464541
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.467701,
+      "completion_to_forward_end_ms": 0.459901
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.443532,
+      "completion_to_forward_end_ms": 0.436682
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.495392,
+      "completion_to_forward_end_ms": 0.488092
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.467332,
+      "completion_to_forward_end_ms": 0.460031
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.526831,
+      "completion_to_forward_end_ms": 0.518551
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.502781,
+      "completion_to_forward_end_ms": 0.495181
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.474491,
+      "completion_to_forward_end_ms": 0.466351
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.472231,
+      "completion_to_forward_end_ms": 0.464791
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.519781,
+      "completion_to_forward_end_ms": 0.512381
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.498192,
+      "completion_to_forward_end_ms": 0.490282
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.488411,
+      "completion_to_forward_end_ms": 0.480911
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.466322,
+      "completion_to_forward_end_ms": 0.458502
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.466811,
+      "completion_to_forward_end_ms": 0.459541
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.499321,
+      "completion_to_forward_end_ms": 0.491731
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.438131,
+      "completion_to_forward_end_ms": 0.430351
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.385391,
+      "completion_to_forward_end_ms": 0.378481
+    },
+    {
+      "retired_before_forward": false,
+      "completion_to_retirement_ms": 0.406861,
+      "completion_to_forward_end_ms": 0.399881
+    }
+  ]
+}

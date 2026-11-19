@@ -1,0 +1,98 @@
+{
+  "sha": "d6b00bad4714e2dee268fe0f92fddc437f810c1e",
+  "device": "Ascend910B4-1",
+  "enabled": true,
+  "copy_bytes": 8388608,
+  "rows": [
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02289,
+      "completion_to_forward_end_ms": 0.367861
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02239,
+      "completion_to_forward_end_ms": 0.366921
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02251,
+      "completion_to_forward_end_ms": 0.368421
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02207,
+      "completion_to_forward_end_ms": 0.367671
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02196,
+      "completion_to_forward_end_ms": 0.388131
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02283,
+      "completion_to_forward_end_ms": 0.394851
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.022261,
+      "completion_to_forward_end_ms": 0.391092
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.023621,
+      "completion_to_forward_end_ms": 0.377532
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02211,
+      "completion_to_forward_end_ms": 0.374411
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02256,
+      "completion_to_forward_end_ms": 0.394971
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02186,
+      "completion_to_forward_end_ms": 0.394271
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02103,
+      "completion_to_forward_end_ms": 0.386212
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02189,
+      "completion_to_forward_end_ms": 0.378341
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02234,
+      "completion_to_forward_end_ms": 0.372981
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02238,
+      "completion_to_forward_end_ms": 0.396531
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.022,
+      "completion_to_forward_end_ms": 0.384562
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02153,
+      "completion_to_forward_end_ms": 0.378901
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02148,
+      "completion_to_forward_end_ms": 0.371741
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "rows": [
+    {
+      "length": 1,
+      "first_ms": 22881.623642,
+      "warm_ms": [
+        0.894753,
+        0.366551,
+        0.365671,
+        0.365321,
+        0.363171,
+        0.364281,
+        0.362121,
+        0.363541,
+        0.361341,
+        0.421121,
+        0.368341,
+        0.364361
+      ]
+    },
+    {
+      "length": 17,
+      "first_ms": 0.798893,
+      "warm_ms": [
+        0.399731,
+        0.366581,
+        0.363751,
+        0.373831,
+        0.365061,
+        0.363451,
+        0.393511,
+        0.370831,
+        0.366191,
+        0.366661,
+        0.374451,
+        0.363661
+      ]
+    },
+    {
+      "length": 65,
+      "first_ms": 0.473941,
+      "warm_ms": [
+        0.375941,
+        0.369171,
+        0.364571,
+        0.397662,
+        0.370922,
+        0.364152,
+        0.368262,
+        0.365381,
+        0.369622,
+        0.365001,
+        0.367711,
+        0.368111
+      ]
+    },
+    {
+      "length": 128,
+      "first_ms": 0.488932,
+      "warm_ms": [
+        0.375391,
+        0.365151,
+        0.398791,
+        0.365921,
+        0.368951,
+        0.364401,
+        0.364961,
+        0.369631,
+        0.373911,
+        0.364911,
+        0.374421,
+        0.377471
+      ]
+    },
+    {
+      "length": 257,
+      "first_ms": 0.458531,
+      "warm_ms": [
+        0.379561,
+        0.374861,
+        0.376121,
+        0.364831,
+        0.368211,
+        0.366571,
+        0.368711,
+        0.415881,
+        0.373341,
+        0.378821,
+        0.368021,
+        0.370971
+      ]
+    },
+    {
+      "length": 513,
+      "first_ms": 0.497402,
+      "warm_ms": [
+        0.380521,
+        0.386071,
+        0.371861,
+        0.372151,
+        0.374651,
+        0.373311,
+        0.372291,
+        0.368421,
+        0.416721,
+        0.371811,
+        0.376702,
+        0.374401
+      ]
+    },
+    {
+      "length": 1025,
+      "first_ms": 0.476271,
+      "warm_ms": [
+        0.383421,
+        0.415182,
+        0.378452,
+        0.377982,
+        0.378401,
+        0.377121,
+        0.375011,
+        0.373401,
+        0.389332,
+        0.379971,
+        0.378551,
+        0.419431
+      ]
+    },
+    {
+      "length": 2047,
+      "first_ms": 0.605802,
+      "warm_ms": [
+        0.395301,
+        0.396571,
+        0.387021,
+        0.387821,
+        0.432661,
+        0.394911,
+        0.387291,
+        0.384661,
+        0.387521,
+        0.387302,
+        0.387451,
+        0.394522
+      ]
+    },
+    {
+      "length": 2048,
+      "first_ms": 0.507952,
+      "warm_ms": [
+        0.394111,
+        0.391081,
+        0.388111,
+        0.387921,
+        0.391801,
+        0.391861,
+        0.388571,
+        0.404461,
+        0.386061,
+        0.392391,
+        0.400721,
+        0.386101
+      ]
+    },
+    {
+      "length": 2049,
+      "first_ms": 3342.557368,
+      "warm_ms": [
+        0.573862,
+        0.544282,
+        0.535322,
+        0.548232,
+        0.536292,
+        0.537582,
+        0.546792,
+        0.535202,
+        0.541262,
+        0.559312,
+        0.541602,
+        0.536782
+      ]
+    },
+    {
+      "length": 4097,
+      "first_ms": 3198.881711,
+      "warm_ms": [
+        0.847922,
+        0.846943,
+        0.837982,
+        0.868023,
+        0.838683,
+        0.842572,
+        0.841622,
+        0.845673,
+        0.855353,
+        0.859292,
+        0.846493,
+        0.844062
+      ]
+    }
+  ],
+  "artifacts": [
+    "OqDQVOJAmst6sx5p_o-0fYRY9A46BjaD7Cyc8p_wElA/__grp__alloc_extend_kernel.json",
+    "OqDQVOJAmst6sx5p_o-0fYRY9A46BjaD7Cyc8p_wElA/alloc_extend_kernel.json",
+    "OqDQVOJAmst6sx5p_o-0fYRY9A46BjaD7Cyc8p_wElA/alloc_extend_kernel.npubin",
+    "OqDQVOJAmst6sx5p_o-0fYRY9A46BjaD7Cyc8p_wElA/alloc_extend_kernel.ttadapter",
+    "OqDQVOJAmst6sx5p_o-0fYRY9A46BjaD7Cyc8p_wElA/alloc_extend_kernel.ttir",
+    "_HZrEUqS6FdHP_EyK4f6ffiTC3N9D6MmNkDASzP6eq8/__grp__alloc_extend_kernel.json",
+    "_HZrEUqS6FdHP_EyK4f6ffiTC3N9D6MmNkDASzP6eq8/alloc_extend_kernel.json",
+    "_HZrEUqS6FdHP_EyK4f6ffiTC3N9D6MmNkDASzP6eq8/alloc_extend_kernel.npubin",
+    "_HZrEUqS6FdHP_EyK4f6ffiTC3N9D6MmNkDASzP6eq8/alloc_extend_kernel.ttadapter",
+    "_HZrEUqS6FdHP_EyK4f6ffiTC3N9D6MmNkDASzP6eq8/alloc_extend_kernel.ttir",
+    "b-ATQL3V-9NaGpqgZsoGO4XA3PwnQ_CZgFwHBhW-p9w/__grp__alloc_extend_kernel.json",
+    "b-ATQL3V-9NaGpqgZsoGO4XA3PwnQ_CZgFwHBhW-p9w/alloc_extend_kernel.json",
+    "b-ATQL3V-9NaGpqgZsoGO4XA3PwnQ_CZgFwHBhW-p9w/alloc_extend_kernel.npubin",
+    "b-ATQL3V-9NaGpqgZsoGO4XA3PwnQ_CZgFwHBhW-p9w/alloc_extend_kernel.ttadapter",
+    "b-ATQL3V-9NaGpqgZsoGO4XA3PwnQ_CZgFwHBhW-p9w/alloc_extend_kernel.ttir"
+  ],
+  "device": "Ascend910B4-1",
+  "torch": "2.10.0+cpu",
+  "torch_npu": "2.10.0.post6",
+  "source_sha256": "9f16c93a789e46a66795bb2300ed67c2dc5cc067c4561fa67eda308436bae041",
+  "sha": "2a88b4028692689f17f7341d42d963551f3bb1ba"
+}

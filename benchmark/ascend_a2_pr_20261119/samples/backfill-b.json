@@ -1,0 +1,235 @@
+{
+  "sha": "5d1571b7884b2a1d42f5b270c61b72cf2e7ff86d",
+  "device": "Ascend910B4-1",
+  "enabled": true,
+  "results": [
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [
+        "small0",
+        "small1",
+        "small2",
+        "small3"
+      ],
+      "full": [
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "large",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "sha": "d6b00bad4714e2dee268fe0f92fddc437f810c1e",
+  "device": "Ascend910B4-1",
+  "enabled": true,
+  "copy_bytes": 8388608,
+  "rows": [
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02419,
+      "completion_to_forward_end_ms": 0.473301
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.023121,
+      "completion_to_forward_end_ms": 0.456192
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02286,
+      "completion_to_forward_end_ms": 0.441381
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02361,
+      "completion_to_forward_end_ms": 0.482291
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02334,
+      "completion_to_forward_end_ms": 0.472641
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02345,
+      "completion_to_forward_end_ms": 0.450981
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02234,
+      "completion_to_forward_end_ms": 0.455242
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02389,
+      "completion_to_forward_end_ms": 0.459381
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02364,
+      "completion_to_forward_end_ms": 0.452412
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.022321,
+      "completion_to_forward_end_ms": 0.458672
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.0235,
+      "completion_to_forward_end_ms": 0.442081
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02332,
+      "completion_to_forward_end_ms": 0.450431
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02311,
+      "completion_to_forward_end_ms": 0.444311
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02342,
+      "completion_to_forward_end_ms": 0.471941
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02253,
+      "completion_to_forward_end_ms": 0.438172
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.0224,
+      "completion_to_forward_end_ms": 0.430891
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02323,
+      "completion_to_forward_end_ms": 0.460432
+    },
+    {
+      "retired_before_forward": true,
+      "completion_to_retirement_ms": 0.02243,
+      "completion_to_forward_end_ms": 0.484261
+    }
+  ]
+}

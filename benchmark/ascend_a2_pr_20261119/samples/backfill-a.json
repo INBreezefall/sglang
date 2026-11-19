@@ -1,0 +1,175 @@
+{
+  "sha": "f7e7ccbd9f1b9fc7f9373de19ea5ea91a81d359b",
+  "device": "Ascend910B4-1",
+  "enabled": false,
+  "results": [
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    },
+    {
+      "early": [],
+      "full": [
+        "large",
+        "small0",
+        "small1",
+        "small2",
+        "small3",
+        "small4",
+        "small5"
+      ],
+      "kv_used": 120,
+      "remaining": 8
+    }
+  ]
+}
