@@ -1,0 +1,157 @@
+{
+  "dump-main": {
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "rank_loader": {},
+    "found_presharded": false,
+    "first_time_dump": true,
+    "http_ready": false,
+    "hash_verified_on_load": true
+  },
+  "dump-48631": {
+    "sha": "50cf45054aae04217bc20d9fead1f3dd4d8f1770",
+    "rank_loader": {
+      "1": {
+        "load_weight_s": 390.67,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "4": {
+        "load_weight_s": 390.49,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "0": {
+        "load_weight_s": 390.97,
+        "free_gb": 7.89,
+        "weight_memory_gb": 52.56
+      },
+      "3": {
+        "load_weight_s": 390.49,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "5": {
+        "load_weight_s": 390.58,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "6": {
+        "load_weight_s": 390.54,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "7": {
+        "load_weight_s": 390.61,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "2": {
+        "load_weight_s": 390.67,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      }
+    },
+    "found_presharded": false,
+    "first_time_dump": true,
+    "http_ready": true,
+    "hash_verified_on_load": true
+  },
+  "reload-48631": {
+    "sha": "50cf45054aae04217bc20d9fead1f3dd4d8f1770",
+    "rank_loader": {
+      "2": {
+        "load_weight_s": 131.8,
+        "free_gb": 10.71,
+        "weight_memory_gb": 49.81
+      },
+      "1": {
+        "load_weight_s": 178.2,
+        "free_gb": 10.72,
+        "weight_memory_gb": 49.81
+      },
+      "4": {
+        "load_weight_s": 183.5,
+        "free_gb": 10.72,
+        "weight_memory_gb": 49.81
+      },
+      "0": {
+        "load_weight_s": 183.56,
+        "free_gb": 10.64,
+        "weight_memory_gb": 49.81
+      },
+      "3": {
+        "load_weight_s": 198.09,
+        "free_gb": 10.72,
+        "weight_memory_gb": 49.81
+      },
+      "5": {
+        "load_weight_s": 213.71,
+        "free_gb": 10.72,
+        "weight_memory_gb": 49.81
+      },
+      "6": {
+        "load_weight_s": 217.56,
+        "free_gb": 10.71,
+        "weight_memory_gb": 49.81
+      },
+      "7": {
+        "load_weight_s": 218.92,
+        "free_gb": 10.72,
+        "weight_memory_gb": 49.81
+      }
+    },
+    "found_presharded": true,
+    "first_time_dump": false,
+    "http_ready": true,
+    "hash_verified_on_load": true
+  },
+  "standard-main": {
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "rank_loader": {
+      "1": {
+        "load_weight_s": 248.14,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "0": {
+        "load_weight_s": 264.97,
+        "free_gb": 7.9,
+        "weight_memory_gb": 52.56
+      },
+      "3": {
+        "load_weight_s": 269.77,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "2": {
+        "load_weight_s": 270.9,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "5": {
+        "load_weight_s": 274.85,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "4": {
+        "load_weight_s": 275.4,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "6": {
+        "load_weight_s": 276.78,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      },
+      "7": {
+        "load_weight_s": 279.62,
+        "free_gb": 7.97,
+        "weight_memory_gb": 52.56
+      }
+    },
+    "found_presharded": false,
+    "first_time_dump": false,
+    "http_ready": true,
+    "hash_verified_on_load": false
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "wheel": "0.3.14",
+    "device": 4,
+    "thread_bind": 0,
+    "error": "RuntimeError"
+  },
+  {
+    "wheel": "0.3.14",
+    "device": 4,
+    "thread_bind": 1,
+    "init_ok": true,
+    "whole_rc": 0,
+    "slice_rc": -1
+  },
+  {
+    "wheel": "0.3.13.post1",
+    "device": 4,
+    "thread_bind": 0,
+    "error": "RuntimeError"
+  },
+  {
+    "wheel": "0.3.13.post1",
+    "device": 4,
+    "thread_bind": 1,
+    "init_ok": true,
+    "whole_rc": 0,
+    "slice_rc": -1
+  }
+]

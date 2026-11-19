@@ -1,0 +1,1018 @@
+{
+  "device": "0,1,2,3,4,5,6,7",
+  "feature": 48631,
+  "mode": "default",
+  "script_sha256": "c2aee96645273a64e0f47e6eaef73c889d7412f4cbc3a1d676d199ed2bbfc366",
+  "raw_hashes": [
+    "c7450623eb978c37b5a8882bbff0f2891d0591efc297649533223a80db6d0f5b",
+    "18370e20c59df2b400f3cd5c7fdc54c1d56c7c15fe30387d4d5fc31dd97bc38f",
+    "392048e885e8996847dca9d1fca2ae1d901d23fff9ed750b378c38e8fd0e44c2",
+    "c7450623eb978c37b5a8882bbff0f2891d0591efc297649533223a80db6d0f5b"
+  ],
+  "runs": [
+    {
+      "feature": 48631,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "ranks": [
+        {
+          "rank": 0,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "76bab260224386822ce7c97b7a06f14c9186d3b98ca4135f9737539bb9c97446",
+            "up_proj": "e50fd60fd9a8df13f0e4b00afa3ce6179294cc3bbd7238a5f5ac715b54b63da7",
+            "down_proj": "db77059ca3be8be8b579aba89493d9c62eb4c589d80e48741739175b0492f565"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 1,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "d6ba1b403aa44ef42cdb0e08952499b7a1a45d683f40118823e5b0ca5cfc9be7",
+            "up_proj": "0923e31ca8d65744c15ad8817461e4da933db3ebbae2df8456ad780ed97cb732",
+            "down_proj": "b50b64703b4a7c3b4aca4311e34ad88180b4717eb9b8ffc91fa1aa78ba388772"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 2,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "3cc5727988a54aff2264cce0f60f5a1d1ce885f55861db2d78f2867504f8640a",
+            "up_proj": "b7fcd2d69be3504b0934e20c1dc80de4db799a0f3202636fe840b7faa7068724",
+            "down_proj": "b918da57afc29d5bd1f0e22f0087b93666e80cf641b05e38a0c4cedd16adb29e"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 3,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "364cc0006e0b793a9756b1aa7f0302d18bc5669ee28fd2071a7d774d303dd994",
+            "up_proj": "b65a65bb59bf0feccacf418d9b17e7afa8712d962cc2f82888bb2b08c48bfb82",
+            "down_proj": "12b1fc96ce37c5bdaf2b5bee395d865cdef924418bd05c268aea6e8214db77f2"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 4,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "f1010256a6ed9fa286b51d352600e236a56c1a5fa89d2fcaf2287e9ef67fcfed",
+            "up_proj": "e624ba2898cffed01b3a95330395bf0d9fd37067b11fa1d01e8859a2e8906e79",
+            "down_proj": "6d710f7b467bf01b77f7510597f6d901b8daffbe6d3b6f63dee8cbc46a38bf14"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 5,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "a060d0baed0a5bca6be40b495beafae261592d53903fd34f1ffb47a90a3ac6f5",
+            "up_proj": "4f513255245a5594445d1f7f3aa3b86aba92a9937e82f73e1571b16aa2c25de8",
+            "down_proj": "49fd508f1b7d4ae10cff251e691f47570f8b5ad06d53fee094673773273a0792"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 6,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "2aef88f9afa1e37caa8b4593f90a9436ed3e8330b0bb40f57e29112b867a5610",
+            "up_proj": "e6cb75af8144725075773f8669b1c5e4a2c7ea43c21f70329e96ad7251c4118c",
+            "down_proj": "559a09419e2d840e582b005e65ca74f4f057dbd9cfa0c419dc8b77b5cb9d018d"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 7,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "ecb8d2785a347178eed3b36f1b35a9e3c2935a8125c57ed4dec4a2680dc45512",
+            "up_proj": "ba09526f2c06af1325801151f12e4762843cd4aa540d01a039467d91ee672afe",
+            "down_proj": "e4b8e07f1eca0fa41c01c8cb301d79885d0c38aaa402a2df3816be17422d4cf1"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 1,
+      "sha": "50cf45054aae04217bc20d9fead1f3dd4d8f1770",
+      "ranks": [
+        {
+          "rank": 0,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "76bab260224386822ce7c97b7a06f14c9186d3b98ca4135f9737539bb9c97446",
+            "up_proj": "e50fd60fd9a8df13f0e4b00afa3ce6179294cc3bbd7238a5f5ac715b54b63da7",
+            "down_proj": "db77059ca3be8be8b579aba89493d9c62eb4c589d80e48741739175b0492f565"
+          },
+          "dump_ms": 416.720853,
+          "read_verify_apply_ms": 46.989397,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "76bab260224386822ce7c97b7a06f14c9186d3b98ca4135f9737539bb9c97446",
+            "up_proj": "e50fd60fd9a8df13f0e4b00afa3ce6179294cc3bbd7238a5f5ac715b54b63da7",
+            "down_proj": "db77059ca3be8be8b579aba89493d9c62eb4c589d80e48741739175b0492f565"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 1,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "d6ba1b403aa44ef42cdb0e08952499b7a1a45d683f40118823e5b0ca5cfc9be7",
+            "up_proj": "0923e31ca8d65744c15ad8817461e4da933db3ebbae2df8456ad780ed97cb732",
+            "down_proj": "b50b64703b4a7c3b4aca4311e34ad88180b4717eb9b8ffc91fa1aa78ba388772"
+          },
+          "dump_ms": 416.815513,
+          "read_verify_apply_ms": 33.940683,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "d6ba1b403aa44ef42cdb0e08952499b7a1a45d683f40118823e5b0ca5cfc9be7",
+            "up_proj": "0923e31ca8d65744c15ad8817461e4da933db3ebbae2df8456ad780ed97cb732",
+            "down_proj": "b50b64703b4a7c3b4aca4311e34ad88180b4717eb9b8ffc91fa1aa78ba388772"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 2,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "3cc5727988a54aff2264cce0f60f5a1d1ce885f55861db2d78f2867504f8640a",
+            "up_proj": "b7fcd2d69be3504b0934e20c1dc80de4db799a0f3202636fe840b7faa7068724",
+            "down_proj": "b918da57afc29d5bd1f0e22f0087b93666e80cf641b05e38a0c4cedd16adb29e"
+          },
+          "dump_ms": 416.999943,
+          "read_verify_apply_ms": 20.840919,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "3cc5727988a54aff2264cce0f60f5a1d1ce885f55861db2d78f2867504f8640a",
+            "up_proj": "b7fcd2d69be3504b0934e20c1dc80de4db799a0f3202636fe840b7faa7068724",
+            "down_proj": "b918da57afc29d5bd1f0e22f0087b93666e80cf641b05e38a0c4cedd16adb29e"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 3,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "364cc0006e0b793a9756b1aa7f0302d18bc5669ee28fd2071a7d774d303dd994",
+            "up_proj": "b65a65bb59bf0feccacf418d9b17e7afa8712d962cc2f82888bb2b08c48bfb82",
+            "down_proj": "12b1fc96ce37c5bdaf2b5bee395d865cdef924418bd05c268aea6e8214db77f2"
+          },
+          "dump_ms": 416.907603,
+          "read_verify_apply_ms": 24.048085,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "364cc0006e0b793a9756b1aa7f0302d18bc5669ee28fd2071a7d774d303dd994",
+            "up_proj": "b65a65bb59bf0feccacf418d9b17e7afa8712d962cc2f82888bb2b08c48bfb82",
+            "down_proj": "12b1fc96ce37c5bdaf2b5bee395d865cdef924418bd05c268aea6e8214db77f2"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 4,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "f1010256a6ed9fa286b51d352600e236a56c1a5fa89d2fcaf2287e9ef67fcfed",
+            "up_proj": "e624ba2898cffed01b3a95330395bf0d9fd37067b11fa1d01e8859a2e8906e79",
+            "down_proj": "6d710f7b467bf01b77f7510597f6d901b8daffbe6d3b6f63dee8cbc46a38bf14"
+          },
+          "dump_ms": 416.896863,
+          "read_verify_apply_ms": 16.19469,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "f1010256a6ed9fa286b51d352600e236a56c1a5fa89d2fcaf2287e9ef67fcfed",
+            "up_proj": "e624ba2898cffed01b3a95330395bf0d9fd37067b11fa1d01e8859a2e8906e79",
+            "down_proj": "6d710f7b467bf01b77f7510597f6d901b8daffbe6d3b6f63dee8cbc46a38bf14"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 5,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "a060d0baed0a5bca6be40b495beafae261592d53903fd34f1ffb47a90a3ac6f5",
+            "up_proj": "4f513255245a5594445d1f7f3aa3b86aba92a9937e82f73e1571b16aa2c25de8",
+            "down_proj": "49fd508f1b7d4ae10cff251e691f47570f8b5ad06d53fee094673773273a0792"
+          },
+          "dump_ms": 416.892403,
+          "read_verify_apply_ms": 21.856731,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "a060d0baed0a5bca6be40b495beafae261592d53903fd34f1ffb47a90a3ac6f5",
+            "up_proj": "4f513255245a5594445d1f7f3aa3b86aba92a9937e82f73e1571b16aa2c25de8",
+            "down_proj": "49fd508f1b7d4ae10cff251e691f47570f8b5ad06d53fee094673773273a0792"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 6,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "2aef88f9afa1e37caa8b4593f90a9436ed3e8330b0bb40f57e29112b867a5610",
+            "up_proj": "e6cb75af8144725075773f8669b1c5e4a2c7ea43c21f70329e96ad7251c4118c",
+            "down_proj": "559a09419e2d840e582b005e65ca74f4f057dbd9cfa0c419dc8b77b5cb9d018d"
+          },
+          "dump_ms": 416.799343,
+          "read_verify_apply_ms": 25.005067,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "2aef88f9afa1e37caa8b4593f90a9436ed3e8330b0bb40f57e29112b867a5610",
+            "up_proj": "e6cb75af8144725075773f8669b1c5e4a2c7ea43c21f70329e96ad7251c4118c",
+            "down_proj": "559a09419e2d840e582b005e65ca74f4f057dbd9cfa0c419dc8b77b5cb9d018d"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 7,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "ecb8d2785a347178eed3b36f1b35a9e3c2935a8125c57ed4dec4a2680dc45512",
+            "up_proj": "ba09526f2c06af1325801151f12e4762843cd4aa540d01a039467d91ee672afe",
+            "down_proj": "e4b8e07f1eca0fa41c01c8cb301d79885d0c38aaa402a2df3816be17422d4cf1"
+          },
+          "dump_ms": 416.832953,
+          "read_verify_apply_ms": 13.823135,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "ecb8d2785a347178eed3b36f1b35a9e3c2935a8125c57ed4dec4a2680dc45512",
+            "up_proj": "ba09526f2c06af1325801151f12e4762843cd4aa540d01a039467d91ee672afe",
+            "down_proj": "e4b8e07f1eca0fa41c01c8cb301d79885d0c38aaa402a2df3816be17422d4cf1"
+          },
+          "stable_pointers": 3
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 1,
+      "sha": "50cf45054aae04217bc20d9fead1f3dd4d8f1770",
+      "ranks": [
+        {
+          "rank": 0,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "76bab260224386822ce7c97b7a06f14c9186d3b98ca4135f9737539bb9c97446",
+            "up_proj": "e50fd60fd9a8df13f0e4b00afa3ce6179294cc3bbd7238a5f5ac715b54b63da7",
+            "down_proj": "db77059ca3be8be8b579aba89493d9c62eb4c589d80e48741739175b0492f565"
+          },
+          "dump_ms": 448.871077,
+          "read_verify_apply_ms": 56.995775,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "76bab260224386822ce7c97b7a06f14c9186d3b98ca4135f9737539bb9c97446",
+            "up_proj": "e50fd60fd9a8df13f0e4b00afa3ce6179294cc3bbd7238a5f5ac715b54b63da7",
+            "down_proj": "db77059ca3be8be8b579aba89493d9c62eb4c589d80e48741739175b0492f565"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 1,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "d6ba1b403aa44ef42cdb0e08952499b7a1a45d683f40118823e5b0ca5cfc9be7",
+            "up_proj": "0923e31ca8d65744c15ad8817461e4da933db3ebbae2df8456ad780ed97cb732",
+            "down_proj": "b50b64703b4a7c3b4aca4311e34ad88180b4717eb9b8ffc91fa1aa78ba388772"
+          },
+          "dump_ms": 448.736707,
+          "read_verify_apply_ms": 25.067946,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "d6ba1b403aa44ef42cdb0e08952499b7a1a45d683f40118823e5b0ca5cfc9be7",
+            "up_proj": "0923e31ca8d65744c15ad8817461e4da933db3ebbae2df8456ad780ed97cb732",
+            "down_proj": "b50b64703b4a7c3b4aca4311e34ad88180b4717eb9b8ffc91fa1aa78ba388772"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 2,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "3cc5727988a54aff2264cce0f60f5a1d1ce885f55861db2d78f2867504f8640a",
+            "up_proj": "b7fcd2d69be3504b0934e20c1dc80de4db799a0f3202636fe840b7faa7068724",
+            "down_proj": "b918da57afc29d5bd1f0e22f0087b93666e80cf641b05e38a0c4cedd16adb29e"
+          },
+          "dump_ms": 448.701527,
+          "read_verify_apply_ms": 51.680215,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "3cc5727988a54aff2264cce0f60f5a1d1ce885f55861db2d78f2867504f8640a",
+            "up_proj": "b7fcd2d69be3504b0934e20c1dc80de4db799a0f3202636fe840b7faa7068724",
+            "down_proj": "b918da57afc29d5bd1f0e22f0087b93666e80cf641b05e38a0c4cedd16adb29e"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 3,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "364cc0006e0b793a9756b1aa7f0302d18bc5669ee28fd2071a7d774d303dd994",
+            "up_proj": "b65a65bb59bf0feccacf418d9b17e7afa8712d962cc2f82888bb2b08c48bfb82",
+            "down_proj": "12b1fc96ce37c5bdaf2b5bee395d865cdef924418bd05c268aea6e8214db77f2"
+          },
+          "dump_ms": 448.690837,
+          "read_verify_apply_ms": 22.319412,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "364cc0006e0b793a9756b1aa7f0302d18bc5669ee28fd2071a7d774d303dd994",
+            "up_proj": "b65a65bb59bf0feccacf418d9b17e7afa8712d962cc2f82888bb2b08c48bfb82",
+            "down_proj": "12b1fc96ce37c5bdaf2b5bee395d865cdef924418bd05c268aea6e8214db77f2"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 4,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "f1010256a6ed9fa286b51d352600e236a56c1a5fa89d2fcaf2287e9ef67fcfed",
+            "up_proj": "e624ba2898cffed01b3a95330395bf0d9fd37067b11fa1d01e8859a2e8906e79",
+            "down_proj": "6d710f7b467bf01b77f7510597f6d901b8daffbe6d3b6f63dee8cbc46a38bf14"
+          },
+          "dump_ms": 448.834097,
+          "read_verify_apply_ms": 13.145024,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "f1010256a6ed9fa286b51d352600e236a56c1a5fa89d2fcaf2287e9ef67fcfed",
+            "up_proj": "e624ba2898cffed01b3a95330395bf0d9fd37067b11fa1d01e8859a2e8906e79",
+            "down_proj": "6d710f7b467bf01b77f7510597f6d901b8daffbe6d3b6f63dee8cbc46a38bf14"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 5,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "a060d0baed0a5bca6be40b495beafae261592d53903fd34f1ffb47a90a3ac6f5",
+            "up_proj": "4f513255245a5594445d1f7f3aa3b86aba92a9937e82f73e1571b16aa2c25de8",
+            "down_proj": "49fd508f1b7d4ae10cff251e691f47570f8b5ad06d53fee094673773273a0792"
+          },
+          "dump_ms": 448.783137,
+          "read_verify_apply_ms": 35.866516,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "a060d0baed0a5bca6be40b495beafae261592d53903fd34f1ffb47a90a3ac6f5",
+            "up_proj": "4f513255245a5594445d1f7f3aa3b86aba92a9937e82f73e1571b16aa2c25de8",
+            "down_proj": "49fd508f1b7d4ae10cff251e691f47570f8b5ad06d53fee094673773273a0792"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 6,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "2aef88f9afa1e37caa8b4593f90a9436ed3e8330b0bb40f57e29112b867a5610",
+            "up_proj": "e6cb75af8144725075773f8669b1c5e4a2c7ea43c21f70329e96ad7251c4118c",
+            "down_proj": "559a09419e2d840e582b005e65ca74f4f057dbd9cfa0c419dc8b77b5cb9d018d"
+          },
+          "dump_ms": 448.594557,
+          "read_verify_apply_ms": 35.084025,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "2aef88f9afa1e37caa8b4593f90a9436ed3e8330b0bb40f57e29112b867a5610",
+            "up_proj": "e6cb75af8144725075773f8669b1c5e4a2c7ea43c21f70329e96ad7251c4118c",
+            "down_proj": "559a09419e2d840e582b005e65ca74f4f057dbd9cfa0c419dc8b77b5cb9d018d"
+          },
+          "stable_pointers": 3
+        },
+        {
+          "rank": 7,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "ecb8d2785a347178eed3b36f1b35a9e3c2935a8125c57ed4dec4a2680dc45512",
+            "up_proj": "ba09526f2c06af1325801151f12e4762843cd4aa540d01a039467d91ee672afe",
+            "down_proj": "e4b8e07f1eca0fa41c01c8cb301d79885d0c38aaa402a2df3816be17422d4cf1"
+          },
+          "dump_ms": 448.453487,
+          "read_verify_apply_ms": 33.009841,
+          "ok": true,
+          "file_count": 8,
+          "verified_names": 3,
+          "stored_sha256": {
+            "gate_proj": "ecb8d2785a347178eed3b36f1b35a9e3c2935a8125c57ed4dec4a2680dc45512",
+            "up_proj": "ba09526f2c06af1325801151f12e4762843cd4aa540d01a039467d91ee672afe",
+            "down_proj": "e4b8e07f1eca0fa41c01c8cb301d79885d0c38aaa402a2df3816be17422d4cf1"
+          },
+          "stable_pointers": 3
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "ranks": [
+        {
+          "rank": 0,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "76bab260224386822ce7c97b7a06f14c9186d3b98ca4135f9737539bb9c97446",
+            "up_proj": "e50fd60fd9a8df13f0e4b00afa3ce6179294cc3bbd7238a5f5ac715b54b63da7",
+            "down_proj": "db77059ca3be8be8b579aba89493d9c62eb4c589d80e48741739175b0492f565"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 1,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "d6ba1b403aa44ef42cdb0e08952499b7a1a45d683f40118823e5b0ca5cfc9be7",
+            "up_proj": "0923e31ca8d65744c15ad8817461e4da933db3ebbae2df8456ad780ed97cb732",
+            "down_proj": "b50b64703b4a7c3b4aca4311e34ad88180b4717eb9b8ffc91fa1aa78ba388772"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 2,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "3cc5727988a54aff2264cce0f60f5a1d1ce885f55861db2d78f2867504f8640a",
+            "up_proj": "b7fcd2d69be3504b0934e20c1dc80de4db799a0f3202636fe840b7faa7068724",
+            "down_proj": "b918da57afc29d5bd1f0e22f0087b93666e80cf641b05e38a0c4cedd16adb29e"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 3,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "364cc0006e0b793a9756b1aa7f0302d18bc5669ee28fd2071a7d774d303dd994",
+            "up_proj": "b65a65bb59bf0feccacf418d9b17e7afa8712d962cc2f82888bb2b08c48bfb82",
+            "down_proj": "12b1fc96ce37c5bdaf2b5bee395d865cdef924418bd05c268aea6e8214db77f2"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 4,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "f1010256a6ed9fa286b51d352600e236a56c1a5fa89d2fcaf2287e9ef67fcfed",
+            "up_proj": "e624ba2898cffed01b3a95330395bf0d9fd37067b11fa1d01e8859a2e8906e79",
+            "down_proj": "6d710f7b467bf01b77f7510597f6d901b8daffbe6d3b6f63dee8cbc46a38bf14"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 5,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "a060d0baed0a5bca6be40b495beafae261592d53903fd34f1ffb47a90a3ac6f5",
+            "up_proj": "4f513255245a5594445d1f7f3aa3b86aba92a9937e82f73e1571b16aa2c25de8",
+            "down_proj": "49fd508f1b7d4ae10cff251e691f47570f8b5ad06d53fee094673773273a0792"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 6,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "2aef88f9afa1e37caa8b4593f90a9436ed3e8330b0bb40f57e29112b867a5610",
+            "up_proj": "e6cb75af8144725075773f8669b1c5e4a2c7ea43c21f70329e96ad7251c4118c",
+            "down_proj": "559a09419e2d840e582b005e65ca74f4f057dbd9cfa0c419dc8b77b5cb9d018d"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        },
+        {
+          "rank": 7,
+          "required_bytes": 18874368,
+          "shapes": {
+            "gate_proj": [
+              1024,
+              6144
+            ],
+            "up_proj": [
+              1024,
+              6144
+            ],
+            "down_proj": [
+              3072,
+              2048
+            ]
+          },
+          "reference_sha256": {
+            "gate_proj": "ecb8d2785a347178eed3b36f1b35a9e3c2935a8125c57ed4dec4a2680dc45512",
+            "up_proj": "ba09526f2c06af1325801151f12e4762843cd4aa540d01a039467d91ee672afe",
+            "down_proj": "e4b8e07f1eca0fa41c01c8cb301d79885d0c38aaa402a2df3816be17422d4cf1"
+          },
+          "ok": false,
+          "stage": "native checkpoint dump or reload",
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        }
+      ]
+    }
+  ]
+}

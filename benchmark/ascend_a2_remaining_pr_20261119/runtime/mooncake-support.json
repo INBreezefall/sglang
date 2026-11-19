@@ -1,0 +1,8 @@
+{
+  "source_commit": "877b20c1303ae59de3af2c9d82f1bfd11c4b8f57",
+  "allocation_source": "python/sglang/srt/disaggregation/mooncake/npu_registration.py",
+  "files": {
+    "sitecustomize.py": "8436046f15cb3cfc28ebb2e46abb213f3c12cb473b01deadb7414e042c7b5c5f",
+    "acl_regions.py": "72ada7ee1d83c54f7913817001ff2697fca7099db9836fe5cc47e8003b82c645"
+  }
+}

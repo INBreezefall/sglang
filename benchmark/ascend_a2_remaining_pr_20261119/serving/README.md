@@ -26,4 +26,7 @@ The launchers below are the original measured scripts with node IP addresses rep
 | moe-tile | [launcher](../launchers/launch-988764d3c5d7.sh) | Not collected |
 | scan-trace | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](scan-trace-answer-checks.json) |
 
+Mooncake service launchers load a shared Python fixture on both arms. The thread mode binds the scheduler device on the native initialization thread. The thread-regions mode also uses the same allocation-region helper for both arms. Store the two files under /bench/moon-fixture. [Startup fixture](../launchers/mooncake/sitecustomize.py) · [Allocation-region helper](../launchers/mooncake/acl_regions.py) · [Original source and checksums](../runtime/mooncake-support.json) · [Unmodified initialization controls](../runtime/mooncake-init.json)
+
+
 [Full checkpoint manifest](../runtime/checkpoint.json) · [Per-deployment source and raw checksums](clients.json)

@@ -1,0 +1,44 @@
+{
+  "client_started": false,
+  "completed_formal_requests": 0,
+  "client_errors": [],
+  "role_status": {
+    "prefill-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:23927"
+      ],
+      "errors": {
+        "RuntimeError": 1
+      }
+    },
+    "prefill-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:52605",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:11646"
+      ],
+      "errors": {
+        "RuntimeError": 2
+      }
+    },
+    "decode-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [],
+      "errors": {}
+    },
+    "decode-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [],
+      "errors": {}
+    }
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "stage": "standard-main",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "rows": [
+      {
+        "task": "addition",
+        "expected": "36",
+        "answer": "36",
+        "exact": true,
+        "input_sha256": "be951c298112bf807026bc124172eeddc225de41ed3e5212ec473c34176a0d4d",
+        "tokens": 2,
+        "token_ids": [
+          100632,
+          154827
+        ]
+      },
+      {
+        "task": "multiplication",
+        "expected": "42",
+        "answer": "42",
+        "exact": true,
+        "input_sha256": "0ddfd33dc5fcad2490988078344d1676b74eb97170814fba05030a32282bb7a1",
+        "tokens": 2,
+        "token_ids": [
+          101961,
+          154827
+        ]
+      },
+      {
+        "task": "copy",
+        "expected": "815",
+        "answer": "815",
+        "exact": true,
+        "input_sha256": "2401cc99586b74a250e59f426e7686b224227d808711fa12db02c5dd1cab9157",
+        "tokens": 3,
+        "token_ids": [
+          23,
+          99082,
+          154827
+        ]
+      },
+      {
+        "task": "subtraction",
+        "expected": "188",
+        "answer": "188",
+        "exact": true,
+        "input_sha256": "c06960e43e4f277b8c57756475070c45117a6633ae3feb18913cca9e1369402f",
+        "tokens": 2,
+        "token_ids": [
+          117786,
+          154827
+        ]
+      }
+    ],
+    "script_sha256": "70778604e099eaa35928b7bde6e461fd1edee92cec5a7ce4f363360506c008ec"
+  },
+  {
+    "stage": "reload-48631",
+    "sha": "50cf45054aae04217bc20d9fead1f3dd4d8f1770",
+    "rows": [
+      {
+        "task": "addition",
+        "expected": "36",
+        "answer": "36",
+        "exact": true,
+        "input_sha256": "be951c298112bf807026bc124172eeddc225de41ed3e5212ec473c34176a0d4d",
+        "tokens": 2,
+        "token_ids": [
+          100632,
+          154827
+        ]
+      },
+      {
+        "task": "multiplication",
+        "expected": "42",
+        "answer": "42",
+        "exact": true,
+        "input_sha256": "0ddfd33dc5fcad2490988078344d1676b74eb97170814fba05030a32282bb7a1",
+        "tokens": 2,
+        "token_ids": [
+          101961,
+          154827
+        ]
+      },
+      {
+        "task": "copy",
+        "expected": "815",
+        "answer": "815",
+        "exact": true,
+        "input_sha256": "2401cc99586b74a250e59f426e7686b224227d808711fa12db02c5dd1cab9157",
+        "tokens": 3,
+        "token_ids": [
+          23,
+          99082,
+          154827
+        ]
+      },
+      {
+        "task": "subtraction",
+        "expected": "188",
+        "answer": "188",
+        "exact": true,
+        "input_sha256": "c06960e43e4f277b8c57756475070c45117a6633ae3feb18913cca9e1369402f",
+        "tokens": 2,
+        "token_ids": [
+          117786,
+          154827
+        ]
+      }
+    ],
+    "script_sha256": "70778604e099eaa35928b7bde6e461fd1edee92cec5a7ce4f363360506c008ec"
+  }
+]
