@@ -2,28 +2,28 @@
 
 All 20 candidates were rebased onto upstream main `1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7` before measurement on November 19, 2026. Each page gives the exact two commits, test scope, sample counts and measured outcomes. Infrastructure and diagnostic changes report their own primary metrics. Model throughput appears only for matched full-service deployments.
 
-| PR | Measured feature | Candidate |
-| --- | --- | --- |
-| [#48096](results/48096.md) | Paged radix eviction | `4529862bc1ba` |
-| [#48520](results/48520.md) | Input-only prefix retention | `778d5a2d93c9` |
-| [#48537](results/48537.md) | Mooncake allocation registration | `877b20c1303a` |
-| [#48538](results/48538.md) | MLA draft layout selection | `05717bb9fda5` |
-| [#48540](results/48540.md) | Prefill MoE tiling | `f3abcca21bab` |
-| [#48543](results/48543.md) | Exact-size ACL host allocation | `2877db5d3bf6` |
-| [#48574](results/48574.md) | DeepEP Normal and LowLatency dtypes | `9ba34b92034e` |
-| [#48575](results/48575.md) | Pinned allocator prewarming | `d225360ab183` |
-| [#48576](results/48576.md) | Per-request prefetch timing | `a14908162bc2` |
-| [#48577](results/48577.md) | HiCache backup metrics | `5239c4443cfb` |
-| [#48597](results/48597.md) | PD rebootstrap failure handling | `d09125946350` |
-| [#48599](results/48599.md) | Resident L2 hit origins | `7541d7410e7c` |
-| [#48630](results/48630.md) | Prefill admission and forward tracing | `f0f024dcfd70` |
-| [#48631](results/48631.md) | Packed NZ checkpoint round trip | `50cf45054aae` |
-| [#48632](results/48632.md) | Mooncake worker binding failures | `77ba9f6f799f` |
-| [#48843](results/48843.md) | Local shared-memory writer ports | `3a760a253bf5` |
-| [#49029](results/49029.md) | Pageable KV backup fallback | `7d66973c2b1e` |
-| [#49077](results/49077.md) | Ascend Direct endpoint naming | `bb9c53a98e82` |
-| [#49181](results/49181.md) | Docker bytecode exclusions | `d394549ff289` |
-| [#49183](results/49183.md) | Independent draft host budget | `1b789051388c` |
+| PR | Measured feature | Component metric | main | PR | Candidate commit |
+| --- | --- | --- | ---: | ---: | --- |
+| [#48096](results/48096.md) | Paged radix eviction | Total tokens evicted per 12 cases | 33,792 | 4,096 | `4529862bc1ba` |
+| [#48520](results/48520.md) | Input-only prefix retention | KV slots retained per 12 cases | 25,728 | 19,584 | `778d5a2d93c9` |
+| [#48537](results/48537.md) | Mooncake allocation registration | Destination slices verified / 16 | 0 | 16 | `877b20c1303a` |
+| [#48538](results/48538.md) | MLA draft layout selection | Incompatible layouts selected SIDECAR / 6 | 0 | 6 | `05717bb9fda5` |
+| [#48540](results/48540.md) | Prefill MoE tiling | Additional peak NPU bytes at 4,096 rows | 9,433,088 | 3,410,944 | `f3abcca21bab` |
+| [#48543](results/48543.md) | Exact-size ACL host allocation | Allocation p50 (ms) | 0.233 | 0.497 | `2877db5d3bf6` |
+| [#48574](results/48574.md) | DeepEP Normal and LowLatency dtypes | Normal relative RMS error p50 | 0.009136 | 0.000000 | `9ba34b92034e` |
+| [#48575](results/48575.md) | Pinned allocator prewarming | First real pinned allocation p50 (ms) | 0.960 | 0.059 | `d225360ab183` |
+| [#48576](results/48576.md) | Per-request prefetch timing | Requests with all nine trace events / 32 | 0 | 32 | `a14908162bc2` |
+| [#48577](results/48577.md) | HiCache backup metrics | Partial write count | Absent | 2 | `5239c4443cfb` |
+| [#48597](results/48597.md) | PD rebootstrap failure handling | Faults recorded as failed / 40 | 0 | 40 | `d09125946350` |
+| [#48599](results/48599.md) | Resident L2 hit origins | Writeback-origin tokens per process | 0 | 2,560 | `7541d7410e7c` |
+| [#48630](results/48630.md) | Prefill admission and forward tracing | DP_ADMISSION records per 18 scans | 0 | 18 | `f0f024dcfd70` |
+| [#48631](results/48631.md) | Packed NZ checkpoint round trip | Verified save/reloads across two processes | 0 | 12 | `50cf45054aae` |
+| [#48632](results/48632.md) | Mooncake worker binding failures | Fault polls surfacing the binding failure / 8 | 0 | 8 | `77ba9f6f799f` |
+| [#48843](results/48843.md) | Local shared-memory writer ports | Writers delivering all 16 packets per 12 attempts | 8 | 12 | `3a760a253bf5` |
+| [#49029](results/49029.md) | Pageable KV backup fallback | Injected first pinned-copy OOM complete backups / 14 | 0 | 14 | `7d66973c2b1e` |
+| [#49077](results/49077.md) | Ascend Direct endpoint naming | Destination slices verified / 16 | 16 | 16 | `bb9c53a98e82` |
+| [#49181](results/49181.md) | Docker bytecode exclusions | Nested bytecode bytes | 11,534,336 | 0 | `d394549ff289` |
+| [#49183](results/49183.md) | Independent draft host budget | Logical draft tokens at target 1,024 / 2,048 / 4,096 | 1,024 / 2,048 / 4,096 | 7,936 / 7,936 / 7,936 | `1b789051388c` |
 
 ## Hardware and reproducibility
 

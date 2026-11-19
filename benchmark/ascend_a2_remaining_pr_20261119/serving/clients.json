@@ -28,5 +28,25 @@
     "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
     "result_sha256": "aed62a4b582550c99505a771edccb437634316fef57463dc44c610b7d3c6721d",
     "client": "../probes/client-8b768e8a88c4.py"
+  },
+  "store-control-r2": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "963814dfb3714dc1c5eb975959cd48f0dbce1c247c6f2b253220ccb6127e8d3a",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
+  "store-object-main": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "5da353dea46244af034309fbf6cbec17b51c94d5139f2e0756a45be1537661ac",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
+  "store-trace": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "6ceea8c9a25de2b8cf57fc02774a895a73c3eaa7d2c9fd6d3404dd9952f2ab43",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
+  "store-trace-object": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "5ab4844820c25d76fc8ac14416e7810bf8ec87d3d715fec28562ccbc58e59208",
+    "client": "../probes/client-8b768e8a88c4.py"
   }
 }

@@ -14,5 +14,7 @@
   "speculative_mooncake_wheel": "mooncake-transfer-engine-npu 0.3.14",
   "speculative_mooncake_wheel_sha256": "2c92e3c3d6fd93b2f3c430964e1258318187b523d43cdc4547a51f1651a90e6b",
   "deepep": "1.0.0+1d2bc043.cann.9.1.0.b243",
-  "transformers": "5.19.0"
+  "transformers": "5.19.0",
+  "kernel_wheel": "sgl_kernel_npu-2026.11.0.post4-1_refactor_2201_all_84f7e7ebd1_tp_c78b454eb5-cp312-cp312-linux_aarch64.whl",
+  "kernel_wheel_sha256": "03c6c278e23e48c3c5791f4c227a19b527b573bc4274a1cfb2cae98299e5980a"
 }

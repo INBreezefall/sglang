@@ -1,0 +1,607 @@
+{
+  "prefill-0": {
+    "service_profile": "storage",
+    "admission_link": {
+      "scheduler_processes": 0,
+      "tagged_forward_rounds": 0,
+      "matched_to_scan": 0
+    },
+    "prefetch_event_sets": {},
+    "component": "multi-process log counts include all warmups and ranks",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "argv": [
+      "python3",
+      "-u",
+      "-m",
+      "sglang.launch_server",
+      "--model-path",
+      "/model",
+      "--served-model-name",
+      "glm52",
+      "--trust-remote-code",
+      "--device",
+      "npu",
+      "--dtype",
+      "bfloat16",
+      "--attention-backend",
+      "ascend",
+      "--sampling-backend",
+      "ascend",
+      "--quantization",
+      "modelslim",
+      "--tp-size",
+      "16",
+      "--attn-dp-size",
+      "8",
+      "--ep-size",
+      "1",
+      "--moe-a2a-backend",
+      "none",
+      "--nnodes",
+      "2",
+      "--node-rank",
+      "0",
+      "--dist-init-addr",
+      "<role-rendezvous>",
+      "--dist-timeout",
+      "360",
+      "--page-size",
+      "128",
+      "--kv-cache-dtype",
+      "bf16",
+      "--context-length",
+      "8192",
+      "--max-total-tokens",
+      "8192",
+      "--chunked-prefill-size",
+      "4096",
+      "--max-prefill-tokens",
+      "8192",
+      "--max-running-requests",
+      "32",
+      "--mem-fraction-static",
+      "0.9",
+      "--cuda-graph-backend-decode",
+      "disabled",
+      "--cuda-graph-backend-prefill",
+      "disabled",
+      "--disable-shared-experts-fusion",
+      "--host",
+      "<node-address>",
+      "--port",
+      "18684",
+      "--enable-metrics",
+      "--enable-cache-report",
+      "--disaggregation-mode",
+      "prefill",
+      "--disaggregation-transfer-backend",
+      "ascend",
+      "--disaggregation-bootstrap-port",
+      "18784",
+      "--load-balance-method",
+      "total_tokens",
+      "--skip-server-warmup",
+      "--hicache-storage-backend",
+      "file",
+      "--hicache-storage-prefetch-policy",
+      "wait_complete",
+      "--enable-hierarchical-cache",
+      "--hicache-ratio",
+      "1.5",
+      "--hicache-size",
+      "0",
+      "--hicache-write-policy",
+      "write_through",
+      "--hicache-io-backend",
+      "kernel_ascend",
+      "--hicache-mem-layout",
+      "page_first_kv_split",
+      "--schedule-policy",
+      "lpm"
+    ],
+    "launch_script_sha256": "e21f1997dd871aeff65b975120bb3c397521cb983acd43d150a0d4ea671c00a0",
+    "counts": {
+      "runtime": 1,
+      "distributed_initialized": 8,
+      "load_start": 8,
+      "load_complete": 8,
+      "http_ready": 1,
+      "prefill_batches": 172
+    },
+    "utc_stage_bounds": {
+      "distributed_initialized": [
+        "2026-11-19 08:58:11",
+        "2026-11-19 08:58:11"
+      ],
+      "load_start": [
+        "2026-11-19 08:58:32",
+        "2026-11-19 08:58:32"
+      ],
+      "load_complete": [
+        "2026-11-19 09:02:35",
+        "2026-11-19 09:03:08"
+      ],
+      "http_ready": [
+        "2026-11-19 09:03:27",
+        "2026-11-19 09:03:27"
+      ],
+      "prefill_batches": [
+        "2026-11-19 09:03:52",
+        "2026-11-19 09:05:36"
+      ]
+    },
+    "traces": {},
+    "admission_stop_counts": {},
+    "admission_field_totals": {},
+    "errors": {
+      "ImportError": 1,
+      "ValueError": 187
+    },
+    "error_examples": [
+      "Unsupported layout: page_first_kv_split"
+    ],
+    "metrics": {
+      "sglang:hicache_backup_bytes_total": {
+        "series": 8,
+        "summed": 16996761600.0,
+        "peak": 2773155840.0
+      },
+      "sglang:hicache_backup_duration_seconds_sum": {
+        "series": 8,
+        "summed": 1.2763180233836173,
+        "peak": 0.21065440005064004
+      },
+      "sglang:hicache_backup_tokens_total": {
+        "series": 8,
+        "summed": 170240.0,
+        "peak": 27776.0
+      },
+      "sglang:hicache_dropped_tokens_total": {
+        "series": 16,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:hicache_host_total_tokens": {
+        "series": 4,
+        "summed": 49664.0,
+        "peak": 12416.0
+      },
+      "sglang:hicache_host_used_tokens": {
+        "series": 4,
+        "summed": 48768.0,
+        "peak": 12288.0
+      },
+      "sglang:hicache_storage_backup_failed_tokens_total": {
+        "series": 8,
+        "summed": 170240.0,
+        "peak": 27776.0
+      }
+    },
+    "storage_files": 0,
+    "storage_bytes": 0,
+    "object_stats": null
+  },
+  "prefill-1": {
+    "service_profile": "storage",
+    "admission_link": {
+      "scheduler_processes": 0,
+      "tagged_forward_rounds": 0,
+      "matched_to_scan": 0
+    },
+    "prefetch_event_sets": {},
+    "component": "multi-process log counts include all warmups and ranks",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "argv": [
+      "python3",
+      "-u",
+      "-m",
+      "sglang.launch_server",
+      "--model-path",
+      "/model",
+      "--served-model-name",
+      "glm52",
+      "--trust-remote-code",
+      "--device",
+      "npu",
+      "--dtype",
+      "bfloat16",
+      "--attention-backend",
+      "ascend",
+      "--sampling-backend",
+      "ascend",
+      "--quantization",
+      "modelslim",
+      "--tp-size",
+      "16",
+      "--attn-dp-size",
+      "8",
+      "--ep-size",
+      "1",
+      "--moe-a2a-backend",
+      "none",
+      "--nnodes",
+      "2",
+      "--node-rank",
+      "1",
+      "--dist-init-addr",
+      "<role-rendezvous>",
+      "--dist-timeout",
+      "360",
+      "--page-size",
+      "128",
+      "--kv-cache-dtype",
+      "bf16",
+      "--context-length",
+      "8192",
+      "--max-total-tokens",
+      "8192",
+      "--chunked-prefill-size",
+      "4096",
+      "--max-prefill-tokens",
+      "8192",
+      "--max-running-requests",
+      "32",
+      "--mem-fraction-static",
+      "0.9",
+      "--cuda-graph-backend-decode",
+      "disabled",
+      "--cuda-graph-backend-prefill",
+      "disabled",
+      "--disable-shared-experts-fusion",
+      "--host",
+      "<node-address>",
+      "--port",
+      "18684",
+      "--enable-metrics",
+      "--enable-cache-report",
+      "--disaggregation-mode",
+      "prefill",
+      "--disaggregation-transfer-backend",
+      "ascend",
+      "--disaggregation-bootstrap-port",
+      "18784",
+      "--load-balance-method",
+      "total_tokens",
+      "--skip-server-warmup",
+      "--hicache-storage-backend",
+      "file",
+      "--hicache-storage-prefetch-policy",
+      "wait_complete",
+      "--enable-hierarchical-cache",
+      "--hicache-ratio",
+      "1.5",
+      "--hicache-size",
+      "0",
+      "--hicache-write-policy",
+      "write_through",
+      "--hicache-io-backend",
+      "kernel_ascend",
+      "--hicache-mem-layout",
+      "page_first_kv_split",
+      "--schedule-policy",
+      "lpm"
+    ],
+    "launch_script_sha256": "e21f1997dd871aeff65b975120bb3c397521cb983acd43d150a0d4ea671c00a0",
+    "counts": {
+      "runtime": 1,
+      "distributed_initialized": 8,
+      "load_start": 8,
+      "load_complete": 8,
+      "prefill_batches": 132
+    },
+    "utc_stage_bounds": {
+      "distributed_initialized": [
+        "2026-11-19 08:58:11",
+        "2026-11-19 08:58:11"
+      ],
+      "load_start": [
+        "2026-11-19 08:58:32",
+        "2026-11-19 08:58:33"
+      ],
+      "load_complete": [
+        "2026-11-19 09:02:34",
+        "2026-11-19 09:03:05"
+      ],
+      "prefill_batches": [
+        "2026-11-19 09:03:53",
+        "2026-11-19 09:05:37"
+      ]
+    },
+    "traces": {},
+    "admission_stop_counts": {},
+    "admission_field_totals": {},
+    "errors": {
+      "ValueError": 146
+    },
+    "error_examples": [
+      "Unsupported layout: page_first_kv_split"
+    ],
+    "metrics": {
+      "sglang:hicache_backup_bytes_total": {
+        "series": 8,
+        "summed": 12932874240.0,
+        "peak": 2108620800.0
+      },
+      "sglang:hicache_backup_duration_seconds_sum": {
+        "series": 8,
+        "summed": 0.8935659407377243,
+        "peak": 0.14282330006361008
+      },
+      "sglang:hicache_backup_tokens_total": {
+        "series": 8,
+        "summed": 129536.0,
+        "peak": 21120.0
+      },
+      "sglang:hicache_dropped_tokens_total": {
+        "series": 16,
+        "summed": 0.0,
+        "peak": 0.0
+      },
+      "sglang:hicache_host_total_tokens": {
+        "series": 4,
+        "summed": 49664.0,
+        "peak": 12416.0
+      },
+      "sglang:hicache_host_used_tokens": {
+        "series": 4,
+        "summed": 48768.0,
+        "peak": 12288.0
+      },
+      "sglang:hicache_storage_backup_failed_tokens_total": {
+        "series": 8,
+        "summed": 129536.0,
+        "peak": 21120.0
+      }
+    },
+    "storage_files": 0,
+    "storage_bytes": 0,
+    "object_stats": null
+  },
+  "decode-0": {
+    "service_profile": "storage",
+    "admission_link": {
+      "scheduler_processes": 0,
+      "tagged_forward_rounds": 0,
+      "matched_to_scan": 0
+    },
+    "prefetch_event_sets": {},
+    "component": "multi-process log counts include all warmups and ranks",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "argv": [
+      "python3",
+      "-u",
+      "-m",
+      "sglang.launch_server",
+      "--model-path",
+      "/model",
+      "--served-model-name",
+      "glm52",
+      "--trust-remote-code",
+      "--device",
+      "npu",
+      "--dtype",
+      "bfloat16",
+      "--attention-backend",
+      "ascend",
+      "--sampling-backend",
+      "ascend",
+      "--quantization",
+      "modelslim",
+      "--tp-size",
+      "16",
+      "--attn-dp-size",
+      "8",
+      "--ep-size",
+      "1",
+      "--moe-a2a-backend",
+      "none",
+      "--nnodes",
+      "2",
+      "--node-rank",
+      "0",
+      "--dist-init-addr",
+      "<role-rendezvous>",
+      "--dist-timeout",
+      "360",
+      "--page-size",
+      "128",
+      "--kv-cache-dtype",
+      "bf16",
+      "--context-length",
+      "16384",
+      "--max-total-tokens",
+      "32768",
+      "--chunked-prefill-size",
+      "4096",
+      "--max-prefill-tokens",
+      "8192",
+      "--max-running-requests",
+      "32",
+      "--mem-fraction-static",
+      "0.9",
+      "--cuda-graph-backend-decode",
+      "disabled",
+      "--cuda-graph-backend-prefill",
+      "disabled",
+      "--disable-shared-experts-fusion",
+      "--host",
+      "<node-address>",
+      "--port",
+      "18684",
+      "--enable-metrics",
+      "--enable-cache-report",
+      "--disaggregation-mode",
+      "decode",
+      "--disaggregation-transfer-backend",
+      "ascend",
+      "--disaggregation-bootstrap-port",
+      "18784",
+      "--load-balance-method",
+      "total_tokens",
+      "--skip-server-warmup",
+      "--disaggregation-decode-enable-radix-cache"
+    ],
+    "launch_script_sha256": "e21f1997dd871aeff65b975120bb3c397521cb983acd43d150a0d4ea671c00a0",
+    "counts": {
+      "runtime": 1,
+      "distributed_initialized": 8,
+      "load_start": 8,
+      "load_complete": 8,
+      "http_ready": 1,
+      "decode_batches": 9
+    },
+    "utc_stage_bounds": {
+      "distributed_initialized": [
+        "2026-11-19 08:58:08",
+        "2026-11-19 08:58:08"
+      ],
+      "load_start": [
+        "2026-11-19 08:58:29",
+        "2026-11-19 08:58:29"
+      ],
+      "load_complete": [
+        "2026-11-19 09:02:08",
+        "2026-11-19 09:02:48"
+      ],
+      "http_ready": [
+        "2026-11-19 09:03:05",
+        "2026-11-19 09:03:05"
+      ],
+      "decode_batches": [
+        "2026-11-19 09:04:48",
+        "2026-11-19 09:05:46"
+      ]
+    },
+    "traces": {},
+    "admission_stop_counts": {},
+    "admission_field_totals": {},
+    "errors": {
+      "ImportError": 1
+    },
+    "error_examples": [],
+    "metrics": {},
+    "storage_files": 0,
+    "storage_bytes": 0,
+    "object_stats": null
+  },
+  "decode-1": {
+    "service_profile": "storage",
+    "admission_link": {
+      "scheduler_processes": 0,
+      "tagged_forward_rounds": 0,
+      "matched_to_scan": 0
+    },
+    "prefetch_event_sets": {},
+    "component": "multi-process log counts include all warmups and ranks",
+    "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+    "argv": [
+      "python3",
+      "-u",
+      "-m",
+      "sglang.launch_server",
+      "--model-path",
+      "/model",
+      "--served-model-name",
+      "glm52",
+      "--trust-remote-code",
+      "--device",
+      "npu",
+      "--dtype",
+      "bfloat16",
+      "--attention-backend",
+      "ascend",
+      "--sampling-backend",
+      "ascend",
+      "--quantization",
+      "modelslim",
+      "--tp-size",
+      "16",
+      "--attn-dp-size",
+      "8",
+      "--ep-size",
+      "1",
+      "--moe-a2a-backend",
+      "none",
+      "--nnodes",
+      "2",
+      "--node-rank",
+      "1",
+      "--dist-init-addr",
+      "<role-rendezvous>",
+      "--dist-timeout",
+      "360",
+      "--page-size",
+      "128",
+      "--kv-cache-dtype",
+      "bf16",
+      "--context-length",
+      "16384",
+      "--max-total-tokens",
+      "32768",
+      "--chunked-prefill-size",
+      "4096",
+      "--max-prefill-tokens",
+      "8192",
+      "--max-running-requests",
+      "32",
+      "--mem-fraction-static",
+      "0.9",
+      "--cuda-graph-backend-decode",
+      "disabled",
+      "--cuda-graph-backend-prefill",
+      "disabled",
+      "--disable-shared-experts-fusion",
+      "--host",
+      "<node-address>",
+      "--port",
+      "18684",
+      "--enable-metrics",
+      "--enable-cache-report",
+      "--disaggregation-mode",
+      "decode",
+      "--disaggregation-transfer-backend",
+      "ascend",
+      "--disaggregation-bootstrap-port",
+      "18784",
+      "--load-balance-method",
+      "total_tokens",
+      "--skip-server-warmup",
+      "--disaggregation-decode-enable-radix-cache"
+    ],
+    "launch_script_sha256": "e21f1997dd871aeff65b975120bb3c397521cb983acd43d150a0d4ea671c00a0",
+    "counts": {
+      "runtime": 1,
+      "distributed_initialized": 8,
+      "load_start": 8,
+      "load_complete": 8,
+      "decode_batches": 8
+    },
+    "utc_stage_bounds": {
+      "distributed_initialized": [
+        "2026-11-19 08:58:08",
+        "2026-11-19 08:58:08"
+      ],
+      "load_start": [
+        "2026-11-19 08:58:28",
+        "2026-11-19 08:58:29"
+      ],
+      "load_complete": [
+        "2026-11-19 09:02:05",
+        "2026-11-19 09:02:23"
+      ],
+      "decode_batches": [
+        "2026-11-19 09:05:06",
+        "2026-11-19 09:05:49"
+      ]
+    },
+    "traces": {},
+    "admission_stop_counts": {},
+    "admission_field_totals": {},
+    "errors": {},
+    "error_examples": [],
+    "metrics": {},
+    "storage_files": 0,
+    "storage_bytes": 0,
+    "object_stats": null
+  }
+}

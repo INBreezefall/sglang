@@ -1,0 +1,318 @@
+{
+  "method": "rank-0 cache recovery after timed serving cohort",
+  "rows": [
+    {
+      "phase": "seed",
+      "prompt": 0,
+      "input_hash": "6b5e2908a7f80794bd930b2115c5c86a90ea9f57b4d874e146364db959ad4402",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "521d1aee41a931d1f59970dbfdc95e3569f5f6dc4775f59c38ed62406a1e9af8",
+      "elapsed_s": 5.587862652726471
+    },
+    {
+      "phase": "seed",
+      "prompt": 1,
+      "input_hash": "29b449f734b71738f4371460b3aed533b7eb1ab0e8703a526c3dfd370704d738",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "ce9b573e5db8418535057e95458b58d6bb50bba6f5f0cb4dbaff7adb45d3e5c4",
+      "elapsed_s": 7.773631038144231
+    },
+    {
+      "phase": "device-pressure",
+      "prompt": 10,
+      "input_hash": "71e7c281711e6efd38d236d29a75b3258d0ebc25c6a7ab5c9a24ef5290cdd5aa",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "6fa5a1883364e75732a389f41ab49dc6e883ccbe669ceb62e22d3e04757069c5",
+      "elapsed_s": 5.319125051610172
+    },
+    {
+      "phase": "device-pressure",
+      "prompt": 11,
+      "input_hash": "37b083c5034525570bb2836b8fe13173482bd213a8043377952ca80b05ef6712",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "2106fd68d768ac29a84b0c035e483f1f088805f420c2609e07e5bfe96db462b6",
+      "elapsed_s": 7.6345469783991575
+    },
+    {
+      "phase": "device-pressure",
+      "prompt": 12,
+      "input_hash": "555ed63858a552e1bd59895f193af9bf7c6f51cf8287ba418fd66b2df1f2b4a1",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "0f1211fcc904b51f4591c0210af0c3e684acc4fe738f42183b72df244738035b",
+      "elapsed_s": 5.435894197784364
+    },
+    {
+      "phase": "device-pressure",
+      "prompt": 13,
+      "input_hash": "b2e905e38868448f3e5d797460eb32ddfc6cf5a0df87149d98243fea0f10feed",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "6fa5a1883364e75732a389f41ab49dc6e883ccbe669ceb62e22d3e04757069c5",
+      "elapsed_s": 7.676961340010166
+    },
+    {
+      "phase": "device-pressure",
+      "prompt": 14,
+      "input_hash": "fec00c7702dfcc6055b677b62c5331f84ea2670a5d7f3e44becaafb654f6702c",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "ce9b573e5db8418535057e95458b58d6bb50bba6f5f0cb4dbaff7adb45d3e5c4",
+      "elapsed_s": 5.3598961578682065
+    },
+    {
+      "phase": "device-pressure",
+      "prompt": 15,
+      "input_hash": "fa3ff99f2a993857c343925e09ede040b3a92d8f74e2528567027eb0c4a9b243",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "ce9b573e5db8418535057e95458b58d6bb50bba6f5f0cb4dbaff7adb45d3e5c4",
+      "elapsed_s": 7.414012645371258
+    },
+    {
+      "phase": "after-device-pressure",
+      "prompt": 0,
+      "input_hash": "6b5e2908a7f80794bd930b2115c5c86a90ea9f57b4d874e146364db959ad4402",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 2048,
+      "prefill_cache_details": {
+        "device": 0,
+        "host": 0,
+        "storage": 2048,
+        "storage_backend": "SeaweedFSStore"
+      },
+      "decode_cached": 2048,
+      "output_hash": "521d1aee41a931d1f59970dbfdc95e3569f5f6dc4775f59c38ed62406a1e9af8",
+      "elapsed_s": 3.4258866161108017
+    },
+    {
+      "phase": "after-device-pressure",
+      "prompt": 1,
+      "input_hash": "29b449f734b71738f4371460b3aed533b7eb1ab0e8703a526c3dfd370704d738",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 2048,
+      "prefill_cache_details": {
+        "device": 0,
+        "host": 0,
+        "storage": 2048,
+        "storage_backend": "SeaweedFSStore"
+      },
+      "decode_cached": 2048,
+      "output_hash": "ce9b573e5db8418535057e95458b58d6bb50bba6f5f0cb4dbaff7adb45d3e5c4",
+      "elapsed_s": 3.990824168547988
+    },
+    {
+      "phase": "after-cache-flush",
+      "prompt": 0,
+      "input_hash": "6b5e2908a7f80794bd930b2115c5c86a90ea9f57b4d874e146364db959ad4402",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 2048,
+      "prefill_cache_details": {
+        "device": 0,
+        "host": 0,
+        "storage": 2048,
+        "storage_backend": "SeaweedFSStore"
+      },
+      "decode_cached": 2048,
+      "output_hash": "521d1aee41a931d1f59970dbfdc95e3569f5f6dc4775f59c38ed62406a1e9af8",
+      "elapsed_s": 3.2239771857857704
+    },
+    {
+      "phase": "after-cache-flush",
+      "prompt": 1,
+      "input_hash": "29b449f734b71738f4371460b3aed533b7eb1ab0e8703a526c3dfd370704d738",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 2048,
+      "prefill_cache_details": {
+        "device": 0,
+        "host": 0,
+        "storage": 2048,
+        "storage_backend": "SeaweedFSStore"
+      },
+      "decode_cached": 2048,
+      "output_hash": "ce9b573e5db8418535057e95458b58d6bb50bba6f5f0cb4dbaff7adb45d3e5c4",
+      "elapsed_s": 3.7961509777233005
+    },
+    {
+      "phase": "second-device-pressure",
+      "prompt": 32,
+      "input_hash": "b4f803cbbe02dbe7185c5e5505dc4ca0bc4e2fd6677a530dd53c93721520ef0f",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "ea3276be97d82f492cf07c0666494e5b1cc7709e5e03eb36ccbb133216e2e6eb",
+      "elapsed_s": 5.6223189709708095
+    },
+    {
+      "phase": "second-device-pressure",
+      "prompt": 33,
+      "input_hash": "e90040843905873621a0abe3525277b9cbf0608b7fc70493ef08e8fb83e980a6",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "0f49325c7e01b4f9f3193c2d8847c686fbc4b18949d0906c11e3aa4c4b14a04b",
+      "elapsed_s": 7.873163593932986
+    },
+    {
+      "phase": "second-device-pressure",
+      "prompt": 34,
+      "input_hash": "437aea4e2cfe221202b61a82ad297cf45a061058cddb9d9b56ab8d23a5b3deed",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "84a95895beb133934096d315348fb988604a868c50cc72d6adc23291f2c510f1",
+      "elapsed_s": 5.7939875246956944
+    },
+    {
+      "phase": "second-device-pressure",
+      "prompt": 35,
+      "input_hash": "9df714d73c6490435996afad2b099910e3d0be066a6cbbaf79f068da91fc99cf",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "af4cd8d005ea932ac582886d8518243e47dcf1ebfcb74a80292154e2764e42b3",
+      "elapsed_s": 7.969399749301374
+    },
+    {
+      "phase": "second-device-pressure",
+      "prompt": 36,
+      "input_hash": "d47bf3389fdc7ba8d87f84a48c9696a22ae96cf82f2350f5d5e56797f6b048c1",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "90bea6e873b893c6c55068496dea1f324b709328f368f709d44106893ba9ec61",
+      "elapsed_s": 5.666628859005868
+    },
+    {
+      "phase": "second-device-pressure",
+      "prompt": 37,
+      "input_hash": "8f256a955265aced940dc057e14dd8007f840de0ae294a11176a469cdd1ebbaf",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 0,
+      "prefill_cache_details": {},
+      "decode_cached": 0,
+      "output_hash": "27d9b8ecb2e969ff51402b9733f6d933c0f001f8f63ba0bbca75adefbb0230bc",
+      "elapsed_s": 7.896913022734225
+    },
+    {
+      "phase": "after-refill-and-pressure",
+      "prompt": 0,
+      "input_hash": "6b5e2908a7f80794bd930b2115c5c86a90ea9f57b4d874e146364db959ad4402",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 2048,
+      "prefill_cache_details": {
+        "device": 0,
+        "host": 0,
+        "storage": 2048,
+        "storage_backend": "SeaweedFSStore"
+      },
+      "decode_cached": 2048,
+      "output_hash": "521d1aee41a931d1f59970dbfdc95e3569f5f6dc4775f59c38ed62406a1e9af8",
+      "elapsed_s": 3.2981851184740663
+    },
+    {
+      "phase": "after-refill-and-pressure",
+      "prompt": 1,
+      "input_hash": "29b449f734b71738f4371460b3aed533b7eb1ab0e8703a526c3dfd370704d738",
+      "input_tokens": 2049,
+      "prefill_dp_rank": 0,
+      "decode_dp_rank": 0,
+      "prefill_cached": 2048,
+      "prefill_cache_details": {
+        "device": 0,
+        "host": 0,
+        "storage": 2048,
+        "storage_backend": "SeaweedFSStore"
+      },
+      "decode_cached": 2048,
+      "output_hash": "ce9b573e5db8418535057e95458b58d6bb50bba6f5f0cb4dbaff7adb45d3e5c4",
+      "elapsed_s": 3.871368524618447
+    }
+  ],
+  "local_prefill_file_snapshots": [
+    {
+      "phase": "seeded",
+      "files": 455,
+      "new_or_modified": 32
+    },
+    {
+      "phase": "finished",
+      "files": 647
+    }
+  ],
+  "rank0_host_trace_events": {
+    "enqueue": 40,
+    "lookup_start": 40,
+    "lookup_io_end": 40,
+    "lookup_end": 40,
+    "consume": 40,
+    "forward_entry": 152,
+    "read_start": 12,
+    "read_end": 12,
+    "ack_ready": 12
+  },
+  "script_sha256": "f58d1b9845f0b72e087ebdc9b46ab8f26ee56224e848a7abe00d75050fb5efb4"
+}
