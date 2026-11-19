@@ -9,6 +9,7 @@ The 32 Ascend 910B4-1 devices served the full GLM-5.2 W4A8C8 checkpoint. Two hos
 | [#48541](d48541.json) | 8.71 | 12.98 | 1.73 | 21.24 | 2/48 | 48/48 | 84,864 | 19/72 |
 | [#49103](d49103.json) | 10.09 | 16.33 | 1.76 | 18.01 | 5/48 | 8/48 | 87,936 | 16/72 |
 | [restored main](restore-c24.json) | 9.36 | 15.00 | 1.74 | 18.16 | 5/48 | 11/48 | 89,216 | 13/72 |
+| [#48539](p48539.json) | 8.68 | 14.31 | 1.74 | 18.36 | 5/48 | 5/48 | 93,696 | 17/72 |
 
 ## Workload and timing
 
@@ -20,4 +21,4 @@ The initial main deployment also ran a one-request, four-token connectivity chec
 
 Both main controls used the same source and complete checkpoint. Mean TTFT varied from 24.67 to 9.36 s and output throughput from 11.13 to 18.16 tok/s. Their generated token sequences agreed for 13/72 requests. Interpret each candidate against both controls.
 
-Cohort launch order was base-c24 (04:38 UTC), p48098 (04:55 UTC), d48541 (05:06 UTC), d49103 (05:25 UTC), restore-c24 (05:38 UTC).
+Cohort launch order was base-c24 (04:38 UTC), p48098 (04:55 UTC), d48541 (05:06 UTC), d49103 (05:25 UTC), restore-c24 (05:38 UTC), p48539 (05:49 UTC).
