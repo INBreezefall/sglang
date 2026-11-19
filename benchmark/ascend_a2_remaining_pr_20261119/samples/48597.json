@@ -1,0 +1,1272 @@
+{
+  "device": "4",
+  "feature": 48597,
+  "mode": "default",
+  "script_sha256": "560f32dde003e4d1a15064aaf5d8fad0bea77144a92af7d655dbb121ffb534ee",
+  "raw_hashes": [
+    "7493d9f583d1df5e11c2ff997936a1298b7c47e4c4d1929a640a4a8c5ec0cd26",
+    "173d6d7850ab0d7e7b0d70d48661a017701a3c5dbe12e890b74fb81bccb9b6e5",
+    "8aa377782ce533814d9a1d60716a143a984eccb46f51b3894adc220b5fd2acf1",
+    "c193fbd500d450db26c04dcc8d082c51ae6ca8b9ccdd79e494092c117fe68a83"
+  ],
+  "runs": [
+    {
+      "feature": 48597,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 5.676188
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 4.470956
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.988814
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.105534
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.058811
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.871614
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 4.079505
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.882424
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.596883
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.05585
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.094564
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.304605
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.105914
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.210015
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.05514
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.147925
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.099314
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.874114
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.696534
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.05811
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.773283
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.695423
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.854834
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.876523
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.05567
+        }
+      ]
+    },
+    {
+      "feature": 48597,
+      "flag": 1,
+      "sha": "d09125946350bfbb50d754a9df308b0e6a97748f",
+      "rows": [
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 5.292503
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.261484
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.116513
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.085226
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.953898
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 3.767253
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.125115
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.090902
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.080232
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.573659
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 2.884444
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.108203
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.085767
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.07929
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.53558
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 3.041246
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.109178
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.088747
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.091336
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.515515
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 4.305953
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.120662
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.088476
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.079712
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.527118
+        }
+      ]
+    },
+    {
+      "feature": 48597,
+      "flag": 1,
+      "sha": "d09125946350bfbb50d754a9df308b0e6a97748f",
+      "rows": [
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 6.865255
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.288807
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.118376
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.088725
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.998856
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 3.594765
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.127487
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.094206
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.084717
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.564579
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 3.379062
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.212052
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.094207
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.091769
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.783511
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 3.615749
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.114335
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.089365
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.083547
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.528083
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            [
+              5.0,
+              12
+            ]
+          ],
+          "elapsed_ms": 3.462295
+        },
+        {
+          "case": "stale-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.116881
+        },
+        {
+          "case": "negative-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.089419
+        },
+        {
+          "case": "bool-rank",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.081304
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": true,
+          "reason_recorded": true,
+          "raised": null,
+          "configured_timeouts": [],
+          "elapsed_ms": 0.529501
+        }
+      ]
+    },
+    {
+      "feature": 48597,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 6.526778
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 4.644895
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.633093
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.186153
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.057535
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.960288
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.203865
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.336985
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.286762
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.053007
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.118303
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.871346
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.836788
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.551464
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.057449
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.112691
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.574019
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.77428
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.735301
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.052715
+        },
+        {
+          "case": "valid",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.494486
+        },
+        {
+          "case": "stale-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 3.151724
+        },
+        {
+          "case": "negative-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.933367
+        },
+        {
+          "case": "bool-rank",
+          "posts": 1,
+          "http_status": [
+            200
+          ],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": null,
+          "configured_timeouts": [
+            12
+          ],
+          "elapsed_ms": 2.698912
+        },
+        {
+          "case": "closed-executor",
+          "posts": 0,
+          "http_status": [],
+          "failed": false,
+          "reason_recorded": false,
+          "raised": "RuntimeError",
+          "configured_timeouts": [],
+          "elapsed_ms": 0.052152
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "device": "0",
+  "feature": 48630,
+  "mode": "default",
+  "script_sha256": "d9458cb74b0fefed786db1594a8130e482a3e919fae86dbaf5dd2b2e793c382d",
+  "raw_hashes": [
+    "e3c06c78bb9e2b2b467ef011b32fda6c6e0147053475c5a19b23697feb9409c3",
+    "2ee02ca7de417678b13c9a10275a81dfb0272c13e7cf3ea7bd2c761c02a3a149",
+    "01da5eae8d09cc2e211a83603572c3ff75f03200880ca35f90534e40d65be63a",
+    "2e00e107dc841c190b861208359a5d1677c19ebd4640acf4a8649a5a257cdd96"
+  ],
+  "runs": [
+    {
+      "feature": 48630,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "scan": 1,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.022989
+        },
+        {
+          "scan": 2,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 33.325243
+        },
+        {
+          "scan": 3,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.826368
+        },
+        {
+          "scan": 4,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.007399
+        },
+        {
+          "scan": 5,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.559011
+        },
+        {
+          "scan": 6,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.520044
+        },
+        {
+          "scan": 7,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.006684
+        },
+        {
+          "scan": 8,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.520424
+        },
+        {
+          "scan": 9,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.516664
+        },
+        {
+          "scan": 10,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.006749
+        },
+        {
+          "scan": 11,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.489375
+        },
+        {
+          "scan": 12,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.455066
+        },
+        {
+          "scan": 13,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.00676
+        },
+        {
+          "scan": 14,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.38857
+        },
+        {
+          "scan": 15,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.40078
+        },
+        {
+          "scan": 16,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.006348
+        },
+        {
+          "scan": 17,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.3805
+        },
+        {
+          "scan": 18,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.371497
+        }
+      ]
+    },
+    {
+      "feature": 48630,
+      "flag": 1,
+      "sha": "f0f024dcfd70f615066ccd108bac85bb438b1dc0",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "scan": 1,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=1 after_fct=0 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.337632
+        },
+        {
+          "scan": 2,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=2 after_fct=0 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=1 mode=extend bs=0 new=512 scan=2 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 28.366299
+        },
+        {
+          "scan": 3,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=3 after_fct=1 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=2 mode=extend bs=0 new=512 scan=3 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.991728
+        },
+        {
+          "scan": 4,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=4 after_fct=2 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.145373
+        },
+        {
+          "scan": 5,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=5 after_fct=2 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=3 mode=extend bs=0 new=512 scan=5 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.622571
+        },
+        {
+          "scan": 6,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=6 after_fct=3 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=4 mode=extend bs=0 new=512 scan=6 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.738737
+        },
+        {
+          "scan": 7,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=7 after_fct=4 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.142534
+        },
+        {
+          "scan": 8,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=8 after_fct=4 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=5 mode=extend bs=0 new=512 scan=8 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.627175
+        },
+        {
+          "scan": 9,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=9 after_fct=5 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=6 mode=extend bs=0 new=512 scan=9 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.637391
+        },
+        {
+          "scan": 10,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=10 after_fct=6 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.140855
+        },
+        {
+          "scan": 11,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=11 after_fct=6 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=7 mode=extend bs=0 new=512 scan=11 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.611922
+        },
+        {
+          "scan": 12,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=12 after_fct=7 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=8 mode=extend bs=0 new=512 scan=12 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.635885
+        },
+        {
+          "scan": 13,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=13 after_fct=8 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.130769
+        },
+        {
+          "scan": 14,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=14 after_fct=8 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=9 mode=extend bs=0 new=512 scan=14 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.634336
+        },
+        {
+          "scan": 15,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=15 after_fct=9 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=10 mode=extend bs=0 new=512 scan=15 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.639405
+        },
+        {
+          "scan": 16,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=16 after_fct=10 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.158037
+        },
+        {
+          "scan": 17,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=17 after_fct=10 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=11 mode=extend bs=0 new=512 scan=17 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.610437
+        },
+        {
+          "scan": 18,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=18 after_fct=11 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=12 mode=extend bs=0 new=512 scan=18 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.646838
+        }
+      ]
+    },
+    {
+      "feature": 48630,
+      "flag": 1,
+      "sha": "f0f024dcfd70f615066ccd108bac85bb438b1dc0",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "scan": 1,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=1 after_fct=0 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.401094
+        },
+        {
+          "scan": 2,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=2 after_fct=0 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=1 mode=extend bs=0 new=512 scan=2 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 43.854142
+        },
+        {
+          "scan": 3,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=3 after_fct=1 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=2 mode=extend bs=0 new=512 scan=3 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.978598
+        },
+        {
+          "scan": 4,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=4 after_fct=2 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.13155
+        },
+        {
+          "scan": 5,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=5 after_fct=2 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=3 mode=extend bs=0 new=512 scan=5 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.623384
+        },
+        {
+          "scan": 6,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=6 after_fct=3 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=4 mode=extend bs=0 new=512 scan=6 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.638875
+        },
+        {
+          "scan": 7,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=7 after_fct=4 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.135807
+        },
+        {
+          "scan": 8,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=8 after_fct=4 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=5 mode=extend bs=0 new=512 scan=8 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.747263
+        },
+        {
+          "scan": 9,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=9 after_fct=5 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=6 mode=extend bs=0 new=512 scan=9 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.641518
+        },
+        {
+          "scan": 10,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=10 after_fct=6 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.133153
+        },
+        {
+          "scan": 11,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=11 after_fct=6 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=7 mode=extend bs=0 new=512 scan=11 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.591458
+        },
+        {
+          "scan": 12,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=12 after_fct=7 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=8 mode=extend bs=0 new=512 scan=12 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.62932
+        },
+        {
+          "scan": 13,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=13 after_fct=8 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.133467
+        },
+        {
+          "scan": 14,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=14 after_fct=8 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=9 mode=extend bs=0 new=512 scan=14 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.605747
+        },
+        {
+          "scan": 15,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=15 after_fct=9 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=10 mode=extend bs=0 new=512 scan=15 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.626395
+        },
+        {
+          "scan": 16,
+          "issued": false,
+          "events": [
+            "DP_ADMISSION scan=16 after_fct=10 queue=4 visited=2 admitted=0 head_wait_ms=None skips=none stop=pass_budget"
+          ],
+          "elapsed_ms": 0.167613
+        },
+        {
+          "scan": 17,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=17 after_fct=10 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=11 mode=extend bs=0 new=512 scan=17 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.628172
+        },
+        {
+          "scan": 18,
+          "issued": true,
+          "events": [
+            "DP_ADMISSION scan=18 after_fct=11 queue=4 visited=2 admitted=1 head_wait_ms=None skips=none stop=queue_exhausted",
+            "DP_ROUND fct=12 mode=extend bs=0 new=512 scan=18 local_tokens=512 max_tokens=512 gather_ms=0.0 local_pairs=512 max_pairs=512"
+          ],
+          "elapsed_ms": 0.636492
+        }
+      ]
+    },
+    {
+      "feature": 48630,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "scan": 1,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.025599
+        },
+        {
+          "scan": 2,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 51.143002
+        },
+        {
+          "scan": 3,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.758378
+        },
+        {
+          "scan": 4,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.00858
+        },
+        {
+          "scan": 5,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.44992
+        },
+        {
+          "scan": 6,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.398787
+        },
+        {
+          "scan": 7,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.007681
+        },
+        {
+          "scan": 8,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.382612
+        },
+        {
+          "scan": 9,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.360393
+        },
+        {
+          "scan": 10,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.007518
+        },
+        {
+          "scan": 11,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.358768
+        },
+        {
+          "scan": 12,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.353796
+        },
+        {
+          "scan": 13,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.007129
+        },
+        {
+          "scan": 14,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.357847
+        },
+        {
+          "scan": 15,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.352809
+        },
+        {
+          "scan": 16,
+          "issued": false,
+          "events": [],
+          "elapsed_ms": 0.007269
+        },
+        {
+          "scan": 17,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.360761
+        },
+        {
+          "scan": 18,
+          "issued": true,
+          "events": [],
+          "elapsed_ms": 0.367403
+        }
+      ]
+    }
+  ]
+}

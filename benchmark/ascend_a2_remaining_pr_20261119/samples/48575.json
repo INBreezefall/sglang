@@ -1,0 +1,318 @@
+{
+  "device": "0",
+  "feature": 48575,
+  "mode": "default",
+  "script_sha256": "2ebd0678168f174265592d79555b03d1ef130967ef0450c115305951d990b470",
+  "raw_hashes": [
+    "19fc321ed089ff955e26458bbc1b1008eac59128223cae5d18ff09d66cc9ec0c",
+    "70a66221e045890986622286fd2c91e65a2af0d79b0fefda5bf8097ed5cb98b1",
+    "fe0b58600138bff906e4a0257d18b51b50958d18cb58792eacb30057fbcde09f",
+    "3dc33935edc5720bc208a872efa74d438b55fafd4e6cc42ea2f272fd0d9f8d25"
+  ],
+  "runs": [
+    {
+      "feature": 48575,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "reserve_mb": 64,
+      "before": {
+        "active_bytes.current": 0,
+        "allocated_bytes.current": 0,
+        "num_host_alloc": 0,
+        "num_host_free": 0
+      },
+      "after_warmup": {
+        "active_bytes.current": 0,
+        "allocated_bytes.current": 0,
+        "num_host_alloc": 0,
+        "num_host_free": 0
+      },
+      "warmup_ms": 0.06461,
+      "rows": [
+        {
+          "allocate_ms": 0.958462,
+          "h2d_ms": 14.187865,
+          "pinned": true,
+          "hash": "0f906eefcf1dd158ca5be390cfcd924e8eba9dccea0b9f02f24ff8988d5555a8"
+        },
+        {
+          "allocate_ms": 0.27417,
+          "h2d_ms": 1.267451,
+          "pinned": true,
+          "hash": "dc1b71d7c13d2f5ac33ebc9e4b8ed1ed9fc1753b5eb38c06d167a3431f29d9be"
+        },
+        {
+          "allocate_ms": 0.15435,
+          "h2d_ms": 1.253531,
+          "pinned": true,
+          "hash": "f6968e4bfececce9e2f35561c415a07560082471c3258e07a33419835d1d4655"
+        },
+        {
+          "allocate_ms": 0.14701,
+          "h2d_ms": 1.196162,
+          "pinned": true,
+          "hash": "d72db1885789be8135b465acc687edbf53911b43ed58d90777d85c541dacbfc6"
+        },
+        {
+          "allocate_ms": 0.14408,
+          "h2d_ms": 1.232311,
+          "pinned": true,
+          "hash": "ad8232aa15b6d3d8e6a7682cf2f5282dfbcf4df3ef102d073bae56f0a019f39d"
+        },
+        {
+          "allocate_ms": 0.142961,
+          "h2d_ms": 18.63412,
+          "pinned": true,
+          "hash": "6262557879c7dee7ba931da2ae40b71357d335960a5d4d8f7d5c16f636e754c6"
+        },
+        {
+          "allocate_ms": 0.13266,
+          "h2d_ms": 1.154501,
+          "pinned": true,
+          "hash": "31a736a5a8f30a08dd2ed4ac6822f2410526829173dcda75df2154c9d205e7a7"
+        },
+        {
+          "allocate_ms": 0.12879,
+          "h2d_ms": 0.684821,
+          "pinned": true,
+          "hash": "03645cb98f3245519970f152126c4e959291c1febbd2bbdb7398716e60e8ee32"
+        },
+        {
+          "allocate_ms": 0.13026,
+          "h2d_ms": 1.449952,
+          "pinned": true,
+          "hash": "691d6e51832641059377784fbdc4853cf8ff9ae65468c3477d7b4ceb10371b63"
+        }
+      ]
+    },
+    {
+      "feature": 48575,
+      "flag": 1,
+      "sha": "d225360ab183cb679885e3433d0a631e578a8ab0",
+      "device": "Ascend910B4-1",
+      "reserve_mb": 64,
+      "before": {
+        "active_bytes.current": 0,
+        "allocated_bytes.current": 0,
+        "num_host_alloc": 0,
+        "num_host_free": 0
+      },
+      "after_warmup": {
+        "active_bytes.current": 1,
+        "allocated_bytes.current": 1,
+        "num_host_alloc": 1,
+        "num_host_free": 0
+      },
+      "warmup_ms": 1.672301,
+      "rows": [
+        {
+          "allocate_ms": 0.060281,
+          "h2d_ms": 19.727031,
+          "pinned": true,
+          "hash": "0f906eefcf1dd158ca5be390cfcd924e8eba9dccea0b9f02f24ff8988d5555a8"
+        },
+        {
+          "allocate_ms": 0.302601,
+          "h2d_ms": 1.355121,
+          "pinned": true,
+          "hash": "dc1b71d7c13d2f5ac33ebc9e4b8ed1ed9fc1753b5eb38c06d167a3431f29d9be"
+        },
+        {
+          "allocate_ms": 0.13875,
+          "h2d_ms": 1.129541,
+          "pinned": true,
+          "hash": "f6968e4bfececce9e2f35561c415a07560082471c3258e07a33419835d1d4655"
+        },
+        {
+          "allocate_ms": 0.12892,
+          "h2d_ms": 1.162222,
+          "pinned": true,
+          "hash": "d72db1885789be8135b465acc687edbf53911b43ed58d90777d85c541dacbfc6"
+        },
+        {
+          "allocate_ms": 0.1349,
+          "h2d_ms": 1.112531,
+          "pinned": true,
+          "hash": "ad8232aa15b6d3d8e6a7682cf2f5282dfbcf4df3ef102d073bae56f0a019f39d"
+        },
+        {
+          "allocate_ms": 0.13082,
+          "h2d_ms": 1.099012,
+          "pinned": true,
+          "hash": "6262557879c7dee7ba931da2ae40b71357d335960a5d4d8f7d5c16f636e754c6"
+        },
+        {
+          "allocate_ms": 0.131331,
+          "h2d_ms": 1.320671,
+          "pinned": true,
+          "hash": "31a736a5a8f30a08dd2ed4ac6822f2410526829173dcda75df2154c9d205e7a7"
+        },
+        {
+          "allocate_ms": 0.13397,
+          "h2d_ms": 1.120702,
+          "pinned": true,
+          "hash": "03645cb98f3245519970f152126c4e959291c1febbd2bbdb7398716e60e8ee32"
+        },
+        {
+          "allocate_ms": 0.12321,
+          "h2d_ms": 1.217291,
+          "pinned": true,
+          "hash": "691d6e51832641059377784fbdc4853cf8ff9ae65468c3477d7b4ceb10371b63"
+        }
+      ]
+    },
+    {
+      "feature": 48575,
+      "flag": 1,
+      "sha": "d225360ab183cb679885e3433d0a631e578a8ab0",
+      "device": "Ascend910B4-1",
+      "reserve_mb": 64,
+      "before": {
+        "active_bytes.current": 0,
+        "allocated_bytes.current": 0,
+        "num_host_alloc": 0,
+        "num_host_free": 0
+      },
+      "after_warmup": {
+        "active_bytes.current": 1,
+        "allocated_bytes.current": 1,
+        "num_host_alloc": 1,
+        "num_host_free": 0
+      },
+      "warmup_ms": 1.595842,
+      "rows": [
+        {
+          "allocate_ms": 0.05722,
+          "h2d_ms": 10.774101,
+          "pinned": true,
+          "hash": "0f906eefcf1dd158ca5be390cfcd924e8eba9dccea0b9f02f24ff8988d5555a8"
+        },
+        {
+          "allocate_ms": 0.270241,
+          "h2d_ms": 1.074611,
+          "pinned": true,
+          "hash": "dc1b71d7c13d2f5ac33ebc9e4b8ed1ed9fc1753b5eb38c06d167a3431f29d9be"
+        },
+        {
+          "allocate_ms": 0.13554,
+          "h2d_ms": 1.022381,
+          "pinned": true,
+          "hash": "f6968e4bfececce9e2f35561c415a07560082471c3258e07a33419835d1d4655"
+        },
+        {
+          "allocate_ms": 0.1392,
+          "h2d_ms": 1.085451,
+          "pinned": true,
+          "hash": "d72db1885789be8135b465acc687edbf53911b43ed58d90777d85c541dacbfc6"
+        },
+        {
+          "allocate_ms": 0.13926,
+          "h2d_ms": 0.837011,
+          "pinned": true,
+          "hash": "ad8232aa15b6d3d8e6a7682cf2f5282dfbcf4df3ef102d073bae56f0a019f39d"
+        },
+        {
+          "allocate_ms": 0.1442,
+          "h2d_ms": 0.84045,
+          "pinned": true,
+          "hash": "6262557879c7dee7ba931da2ae40b71357d335960a5d4d8f7d5c16f636e754c6"
+        },
+        {
+          "allocate_ms": 0.133971,
+          "h2d_ms": 0.752841,
+          "pinned": true,
+          "hash": "31a736a5a8f30a08dd2ed4ac6822f2410526829173dcda75df2154c9d205e7a7"
+        },
+        {
+          "allocate_ms": 0.13027,
+          "h2d_ms": 1.077321,
+          "pinned": true,
+          "hash": "03645cb98f3245519970f152126c4e959291c1febbd2bbdb7398716e60e8ee32"
+        },
+        {
+          "allocate_ms": 0.13889,
+          "h2d_ms": 1.285351,
+          "pinned": true,
+          "hash": "691d6e51832641059377784fbdc4853cf8ff9ae65468c3477d7b4ceb10371b63"
+        }
+      ]
+    },
+    {
+      "feature": 48575,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "reserve_mb": 64,
+      "before": {
+        "active_bytes.current": 0,
+        "allocated_bytes.current": 0,
+        "num_host_alloc": 0,
+        "num_host_free": 0
+      },
+      "after_warmup": {
+        "active_bytes.current": 0,
+        "allocated_bytes.current": 0,
+        "num_host_alloc": 0,
+        "num_host_free": 0
+      },
+      "warmup_ms": 0.06534,
+      "rows": [
+        {
+          "allocate_ms": 0.961671,
+          "h2d_ms": 21.547983,
+          "pinned": true,
+          "hash": "0f906eefcf1dd158ca5be390cfcd924e8eba9dccea0b9f02f24ff8988d5555a8"
+        },
+        {
+          "allocate_ms": 0.29728,
+          "h2d_ms": 1.078711,
+          "pinned": true,
+          "hash": "dc1b71d7c13d2f5ac33ebc9e4b8ed1ed9fc1753b5eb38c06d167a3431f29d9be"
+        },
+        {
+          "allocate_ms": 0.13832,
+          "h2d_ms": 1.101051,
+          "pinned": true,
+          "hash": "f6968e4bfececce9e2f35561c415a07560082471c3258e07a33419835d1d4655"
+        },
+        {
+          "allocate_ms": 0.13337,
+          "h2d_ms": 0.59891,
+          "pinned": true,
+          "hash": "d72db1885789be8135b465acc687edbf53911b43ed58d90777d85c541dacbfc6"
+        },
+        {
+          "allocate_ms": 0.135811,
+          "h2d_ms": 1.309412,
+          "pinned": true,
+          "hash": "ad8232aa15b6d3d8e6a7682cf2f5282dfbcf4df3ef102d073bae56f0a019f39d"
+        },
+        {
+          "allocate_ms": 0.13401,
+          "h2d_ms": 0.934971,
+          "pinned": true,
+          "hash": "6262557879c7dee7ba931da2ae40b71357d335960a5d4d8f7d5c16f636e754c6"
+        },
+        {
+          "allocate_ms": 0.13182,
+          "h2d_ms": 0.680361,
+          "pinned": true,
+          "hash": "31a736a5a8f30a08dd2ed4ac6822f2410526829173dcda75df2154c9d205e7a7"
+        },
+        {
+          "allocate_ms": 0.13662,
+          "h2d_ms": 0.638841,
+          "pinned": true,
+          "hash": "03645cb98f3245519970f152126c4e959291c1febbd2bbdb7398716e60e8ee32"
+        },
+        {
+          "allocate_ms": 0.13237,
+          "h2d_ms": 1.187381,
+          "pinned": true,
+          "hash": "691d6e51832641059377784fbdc4853cf8ff9ae65468c3477d7b4ceb10371b63"
+        }
+      ]
+    }
+  ]
+}

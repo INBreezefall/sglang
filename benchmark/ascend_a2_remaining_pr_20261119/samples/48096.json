@@ -1,0 +1,430 @@
+{
+  "device": "0",
+  "feature": 48096,
+  "mode": "default",
+  "script_sha256": "97d0841a817bfcdac97174a262c0fecddabbb7a58d8bdef90b73989f62f7aa39",
+  "raw_hashes": [
+    "5e8d8a0753b8eb3b4d23214db2dc8924eb420e80bf22079dc43ee6a1fc42fa83",
+    "a7d8c8e6f0ac389ef8f894349e4f2227989192de7e9d4632290e9dd7a266d58d",
+    "5d668361b5334ed4cd0a3d06f240c38844dd5262f764f2dbdfa20b39a2a15f5c",
+    "24dff13235e36b73af5d57e06037aa0713c3ed8dcbc31a2815ee4b9e3e4e16c8"
+  ],
+  "runs": [
+    {
+      "feature": 48096,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 2048,
+          "shortfall": 128,
+          "evicted": 2048,
+          "hit": 0,
+          "ms": 156.40998,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 256,
+          "evicted": 2560,
+          "hit": 0,
+          "ms": 0.729821,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 384,
+          "evicted": 3072,
+          "hit": 0,
+          "ms": 0.575921,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 128,
+          "evicted": 3584,
+          "hit": 0,
+          "ms": 0.711101,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2048,
+          "shortfall": 256,
+          "evicted": 2048,
+          "hit": 0,
+          "ms": 0.463661,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 384,
+          "evicted": 2560,
+          "hit": 0,
+          "ms": 0.437211,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 128,
+          "evicted": 3072,
+          "hit": 0,
+          "ms": 0.422531,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 256,
+          "evicted": 3584,
+          "hit": 0,
+          "ms": 0.445281,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2048,
+          "shortfall": 384,
+          "evicted": 2048,
+          "hit": 0,
+          "ms": 0.427031,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 128,
+          "evicted": 2560,
+          "hit": 0,
+          "ms": 0.422561,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 256,
+          "evicted": 3072,
+          "hit": 0,
+          "ms": 0.499211,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 384,
+          "evicted": 3584,
+          "hit": 0,
+          "ms": 0.507001,
+          "preserved_values": 0
+        }
+      ]
+    },
+    {
+      "feature": 48096,
+      "flag": 1,
+      "sha": "4529862bc1ba51d239f68a29cfb8249abc4c0224",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 2048,
+          "shortfall": 128,
+          "evicted": 256,
+          "hit": 1792,
+          "ms": 96.828003,
+          "preserved_values": 57344
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 256,
+          "evicted": 256,
+          "hit": 2304,
+          "ms": 1.039522,
+          "preserved_values": 73728
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 384,
+          "evicted": 512,
+          "hit": 2560,
+          "ms": 0.986402,
+          "preserved_values": 81920
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 128,
+          "evicted": 256,
+          "hit": 3328,
+          "ms": 1.026052,
+          "preserved_values": 106496
+        },
+        {
+          "tokens": 2048,
+          "shortfall": 256,
+          "evicted": 256,
+          "hit": 1792,
+          "ms": 0.863361,
+          "preserved_values": 57344
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 384,
+          "evicted": 512,
+          "hit": 2048,
+          "ms": 0.892352,
+          "preserved_values": 65536
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 128,
+          "evicted": 256,
+          "hit": 2816,
+          "ms": 0.840151,
+          "preserved_values": 90112
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 256,
+          "evicted": 256,
+          "hit": 3328,
+          "ms": 0.775142,
+          "preserved_values": 106496
+        },
+        {
+          "tokens": 2048,
+          "shortfall": 384,
+          "evicted": 512,
+          "hit": 1536,
+          "ms": 0.811981,
+          "preserved_values": 49152
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 128,
+          "evicted": 256,
+          "hit": 2304,
+          "ms": 0.884492,
+          "preserved_values": 73728
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 256,
+          "evicted": 256,
+          "hit": 2816,
+          "ms": 1.070962,
+          "preserved_values": 90112
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 384,
+          "evicted": 512,
+          "hit": 3072,
+          "ms": 0.977351,
+          "preserved_values": 98304
+        }
+      ]
+    },
+    {
+      "feature": 48096,
+      "flag": 1,
+      "sha": "4529862bc1ba51d239f68a29cfb8249abc4c0224",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 2048,
+          "shortfall": 128,
+          "evicted": 256,
+          "hit": 1792,
+          "ms": 88.670848,
+          "preserved_values": 57344
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 256,
+          "evicted": 256,
+          "hit": 2304,
+          "ms": 1.070842,
+          "preserved_values": 73728
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 384,
+          "evicted": 512,
+          "hit": 2560,
+          "ms": 1.057792,
+          "preserved_values": 81920
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 128,
+          "evicted": 256,
+          "hit": 3328,
+          "ms": 1.075842,
+          "preserved_values": 106496
+        },
+        {
+          "tokens": 2048,
+          "shortfall": 256,
+          "evicted": 256,
+          "hit": 1792,
+          "ms": 0.916102,
+          "preserved_values": 57344
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 384,
+          "evicted": 512,
+          "hit": 2048,
+          "ms": 0.902782,
+          "preserved_values": 65536
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 128,
+          "evicted": 256,
+          "hit": 2816,
+          "ms": 0.888572,
+          "preserved_values": 90112
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 256,
+          "evicted": 256,
+          "hit": 3328,
+          "ms": 0.847562,
+          "preserved_values": 106496
+        },
+        {
+          "tokens": 2048,
+          "shortfall": 384,
+          "evicted": 512,
+          "hit": 1536,
+          "ms": 0.882312,
+          "preserved_values": 49152
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 128,
+          "evicted": 256,
+          "hit": 2304,
+          "ms": 0.841792,
+          "preserved_values": 73728
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 256,
+          "evicted": 256,
+          "hit": 2816,
+          "ms": 0.893392,
+          "preserved_values": 90112
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 384,
+          "evicted": 512,
+          "hit": 3072,
+          "ms": 0.899251,
+          "preserved_values": 98304
+        }
+      ]
+    },
+    {
+      "feature": 48096,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 2048,
+          "shortfall": 128,
+          "evicted": 2048,
+          "hit": 0,
+          "ms": 89.73471,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 256,
+          "evicted": 2560,
+          "hit": 0,
+          "ms": 0.755332,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 384,
+          "evicted": 3072,
+          "hit": 0,
+          "ms": 0.601742,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 128,
+          "evicted": 3584,
+          "hit": 0,
+          "ms": 0.686241,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2048,
+          "shortfall": 256,
+          "evicted": 2048,
+          "hit": 0,
+          "ms": 0.46293,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 384,
+          "evicted": 2560,
+          "hit": 0,
+          "ms": 0.449891,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 128,
+          "evicted": 3072,
+          "hit": 0,
+          "ms": 0.50578,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 256,
+          "evicted": 3584,
+          "hit": 0,
+          "ms": 0.47751,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2048,
+          "shortfall": 384,
+          "evicted": 2048,
+          "hit": 0,
+          "ms": 0.442921,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 2560,
+          "shortfall": 128,
+          "evicted": 2560,
+          "hit": 0,
+          "ms": 0.43754,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3072,
+          "shortfall": 256,
+          "evicted": 3072,
+          "hit": 0,
+          "ms": 0.430031,
+          "preserved_values": 0
+        },
+        {
+          "tokens": 3584,
+          "shortfall": 384,
+          "evicted": 3584,
+          "hit": 0,
+          "ms": 0.44794,
+          "preserved_values": 0
+        }
+      ]
+    }
+  ]
+}

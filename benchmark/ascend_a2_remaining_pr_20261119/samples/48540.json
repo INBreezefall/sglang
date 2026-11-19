@@ -1,0 +1,710 @@
+{
+  "device": "0",
+  "feature": 48540,
+  "mode": "default",
+  "script_sha256": "2ebd0678168f174265592d79555b03d1ef130967ef0450c115305951d990b470",
+  "raw_hashes": [
+    "fe7d7674a7a9003a20e9b580f86bb9f5bda56b9422c67e30f830f270966faf38",
+    "66c8405afa5030e8c418fb698db9b9ad3d29d54e04c40eecedfea47d5cbc46a6",
+    "2cc65db72cd122e27b768e7022403019728fe0f5f8bba4138c9d91d0baef82ed",
+    "589ac6bfcc725382fc4510b7ec9605de49a6249ba517d11afdedf5bf431e19bf"
+  ],
+  "runs": [
+    {
+      "feature": 48540,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 1536,
+          "tile": 256,
+          "hash": "0e179378a117b401c564b897597d251e073788d913e2a699ed64a1988691f3c3",
+          "trials": [
+            {
+              "ms": 0.984301,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.942452,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.934891,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.945461,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.932741,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.960312,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.966851,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.978641,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            }
+          ]
+        },
+        {
+          "tokens": 3073,
+          "tile": 256,
+          "hash": "9960959cce11fe011e155d9f6509a4a84559300f84703cc7a93f70d58aa09ca8",
+          "trials": [
+            {
+              "ms": 0.974702,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.966421,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.963121,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.974991,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 1.123512,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 1.060471,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 1.018111,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 1.049252,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            }
+          ]
+        },
+        {
+          "tokens": 4096,
+          "tile": 512,
+          "hash": "b0d63b9277fe85ace3455699a25bc43ff19f6b38c1225cd285cd037a11ec1d0d",
+          "trials": [
+            {
+              "ms": 1.020112,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 1.008561,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.986821,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 1.007851,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 1.007232,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 1.032601,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.996571,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.976202,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            }
+          ]
+        }
+      ],
+      "scope": "Real matmul/SiLU expert fixture with precomputed top-1 routing; the full-model comparison exercises ModelSlim separately."
+    },
+    {
+      "feature": 48540,
+      "flag": 1,
+      "sha": "f3abcca21babe692b2b6d90c463341274471ebbb",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 1536,
+          "tile": 256,
+          "hash": "0e179378a117b401c564b897597d251e073788d913e2a699ed64a1988691f3c3",
+          "trials": [
+            {
+              "ms": 6.099568,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 6.154268,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 6.221568,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 6.099428,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 6.149239,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 6.014698,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 5.993038,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 6.047278,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            }
+          ]
+        },
+        {
+          "tokens": 3073,
+          "tile": 256,
+          "hash": "9960959cce11fe011e155d9f6509a4a84559300f84703cc7a93f70d58aa09ca8",
+          "trials": [
+            {
+              "ms": 12.236147,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 12.254886,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 12.168027,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 12.281806,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 12.186237,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 12.728887,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 12.181947,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 11.974586,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            }
+          ]
+        },
+        {
+          "tokens": 4096,
+          "tile": 512,
+          "hash": "b0d63b9277fe85ace3455699a25bc43ff19f6b38c1225cd285cd037a11ec1d0d",
+          "trials": [
+            {
+              "ms": 7.20666,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.17601,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.088909,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.59575,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.48655,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.39418,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.29984,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.28861,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            }
+          ]
+        }
+      ],
+      "scope": "Real matmul/SiLU expert fixture with precomputed top-1 routing; the full-model comparison exercises ModelSlim separately."
+    },
+    {
+      "feature": 48540,
+      "flag": 1,
+      "sha": "f3abcca21babe692b2b6d90c463341274471ebbb",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 1536,
+          "tile": 256,
+          "hash": "0e179378a117b401c564b897597d251e073788d913e2a699ed64a1988691f3c3",
+          "trials": [
+            {
+              "ms": 5.285707,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 5.150467,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 5.057917,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 4.997417,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 5.024067,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 5.006706,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 4.970957,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            },
+            {
+              "ms": 4.979287,
+              "peak_extra_bytes": 1444864,
+              "max_input_rows": 256,
+              "expert_calls": 6
+            }
+          ]
+        },
+        {
+          "tokens": 3073,
+          "tile": 256,
+          "hash": "9960959cce11fe011e155d9f6509a4a84559300f84703cc7a93f70d58aa09ca8",
+          "trials": [
+            {
+              "ms": 11.160195,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 10.891795,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 10.852235,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 10.765304,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 10.732945,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 11.223635,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 11.222125,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            },
+            {
+              "ms": 11.269375,
+              "peak_extra_bytes": 2231808,
+              "max_input_rows": 256,
+              "expert_calls": 13
+            }
+          ]
+        },
+        {
+          "tokens": 4096,
+          "tile": 512,
+          "hash": "b0d63b9277fe85ace3455699a25bc43ff19f6b38c1225cd285cd037a11ec1d0d",
+          "trials": [
+            {
+              "ms": 6.71128,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 6.81059,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 6.780299,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.15591,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.095299,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.009729,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 7.00858,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            },
+            {
+              "ms": 6.924309,
+              "peak_extra_bytes": 3410944,
+              "max_input_rows": 512,
+              "expert_calls": 8
+            }
+          ]
+        }
+      ],
+      "scope": "Real matmul/SiLU expert fixture with precomputed top-1 routing; the full-model comparison exercises ModelSlim separately."
+    },
+    {
+      "feature": 48540,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 1536,
+          "tile": 256,
+          "hash": "0e179378a117b401c564b897597d251e073788d913e2a699ed64a1988691f3c3",
+          "trials": [
+            {
+              "ms": 0.898011,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.859731,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.862851,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.875471,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.865422,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.908281,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.900831,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.882981,
+              "peak_extra_bytes": 3147776,
+              "max_input_rows": 1536,
+              "expert_calls": 1
+            }
+          ]
+        },
+        {
+          "tokens": 3073,
+          "tile": 256,
+          "hash": "9960959cce11fe011e155d9f6509a4a84559300f84703cc7a93f70d58aa09ca8",
+          "trials": [
+            {
+              "ms": 0.857491,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.844261,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.844552,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.849682,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.830212,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.853962,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.853472,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.869212,
+              "peak_extra_bytes": 6298112,
+              "max_input_rows": 3073,
+              "expert_calls": 1
+            }
+          ]
+        },
+        {
+          "tokens": 4096,
+          "tile": 512,
+          "hash": "b0d63b9277fe85ace3455699a25bc43ff19f6b38c1225cd285cd037a11ec1d0d",
+          "trials": [
+            {
+              "ms": 0.861412,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.884891,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.841041,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.848731,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.833682,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.854432,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.874331,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            },
+            {
+              "ms": 0.847581,
+              "peak_extra_bytes": 9433088,
+              "max_input_rows": 4096,
+              "expert_calls": 1
+            }
+          ]
+        }
+      ],
+      "scope": "Real matmul/SiLU expert fixture with precomputed top-1 routing; the full-model comparison exercises ModelSlim separately."
+    }
+  ]
+}

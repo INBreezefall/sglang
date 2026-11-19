@@ -1,0 +1,478 @@
+{
+  "device": "0",
+  "feature": 48520,
+  "mode": "default",
+  "script_sha256": "97d0841a817bfcdac97174a262c0fecddabbb7a58d8bdef90b73989f62f7aa39",
+  "raw_hashes": [
+    "f2c16491bb69d16d798fb3e1e9adbcd8454d397269db1938e3420ad90179ac65",
+    "2fde23057059dd2c26a8510b08db4e1dff297fed4e7ca31418e8d0a0ee839366",
+    "108480ddbbfe9ad712f652f0c632292079af6b09bf34ba0f7d516a69a5f87526",
+    "03bed68b90b24e61b76ac7589f98b85152920b3c9bd5fa530a805d61005fe92b"
+  ],
+  "runs": [
+    {
+      "feature": 48520,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "input_tokens": 512,
+          "output_tokens": 256,
+          "full_hit": 640,
+          "input_hit": 384,
+          "retained_slots": 640,
+          "free_slots": 7552,
+          "finish_ms": 42.954104
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 512,
+          "full_hit": 1536,
+          "input_hit": 1024,
+          "retained_slots": 1536,
+          "free_slots": 6656,
+          "finish_ms": 2.165303
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 768,
+          "full_hit": 2816,
+          "input_hit": 2048,
+          "retained_slots": 2816,
+          "free_slots": 5376,
+          "finish_ms": 2.406844
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 256,
+          "full_hit": 3328,
+          "input_hit": 3072,
+          "retained_slots": 3328,
+          "free_slots": 4864,
+          "finish_ms": 1.940324
+        },
+        {
+          "input_tokens": 512,
+          "output_tokens": 512,
+          "full_hit": 896,
+          "input_hit": 384,
+          "retained_slots": 896,
+          "free_slots": 7296,
+          "finish_ms": 1.938203
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 768,
+          "full_hit": 1792,
+          "input_hit": 1024,
+          "retained_slots": 1792,
+          "free_slots": 6400,
+          "finish_ms": 1.926543
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 256,
+          "full_hit": 2304,
+          "input_hit": 2048,
+          "retained_slots": 2304,
+          "free_slots": 5888,
+          "finish_ms": 2.429944
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 512,
+          "full_hit": 3584,
+          "input_hit": 3072,
+          "retained_slots": 3584,
+          "free_slots": 4608,
+          "finish_ms": 1.872593
+        },
+        {
+          "input_tokens": 512,
+          "output_tokens": 768,
+          "full_hit": 1152,
+          "input_hit": 384,
+          "retained_slots": 1152,
+          "free_slots": 7040,
+          "finish_ms": 1.827674
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 256,
+          "full_hit": 1280,
+          "input_hit": 1024,
+          "retained_slots": 1280,
+          "free_slots": 6912,
+          "finish_ms": 1.775513
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 512,
+          "full_hit": 2560,
+          "input_hit": 2048,
+          "retained_slots": 2560,
+          "free_slots": 5632,
+          "finish_ms": 2.312624
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 768,
+          "full_hit": 3840,
+          "input_hit": 3072,
+          "retained_slots": 3840,
+          "free_slots": 4352,
+          "finish_ms": 2.255154
+        }
+      ]
+    },
+    {
+      "feature": 48520,
+      "flag": 1,
+      "sha": "778d5a2d93c93a7a138ae072efc8f1332749e4aa",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "input_tokens": 512,
+          "output_tokens": 256,
+          "full_hit": 384,
+          "input_hit": 384,
+          "retained_slots": 384,
+          "free_slots": 7808,
+          "finish_ms": 85.528088
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 512,
+          "full_hit": 1024,
+          "input_hit": 1024,
+          "retained_slots": 1024,
+          "free_slots": 7168,
+          "finish_ms": 1.547733
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 768,
+          "full_hit": 2048,
+          "input_hit": 2048,
+          "retained_slots": 2048,
+          "free_slots": 6144,
+          "finish_ms": 1.276012
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 256,
+          "full_hit": 3072,
+          "input_hit": 3072,
+          "retained_slots": 3072,
+          "free_slots": 5120,
+          "finish_ms": 1.311672
+        },
+        {
+          "input_tokens": 512,
+          "output_tokens": 512,
+          "full_hit": 384,
+          "input_hit": 384,
+          "retained_slots": 384,
+          "free_slots": 7808,
+          "finish_ms": 1.199072
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 768,
+          "full_hit": 1024,
+          "input_hit": 1024,
+          "retained_slots": 1024,
+          "free_slots": 7168,
+          "finish_ms": 1.184702
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 256,
+          "full_hit": 2048,
+          "input_hit": 2048,
+          "retained_slots": 2048,
+          "free_slots": 6144,
+          "finish_ms": 1.312262
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 512,
+          "full_hit": 3072,
+          "input_hit": 3072,
+          "retained_slots": 3072,
+          "free_slots": 5120,
+          "finish_ms": 1.380142
+        },
+        {
+          "input_tokens": 512,
+          "output_tokens": 768,
+          "full_hit": 384,
+          "input_hit": 384,
+          "retained_slots": 384,
+          "free_slots": 7808,
+          "finish_ms": 1.296383
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 256,
+          "full_hit": 1024,
+          "input_hit": 1024,
+          "retained_slots": 1024,
+          "free_slots": 7168,
+          "finish_ms": 1.304932
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 512,
+          "full_hit": 2048,
+          "input_hit": 2048,
+          "retained_slots": 2048,
+          "free_slots": 6144,
+          "finish_ms": 1.323273
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 768,
+          "full_hit": 3072,
+          "input_hit": 3072,
+          "retained_slots": 3072,
+          "free_slots": 5120,
+          "finish_ms": 1.382003
+        }
+      ]
+    },
+    {
+      "feature": 48520,
+      "flag": 1,
+      "sha": "778d5a2d93c93a7a138ae072efc8f1332749e4aa",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "input_tokens": 512,
+          "output_tokens": 256,
+          "full_hit": 384,
+          "input_hit": 384,
+          "retained_slots": 384,
+          "free_slots": 7808,
+          "finish_ms": 102.611738
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 512,
+          "full_hit": 1024,
+          "input_hit": 1024,
+          "retained_slots": 1024,
+          "free_slots": 7168,
+          "finish_ms": 1.707663
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 768,
+          "full_hit": 2048,
+          "input_hit": 2048,
+          "retained_slots": 2048,
+          "free_slots": 6144,
+          "finish_ms": 1.419212
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 256,
+          "full_hit": 3072,
+          "input_hit": 3072,
+          "retained_slots": 3072,
+          "free_slots": 5120,
+          "finish_ms": 1.441922
+        },
+        {
+          "input_tokens": 512,
+          "output_tokens": 512,
+          "full_hit": 384,
+          "input_hit": 384,
+          "retained_slots": 384,
+          "free_slots": 7808,
+          "finish_ms": 1.248012
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 768,
+          "full_hit": 1024,
+          "input_hit": 1024,
+          "retained_slots": 1024,
+          "free_slots": 7168,
+          "finish_ms": 1.224212
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 256,
+          "full_hit": 2048,
+          "input_hit": 2048,
+          "retained_slots": 2048,
+          "free_slots": 6144,
+          "finish_ms": 1.253722
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 512,
+          "full_hit": 3072,
+          "input_hit": 3072,
+          "retained_slots": 3072,
+          "free_slots": 5120,
+          "finish_ms": 1.242472
+        },
+        {
+          "input_tokens": 512,
+          "output_tokens": 768,
+          "full_hit": 384,
+          "input_hit": 384,
+          "retained_slots": 384,
+          "free_slots": 7808,
+          "finish_ms": 1.232442
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 256,
+          "full_hit": 1024,
+          "input_hit": 1024,
+          "retained_slots": 1024,
+          "free_slots": 7168,
+          "finish_ms": 1.241722
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 512,
+          "full_hit": 2048,
+          "input_hit": 2048,
+          "retained_slots": 2048,
+          "free_slots": 6144,
+          "finish_ms": 1.205062
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 768,
+          "full_hit": 3072,
+          "input_hit": 3072,
+          "retained_slots": 3072,
+          "free_slots": 5120,
+          "finish_ms": 1.297483
+        }
+      ]
+    },
+    {
+      "feature": 48520,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "input_tokens": 512,
+          "output_tokens": 256,
+          "full_hit": 640,
+          "input_hit": 384,
+          "retained_slots": 640,
+          "free_slots": 7552,
+          "finish_ms": 44.754657
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 512,
+          "full_hit": 1536,
+          "input_hit": 1024,
+          "retained_slots": 1536,
+          "free_slots": 6656,
+          "finish_ms": 2.109374
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 768,
+          "full_hit": 2816,
+          "input_hit": 2048,
+          "retained_slots": 2816,
+          "free_slots": 5376,
+          "finish_ms": 2.378494
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 256,
+          "full_hit": 3328,
+          "input_hit": 3072,
+          "retained_slots": 3328,
+          "free_slots": 4864,
+          "finish_ms": 1.902634
+        },
+        {
+          "input_tokens": 512,
+          "output_tokens": 512,
+          "full_hit": 896,
+          "input_hit": 384,
+          "retained_slots": 896,
+          "free_slots": 7296,
+          "finish_ms": 1.899763
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 768,
+          "full_hit": 1792,
+          "input_hit": 1024,
+          "retained_slots": 1792,
+          "free_slots": 6400,
+          "finish_ms": 1.867533
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 256,
+          "full_hit": 2304,
+          "input_hit": 2048,
+          "retained_slots": 2304,
+          "free_slots": 5888,
+          "finish_ms": 2.388914
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 512,
+          "full_hit": 3584,
+          "input_hit": 3072,
+          "retained_slots": 3584,
+          "free_slots": 4608,
+          "finish_ms": 1.850733
+        },
+        {
+          "input_tokens": 512,
+          "output_tokens": 768,
+          "full_hit": 1152,
+          "input_hit": 384,
+          "retained_slots": 1152,
+          "free_slots": 7040,
+          "finish_ms": 1.776733
+        },
+        {
+          "input_tokens": 1025,
+          "output_tokens": 256,
+          "full_hit": 1280,
+          "input_hit": 1024,
+          "retained_slots": 1280,
+          "free_slots": 6912,
+          "finish_ms": 2.018133
+        },
+        {
+          "input_tokens": 2049,
+          "output_tokens": 512,
+          "full_hit": 2560,
+          "input_hit": 2048,
+          "retained_slots": 2560,
+          "free_slots": 5632,
+          "finish_ms": 2.631085
+        },
+        {
+          "input_tokens": 3073,
+          "output_tokens": 768,
+          "full_hit": 3840,
+          "input_hit": 3072,
+          "retained_slots": 3840,
+          "free_slots": 4352,
+          "finish_ms": 2.091493
+        }
+      ]
+    }
+  ]
+}

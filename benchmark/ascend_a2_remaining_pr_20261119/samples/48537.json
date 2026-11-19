@@ -1,0 +1,280 @@
+{
+  "device": "0,1",
+  "feature": 48537,
+  "mode": "default",
+  "script_sha256": "b1a426a7512763b6b53a89771396b847055d046ed759e15476db34196ab864dc",
+  "raw_hashes": [
+    "512a40832573544b88be431d2dc346a7e0dc960f0bd4c042ed170bd35331cd4b",
+    "58760141da85bbbf7f1bc9616e05931c9f86f89d69d7a5bd40a0c7b35aa4b62f",
+    "8abc0d483505b5de93efc5e5bf9b1959ac2bc3e37cb5945d88f95fe750517193",
+    "adeb9df3098f73fd7e98f4d5e1b857dca82cfb58f7b104fc4128e07743050ec4"
+  ],
+  "runs": [
+    {
+      "feature": 48537,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "rank": 0,
+          "views": 8,
+          "regions": 8,
+          "registered_bytes": 8388608,
+          "npu": 0,
+          "register_rc": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "register_ms": 8.378103,
+          "send_probe": null,
+          "peer_first_address_resolved": null,
+          "transfers": [],
+          "receiver": {
+            "correct_slices": 0,
+            "total": 8,
+            "completed_write": false,
+            "data_sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+          }
+        },
+        {
+          "rank": 1,
+          "views": 8,
+          "regions": 8,
+          "registered_bytes": 8388608,
+          "npu": 1,
+          "register_rc": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "register_ms": 101.793999,
+          "correct_slices": 0,
+          "total": 8,
+          "completed_write": false,
+          "data_sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+        }
+      ],
+      "device_count": 2
+    },
+    {
+      "feature": 48537,
+      "flag": 1,
+      "sha": "877b20c1303ae59de3af2c9d82f1bfd11c4b8f57",
+      "rows": [
+        {
+          "rank": 0,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 8519680,
+          "npu": 0,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.577171,
+          "send_probe": 0,
+          "peer_first_address_resolved": true,
+          "transfers": [
+            {
+              "rc": 0,
+              "ms": 1027.264548
+            },
+            {
+              "rc": 0,
+              "ms": 1.551014
+            },
+            {
+              "rc": 0,
+              "ms": 1.250693
+            },
+            {
+              "rc": 0,
+              "ms": 0.920443
+            },
+            {
+              "rc": 0,
+              "ms": 0.970093
+            },
+            {
+              "rc": 0,
+              "ms": 1.436474
+            },
+            {
+              "rc": 0,
+              "ms": 0.375341
+            },
+            {
+              "rc": 0,
+              "ms": 0.419911
+            }
+          ],
+          "receiver": {
+            "correct_slices": 8,
+            "total": 8,
+            "completed_write": true,
+            "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+          }
+        },
+        {
+          "rank": 1,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 8519680,
+          "npu": 1,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.497941,
+          "correct_slices": 8,
+          "total": 8,
+          "completed_write": true,
+          "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+        }
+      ],
+      "device_count": 2
+    },
+    {
+      "feature": 48537,
+      "flag": 1,
+      "sha": "877b20c1303ae59de3af2c9d82f1bfd11c4b8f57",
+      "rows": [
+        {
+          "rank": 0,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 8519680,
+          "npu": 0,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.537022,
+          "send_probe": 0,
+          "peer_first_address_resolved": true,
+          "transfers": [
+            {
+              "rc": 0,
+              "ms": 1036.578154
+            },
+            {
+              "rc": 0,
+              "ms": 1.580274
+            },
+            {
+              "rc": 0,
+              "ms": 1.089053
+            },
+            {
+              "rc": 0,
+              "ms": 1.020083
+            },
+            {
+              "rc": 0,
+              "ms": 0.906233
+            },
+            {
+              "rc": 0,
+              "ms": 0.979872
+            },
+            {
+              "rc": 0,
+              "ms": 0.309981
+            },
+            {
+              "rc": 0,
+              "ms": 0.298731
+            }
+          ],
+          "receiver": {
+            "correct_slices": 8,
+            "total": 8,
+            "completed_write": true,
+            "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+          }
+        },
+        {
+          "rank": 1,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 8519680,
+          "npu": 1,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.501622,
+          "correct_slices": 8,
+          "total": 8,
+          "completed_write": true,
+          "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+        }
+      ],
+      "device_count": 2
+    },
+    {
+      "feature": 48537,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "rank": 0,
+          "views": 8,
+          "regions": 8,
+          "registered_bytes": 8388608,
+          "npu": 0,
+          "register_rc": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "register_ms": 101.126788,
+          "send_probe": null,
+          "peer_first_address_resolved": null,
+          "transfers": [],
+          "receiver": {
+            "correct_slices": 0,
+            "total": 8,
+            "completed_write": false,
+            "data_sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+          }
+        },
+        {
+          "rank": 1,
+          "views": 8,
+          "regions": 8,
+          "registered_bytes": 8388608,
+          "npu": 1,
+          "register_rc": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "register_ms": 8.982665,
+          "correct_slices": 0,
+          "total": 8,
+          "completed_write": false,
+          "data_sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"
+        }
+      ],
+      "device_count": 2
+    }
+  ]
+}

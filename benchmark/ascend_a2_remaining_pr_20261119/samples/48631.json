@@ -1,0 +1,180 @@
+{
+  "device": "7",
+  "feature": 48631,
+  "mode": "default",
+  "script_sha256": "07a339d3efd10bb29edfa958287eaed31e52b3aa642f9bea48fb82d7eac957f1",
+  "raw_hashes": [
+    "715614777d51f012627b9b1d380afe0755dcf222aa31827934f5db69827ba251",
+    "ea15d042f8a3d7d456ee666b4577b101567275ab3bc9db1bcfd6245d152c6e63",
+    "170663fc0e7d6d7edf602b3317812e4e879f89b527ac3faa73b5ec7c206f0882",
+    "715614777d51f012627b9b1d380afe0755dcf222aa31827934f5db69827ba251"
+  ],
+  "runs": [
+    {
+      "feature": 48631,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "format": 29,
+      "checkpoint_slice": "model.layers.10.mlp.experts.0.down_proj.weight",
+      "reference_sha256": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+      "words": [
+        256,
+        128
+      ],
+      "rows": [
+        {
+          "ok": false,
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 1,
+      "sha": "50cf45054aae04217bc20d9fead1f3dd4d8f1770",
+      "device": "Ascend910B4-1",
+      "format": 29,
+      "checkpoint_slice": "model.layers.10.mlp.experts.0.down_proj.weight",
+      "reference_sha256": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+      "words": [
+        256,
+        128
+      ],
+      "rows": [
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 290.800313,
+          "export_ms": 0.46656,
+          "restore_ms": 0.44977
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.664781,
+          "export_ms": 0.356741,
+          "restore_ms": 0.270561
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.924641,
+          "export_ms": 1.029172,
+          "restore_ms": 0.291581
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.48122,
+          "export_ms": 0.424571,
+          "restore_ms": 0.48997
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.465851,
+          "export_ms": 0.347001,
+          "restore_ms": 0.286881
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 1.259021,
+          "export_ms": 0.46688,
+          "restore_ms": 0.947691
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 1,
+      "sha": "50cf45054aae04217bc20d9fead1f3dd4d8f1770",
+      "device": "Ascend910B4-1",
+      "format": 29,
+      "checkpoint_slice": "model.layers.10.mlp.experts.0.down_proj.weight",
+      "reference_sha256": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+      "words": [
+        256,
+        128
+      ],
+      "rows": [
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 268.126453,
+          "export_ms": 0.51398,
+          "restore_ms": 0.3948
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.580241,
+          "export_ms": 0.3554,
+          "restore_ms": 0.265841
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.42173,
+          "export_ms": 0.351461,
+          "restore_ms": 0.282341
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.46189,
+          "export_ms": 0.362591,
+          "restore_ms": 0.25745
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.435881,
+          "export_ms": 0.36641,
+          "restore_ms": 0.26576
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.421521,
+          "export_ms": 0.35099,
+          "restore_ms": 0.27208
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "format": 29,
+      "checkpoint_slice": "model.layers.10.mlp.experts.0.down_proj.weight",
+      "reference_sha256": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+      "words": [
+        256,
+        128
+      ],
+      "rows": [
+        {
+          "ok": false,
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        }
+      ]
+    }
+  ]
+}

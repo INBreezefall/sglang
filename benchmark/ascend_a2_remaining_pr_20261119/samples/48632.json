@@ -1,0 +1,354 @@
+{
+  "device": "0",
+  "feature": 48632,
+  "mode": "default",
+  "script_sha256": "560f32dde003e4d1a15064aaf5d8fad0bea77144a92af7d655dbb121ffb534ee",
+  "raw_hashes": [
+    "d9ffd4c8fa8ae8c969b53709de63beede620d68985838dc68562eeae16e2a59f",
+    "38e8e5ad3512719039e21a0f3987c406e3fafb52478f359f3e95be3d014db67d",
+    "c98fdee549784a559a078c8eab4422424f3a31a9f04f598c730c20dcd2187387",
+    "fe4a829981b2380405a68f8a89d3d2bd2def7648acc5ecbe53bf587b7e04ed6b"
+  ],
+  "runs": [
+    {
+      "feature": 48632,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "valid_device": true,
+          "bind_errors": [],
+          "executor_error": null,
+          "healthy_device_sum": 32640,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 37.62
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 20.28
+            }
+          ]
+        },
+        {
+          "valid_device": false,
+          "bind_errors": [
+            "RuntimeError"
+          ],
+          "executor_error": "BrokenThreadPool",
+          "healthy_device_sum": null,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 8.53
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 10.29
+            }
+          ]
+        },
+        {
+          "valid_device": true,
+          "bind_errors": [],
+          "executor_error": null,
+          "healthy_device_sum": 32640,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 7.05
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 9.44
+            }
+          ]
+        },
+        {
+          "valid_device": false,
+          "bind_errors": [
+            "RuntimeError"
+          ],
+          "executor_error": "BrokenThreadPool",
+          "healthy_device_sum": null,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 7.5
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 9.43
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "feature": 48632,
+      "flag": 1,
+      "sha": "77ba9f6f799f26e4ab0a43093d2a9dbd60f2ab4b",
+      "rows": [
+        {
+          "valid_device": true,
+          "bind_errors": [],
+          "executor_error": null,
+          "healthy_device_sum": 32640,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 44.55
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 28.09
+            }
+          ]
+        },
+        {
+          "valid_device": false,
+          "bind_errors": [
+            "RuntimeError"
+          ],
+          "executor_error": "BrokenThreadPool",
+          "healthy_device_sum": null,
+          "polls": [
+            {
+              "state": "RuntimeError",
+              "cause": "RuntimeError",
+              "visible_failure": true,
+              "us": 27.63
+            },
+            {
+              "state": "RuntimeError",
+              "cause": "RuntimeError",
+              "visible_failure": true,
+              "us": 8.97
+            }
+          ]
+        },
+        {
+          "valid_device": true,
+          "bind_errors": [],
+          "executor_error": null,
+          "healthy_device_sum": 32640,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 14.32
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 17.64
+            }
+          ]
+        },
+        {
+          "valid_device": false,
+          "bind_errors": [
+            "RuntimeError"
+          ],
+          "executor_error": "BrokenThreadPool",
+          "healthy_device_sum": null,
+          "polls": [
+            {
+              "state": "RuntimeError",
+              "cause": "RuntimeError",
+              "visible_failure": true,
+              "us": 12.8
+            },
+            {
+              "state": "RuntimeError",
+              "cause": "RuntimeError",
+              "visible_failure": true,
+              "us": 5.81
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "feature": 48632,
+      "flag": 1,
+      "sha": "77ba9f6f799f26e4ab0a43093d2a9dbd60f2ab4b",
+      "rows": [
+        {
+          "valid_device": true,
+          "bind_errors": [],
+          "executor_error": null,
+          "healthy_device_sum": 32640,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 47.37
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 28.201
+            }
+          ]
+        },
+        {
+          "valid_device": false,
+          "bind_errors": [
+            "RuntimeError"
+          ],
+          "executor_error": "BrokenThreadPool",
+          "healthy_device_sum": null,
+          "polls": [
+            {
+              "state": "RuntimeError",
+              "cause": "RuntimeError",
+              "visible_failure": true,
+              "us": 18.55
+            },
+            {
+              "state": "RuntimeError",
+              "cause": "RuntimeError",
+              "visible_failure": true,
+              "us": 7.51
+            }
+          ]
+        },
+        {
+          "valid_device": true,
+          "bind_errors": [],
+          "executor_error": null,
+          "healthy_device_sum": 32640,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 10.98
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 13.46
+            }
+          ]
+        },
+        {
+          "valid_device": false,
+          "bind_errors": [
+            "RuntimeError"
+          ],
+          "executor_error": "BrokenThreadPool",
+          "healthy_device_sum": null,
+          "polls": [
+            {
+              "state": "RuntimeError",
+              "cause": "RuntimeError",
+              "visible_failure": true,
+              "us": 13.92
+            },
+            {
+              "state": "RuntimeError",
+              "cause": "RuntimeError",
+              "visible_failure": true,
+              "us": 5.51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "feature": 48632,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "valid_device": true,
+          "bind_errors": [],
+          "executor_error": null,
+          "healthy_device_sum": 32640,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 32.21
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 21.07
+            }
+          ]
+        },
+        {
+          "valid_device": false,
+          "bind_errors": [
+            "RuntimeError"
+          ],
+          "executor_error": "BrokenThreadPool",
+          "healthy_device_sum": null,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 8.19
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 11.05
+            }
+          ]
+        },
+        {
+          "valid_device": true,
+          "bind_errors": [],
+          "executor_error": null,
+          "healthy_device_sum": 32640,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 6.79
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 9.33
+            }
+          ]
+        },
+        {
+          "valid_device": false,
+          "bind_errors": [
+            "RuntimeError"
+          ],
+          "executor_error": "BrokenThreadPool",
+          "healthy_device_sum": null,
+          "polls": [
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 7.29
+            },
+            {
+              "state": "3",
+              "visible_failure": false,
+              "us": 9.29
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

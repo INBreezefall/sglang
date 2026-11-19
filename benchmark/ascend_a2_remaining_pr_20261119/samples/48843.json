@@ -1,0 +1,426 @@
+{
+  "device": "6",
+  "feature": 48843,
+  "mode": "default",
+  "script_sha256": "a10c0cdd6e74585141c6614ec64e7147417ca4e5b3bb9747831d52f98bf1f550",
+  "raw_hashes": [
+    "fb4e3b6e6a16c7a669bbfc4159919d88d230390b3b12d21a712882bd8e617b2c",
+    "e92fda5d3dd956170883ee23c7ed2889706c3e61781e83c0ef44a5144d36f737",
+    "f27bd9599e9148c51dd76ab749da0150a841cdc270641a6d753a6bd61da6ae16",
+    "7da1ee0ecb80681fdc70d43e473adc876626dfcd3c378b9b2761f0a7f905d7c5"
+  ],
+  "runs": [
+    {
+      "feature": 48843,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "rank": 0,
+          "writer": 0,
+          "port_offset": 4,
+          "delivered": 16,
+          "error": null,
+          "ms": 9.561476
+        },
+        {
+          "rank": 0,
+          "writer": 1,
+          "port_offset": 5,
+          "delivered": 16,
+          "error": null,
+          "ms": 6.007806
+        },
+        {
+          "rank": 0,
+          "writer": 2,
+          "port_offset": 0,
+          "delivered": 16,
+          "error": null,
+          "ms": 36.33556
+        },
+        {
+          "rank": 1,
+          "writer": 0,
+          "port_offset": 3,
+          "delivered": 16,
+          "error": null,
+          "ms": 10.149048
+        },
+        {
+          "rank": 1,
+          "writer": 1,
+          "port_offset": 1,
+          "delivered": 16,
+          "error": null,
+          "ms": 14.082079
+        },
+        {
+          "rank": 1,
+          "writer": 2,
+          "port_offset": 2,
+          "delivered": 16,
+          "error": null,
+          "ms": 39.97207
+        },
+        {
+          "rank": 2,
+          "writer": 0,
+          "port_offset": 7,
+          "delivered": 16,
+          "error": null,
+          "ms": 20.470626
+        },
+        {
+          "rank": 2,
+          "writer": 1,
+          "port_offset": 6,
+          "delivered": 16,
+          "error": null,
+          "ms": 11.856083
+        },
+        {
+          "rank": 2,
+          "writer": 2,
+          "port_offset": null,
+          "delivered": 0,
+          "error": "ZMQBindError",
+          "ms": 439.002934
+        },
+        {
+          "rank": 3,
+          "writer": 0,
+          "port_offset": null,
+          "delivered": 0,
+          "error": "ZMQBindError",
+          "ms": 315.755257
+        },
+        {
+          "rank": 3,
+          "writer": 1,
+          "port_offset": null,
+          "delivered": 0,
+          "error": "ZMQBindError",
+          "ms": 326.389615
+        },
+        {
+          "rank": 3,
+          "writer": 2,
+          "port_offset": null,
+          "delivered": 0,
+          "error": "ZMQBindError",
+          "ms": 308.411236
+        }
+      ]
+    },
+    {
+      "feature": 48843,
+      "flag": 1,
+      "sha": "3a760a253bf52904622078190c2e824ada5af666",
+      "rows": [
+        {
+          "rank": 0,
+          "writer": 0,
+          "port_offset": 20,
+          "delivered": 16,
+          "error": null,
+          "ms": 12.149888
+        },
+        {
+          "rank": 0,
+          "writer": 1,
+          "port_offset": 2,
+          "delivered": 16,
+          "error": null,
+          "ms": 7.566617
+        },
+        {
+          "rank": 0,
+          "writer": 2,
+          "port_offset": 0,
+          "delivered": 16,
+          "error": null,
+          "ms": 31.582471
+        },
+        {
+          "rank": 1,
+          "writer": 0,
+          "port_offset": 35,
+          "delivered": 16,
+          "error": null,
+          "ms": 12.165033
+        },
+        {
+          "rank": 1,
+          "writer": 1,
+          "port_offset": 36,
+          "delivered": 16,
+          "error": null,
+          "ms": 8.195114
+        },
+        {
+          "rank": 1,
+          "writer": 2,
+          "port_offset": 59,
+          "delivered": 16,
+          "error": null,
+          "ms": 47.133287
+        },
+        {
+          "rank": 2,
+          "writer": 0,
+          "port_offset": 78,
+          "delivered": 16,
+          "error": null,
+          "ms": 11.699642
+        },
+        {
+          "rank": 2,
+          "writer": 1,
+          "port_offset": 66,
+          "delivered": 16,
+          "error": null,
+          "ms": 7.097186
+        },
+        {
+          "rank": 2,
+          "writer": 2,
+          "port_offset": 65,
+          "delivered": 16,
+          "error": null,
+          "ms": 41.890395
+        },
+        {
+          "rank": 3,
+          "writer": 0,
+          "port_offset": 104,
+          "delivered": 16,
+          "error": null,
+          "ms": 10.204595
+        },
+        {
+          "rank": 3,
+          "writer": 1,
+          "port_offset": 107,
+          "delivered": 16,
+          "error": null,
+          "ms": 6.966438
+        },
+        {
+          "rank": 3,
+          "writer": 2,
+          "port_offset": 120,
+          "delivered": 16,
+          "error": null,
+          "ms": 43.016274
+        }
+      ]
+    },
+    {
+      "feature": 48843,
+      "flag": 1,
+      "sha": "3a760a253bf52904622078190c2e824ada5af666",
+      "rows": [
+        {
+          "rank": 0,
+          "writer": 0,
+          "port_offset": 16,
+          "delivered": 16,
+          "error": null,
+          "ms": 11.053107
+        },
+        {
+          "rank": 0,
+          "writer": 1,
+          "port_offset": 12,
+          "delivered": 16,
+          "error": null,
+          "ms": 7.446497
+        },
+        {
+          "rank": 0,
+          "writer": 2,
+          "port_offset": 27,
+          "delivered": 16,
+          "error": null,
+          "ms": 69.639014
+        },
+        {
+          "rank": 1,
+          "writer": 0,
+          "port_offset": 54,
+          "delivered": 16,
+          "error": null,
+          "ms": 11.751447
+        },
+        {
+          "rank": 1,
+          "writer": 1,
+          "port_offset": 50,
+          "delivered": 16,
+          "error": null,
+          "ms": 7.162738
+        },
+        {
+          "rank": 1,
+          "writer": 2,
+          "port_offset": 63,
+          "delivered": 16,
+          "error": null,
+          "ms": 40.357214
+        },
+        {
+          "rank": 2,
+          "writer": 0,
+          "port_offset": 95,
+          "delivered": 16,
+          "error": null,
+          "ms": 10.728875
+        },
+        {
+          "rank": 2,
+          "writer": 1,
+          "port_offset": 74,
+          "delivered": 16,
+          "error": null,
+          "ms": 7.422912
+        },
+        {
+          "rank": 2,
+          "writer": 2,
+          "port_offset": 75,
+          "delivered": 16,
+          "error": null,
+          "ms": 52.615836
+        },
+        {
+          "rank": 3,
+          "writer": 0,
+          "port_offset": 114,
+          "delivered": 16,
+          "error": null,
+          "ms": 10.989407
+        },
+        {
+          "rank": 3,
+          "writer": 1,
+          "port_offset": 108,
+          "delivered": 16,
+          "error": null,
+          "ms": 9.636039
+        },
+        {
+          "rank": 3,
+          "writer": 2,
+          "port_offset": 115,
+          "delivered": 16,
+          "error": null,
+          "ms": 41.081109
+        }
+      ]
+    },
+    {
+      "feature": 48843,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "rank": 0,
+          "writer": 0,
+          "port_offset": 3,
+          "delivered": 16,
+          "error": null,
+          "ms": 10.927516
+        },
+        {
+          "rank": 0,
+          "writer": 1,
+          "port_offset": 1,
+          "delivered": 16,
+          "error": null,
+          "ms": 7.124052
+        },
+        {
+          "rank": 0,
+          "writer": 2,
+          "port_offset": 7,
+          "delivered": 16,
+          "error": null,
+          "ms": 41.423032
+        },
+        {
+          "rank": 1,
+          "writer": 0,
+          "port_offset": 4,
+          "delivered": 16,
+          "error": null,
+          "ms": 18.248129
+        },
+        {
+          "rank": 1,
+          "writer": 1,
+          "port_offset": 6,
+          "delivered": 16,
+          "error": null,
+          "ms": 9.687139
+        },
+        {
+          "rank": 1,
+          "writer": 2,
+          "port_offset": 0,
+          "delivered": 16,
+          "error": null,
+          "ms": 47.961227
+        },
+        {
+          "rank": 2,
+          "writer": 0,
+          "port_offset": 5,
+          "delivered": 16,
+          "error": null,
+          "ms": 17.244667
+        },
+        {
+          "rank": 2,
+          "writer": 1,
+          "port_offset": 2,
+          "delivered": 16,
+          "error": null,
+          "ms": 89.231357
+        },
+        {
+          "rank": 2,
+          "writer": 2,
+          "port_offset": null,
+          "delivered": 0,
+          "error": "ZMQBindError",
+          "ms": 377.454943
+        },
+        {
+          "rank": 3,
+          "writer": 0,
+          "port_offset": null,
+          "delivered": 0,
+          "error": "ZMQBindError",
+          "ms": 338.527095
+        },
+        {
+          "rank": 3,
+          "writer": 1,
+          "port_offset": null,
+          "delivered": 0,
+          "error": "ZMQBindError",
+          "ms": 326.01534
+        },
+        {
+          "rank": 3,
+          "writer": 2,
+          "port_offset": null,
+          "delivered": 0,
+          "error": "ZMQBindError",
+          "ms": 337.492585
+        }
+      ]
+    }
+  ]
+}

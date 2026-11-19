@@ -1,0 +1,318 @@
+{
+  "device": "0,1",
+  "feature": 49077,
+  "mode": "default",
+  "script_sha256": "b1a426a7512763b6b53a89771396b847055d046ed759e15476db34196ab864dc",
+  "raw_hashes": [
+    "6f90f76ffa9380653f09f7d35e114984b9a85a5a28562af1e5bbe8c0fd4a422d",
+    "ff45d1d9049d629d96a07cac8b4573715dd44001dd19b3eeb4f811f98f966491",
+    "11fb5b371232bf0845059fb8d88c214c17a47befaafb4b1fbb9bc2adff6b82e7",
+    "4e8742cb222e0077847feae9d59c6481a44c7ad7ff9347f313d7f6f8b72056b0"
+  ],
+  "runs": [
+    {
+      "feature": 49077,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "rank": 0,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 9568256,
+          "npu": 0,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.919742,
+          "send_probe": 0,
+          "peer_first_address_resolved": true,
+          "transfers": [
+            {
+              "rc": 0,
+              "ms": 1035.461059
+            },
+            {
+              "rc": 0,
+              "ms": 1.242892
+            },
+            {
+              "rc": 0,
+              "ms": 1.073272
+            },
+            {
+              "rc": 0,
+              "ms": 0.995781
+            },
+            {
+              "rc": 0,
+              "ms": 0.983222
+            },
+            {
+              "rc": 0,
+              "ms": 0.923872
+            },
+            {
+              "rc": 0,
+              "ms": 0.31049
+            },
+            {
+              "rc": 0,
+              "ms": 0.290681
+            }
+          ],
+          "receiver": {
+            "correct_slices": 8,
+            "total": 8,
+            "completed_write": true,
+            "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+          }
+        },
+        {
+          "rank": 1,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 9568256,
+          "npu": 1,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.860602,
+          "correct_slices": 8,
+          "total": 8,
+          "completed_write": true,
+          "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+        }
+      ],
+      "device_count": 2
+    },
+    {
+      "feature": 49077,
+      "flag": 1,
+      "sha": "bb9c53a98e828ec38a3b4493b10c046858314837",
+      "rows": [
+        {
+          "rank": 0,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 9568256,
+          "npu": 0,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.611272,
+          "send_probe": 0,
+          "peer_first_address_resolved": true,
+          "transfers": [
+            {
+              "rc": 0,
+              "ms": 1115.952924
+            },
+            {
+              "rc": 0,
+              "ms": 1.490019
+            },
+            {
+              "rc": 0,
+              "ms": 1.154695
+            },
+            {
+              "rc": 0,
+              "ms": 1.001597
+            },
+            {
+              "rc": 0,
+              "ms": 1.010112
+            },
+            {
+              "rc": 0,
+              "ms": 1.00892
+            },
+            {
+              "rc": 0,
+              "ms": 0.45772
+            },
+            {
+              "rc": 0,
+              "ms": 0.534073
+            }
+          ],
+          "receiver": {
+            "correct_slices": 8,
+            "total": 8,
+            "completed_write": true,
+            "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+          }
+        },
+        {
+          "rank": 1,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 9568256,
+          "npu": 1,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.856453,
+          "correct_slices": 8,
+          "total": 8,
+          "completed_write": true,
+          "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+        }
+      ],
+      "device_count": 2
+    },
+    {
+      "feature": 49077,
+      "flag": 1,
+      "sha": "bb9c53a98e828ec38a3b4493b10c046858314837",
+      "rows": [
+        {
+          "rank": 0,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 9568256,
+          "npu": 0,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.921247,
+          "send_probe": 0,
+          "peer_first_address_resolved": true,
+          "transfers": [
+            {
+              "rc": 0,
+              "ms": 49.73124
+            },
+            {
+              "rc": 0,
+              "ms": 1.576773
+            },
+            {
+              "rc": 0,
+              "ms": 1.181658
+            },
+            {
+              "rc": 0,
+              "ms": 1.88821
+            },
+            {
+              "rc": 0,
+              "ms": 1.049806
+            },
+            {
+              "rc": 0,
+              "ms": 1.093075
+            },
+            {
+              "rc": 0,
+              "ms": 0.443268
+            },
+            {
+              "rc": 0,
+              "ms": 0.411602
+            }
+          ],
+          "receiver": {
+            "correct_slices": 8,
+            "total": 8,
+            "completed_write": true,
+            "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+          }
+        },
+        {
+          "rank": 1,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 9568256,
+          "npu": 1,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.623189,
+          "correct_slices": 8,
+          "total": 8,
+          "completed_write": true,
+          "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+        }
+      ],
+      "device_count": 2
+    },
+    {
+      "feature": 49077,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "rows": [
+        {
+          "rank": 0,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 9568256,
+          "npu": 0,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.637381,
+          "send_probe": 0,
+          "peer_first_address_resolved": true,
+          "transfers": [
+            {
+              "rc": 0,
+              "ms": 1118.939949
+            },
+            {
+              "rc": 0,
+              "ms": 1.627138
+            },
+            {
+              "rc": 0,
+              "ms": 1.08586
+            },
+            {
+              "rc": 0,
+              "ms": 1.217918
+            },
+            {
+              "rc": 0,
+              "ms": 1.36302
+            },
+            {
+              "rc": 0,
+              "ms": 1.103973
+            },
+            {
+              "rc": 0,
+              "ms": 0.42028
+            },
+            {
+              "rc": 0,
+              "ms": 0.431298
+            }
+          ],
+          "receiver": {
+            "correct_slices": 8,
+            "total": 8,
+            "completed_write": true,
+            "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+          }
+        },
+        {
+          "rank": 1,
+          "views": 8,
+          "regions": 1,
+          "registered_bytes": 9568256,
+          "npu": 1,
+          "register_rc": [
+            0
+          ],
+          "register_ms": 0.614142,
+          "correct_slices": 8,
+          "total": 8,
+          "completed_write": true,
+          "data_sha256": "5bf97de167c1b45fe8ed338778d4c1022e6d65bd98da145c726c5dccfb51d784"
+        }
+      ],
+      "device_count": 2
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "feature": 49181,
+  "driver": "legacy Docker builder; networking disabled",
+  "rows": [
+    {
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "ms": 286.264572,
+      "image_bytes": 11547557,
+      "included": {
+        ".gitignore": 4827,
+        "Dockerfile": 30,
+        "application.py": 37,
+        "deep/notcache/keep.py": 125,
+        "deep/tools/x.pyo": 1048576,
+        "pkg/__pycache__/a.cpython-312.pyc": 8388608,
+        "pkg/mod.pyc": 2097152,
+        "pkg/resource.bin": 8192
+      },
+      "nested_bytecode_bytes": 11534336
+    },
+    {
+      "flag": 1,
+      "sha": "d394549ff289de0850fa3ec94b1a643a1853eb5a",
+      "ms": 139.745751,
+      "image_bytes": 13297,
+      "included": {
+        ".gitignore": 4903,
+        "Dockerfile": 30,
+        "application.py": 37,
+        "deep/notcache/keep.py": 125,
+        "pkg/resource.bin": 8192
+      },
+      "nested_bytecode_bytes": 0
+    },
+    {
+      "flag": 1,
+      "sha": "d394549ff289de0850fa3ec94b1a643a1853eb5a",
+      "ms": 131.804472,
+      "image_bytes": 13297,
+      "included": {
+        ".gitignore": 4903,
+        "Dockerfile": 30,
+        "application.py": 37,
+        "deep/notcache/keep.py": 125,
+        "pkg/resource.bin": 8192
+      },
+      "nested_bytecode_bytes": 0
+    },
+    {
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "ms": 333.68557,
+      "image_bytes": 11547557,
+      "included": {
+        ".gitignore": 4827,
+        "Dockerfile": 30,
+        "application.py": 37,
+        "deep/notcache/keep.py": 125,
+        "deep/tools/x.pyo": 1048576,
+        "pkg/__pycache__/a.cpython-312.pyc": 8388608,
+        "pkg/mod.pyc": 2097152,
+        "pkg/resource.bin": 8192
+      },
+      "nested_bytecode_bytes": 11534336
+    }
+  ],
+  "script_sha256": "130299af05e05bc4e23cca5bbdea6e0b866be2abdf4f9a8e9da5617d7de2f9a2"
+}

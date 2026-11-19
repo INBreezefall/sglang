@@ -1,0 +1,210 @@
+{
+  "device": "3",
+  "feature": 48577,
+  "mode": "default",
+  "script_sha256": "7b3180a698ac681086b0121c87063ae1b57d9929c2d68885ee2313416525b29b",
+  "raw_hashes": [
+    "1024819553d58e2d8b759d2360cf7b641e4aafca480ecfaecb0ef1f6f28ab1bd",
+    "69db28f5336ff5a3b8ccabd2a3111e75256a6bbaa7efa806def1dd6bad938ec2",
+    "05296b40f4ebbc61a7e763cfa75f9e49d627f8f238a64394ce559a25dd8f2725",
+    "2c1d5c72ef958a1a0c53b6de303046e36f856c6ae0f41e1e18d8e383e490d6d6"
+  ],
+  "runs": [
+    {
+      "feature": 48577,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "phase": "queued",
+          "queued": 8,
+          "acked": 0,
+          "ongoing": 8,
+          "metrics": {}
+        },
+        {
+          "phase": "written",
+          "queued": 0,
+          "acked": 8,
+          "ongoing": 8,
+          "metrics": {}
+        },
+        {
+          "phase": "drained",
+          "queued": 0,
+          "acked": 0,
+          "ongoing": 0,
+          "metrics": {
+            "sglang:hicache_storage_backup_failed_tokens_total": 256.0
+          },
+          "saved_bytes": 983040,
+          "requested_tokens": 4096,
+          "actually_persisted_tokens": 3840,
+          "partial_operations": 2,
+          "elapsed_ms": 16.261969
+        }
+      ]
+    },
+    {
+      "feature": 48577,
+      "flag": 1,
+      "sha": "5239c4443cfbd15a2d6ff8037f1891e8b6a23e2a",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "phase": "queued",
+          "queued": 8,
+          "acked": 0,
+          "ongoing": 8,
+          "metrics": {
+            "sglang:hicache_d2h_pending_ops": 0.0,
+            "sglang:hicache_d2h_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_pending_ops": 8.0,
+            "sglang:hicache_l3_backup_queue_depth": 8.0,
+            "sglang:hicache_l3_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_backup_worker_alive": 1.0,
+            "sglang:hicache_l3_backup_submitted_tokens_total": 4096.0
+          }
+        },
+        {
+          "phase": "written",
+          "queued": 0,
+          "acked": 8,
+          "ongoing": 8,
+          "metrics": {
+            "sglang:hicache_d2h_pending_ops": 0.0,
+            "sglang:hicache_d2h_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_pending_ops": 8.0,
+            "sglang:hicache_l3_backup_queue_depth": 0.0,
+            "sglang:hicache_l3_ack_queue_depth": 8.0,
+            "sglang:hicache_l3_backup_worker_alive": 0.0,
+            "sglang:hicache_l3_backup_submitted_tokens_total": 4096.0
+          }
+        },
+        {
+          "phase": "drained",
+          "queued": 0,
+          "acked": 0,
+          "ongoing": 0,
+          "metrics": {
+            "sglang:hicache_storage_backup_failed_tokens_total": 256.0,
+            "sglang:hicache_d2h_pending_ops": 0.0,
+            "sglang:hicache_d2h_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_pending_ops": 0.0,
+            "sglang:hicache_l3_backup_queue_depth": 0.0,
+            "sglang:hicache_l3_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_backup_worker_alive": 0.0,
+            "sglang:hicache_l3_backup_submitted_tokens_total": 4096.0,
+            "sglang:hicache_l3_backup_failed_ops_total": 2.0,
+            "sglang:hicache_l3_backup_unwritten_pages_total": 2.0,
+            "sglang:hicache_l3_backup_unwritten_tokens_total": 256.0
+          },
+          "saved_bytes": 983040,
+          "requested_tokens": 4096,
+          "actually_persisted_tokens": 3840,
+          "partial_operations": 2,
+          "elapsed_ms": 16.898418
+        }
+      ]
+    },
+    {
+      "feature": 48577,
+      "flag": 1,
+      "sha": "5239c4443cfbd15a2d6ff8037f1891e8b6a23e2a",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "phase": "queued",
+          "queued": 8,
+          "acked": 0,
+          "ongoing": 8,
+          "metrics": {
+            "sglang:hicache_d2h_pending_ops": 0.0,
+            "sglang:hicache_d2h_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_pending_ops": 8.0,
+            "sglang:hicache_l3_backup_queue_depth": 8.0,
+            "sglang:hicache_l3_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_backup_worker_alive": 1.0,
+            "sglang:hicache_l3_backup_submitted_tokens_total": 4096.0
+          }
+        },
+        {
+          "phase": "written",
+          "queued": 0,
+          "acked": 8,
+          "ongoing": 8,
+          "metrics": {
+            "sglang:hicache_d2h_pending_ops": 0.0,
+            "sglang:hicache_d2h_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_pending_ops": 8.0,
+            "sglang:hicache_l3_backup_queue_depth": 0.0,
+            "sglang:hicache_l3_ack_queue_depth": 8.0,
+            "sglang:hicache_l3_backup_worker_alive": 0.0,
+            "sglang:hicache_l3_backup_submitted_tokens_total": 4096.0
+          }
+        },
+        {
+          "phase": "drained",
+          "queued": 0,
+          "acked": 0,
+          "ongoing": 0,
+          "metrics": {
+            "sglang:hicache_storage_backup_failed_tokens_total": 256.0,
+            "sglang:hicache_d2h_pending_ops": 0.0,
+            "sglang:hicache_d2h_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_pending_ops": 0.0,
+            "sglang:hicache_l3_backup_queue_depth": 0.0,
+            "sglang:hicache_l3_ack_queue_depth": 0.0,
+            "sglang:hicache_l3_backup_worker_alive": 0.0,
+            "sglang:hicache_l3_backup_submitted_tokens_total": 4096.0,
+            "sglang:hicache_l3_backup_failed_ops_total": 2.0,
+            "sglang:hicache_l3_backup_unwritten_pages_total": 2.0,
+            "sglang:hicache_l3_backup_unwritten_tokens_total": 256.0
+          },
+          "saved_bytes": 983040,
+          "requested_tokens": 4096,
+          "actually_persisted_tokens": 3840,
+          "partial_operations": 2,
+          "elapsed_ms": 20.768071
+        }
+      ]
+    },
+    {
+      "feature": 48577,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "phase": "queued",
+          "queued": 8,
+          "acked": 0,
+          "ongoing": 8,
+          "metrics": {}
+        },
+        {
+          "phase": "written",
+          "queued": 0,
+          "acked": 8,
+          "ongoing": 8,
+          "metrics": {}
+        },
+        {
+          "phase": "drained",
+          "queued": 0,
+          "acked": 0,
+          "ongoing": 0,
+          "metrics": {
+            "sglang:hicache_storage_backup_failed_tokens_total": 256.0
+          },
+          "saved_bytes": 983040,
+          "requested_tokens": 4096,
+          "actually_persisted_tokens": 3840,
+          "partial_operations": 2,
+          "elapsed_ms": 14.94627
+        }
+      ]
+    }
+  ]
+}

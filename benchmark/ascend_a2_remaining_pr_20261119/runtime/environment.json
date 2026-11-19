@@ -1,0 +1,16 @@
+{
+  "processor": "Ascend 910B4-1",
+  "devices_per_host": 8,
+  "hosts": 4,
+  "hbm_per_device_gib": 64,
+  "architecture": "aarch64",
+  "python": "3.12.13",
+  "torch": "2.10.0+cpu",
+  "torch_npu": "2.10.0.post6",
+  "cann": "9.1.0",
+  "container_image_id": "65c1c06b2519cec57267f4e6d19fdf7f70b99e7390ad186741a0b7e8a65ce78c",
+  "mooncake_native": "mooncake-transfer-engine-npu 0.3.13.post1",
+  "mooncake_wheel_sha256": "ba134f2cc99784aa32404c3a1406e3c85400792fb2c62bb458cd4757a07cc4bb",
+  "deepep": "1.0.0+1d2bc043",
+  "transformers": "5.19.0"
+}

@@ -1,0 +1,1134 @@
+{
+  "device": "0",
+  "feature": 48576,
+  "mode": "default",
+  "script_sha256": "d9458cb74b0fefed786db1594a8130e482a3e919fae86dbaf5dd2b2e793c382d",
+  "raw_hashes": [
+    "5535c063e588cf3e4762f3808a3eaa2a738e014c615237f85c8b3ccdf6b6a7aa",
+    "1c99ebdf4ef54dad1283931ddae3b76a8fe71c9b7e7cfb1e041900547253e721",
+    "2da229863ff83c4da411999cf4b3502001c0a911b99da6671ca3bdf9ad708e19",
+    "5b6864d49f80f2c21130232056221fdba329078b6c34e75a3fa9817dd0e097b2"
+  ],
+  "runs": [
+    {
+      "feature": 48576,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "ms": 29.569801,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 15.756863,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 14.133479,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 12.735365,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.851615,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.615504,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 10.80229,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.585904,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.364134,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 9.888017,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 10.310418,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 10.584839,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 9.625386,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 20.746336,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.889195,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.670795,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        }
+      ]
+    },
+    {
+      "feature": 48576,
+      "flag": 1,
+      "sha": "a9270183dea9036c02fb73905cff2b839a1ec89e",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "ms": 29.650881,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 352101,
+            "done_wait_consume_ns": 597272,
+            "lookup_io_ns": 262121,
+            "lookup_ns": 1326544,
+            "lookup_queue_ns": 385261,
+            "lookup_sync_ns": 1064423,
+            "read_ack_wait_ns": 245171,
+            "read_ns": 928842,
+            "read_queue_ns": 291361
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 3.998761,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 411171,
+            "done_wait_consume_ns": 702082,
+            "lookup_io_ns": 185201,
+            "lookup_ns": 788642,
+            "lookup_queue_ns": 346361,
+            "lookup_sync_ns": 603441,
+            "read_ack_wait_ns": 290911,
+            "read_ns": 1015873,
+            "read_queue_ns": 257591
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.847048,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 285071,
+            "done_wait_consume_ns": 500822,
+            "lookup_io_ns": 137681,
+            "lookup_ns": 485442,
+            "lookup_queue_ns": 188460,
+            "lookup_sync_ns": 347761,
+            "read_ack_wait_ns": 215751,
+            "read_ns": 754272,
+            "read_queue_ns": 216250
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.870978,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 272391,
+            "done_wait_consume_ns": 483422,
+            "lookup_io_ns": 141951,
+            "lookup_ns": 487672,
+            "lookup_queue_ns": 207880,
+            "lookup_sync_ns": 345721,
+            "read_ack_wait_ns": 211031,
+            "read_ns": 749562,
+            "read_queue_ns": 224930
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.853548,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 273431,
+            "done_wait_consume_ns": 497691,
+            "lookup_io_ns": 146770,
+            "lookup_ns": 477141,
+            "lookup_queue_ns": 197981,
+            "lookup_sync_ns": 330371,
+            "read_ack_wait_ns": 224260,
+            "read_ns": 737982,
+            "read_queue_ns": 252751
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.942928,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 264210,
+            "done_wait_consume_ns": 718022,
+            "lookup_io_ns": 135140,
+            "lookup_ns": 452521,
+            "lookup_queue_ns": 184421,
+            "lookup_sync_ns": 317381,
+            "read_ack_wait_ns": 453812,
+            "read_ns": 668231,
+            "read_queue_ns": 212481
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.660257,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 231961,
+            "done_wait_consume_ns": 426752,
+            "lookup_io_ns": 140380,
+            "lookup_ns": 454871,
+            "lookup_queue_ns": 205531,
+            "lookup_sync_ns": 314491,
+            "read_ack_wait_ns": 194791,
+            "read_ns": 723682,
+            "read_queue_ns": 209910
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.522927,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 224381,
+            "done_wait_consume_ns": 406041,
+            "lookup_io_ns": 133610,
+            "lookup_ns": 433561,
+            "lookup_queue_ns": 177101,
+            "lookup_sync_ns": 299951,
+            "read_ack_wait_ns": 181660,
+            "read_ns": 686752,
+            "read_queue_ns": 207871
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.640328,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 249811,
+            "done_wait_consume_ns": 448471,
+            "lookup_io_ns": 126650,
+            "lookup_ns": 426351,
+            "lookup_queue_ns": 167431,
+            "lookup_sync_ns": 299701,
+            "read_ack_wait_ns": 198660,
+            "read_ns": 694742,
+            "read_queue_ns": 202031
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.855008,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 298631,
+            "done_wait_consume_ns": 503941,
+            "lookup_io_ns": 163810,
+            "lookup_ns": 506981,
+            "lookup_queue_ns": 258831,
+            "lookup_sync_ns": 343171,
+            "read_ack_wait_ns": 205310,
+            "read_ns": 704032,
+            "read_queue_ns": 224931
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.492877,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 224540,
+            "done_wait_consume_ns": 400311,
+            "lookup_io_ns": 124810,
+            "lookup_ns": 390831,
+            "lookup_queue_ns": 158341,
+            "lookup_sync_ns": 266021,
+            "read_ack_wait_ns": 175771,
+            "read_ns": 684662,
+            "read_queue_ns": 199220
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.400266,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 215391,
+            "done_wait_consume_ns": 384621,
+            "lookup_io_ns": 120921,
+            "lookup_ns": 382352,
+            "lookup_queue_ns": 152360,
+            "lookup_sync_ns": 261431,
+            "read_ack_wait_ns": 169230,
+            "read_ns": 655042,
+            "read_queue_ns": 196980
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.385056,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 210741,
+            "done_wait_consume_ns": 375641,
+            "lookup_io_ns": 122921,
+            "lookup_ns": 360171,
+            "lookup_queue_ns": 154910,
+            "lookup_sync_ns": 237250,
+            "read_ack_wait_ns": 164900,
+            "read_ns": 658222,
+            "read_queue_ns": 192701
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.447497,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 246190,
+            "done_wait_consume_ns": 427201,
+            "lookup_io_ns": 120990,
+            "lookup_ns": 386981,
+            "lookup_queue_ns": 178911,
+            "lookup_sync_ns": 265991,
+            "read_ack_wait_ns": 181011,
+            "read_ns": 640642,
+            "read_queue_ns": 206120
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.832648,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 293531,
+            "done_wait_consume_ns": 551751,
+            "lookup_io_ns": 133170,
+            "lookup_ns": 386981,
+            "lookup_queue_ns": 223271,
+            "lookup_sync_ns": 253811,
+            "read_ack_wait_ns": 258220,
+            "read_ns": 695992,
+            "read_queue_ns": 339371
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.577597,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 226231,
+            "done_wait_consume_ns": 411501,
+            "lookup_io_ns": 131360,
+            "lookup_ns": 402621,
+            "lookup_queue_ns": 166161,
+            "lookup_sync_ns": 271261,
+            "read_ack_wait_ns": 185270,
+            "read_ns": 636152,
+            "read_queue_ns": 201090
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        }
+      ]
+    },
+    {
+      "feature": 48576,
+      "flag": 1,
+      "sha": "a9270183dea9036c02fb73905cff2b839a1ec89e",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "ms": 29.18517,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 302771,
+            "done_wait_consume_ns": 529131,
+            "lookup_io_ns": 227700,
+            "lookup_ns": 1361423,
+            "lookup_queue_ns": 328701,
+            "lookup_sync_ns": 1133723,
+            "read_ack_wait_ns": 226360,
+            "read_ns": 949603,
+            "read_queue_ns": 245421
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 3.62725,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 285111,
+            "done_wait_consume_ns": 529702,
+            "lookup_io_ns": 158880,
+            "lookup_ns": 640631,
+            "lookup_queue_ns": 321421,
+            "lookup_sync_ns": 481751,
+            "read_ack_wait_ns": 244591,
+            "read_ns": 972412,
+            "read_queue_ns": 390942
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.559277,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 279731,
+            "done_wait_consume_ns": 451791,
+            "lookup_io_ns": 134621,
+            "lookup_ns": 420911,
+            "lookup_queue_ns": 176080,
+            "lookup_sync_ns": 286290,
+            "read_ack_wait_ns": 172060,
+            "read_ns": 684862,
+            "read_queue_ns": 206661
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.363106,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 208111,
+            "done_wait_consume_ns": 389211,
+            "lookup_io_ns": 128731,
+            "lookup_ns": 383361,
+            "lookup_queue_ns": 152340,
+            "lookup_sync_ns": 254630,
+            "read_ack_wait_ns": 181100,
+            "read_ns": 656902,
+            "read_queue_ns": 202191
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.522037,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 214020,
+            "done_wait_consume_ns": 473871,
+            "lookup_io_ns": 128310,
+            "lookup_ns": 380951,
+            "lookup_queue_ns": 159671,
+            "lookup_sync_ns": 252641,
+            "read_ack_wait_ns": 259851,
+            "read_ns": 649802,
+            "read_queue_ns": 200130
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.366686,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 196111,
+            "done_wait_consume_ns": 366021,
+            "lookup_io_ns": 129651,
+            "lookup_ns": 382331,
+            "lookup_queue_ns": 163720,
+            "lookup_sync_ns": 252680,
+            "read_ack_wait_ns": 169910,
+            "read_ns": 662922,
+            "read_queue_ns": 197601
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.772458,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 209930,
+            "done_wait_consume_ns": 542301,
+            "lookup_io_ns": 137940,
+            "lookup_ns": 443151,
+            "lookup_queue_ns": 217511,
+            "lookup_sync_ns": 305211,
+            "read_ack_wait_ns": 332371,
+            "read_ns": 641962,
+            "read_queue_ns": 332351
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.376516,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 189331,
+            "done_wait_consume_ns": 350591,
+            "lookup_io_ns": 133571,
+            "lookup_ns": 385861,
+            "lookup_queue_ns": 168040,
+            "lookup_sync_ns": 252290,
+            "read_ack_wait_ns": 161260,
+            "read_ns": 651952,
+            "read_queue_ns": 194921
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.480567,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 196800,
+            "done_wait_consume_ns": 372071,
+            "lookup_io_ns": 125230,
+            "lookup_ns": 372531,
+            "lookup_queue_ns": 153301,
+            "lookup_sync_ns": 247301,
+            "read_ack_wait_ns": 175271,
+            "read_ns": 661582,
+            "read_queue_ns": 300440
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.293896,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 190270,
+            "done_wait_consume_ns": 362091,
+            "lookup_io_ns": 129531,
+            "lookup_ns": 367231,
+            "lookup_queue_ns": 155170,
+            "lookup_sync_ns": 237700,
+            "read_ack_wait_ns": 171821,
+            "read_ns": 626791,
+            "read_queue_ns": 197681
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.713777,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 193261,
+            "done_wait_consume_ns": 366981,
+            "lookup_io_ns": 125601,
+            "lookup_ns": 367861,
+            "lookup_queue_ns": 157150,
+            "lookup_sync_ns": 242260,
+            "read_ack_wait_ns": 173720,
+            "read_ns": 677912,
+            "read_queue_ns": 526562
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.304786,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 190591,
+            "done_wait_consume_ns": 362131,
+            "lookup_io_ns": 125811,
+            "lookup_ns": 361051,
+            "lookup_queue_ns": 152240,
+            "lookup_sync_ns": 235240,
+            "read_ack_wait_ns": 171540,
+            "read_ns": 657992,
+            "read_queue_ns": 196841
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.416997,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 238050,
+            "done_wait_consume_ns": 491491,
+            "lookup_io_ns": 127760,
+            "lookup_ns": 372321,
+            "lookup_queue_ns": 153161,
+            "lookup_sync_ns": 244561,
+            "read_ack_wait_ns": 253441,
+            "read_ns": 630952,
+            "read_queue_ns": 197120
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.488946,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 200821,
+            "done_wait_consume_ns": 373681,
+            "lookup_io_ns": 128931,
+            "lookup_ns": 375721,
+            "lookup_queue_ns": 182800,
+            "lookup_sync_ns": 246790,
+            "read_ack_wait_ns": 172860,
+            "read_ns": 627462,
+            "read_queue_ns": 201711
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.710418,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 240980,
+            "done_wait_consume_ns": 490181,
+            "lookup_io_ns": 139070,
+            "lookup_ns": 440331,
+            "lookup_queue_ns": 211961,
+            "lookup_sync_ns": 301261,
+            "read_ack_wait_ns": 249201,
+            "read_ns": 689972,
+            "read_queue_ns": 324421
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.427086,
+          "bytes": 2097152,
+          "events": [
+            "enqueue",
+            "lookup_start",
+            "lookup_io_end",
+            "lookup_end",
+            "read_start",
+            "read_end",
+            "ack_ready",
+            "consume",
+            "forward_entry"
+          ],
+          "stage_ns": {
+            "ack_wait_consume_ns": 249061,
+            "done_wait_consume_ns": 415682,
+            "lookup_io_ns": 129000,
+            "lookup_ns": 375321,
+            "lookup_queue_ns": 164620,
+            "lookup_sync_ns": 246321,
+            "read_ack_wait_ns": 166621,
+            "read_ns": 627561,
+            "read_queue_ns": 192721
+          },
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        }
+      ]
+    },
+    {
+      "feature": 48576,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "ms": 33.326772,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.813328,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.548344,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.343364,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.456834,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 18.624331,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.809485,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.783285,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.604874,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.174706,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.017555,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.971775,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.366437,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 2.039416,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.750285,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        },
+        {
+          "ms": 1.726795,
+          "bytes": 2097152,
+          "events": [],
+          "stage_ns": {},
+          "hash": "ae42b13d7e0af3e77723caf8357d34c7e061526ed9eefeb67b04a0aaa69f33e2"
+        }
+      ]
+    }
+  ]
+}

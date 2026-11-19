@@ -1,0 +1,750 @@
+{
+  "device": "4",
+  "feature": 48599,
+  "mode": "default",
+  "script_sha256": "28c37fb9ffcdae2b15e60d3b601ecfd1c8bda3fc65e83b97b5026cc832eff8a1",
+  "raw_hashes": [
+    "0106ff981ac00d02f2026321c6a37dc72cc6efd39a92ea7d4bf3d45bc25957c0",
+    "7b2b71450f52b101d2786049a1c65f4dbd175dfee3a7954a7419cc25fddd0143",
+    "d6a0ca66f50b2dba6104ceff7464f551b340ad0f2bfb7aa84343b5683948ef85",
+    "6796cff94d4e76b69b951e0db84e757f17c97feaea00f387dd4f3bcb1d0f6c20"
+  ],
+  "runs": [
+    {
+      "feature": 48599,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 128,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            128,
+            128
+          ],
+          "backup_ms": 0.587902,
+          "insert_ms": 0.251791,
+          "restore_ms": [
+            0.1243,
+            0.09119
+          ],
+          "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
+        },
+        {
+          "tokens": 256,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            256,
+            256
+          ],
+          "backup_ms": 0.266781,
+          "insert_ms": 0.206031,
+          "restore_ms": [
+            0.10843,
+            0.08612
+          ],
+          "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
+        },
+        {
+          "tokens": 384,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            384,
+            384
+          ],
+          "backup_ms": 0.21604,
+          "insert_ms": 0.182991,
+          "restore_ms": [
+            0.10614,
+            0.08862
+          ],
+          "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
+        },
+        {
+          "tokens": 512,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            512,
+            512
+          ],
+          "backup_ms": 0.309881,
+          "insert_ms": 0.197501,
+          "restore_ms": [
+            0.18668,
+            0.11596
+          ],
+          "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
+        },
+        {
+          "tokens": 128,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            128,
+            128
+          ],
+          "backup_ms": 0.262901,
+          "insert_ms": 0.18838,
+          "restore_ms": [
+            0.166461,
+            0.12012
+          ],
+          "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
+        },
+        {
+          "tokens": 256,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            256,
+            256
+          ],
+          "backup_ms": 0.220441,
+          "insert_ms": 0.18992,
+          "restore_ms": [
+            0.11037,
+            0.122881
+          ],
+          "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
+        },
+        {
+          "tokens": 384,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            384,
+            384
+          ],
+          "backup_ms": 0.227831,
+          "insert_ms": 0.18717,
+          "restore_ms": [
+            0.1207,
+            0.10148
+          ],
+          "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
+        },
+        {
+          "tokens": 512,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            512,
+            512
+          ],
+          "backup_ms": 0.240491,
+          "insert_ms": 0.20532,
+          "restore_ms": [
+            0.12621,
+            0.142431
+          ],
+          "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
+        }
+      ]
+    },
+    {
+      "feature": 48599,
+      "flag": 1,
+      "sha": "1b200dd8c13a200a634b1d6920e58755b84fc677",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 128,
+          "writeback_origin": [
+            128,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            128
+          ],
+          "host_hits": [
+            128,
+            128
+          ],
+          "backup_ms": 0.591172,
+          "insert_ms": 0.249851,
+          "restore_ms": [
+            0.13347,
+            0.09545
+          ],
+          "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
+        },
+        {
+          "tokens": 256,
+          "writeback_origin": [
+            256,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            256
+          ],
+          "host_hits": [
+            256,
+            256
+          ],
+          "backup_ms": 0.253241,
+          "insert_ms": 0.20365,
+          "restore_ms": [
+            0.115021,
+            0.0997
+          ],
+          "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
+        },
+        {
+          "tokens": 384,
+          "writeback_origin": [
+            384,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            384
+          ],
+          "host_hits": [
+            384,
+            384
+          ],
+          "backup_ms": 0.217751,
+          "insert_ms": 0.17958,
+          "restore_ms": [
+            0.11361,
+            0.09789
+          ],
+          "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
+        },
+        {
+          "tokens": 512,
+          "writeback_origin": [
+            512,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            512
+          ],
+          "host_hits": [
+            512,
+            512
+          ],
+          "backup_ms": 0.278191,
+          "insert_ms": 0.181321,
+          "restore_ms": [
+            0.11423,
+            0.09639
+          ],
+          "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
+        },
+        {
+          "tokens": 128,
+          "writeback_origin": [
+            128,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            128
+          ],
+          "host_hits": [
+            128,
+            128
+          ],
+          "backup_ms": 0.270101,
+          "insert_ms": 0.17686,
+          "restore_ms": [
+            0.1186,
+            0.104141
+          ],
+          "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
+        },
+        {
+          "tokens": 256,
+          "writeback_origin": [
+            256,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            256
+          ],
+          "host_hits": [
+            256,
+            256
+          ],
+          "backup_ms": 0.218231,
+          "insert_ms": 0.17811,
+          "restore_ms": [
+            0.1103,
+            0.09314
+          ],
+          "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
+        },
+        {
+          "tokens": 384,
+          "writeback_origin": [
+            384,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            384
+          ],
+          "host_hits": [
+            384,
+            384
+          ],
+          "backup_ms": 0.21352,
+          "insert_ms": 0.176621,
+          "restore_ms": [
+            0.10521,
+            0.09522
+          ],
+          "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
+        },
+        {
+          "tokens": 512,
+          "writeback_origin": [
+            512,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            512
+          ],
+          "host_hits": [
+            512,
+            512
+          ],
+          "backup_ms": 0.237771,
+          "insert_ms": 0.20373,
+          "restore_ms": [
+            0.122491,
+            0.10261
+          ],
+          "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
+        }
+      ]
+    },
+    {
+      "feature": 48599,
+      "flag": 1,
+      "sha": "1b200dd8c13a200a634b1d6920e58755b84fc677",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 128,
+          "writeback_origin": [
+            128,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            128
+          ],
+          "host_hits": [
+            128,
+            128
+          ],
+          "backup_ms": 0.626261,
+          "insert_ms": 0.265301,
+          "restore_ms": [
+            0.133931,
+            0.09472
+          ],
+          "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
+        },
+        {
+          "tokens": 256,
+          "writeback_origin": [
+            256,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            256
+          ],
+          "host_hits": [
+            256,
+            256
+          ],
+          "backup_ms": 0.258491,
+          "insert_ms": 0.20693,
+          "restore_ms": [
+            0.11783,
+            0.09278
+          ],
+          "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
+        },
+        {
+          "tokens": 384,
+          "writeback_origin": [
+            384,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            384
+          ],
+          "host_hits": [
+            384,
+            384
+          ],
+          "backup_ms": 0.22035,
+          "insert_ms": 0.177871,
+          "restore_ms": [
+            0.11121,
+            0.09214
+          ],
+          "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
+        },
+        {
+          "tokens": 512,
+          "writeback_origin": [
+            512,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            512
+          ],
+          "host_hits": [
+            512,
+            512
+          ],
+          "backup_ms": 0.281671,
+          "insert_ms": 0.211711,
+          "restore_ms": [
+            0.11886,
+            0.0915
+          ],
+          "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
+        },
+        {
+          "tokens": 128,
+          "writeback_origin": [
+            128,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            128
+          ],
+          "host_hits": [
+            128,
+            128
+          ],
+          "backup_ms": 0.22075,
+          "insert_ms": 0.193391,
+          "restore_ms": [
+            0.11719,
+            0.08978
+          ],
+          "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
+        },
+        {
+          "tokens": 256,
+          "writeback_origin": [
+            256,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            256
+          ],
+          "host_hits": [
+            256,
+            256
+          ],
+          "backup_ms": 0.259811,
+          "insert_ms": 0.1883,
+          "restore_ms": [
+            0.179431,
+            0.09895
+          ],
+          "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
+        },
+        {
+          "tokens": 384,
+          "writeback_origin": [
+            384,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            384
+          ],
+          "host_hits": [
+            384,
+            384
+          ],
+          "backup_ms": 0.230081,
+          "insert_ms": 0.1895,
+          "restore_ms": [
+            0.120671,
+            0.09394
+          ],
+          "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
+        },
+        {
+          "tokens": 512,
+          "writeback_origin": [
+            512,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            512
+          ],
+          "host_hits": [
+            512,
+            512
+          ],
+          "backup_ms": 0.245171,
+          "insert_ms": 0.18903,
+          "restore_ms": [
+            0.11705,
+            0.114061
+          ],
+          "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
+        }
+      ]
+    },
+    {
+      "feature": 48599,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "tokens": 128,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            128,
+            128
+          ],
+          "backup_ms": 0.557821,
+          "insert_ms": 0.254411,
+          "restore_ms": [
+            0.1812,
+            0.105321
+          ],
+          "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
+        },
+        {
+          "tokens": 256,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            256,
+            256
+          ],
+          "backup_ms": 0.268801,
+          "insert_ms": 0.214001,
+          "restore_ms": [
+            0.12712,
+            0.098681
+          ],
+          "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
+        },
+        {
+          "tokens": 384,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            384,
+            384
+          ],
+          "backup_ms": 0.22093,
+          "insert_ms": 0.21288,
+          "restore_ms": [
+            0.12211,
+            0.09456
+          ],
+          "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
+        },
+        {
+          "tokens": 512,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            512,
+            512
+          ],
+          "backup_ms": 0.306761,
+          "insert_ms": 0.20806,
+          "restore_ms": [
+            0.132401,
+            0.09815
+          ],
+          "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
+        },
+        {
+          "tokens": 128,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            128,
+            128
+          ],
+          "backup_ms": 0.450261,
+          "insert_ms": 0.212931,
+          "restore_ms": [
+            0.12129,
+            0.13479
+          ],
+          "hash": "6b0751ba5e64fc9c13ddfb44778fa7d6a1f7d7aa9d6a5e38a1f0a1502c3fb9e3"
+        },
+        {
+          "tokens": 256,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            256,
+            256
+          ],
+          "backup_ms": 0.25637,
+          "insert_ms": 0.217141,
+          "restore_ms": [
+            0.13264,
+            0.10279
+          ],
+          "hash": "c57265a1c4b342afeeb4bafbf72f55c8c36babde6096310351d5516e35af014e"
+        },
+        {
+          "tokens": 384,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            384,
+            384
+          ],
+          "backup_ms": 0.315121,
+          "insert_ms": 0.209631,
+          "restore_ms": [
+            0.175601,
+            0.25157
+          ],
+          "hash": "abeb0ae01d79101e0649d394713dcfb4faa8cd4676805aa360040e9f96d00ed8"
+        },
+        {
+          "tokens": 512,
+          "writeback_origin": [
+            0,
+            0
+          ],
+          "prefetch_origin": [
+            0,
+            0
+          ],
+          "host_hits": [
+            512,
+            512
+          ],
+          "backup_ms": 0.256031,
+          "insert_ms": 0.20901,
+          "restore_ms": [
+            0.12291,
+            0.09629
+          ],
+          "hash": "999b5382075e99fc59c39652a6d0776f0c73f49866ad762d450569c51a30f5db"
+        }
+      ]
+    }
+  ]
+}

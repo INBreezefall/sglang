@@ -1,0 +1,766 @@
+{
+  "device": "0",
+  "feature": 48543,
+  "mode": "default",
+  "script_sha256": "2ebd0678168f174265592d79555b03d1ef130967ef0450c115305951d990b470",
+  "raw_hashes": [
+    "28d02e5362a030f75de1bdab5088dcbb956d7eb2188fe3693c1b0ef98514bd4b",
+    "4b065ba2c93ae700c05e94a1c6e3c3147318302655afcee476b8602b580e322e",
+    "3d9d36844e118064d956f7c00b469d31b04c7667a48b05cc7172cee21bdb0dac",
+    "f1ac4ed8048ecdb61fea4c661a487279bf91911217239c4354cc9e74310d259c"
+  ],
+  "runs": [
+    {
+      "feature": 48543,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 5.271554,
+          "h2d_ms": 39.299289,
+          "d2h_ms": 0.802803,
+          "hash": "64e4219d0be1cf611fcafdd428b3000568d46d75b4955f2a9c6a3bb657e42462",
+          "before": {
+            "active_bytes.current": 0,
+            "allocated_bytes.current": 0,
+            "num_host_alloc": 0,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 4194304,
+            "allocated_bytes.current": 4194304,
+            "num_host_alloc": 1,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.371751,
+          "h2d_ms": 1.013792,
+          "d2h_ms": 1.145583,
+          "hash": "b48835117706a0976fe49091bae5bdb06ceab2d950744f137f4f2860c58f9af3",
+          "before": {
+            "active_bytes.current": 8388608,
+            "allocated_bytes.current": 8388608,
+            "num_host_alloc": 2,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 25165826,
+            "allocated_bytes.current": 25165824,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.569191,
+          "h2d_ms": 1.473814,
+          "d2h_ms": 2.791808,
+          "hash": "d8efc78f0a55cb3293179b8110b71c6b9041188d66bfa0a2796054f756fbf99d",
+          "before": {
+            "active_bytes.current": 41943042,
+            "allocated_bytes.current": 41943040,
+            "num_host_alloc": 4,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 75497476,
+            "allocated_bytes.current": 75497472,
+            "num_host_alloc": 5,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 0.21635,
+          "h2d_ms": 0.689902,
+          "d2h_ms": 0.530512,
+          "hash": "fa76e5b3503d18dd5b4d8bb7760f27db790d41d03c31020cdb9aab928743d7d9",
+          "before": {
+            "active_bytes.current": 109051908,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 113246214,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.23604,
+          "h2d_ms": 1.242273,
+          "d2h_ms": 0.842943,
+          "hash": "eef1e9443d6bc3246f2a59e5201b90be0f7fe1be6c647a3f9e6820d7370852d4",
+          "before": {
+            "active_bytes.current": 117440518,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 134217736,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.23015,
+          "h2d_ms": 28.059518,
+          "d2h_ms": 1.693255,
+          "hash": "1f73c2fe93bd2f53f391045063f9cebce0fd34f6bf24b028af84372d77e09fac",
+          "before": {
+            "active_bytes.current": 150994952,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 184549386,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 0.230611,
+          "h2d_ms": 0.730752,
+          "d2h_ms": 0.480091,
+          "hash": "1d117b01af2691895e8063ca7923d37111b5d71725898bceabf951062952bb6d",
+          "before": {
+            "active_bytes.current": 218103818,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 222298124,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.23611,
+          "h2d_ms": 1.251303,
+          "d2h_ms": 0.718602,
+          "hash": "585ad3aa240b3d15e4c38e45f87a0e5d33a961002197082439967e9d25e22ebf",
+          "before": {
+            "active_bytes.current": 226492428,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 243269646,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.267361,
+          "h2d_ms": 1.465824,
+          "d2h_ms": 1.258724,
+          "hash": "59ba2944a326c242852eec6ae69b764ce2a1f5ef2aee1a36c104132c884f645d",
+          "before": {
+            "active_bytes.current": 260046862,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 293601296,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        }
+      ]
+    },
+    {
+      "feature": 48543,
+      "flag": 1,
+      "sha": "2877db5d3bf6b4e556f5a41d8e11576f7a947401",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 6.658679,
+          "h2d_ms": 34.632345,
+          "d2h_ms": 1.145923,
+          "hash": "64e4219d0be1cf611fcafdd428b3000568d46d75b4955f2a9c6a3bb657e42462",
+          "before": {
+            "active_bytes.current": 0,
+            "allocated_bytes.current": 0,
+            "num_host_alloc": 0,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 0,
+            "allocated_bytes.current": 0,
+            "num_host_alloc": 0,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.649482,
+          "h2d_ms": 0.940362,
+          "d2h_ms": 1.082673,
+          "hash": "b48835117706a0976fe49091bae5bdb06ceab2d950744f137f4f2860c58f9af3",
+          "before": {
+            "active_bytes.current": 4194304,
+            "allocated_bytes.current": 4194304,
+            "num_host_alloc": 1,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 4194304,
+            "allocated_bytes.current": 4194304,
+            "num_host_alloc": 1,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.692852,
+          "h2d_ms": 1.700785,
+          "d2h_ms": 1.559674,
+          "hash": "d8efc78f0a55cb3293179b8110b71c6b9041188d66bfa0a2796054f756fbf99d",
+          "before": {
+            "active_bytes.current": 20971521,
+            "allocated_bytes.current": 20971520,
+            "num_host_alloc": 2,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 20971521,
+            "allocated_bytes.current": 20971520,
+            "num_host_alloc": 2,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 0.526192,
+          "h2d_ms": 0.634122,
+          "d2h_ms": 0.346901,
+          "hash": "fa76e5b3503d18dd5b4d8bb7760f27db790d41d03c31020cdb9aab928743d7d9",
+          "before": {
+            "active_bytes.current": 54525954,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 54525954,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.493292,
+          "h2d_ms": 0.971613,
+          "d2h_ms": 0.932972,
+          "hash": "eef1e9443d6bc3246f2a59e5201b90be0f7fe1be6c647a3f9e6820d7370852d4",
+          "before": {
+            "active_bytes.current": 58720259,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 58720259,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.488642,
+          "h2d_ms": 1.663925,
+          "d2h_ms": 1.245983,
+          "hash": "1f73c2fe93bd2f53f391045063f9cebce0fd34f6bf24b028af84372d77e09fac",
+          "before": {
+            "active_bytes.current": 75497476,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 75497476,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 0.487761,
+          "h2d_ms": 0.639582,
+          "d2h_ms": 0.792872,
+          "hash": "1d117b01af2691895e8063ca7923d37111b5d71725898bceabf951062952bb6d",
+          "before": {
+            "active_bytes.current": 109051909,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 109051909,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.494851,
+          "h2d_ms": 1.159733,
+          "d2h_ms": 1.370554,
+          "hash": "585ad3aa240b3d15e4c38e45f87a0e5d33a961002197082439967e9d25e22ebf",
+          "before": {
+            "active_bytes.current": 113246214,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 113246214,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.504431,
+          "h2d_ms": 1.454604,
+          "d2h_ms": 1.649945,
+          "hash": "59ba2944a326c242852eec6ae69b764ce2a1f5ef2aee1a36c104132c884f645d",
+          "before": {
+            "active_bytes.current": 130023431,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 130023431,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        }
+      ]
+    },
+    {
+      "feature": 48543,
+      "flag": 1,
+      "sha": "2877db5d3bf6b4e556f5a41d8e11576f7a947401",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 6.790889,
+          "h2d_ms": 34.473615,
+          "d2h_ms": 1.129553,
+          "hash": "64e4219d0be1cf611fcafdd428b3000568d46d75b4955f2a9c6a3bb657e42462",
+          "before": {
+            "active_bytes.current": 0,
+            "allocated_bytes.current": 0,
+            "num_host_alloc": 0,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 0,
+            "allocated_bytes.current": 0,
+            "num_host_alloc": 0,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.614442,
+          "h2d_ms": 1.291024,
+          "d2h_ms": 1.279733,
+          "hash": "b48835117706a0976fe49091bae5bdb06ceab2d950744f137f4f2860c58f9af3",
+          "before": {
+            "active_bytes.current": 4194304,
+            "allocated_bytes.current": 4194304,
+            "num_host_alloc": 1,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 4194304,
+            "allocated_bytes.current": 4194304,
+            "num_host_alloc": 1,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.673742,
+          "h2d_ms": 1.884235,
+          "d2h_ms": 1.777965,
+          "hash": "d8efc78f0a55cb3293179b8110b71c6b9041188d66bfa0a2796054f756fbf99d",
+          "before": {
+            "active_bytes.current": 20971521,
+            "allocated_bytes.current": 20971520,
+            "num_host_alloc": 2,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 20971521,
+            "allocated_bytes.current": 20971520,
+            "num_host_alloc": 2,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 0.498991,
+          "h2d_ms": 0.534872,
+          "d2h_ms": 0.604362,
+          "hash": "fa76e5b3503d18dd5b4d8bb7760f27db790d41d03c31020cdb9aab928743d7d9",
+          "before": {
+            "active_bytes.current": 54525954,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 54525954,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.479191,
+          "h2d_ms": 1.123963,
+          "d2h_ms": 0.826962,
+          "hash": "eef1e9443d6bc3246f2a59e5201b90be0f7fe1be6c647a3f9e6820d7370852d4",
+          "before": {
+            "active_bytes.current": 58720259,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 58720259,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.483391,
+          "h2d_ms": 1.672344,
+          "d2h_ms": 1.275924,
+          "hash": "1f73c2fe93bd2f53f391045063f9cebce0fd34f6bf24b028af84372d77e09fac",
+          "before": {
+            "active_bytes.current": 75497476,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 75497476,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 0.375901,
+          "h2d_ms": 0.638952,
+          "d2h_ms": 0.483592,
+          "hash": "1d117b01af2691895e8063ca7923d37111b5d71725898bceabf951062952bb6d",
+          "before": {
+            "active_bytes.current": 109051909,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 109051909,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.384381,
+          "h2d_ms": 1.126874,
+          "d2h_ms": 0.749202,
+          "hash": "585ad3aa240b3d15e4c38e45f87a0e5d33a961002197082439967e9d25e22ebf",
+          "before": {
+            "active_bytes.current": 113246214,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 113246214,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.385611,
+          "h2d_ms": 1.452314,
+          "d2h_ms": 1.646894,
+          "hash": "59ba2944a326c242852eec6ae69b764ce2a1f5ef2aee1a36c104132c884f645d",
+          "before": {
+            "active_bytes.current": 130023431,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 130023431,
+            "allocated_bytes.current": 54525952,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        }
+      ]
+    },
+    {
+      "feature": 48543,
+      "flag": 0,
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 5.127124,
+          "h2d_ms": 24.564578,
+          "d2h_ms": 0.568932,
+          "hash": "64e4219d0be1cf611fcafdd428b3000568d46d75b4955f2a9c6a3bb657e42462",
+          "before": {
+            "active_bytes.current": 0,
+            "allocated_bytes.current": 0,
+            "num_host_alloc": 0,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 4194304,
+            "allocated_bytes.current": 4194304,
+            "num_host_alloc": 1,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.365531,
+          "h2d_ms": 0.853123,
+          "d2h_ms": 0.915532,
+          "hash": "b48835117706a0976fe49091bae5bdb06ceab2d950744f137f4f2860c58f9af3",
+          "before": {
+            "active_bytes.current": 8388608,
+            "allocated_bytes.current": 8388608,
+            "num_host_alloc": 2,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 25165826,
+            "allocated_bytes.current": 25165824,
+            "num_host_alloc": 3,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.487151,
+          "h2d_ms": 1.446364,
+          "d2h_ms": 2.111116,
+          "hash": "d8efc78f0a55cb3293179b8110b71c6b9041188d66bfa0a2796054f756fbf99d",
+          "before": {
+            "active_bytes.current": 41943042,
+            "allocated_bytes.current": 41943040,
+            "num_host_alloc": 4,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 75497476,
+            "allocated_bytes.current": 75497472,
+            "num_host_alloc": 5,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 0.17579,
+          "h2d_ms": 0.533901,
+          "d2h_ms": 0.436222,
+          "hash": "fa76e5b3503d18dd5b4d8bb7760f27db790d41d03c31020cdb9aab928743d7d9",
+          "before": {
+            "active_bytes.current": 109051908,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 113246214,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.169061,
+          "h2d_ms": 0.870282,
+          "d2h_ms": 1.058912,
+          "hash": "eef1e9443d6bc3246f2a59e5201b90be0f7fe1be6c647a3f9e6820d7370852d4",
+          "before": {
+            "active_bytes.current": 117440518,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 134217736,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.170431,
+          "h2d_ms": 1.389623,
+          "d2h_ms": 1.942065,
+          "hash": "1f73c2fe93bd2f53f391045063f9cebce0fd34f6bf24b028af84372d77e09fac",
+          "before": {
+            "active_bytes.current": 150994952,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 184549386,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 3146241,
+          "view_bytes": 3146236,
+          "allocation_ms": 0.17413,
+          "h2d_ms": 0.552142,
+          "d2h_ms": 0.379641,
+          "hash": "1d117b01af2691895e8063ca7923d37111b5d71725898bceabf951062952bb6d",
+          "before": {
+            "active_bytes.current": 218103818,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 222298124,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 8388737,
+          "view_bytes": 8388732,
+          "allocation_ms": 0.21093,
+          "h2d_ms": 0.930063,
+          "d2h_ms": 0.925183,
+          "hash": "585ad3aa240b3d15e4c38e45f87a0e5d33a961002197082439967e9d25e22ebf",
+          "before": {
+            "active_bytes.current": 226492428,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 243269646,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        },
+        {
+          "bytes": 17825799,
+          "view_bytes": 17825794,
+          "allocation_ms": 0.173291,
+          "h2d_ms": 27.001405,
+          "d2h_ms": 1.873735,
+          "hash": "59ba2944a326c242852eec6ae69b764ce2a1f5ef2aee1a36c104132c884f645d",
+          "before": {
+            "active_bytes.current": 260046862,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          },
+          "after": {
+            "active_bytes.current": 293601296,
+            "allocated_bytes.current": 109051904,
+            "num_host_alloc": 6,
+            "num_host_free": 0
+          }
+        }
+      ]
+    }
+  ]
+}
