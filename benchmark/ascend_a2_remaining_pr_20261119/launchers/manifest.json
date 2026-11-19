@@ -34,10 +34,20 @@
     "measured_sha256": "e21f1997dd871aeff65b975120bb3c397521cb983acd43d150a0d4ea671c00a0",
     "public_sha256": "a091aec05b28baabe9536e01b64433e2f68f18c2a74092c2b67718c0b9498c99"
   },
+  "store-metrics": {
+    "launcher": "../launchers/launch-dc5f0368d108.sh",
+    "measured_sha256": "dc5f0368d108c64e53b1e4431f431c34f03ffd8fafd6ff8e77e21cbade3e435d",
+    "public_sha256": "97b62d5dd2707232e9533f9708ffa273f1211b4bfb39d248ae943ef264d6df24"
+  },
   "store-object-main": {
     "launcher": "../launchers/launch-85d3f28d9ef2.sh",
     "measured_sha256": "85d3f28d9ef2dd5353976b626df5237f9216d07432c84c1f9b65567af5c31f47",
     "public_sha256": "d5f2b659fab4b2a938de8702a95bfeb83e263e420474ecf4fc2a0b0cd393303f"
+  },
+  "store-origins": {
+    "launcher": "../launchers/launch-dc5f0368d108.sh",
+    "measured_sha256": "dc5f0368d108c64e53b1e4431f431c34f03ffd8fafd6ff8e77e21cbade3e435d",
+    "public_sha256": "97b62d5dd2707232e9533f9708ffa273f1211b4bfb39d248ae943ef264d6df24"
   },
   "store-trace": {
     "launcher": "../launchers/launch-e21f1997dd87.sh",

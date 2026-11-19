@@ -34,9 +34,19 @@
     "result_sha256": "963814dfb3714dc1c5eb975959cd48f0dbce1c247c6f2b253220ccb6127e8d3a",
     "client": "../probes/client-8b768e8a88c4.py"
   },
+  "store-metrics": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "b082b31ca4778d84d2684eb4eea9c667ad4af3db336ff04e441e468af845a9b8",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
   "store-object-main": {
     "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
     "result_sha256": "5da353dea46244af034309fbf6cbec17b51c94d5139f2e0756a45be1537661ac",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
+  "store-origins": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "75a248591a184ec5a141c51ed6fc0ee3b9fc0e2882547785bc4bc8f2fceb8cec",
     "client": "../probes/client-8b768e8a88c4.py"
   },
   "store-trace": {

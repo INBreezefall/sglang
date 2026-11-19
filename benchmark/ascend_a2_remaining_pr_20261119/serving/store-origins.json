@@ -1,0 +1,1903 @@
+{
+  "formal_start_epoch": 1795081821.252982,
+  "formal_end_epoch": 1795081906.8754537,
+  "prefill_sha": "7541d7410e7c37dd35130e16167f83b1b30516b5",
+  "decode_sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+  "sessions": 24,
+  "turns": 3,
+  "output_limit": 24,
+  "warmups": 8,
+  "wall_s": 85.62240552064031,
+  "output_tps": 20.181633411168818,
+  "mean_ttft_ms": 8065.52044800224,
+  "p95_ttft_ms": 14238.69510535151,
+  "mean_decode_tps_per_request": 1.6997265548926372,
+  "rows": [
+    {
+      "sid": 21,
+      "turn": 0,
+      "input_hash": "33c66d5eed1f45d6272a03170654d7c2d27cb5d0a81943c1d3a803fbd06e2e74",
+      "input_tokens": 1280,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1280,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5184.380570426583,
+        "decode_ms": 13800.795354880393,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "ebee053d4f55b0948dba9c7e29f0860c4bf11c04dccab2717e01d8f6811a5a34",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 0
+      },
+      "completed_ms": 18985.494756139815
+    },
+    {
+      "sid": 4,
+      "turn": 0,
+      "input_hash": "fc16bd17a8a9683ea9f4324031cb3aa059be846e1a66922bbd5c9ba0a1577648",
+      "input_tokens": 1536,
+      "p": {
+        "dp_rank": 1,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1536,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5796.175257302821,
+        "decode_ms": 13810.519052669406,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+        "hashed_tokens": 24,
+        "rank": 1,
+        "cached": 0
+      },
+      "completed_ms": 19606.837570667267
+    },
+    {
+      "sid": 7,
+      "turn": 0,
+      "input_hash": "d6bc6762402749e15d1cac745c571d660e29aa550b7ef2b4740250eca8d6f1eb",
+      "input_tokens": 768,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 768,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4586.724032647908,
+        "decode_ms": 13778.33923138678,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "c813c397d2ce86e35a1d5db6e659abae92b8f46501eb2aa53c4fdbd2ad47b9f3",
+        "hashed_tokens": 24,
+        "rank": 2,
+        "cached": 0
+      },
+      "completed_ms": 18365.23624509573
+    },
+    {
+      "sid": 18,
+      "turn": 0,
+      "input_hash": "87561709818489b7706e009be0474ceacc64dda5926fce02a578faa2d65d6351",
+      "input_tokens": 2560,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2560,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 7681.115498766303,
+        "decode_ms": 13733.857785351574,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "f6e357a8f8b0ed2dbebdd3472abead224d4b4f5b0250e5ab42ba6b5f470a528a",
+        "hashed_tokens": 24,
+        "rank": 3,
+        "cached": 0
+      },
+      "completed_ms": 21415.27282539755
+    },
+    {
+      "sid": 17,
+      "turn": 0,
+      "input_hash": "d95c43b6c9b788981bc0ae618c0edfba728a1836e10770173bdb5c7950cfb097",
+      "input_tokens": 3072,
+      "p": {
+        "dp_rank": 4,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 3072,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 8311.648990027606,
+        "decode_ms": 13714.209228754044,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "12c5129788b215a88303c6afe52537ce872610b225ecd51e35b88f89085a709c",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 0
+      },
+      "completed_ms": 22026.05162933469
+    },
+    {
+      "sid": 16,
+      "turn": 0,
+      "input_hash": "dfbf23d27afecdf3fcfc5bbd6d36a73045ac37c608c01ed2acbf8efd3eb27b1d",
+      "input_tokens": 4096,
+      "p": {
+        "dp_rank": 5,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 4096,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 10875.659720040858,
+        "decode_ms": 13549.903453327715,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "33c6b8a3661a0cf91e8f0adfaad21b8edb774c54268708cc9ed0d73baaece5b1",
+        "hashed_tokens": 24,
+        "rank": 2,
+        "cached": 0
+      },
+      "completed_ms": 24425.754263065755
+    },
+    {
+      "sid": 19,
+      "turn": 0,
+      "input_hash": "e653d8a2611676530a631fa3b6a9d2815e62d242d69a8775bccb76be84928f35",
+      "input_tokens": 2048,
+      "p": {
+        "dp_rank": 6,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2048,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6394.085724838078,
+        "decode_ms": 13792.280711233616,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "8899765dba734d956047d6ee2f2d38f5e8790bece338cb586c1fec594b61a89e",
+        "hashed_tokens": 24,
+        "rank": 3,
+        "cached": 0
+      },
+      "completed_ms": 20186.725366860628
+    },
+    {
+      "sid": 23,
+      "turn": 0,
+      "input_hash": "8408f931fcd378c868e6c156a32df2902f6956bd3e68e5ff1301f9791b061e7c",
+      "input_tokens": 768,
+      "p": {
+        "dp_rank": 7,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 768,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5167.597662657499,
+        "decode_ms": 13809.713469818234,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "78e9040c30eabf19dbb4d2c768ee24b26fb55cc5bd7d26adae40bc10072c3f1f",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 0
+      },
+      "completed_ms": 18977.47394349426
+    },
+    {
+      "sid": 14,
+      "turn": 0,
+      "input_hash": "6b891a0c599c2c06ce600266659a8a3a90f482be39f90b666b5c278ea704f679",
+      "input_tokens": 1024,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1024,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6393.350972793996,
+        "decode_ms": 13788.38721010834,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "4b1683c14a14a09262590fb8bcf609e93ba12b0cc8c65fb655ebfc20e1e3b91a",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 0
+      },
+      "completed_ms": 20181.909232400358
+    },
+    {
+      "sid": 13,
+      "turn": 0,
+      "input_hash": "a1204aba9faeb57497d553bb0dce75da0d79169d3df65d1177179afac12e6fbd",
+      "input_tokens": 1280,
+      "p": {
+        "dp_rank": 7,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1280,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6390.976306051016,
+        "decode_ms": 13790.376335382462,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "21423d79f4518f3412d0857a4211e59091edb6007ceb6ae2950a2d799ea1943f",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 0
+      },
+      "completed_ms": 20181.46031163633
+    },
+    {
+      "sid": 15,
+      "turn": 0,
+      "input_hash": "9ba3405899ad7e2fcb3bd6739c7475e7479f687da6987ef964d760f84ae2a2ae",
+      "input_tokens": 768,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 768,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5776.118040084839,
+        "decode_ms": 13811.21630501002,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "a7918dda1bb186fb292bb891d4bb36c7dcd06bfa4367e6cb7e22b5e63ebacbfa",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 0
+      },
+      "completed_ms": 19587.664905935526
+    },
+    {
+      "sid": 0,
+      "turn": 0,
+      "input_hash": "a40a4fe9d27a8539cbcdfa6c5087353af3a88830a4d009316b7b3cbc30ade554",
+      "input_tokens": 4096,
+      "p": {
+        "dp_rank": 1,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 4096,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 12120.740084908903,
+        "decode_ms": 13483.543694019318,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "5b97d0b393e18c55104f61f526f1172f979fe4871cfe82eaf69d800d82a4bc16",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 0
+      },
+      "completed_ms": 25604.788781143725
+    },
+    {
+      "sid": 2,
+      "turn": 0,
+      "input_hash": "9fa0539b8313011c85ed18e2cc381996a8c88189f114eba6d9243a8d758a36cb",
+      "input_tokens": 2560,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2560,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 10863.215905614197,
+        "decode_ms": 13549.90311153233,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "9ac5231babc274c785fee4b876c3e5c8cddc84b077ed3268ef598b4d339eceed",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 0
+      },
+      "completed_ms": 24413.24112843722
+    },
+    {
+      "sid": 22,
+      "turn": 0,
+      "input_hash": "b102b8bcaad70ea6754e6c435bab34ba711bddbf95b772bd9f51f79f628bf80c",
+      "input_tokens": 1024,
+      "p": {
+        "dp_rank": 6,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1024,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 8290.315008722246,
+        "decode_ms": 13716.208915226161,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "b2b26d5389f079d710c9ec526e5d839890967caac6fc9316d2f6c765f876c3a0",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 0
+      },
+      "completed_ms": 22006.64041377604
+    },
+    {
+      "sid": 10,
+      "turn": 0,
+      "input_hash": "fabef060fa9a5e68217cbd3d3b708d498469cdc4b2e812e2e2900b5961cee0e7",
+      "input_tokens": 2560,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2560,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 10231.273609213531,
+        "decode_ms": 13556.857603602111,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "7514f69470a549d4bb66f41fa9ec15c173768873ab71d0e389be1a80880a8865",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 0
+      },
+      "completed_ms": 23788.35102263838
+    },
+    {
+      "sid": 5,
+      "turn": 0,
+      "input_hash": "beaff64c81b84bce415dad8bb94893e912f111c3e96594a32b2c6347e59ab8ff",
+      "input_tokens": 1280,
+      "p": {
+        "dp_rank": 7,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1280,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 9557.204595766962,
+        "decode_ms": 13643.457178026438,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "4a5d40b7f24f75b457fa660c12382e672aa26bf8e833f8426ead5e4af7245eb8",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 0
+      },
+      "completed_ms": 23200.844064354897
+    },
+    {
+      "sid": 11,
+      "turn": 0,
+      "input_hash": "a719fd0ec61dd5bf6d88a1ffbe6717443f3f303bdc422676c9dbe1b0f3268550",
+      "input_tokens": 2048,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2048,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 10854.353259317577,
+        "decode_ms": 13551.965429447591,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "78eca79565789512170a905c8b95c5386ce102ebd7b897494ca052dc3b4df4c1",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 0
+      },
+      "completed_ms": 24406.553579494357
+    },
+    {
+      "sid": 3,
+      "turn": 0,
+      "input_hash": "81f0c279e47be0e38256b1fc485946e2f9e67dff92b1c3bdb5691ceffe3c186b",
+      "input_tokens": 2048,
+      "p": {
+        "dp_rank": 4,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2048,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 11485.226671211421,
+        "decode_ms": 13519.100884906948,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "3b5640b8569c1dcd1d3f8eca0d9e32d3376bc9050b390227e75084422eaa5d92",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 0
+      },
+      "completed_ms": 25004.61606681347
+    },
+    {
+      "sid": 12,
+      "turn": 0,
+      "input_hash": "792ceceb204ed597c755c77ed38285cffec5122fc0c85486b8962ae6f9cc960f",
+      "input_tokens": 1536,
+      "p": {
+        "dp_rank": 6,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1536,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 10848.120401613414,
+        "decode_ms": 13553.8508342579,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "a831e0ca8362d2584aaa6a71562ef0e3c4acd9ab6cb3716ef336d34befc35855",
+        "hashed_tokens": 24,
+        "rank": 1,
+        "cached": 0
+      },
+      "completed_ms": 24402.231206186116
+    },
+    {
+      "sid": 9,
+      "turn": 0,
+      "input_hash": "c62a77c1d65f39296731d5c500a87230af7bf6b282166f670e643e3bde2bf776",
+      "input_tokens": 3072,
+      "p": {
+        "dp_rank": 7,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 3072,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 13957.094178535044,
+        "decode_ms": 13423.501544632018,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "3cf52a782c8a03b703b40dbb48b3cfb4616ab743fb9c37a69155f66488df5606",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 0
+      },
+      "completed_ms": 27380.827623419464
+    },
+    {
+      "sid": 6,
+      "turn": 0,
+      "input_hash": "18fc0638506acdd8910dac95bd4a79c177fc09d1092acf9c04193606885abeba",
+      "input_tokens": 1024,
+      "p": {
+        "dp_rank": 5,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1024,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 12100.888028740883,
+        "decode_ms": 13483.859335072339,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "4937701892dc44c10cb63b89f24d88481e89cd2e6ba534013edf66566f9ffd82",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 0
+      },
+      "completed_ms": 25585.0783046335
+    },
+    {
+      "sid": 8,
+      "turn": 0,
+      "input_hash": "9b6a403b4e470be6d3c90c82805a213ecaf413f402120212a91f8afb612aadce",
+      "input_tokens": 4096,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 4096,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 16446.753228083253,
+        "decode_ms": 13300.516484305263,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "fb705e78167a07f28113028f225441c3184f9e8a03508f7e4e4364c9e399b94f",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 0
+      },
+      "completed_ms": 29747.460273094475
+    },
+    {
+      "sid": 20,
+      "turn": 0,
+      "input_hash": "6dc1b72e7b39db880a5701fd2e4a5d6ed3907f331c53874df91a87ae5a1508f1",
+      "input_tokens": 1536,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1536,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 21371.680851094425,
+        "decode_ms": 13003.641001880169,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "7671434cbe5baf5d8eac12fbfef0d1bd76514b13b52a82bf11fc958f3b13335f",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 0
+      },
+      "completed_ms": 34375.51989406347
+    },
+    {
+      "sid": 1,
+      "turn": 0,
+      "input_hash": "403ada20865ac65cad6e872303554ec7ea2153c5bb1b3923bff4d2f29fee98f7",
+      "input_tokens": 3072,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 3072,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 14582.874015904963,
+        "decode_ms": 13386.35357748717,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "874a36c28ea041984e3f2dfc0c2f0760face81fdff1490d2b8efb852e4eec16a",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 0
+      },
+      "completed_ms": 27969.40742433071
+    },
+    {
+      "sid": 1,
+      "turn": 1,
+      "input_hash": "5c57a6ba6f34c1e79e26426dc11174742f4c95f038e50dfeef410d5bbb8bba85",
+      "input_tokens": 3200,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 3072,
+        "cached_tokens_details": {
+          "device": 3072,
+          "host": 0,
+          "storage": 0,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 3200,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 3559.220876544714,
+        "decode_ms": 13529.534323140979,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "b0f0790781dbda308b5cdef9aca6a2af7bd0be46c3e19ada9f1f6ee3ddba8f06",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 3072
+      },
+      "completed_ms": 17088.953280821443
+    },
+    {
+      "sid": 21,
+      "turn": 1,
+      "input_hash": "06b5296a2a153055aa748196028790a856952f3a9899b96cfec5f84d4f35841c",
+      "input_tokens": 1408,
+      "p": {
+        "dp_rank": 1,
+        "cached_tokens": 1280,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1280,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1408,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4801.313132047653,
+        "decode_ms": 13569.460458122194,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "6c46b6343541e9a880970a3ea569f830592544137061cc901ad4ccbc4cc2fcc0",
+        "hashed_tokens": 24,
+        "rank": 1,
+        "cached": 1280
+      },
+      "completed_ms": 18371.07733078301
+    },
+    {
+      "sid": 20,
+      "turn": 1,
+      "input_hash": "2c967b03d9b11c2ba08de764a5b319bcd34b18458f5350bfd2bbfa22413523f0",
+      "input_tokens": 1664,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 1536,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1536,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1664,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4798.5132755711675,
+        "decode_ms": 13569.827378727496,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "abea8b40123fb90e9eb1d1f86b184efd9e24b85eaf241c4027206e4cce640efd",
+        "hashed_tokens": 24,
+        "rank": 2,
+        "cached": 1536
+      },
+      "completed_ms": 18368.89846622944
+    },
+    {
+      "sid": 4,
+      "turn": 1,
+      "input_hash": "711188b92ddf2ba16780aed0a3c76380582b852cfa64331790384dbdc98dbf49",
+      "input_tokens": 1664,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 1536,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1536,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1664,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5413.737751543522,
+        "decode_ms": 13570.495780557394,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "281f23e9147040ff6c60cddf5b12ad33cae5a062a59a4c7661c72f5c30223ec3",
+        "hashed_tokens": 24,
+        "rank": 3,
+        "cached": 1536
+      },
+      "completed_ms": 18984.475443139672
+    },
+    {
+      "sid": 14,
+      "turn": 1,
+      "input_hash": "a4e1a06b744ae49974e9ff3896ad58c408efd3afd807ef4d6cd15d85071011c7",
+      "input_tokens": 1152,
+      "p": {
+        "dp_rank": 4,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1152,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5411.552724428475,
+        "decode_ms": 13570.125980302691,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 0
+      },
+      "completed_ms": 18981.922775506973
+    },
+    {
+      "sid": 8,
+      "turn": 1,
+      "input_hash": "3c673daad1e625bf65b3366a51500b8b795ac71490325a8eee540b58f9e61e41",
+      "input_tokens": 4224,
+      "p": {
+        "dp_rank": 5,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 4224,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 10953.102558851242,
+        "decode_ms": 13527.192818000913,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "df21a611dd61d771eede72deb97af8f5e0c6287f8f58858f4ff0683ce937590d",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 4096
+      },
+      "completed_ms": 24480.479697696865
+    },
+    {
+      "sid": 11,
+      "turn": 1,
+      "input_hash": "3e256e36299dad5c94471abc6211c824f72d3d5cdb598d98ff5581cfa292c1b6",
+      "input_tokens": 2176,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 2048,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 2048,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 2176,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 7290.8376306295395,
+        "decode_ms": 13548.526119440794,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "75d05e788bc728cc1616ac59d095a88601d0b708d473f57248c1019cb4b8b2f6",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 2048
+      },
+      "completed_ms": 20839.547679759562
+    },
+    {
+      "sid": 16,
+      "turn": 1,
+      "input_hash": "c1d253ebb0bf91152c735d8190d7e3e181077a82b6396d6f319224aaedcff672",
+      "input_tokens": 4224,
+      "p": {
+        "dp_rank": 1,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 4224,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 11566.417690366507,
+        "decode_ms": 13501.418805681169,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 0
+      },
+      "completed_ms": 25067.957235500216
+    },
+    {
+      "sid": 12,
+      "turn": 1,
+      "input_hash": "6815a945d776b9712c215f099ab2d8b31fdc12064e1e2fb19aac5cf60a7484a4",
+      "input_tokens": 1664,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1664,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 7897.282083518803,
+        "decode_ms": 13547.064284794033,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "98e262ccb11d430df13e080e7fc2d3d50d805c2d9796b87a747d02ef73c62993",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 0
+      },
+      "completed_ms": 21444.521888159215
+    },
+    {
+      "sid": 18,
+      "turn": 1,
+      "input_hash": "6f222d0bd48f223a7e064df39558dfcee811a22800e8e805275dc40cc79a07b6",
+      "input_tokens": 2688,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 2560,
+        "cached_tokens_details": {
+          "device": 2560,
+          "host": 0,
+          "storage": 0,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 2688,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6030.90466465801,
+        "decode_ms": 13549.442020244896,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "cdbc0caee5297880117ba3646fd6e4e5ae0f2355aa17e3c8bffe1d14bb861db2",
+        "hashed_tokens": 24,
+        "rank": 1,
+        "cached": 2560
+      },
+      "completed_ms": 19580.547655932605
+    },
+    {
+      "sid": 19,
+      "turn": 1,
+      "input_hash": "caa06f712daa07e67014f495c5531b4a663bbdb299b7c7712ab2c901a5531f98",
+      "input_tokens": 2176,
+      "p": {
+        "dp_rank": 4,
+        "cached_tokens": 2048,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 2048,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 2176,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6657.531303353608,
+        "decode_ms": 13540.79282656312,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "8e3e5fe933123354d956b61ee91d6b4d583b7963d5cd67e648e732128408fae2",
+        "hashed_tokens": 24,
+        "rank": 2,
+        "cached": 2048
+      },
+      "completed_ms": 20198.63539095968
+    },
+    {
+      "sid": 15,
+      "turn": 1,
+      "input_hash": "ea7b8b8d64e5a488387cba516ce25601027b253d630046136e81f73f926871d4",
+      "input_tokens": 896,
+      "p": {
+        "dp_rank": 5,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 896,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 11561.214406974614,
+        "decode_ms": 13495.126906782389,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "7e97b3028f954a313e45aedacc667b5a5c7d22ace3f69ab1a1d3497a10b76102",
+        "hashed_tokens": 24,
+        "rank": 3,
+        "cached": 0
+      },
+      "completed_ms": 25056.528964079916
+    },
+    {
+      "sid": 9,
+      "turn": 1,
+      "input_hash": "005c643830ec12af859d190dbcf2f4496d182b7d3a72a06a982f1889ba1f5273",
+      "input_tokens": 3200,
+      "p": {
+        "dp_rank": 6,
+        "cached_tokens": 3072,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 3072,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 3200,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6018.194776959717,
+        "decode_ms": 13558.581777848303,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "3acf703e03c33ce897c836d6979f232d29a447fabc0c0d5b1cf89d2391cc34da",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 3072
+      },
+      "completed_ms": 19577.06332579255
+    },
+    {
+      "sid": 3,
+      "turn": 1,
+      "input_hash": "d1461f83898ee8d5e8d78024a20622e632c093b6b7e8dfe06e6799de6f1b7f33",
+      "input_tokens": 2176,
+      "p": {
+        "dp_rank": 7,
+        "cached_tokens": 2048,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 2048,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 2176,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6653.0673103407025,
+        "decode_ms": 13537.002965807915,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "904f20d6762bde66a2fddbeafef547ec9bf5543fe887320a2b655d2a78e87d4b",
+        "hashed_tokens": 24,
+        "rank": 3,
+        "cached": 2048
+      },
+      "completed_ms": 20190.356327220798
+    },
+    {
+      "sid": 2,
+      "turn": 1,
+      "input_hash": "9239b95610a05a7a75284d5bdb81286e457a278f03f415f1250790b09fe8ce59",
+      "input_tokens": 2688,
+      "p": {
+        "dp_rank": 5,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2688,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 15191.923385486007,
+        "decode_ms": 13316.776670515537,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "f32c0c85b585e0b7ade1cc7f68ed0c3f4f14332080ecab7b9593e46382a85e1e",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 0
+      },
+      "completed_ms": 28508.90892650932
+    },
+    {
+      "sid": 22,
+      "turn": 1,
+      "input_hash": "30fad2ebf3c7190f979aee1b9470d934c7e89891f9a872dcb3be081fea9073ad",
+      "input_tokens": 1152,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1152,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 9083.838212303817,
+        "decode_ms": 13550.613794475794,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "c7f9036c563cb984add310a4c3725d89244f6870c3bb22d0ab6a1355affe34f7",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 1024
+      },
+      "completed_ms": 22634.650177322328
+    },
+    {
+      "sid": 10,
+      "turn": 1,
+      "input_hash": "068c33c3ebacf958d0392a7b2ee6cf5107f3b5e0ee4a1b672536e690547b0902",
+      "input_tokens": 2688,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 2560,
+        "cached_tokens_details": {
+          "device": 2560,
+          "host": 0,
+          "storage": 0,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 2688,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4760.376265272498,
+        "decode_ms": 13570.024779997766,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "139dc2fbe03e23cb16dbfc3b3468c932a9114683ce8d50cfbea5f3639544b115",
+        "hashed_tokens": 24,
+        "rank": 2,
+        "cached": 2560
+      },
+      "completed_ms": 18330.75623679906
+    },
+    {
+      "sid": 13,
+      "turn": 1,
+      "input_hash": "3d6c1afc745a04d4528a9cb5b830efc96845d9e894a4a1df7965404b2eb831d1",
+      "input_tokens": 1408,
+      "p": {
+        "dp_rank": 4,
+        "cached_tokens": 1280,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1280,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1408,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6642.762270756066,
+        "decode_ms": 13540.902856737375,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "325cf897ea011edb3dcffd74e7ff2222d1b9b99477cd818fb167436d64865855",
+        "hashed_tokens": 24,
+        "rank": 1,
+        "cached": 1280
+      },
+      "completed_ms": 20183.778267353773
+    },
+    {
+      "sid": 17,
+      "turn": 1,
+      "input_hash": "219f5f4d3b5bae2dac7e1d5d903e0102eebe96f78e041f5bfe27abcba848564e",
+      "input_tokens": 3200,
+      "p": {
+        "dp_rank": 7,
+        "cached_tokens": 3072,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 3072,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 3200,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 7258.610189892352,
+        "decode_ms": 13552.044738084078,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "852f2c2633eb15db901024bd54fcfe5f223fd0235274e73e9209ffe19318162b",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 3072
+      },
+      "completed_ms": 20810.767428949475
+    },
+    {
+      "sid": 7,
+      "turn": 1,
+      "input_hash": "b4bc9561b6d15df0db07469f92613067cde517c6b1df7b54d1fa1ed794f6c7c2",
+      "input_tokens": 896,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 768,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 768,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 896,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5370.564359240234,
+        "decode_ms": 13572.066886350513,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "3eed419e0b5d342b2242a33e8d51541f3736f8c8cf839dec5ea96d398a06da42",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 768
+      },
+      "completed_ms": 18942.73805525154
+    },
+    {
+      "sid": 5,
+      "turn": 1,
+      "input_hash": "ea5c07d0baa9db7ac9d1990807a44a315eea7d94fdf3a07e95202f5a17b10ec5",
+      "input_tokens": 1408,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1408,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 10914.253819733858,
+        "decode_ms": 13531.889052130282,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "ece236e7ed521b93c0e2061cc324de7616d42ca4f4b7ee2276a2566315725795",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 0
+      },
+      "completed_ms": 24446.258601732552
+    },
+    {
+      "sid": 6,
+      "turn": 1,
+      "input_hash": "42483b89a795a5401f699654909ef97c0ba9eeae75fde7c99f141c4c709f6ed5",
+      "input_tokens": 1152,
+      "p": {
+        "dp_rank": 6,
+        "cached_tokens": 1024,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1024,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1152,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 7256.157512776554,
+        "decode_ms": 13547.61889576912,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "3a3527a5bd9c7cce122b351c0937a388c54672c4b9e039d14fcc14701ee624af",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 1024
+      },
+      "completed_ms": 20803.89492865652
+    },
+    {
+      "sid": 0,
+      "turn": 1,
+      "input_hash": "83c0d58eff1fe57901c1499ec4aebcd3f538fa34bd1c40215c37b0d086ace205",
+      "input_tokens": 4224,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 3968,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 3968,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 4224,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 7252.008470706642,
+        "decode_ms": 13550.067683681846,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "15e3c2de4feb4f3bf59095e24744a71c7572e634b44bf0b9a8d7e6e5062e62b6",
+        "hashed_tokens": 24,
+        "rank": 3,
+        "cached": 3968
+      },
+      "completed_ms": 20802.185654640198
+    },
+    {
+      "sid": 23,
+      "turn": 1,
+      "input_hash": "2b880dda8373433c11da14678501961107dd53ecc4e210df09ac4f428834d38d",
+      "input_tokens": 896,
+      "p": {
+        "dp_rank": 1,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 896,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 12747.008442878723,
+        "decode_ms": 13443.134328350425,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "0eac520923e18e19478521e9d06232250cf6bc1d93bbfe74970bca3c1912893b",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 0
+      },
+      "completed_ms": 26190.341542474926
+    },
+    {
+      "sid": 4,
+      "turn": 2,
+      "input_hash": "5d1bd20cde3a0d98784eca8b832d4814026c8a9d789685acc0c95158fd91a425",
+      "input_tokens": 1792,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 1664,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1664,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1792,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4889.8232243955135,
+        "decode_ms": 13437.28239275515,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "f6badc531d7d3c95e61bf147ba6130869691e244938e33245389171754d09f11",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 1664
+      },
+      "completed_ms": 18327.413188293576
+    },
+    {
+      "sid": 0,
+      "turn": 2,
+      "input_hash": "03d0eda3df8db0b48d683b06fdb1ca116a16aaac7d17f3999fc713f0e05de152",
+      "input_tokens": 4352,
+      "p": {
+        "dp_rank": 1,
+        "cached_tokens": 4096,
+        "cached_tokens_details": {
+          "device": 1536,
+          "host": 2560,
+          "storage": 0,
+          "storage_backend": "SeaweedFSStore",
+          "host_write_back": 2560,
+          "host_prefetch": 0
+        },
+        "prompt_tokens": 4352,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4245.095004327595,
+        "decode_ms": 13466.89166687429,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "249753358bb659fdc9f598af60d83ca38c0f2249f9861f2742158dec3e999645",
+        "hashed_tokens": 24,
+        "rank": 1,
+        "cached": 4096
+      },
+      "completed_ms": 17712.23366074264
+    },
+    {
+      "sid": 20,
+      "turn": 2,
+      "input_hash": "e1a8b8876bc15a3f0ecb7a885ca5c068973cccfbb78759975708f0a7476679c4",
+      "input_tokens": 1792,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 1664,
+        "cached_tokens_details": {
+          "device": 1664,
+          "host": 0,
+          "storage": 0,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1792,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 3610.9885927289724,
+        "decode_ms": 13492.675799876451,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "7100ba216a0baf89c77abbbacbcbc7eea9c87ba22b6260f7581a45c9232d3c87",
+        "hashed_tokens": 24,
+        "rank": 2,
+        "cached": 1664
+      },
+      "completed_ms": 17103.975404053926
+    },
+    {
+      "sid": 2,
+      "turn": 2,
+      "input_hash": "b6c735b2146a7e3f53509ca904ecd19a25b468149f2e329070f1069ece50e25b",
+      "input_tokens": 2816,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 2560,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 2560,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 2816,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4879.30909357965,
+        "decode_ms": 13438.303705304861,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+        "hashed_tokens": 24,
+        "rank": 1,
+        "cached": 2560
+      },
+      "completed_ms": 18317.72719975561
+    },
+    {
+      "sid": 7,
+      "turn": 2,
+      "input_hash": "766d9d64cc1ed3cbb29852765a8f1c284b124765e3a9beafed0272e50308a942",
+      "input_tokens": 1024,
+      "p": {
+        "dp_rank": 4,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1024,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4876.182654872537,
+        "decode_ms": 13437.003942206502,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "6ab9c999c265a650b6b8fbe7fb6a07a72e7fbb01e32b31a9297be26e55975f6b",
+        "hashed_tokens": 24,
+        "rank": 2,
+        "cached": 768
+      },
+      "completed_ms": 18313.462228514254
+    },
+    {
+      "sid": 16,
+      "turn": 2,
+      "input_hash": "844a548b2d0feb376f07620f2f514442d3bc3ca090e130c9fc75cb76e14a3455",
+      "input_tokens": 4352,
+      "p": {
+        "dp_rank": 5,
+        "cached_tokens": 4096,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 3584,
+          "storage": 512,
+          "storage_backend": "SeaweedFSStore",
+          "host_write_back": 3584,
+          "host_prefetch": 0
+        },
+        "prompt_tokens": 4352,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4870.306239463389,
+        "decode_ms": 13443.221770226955,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "23d66683733407271ef268e0f3683fc8dcec08cef03b339e007dba717237e806",
+        "hashed_tokens": 24,
+        "rank": 3,
+        "cached": 4096
+      },
+      "completed_ms": 18313.821549527347
+    },
+    {
+      "sid": 12,
+      "turn": 2,
+      "input_hash": "01bfd2bc990bcfa013d6b9495a55de138721c5e0a62a554a49d8d9aa5a866404",
+      "input_tokens": 1792,
+      "p": {
+        "dp_rank": 6,
+        "cached_tokens": 1536,
+        "cached_tokens_details": {
+          "device": 1536,
+          "host": 0,
+          "storage": 0,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1792,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4231.894755735993,
+        "decode_ms": 13475.556512363255,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "ea153565611900107f52069c196648c84214dcba522089fa0d832462f8626dc9",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 1664
+      },
+      "completed_ms": 17707.707437686622
+    },
+    {
+      "sid": 22,
+      "turn": 2,
+      "input_hash": "8c3ccf203d9c16958b9e536147f7b38545ff4c37de4788af681de856d5d9b619",
+      "input_tokens": 1280,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 1152,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1152,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1280,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4868.614013306797,
+        "decode_ms": 13437.589573673904,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "d90ce652d9423f99b5168ee75c1e89075650eda0d6c32a01598aef71f8acc61c",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 1152
+      },
+      "completed_ms": 18306.49495869875
+    },
+    {
+      "sid": 13,
+      "turn": 2,
+      "input_hash": "90e1a2b36ab9677bd86f2ba4ac56701cf952290424181158e5013404408724d3",
+      "input_tokens": 1536,
+      "p": {
+        "dp_rank": 1,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1536,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6686.005123890936,
+        "decode_ms": 13453.082497231662,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "a81ea2e3077dfd74cbde4ce6ca922cfbffa0ee189c0c3d4689da8b7face95736",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 1280
+      },
+      "completed_ms": 20139.380551874638
+    },
+    {
+      "sid": 14,
+      "turn": 2,
+      "input_hash": "385c74377d0b5b7f94d48bb9063a174504c2ac44e5fc0d3bc09ec9d7258bc28b",
+      "input_tokens": 1280,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 1024,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1024,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1280,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 4864.439172670245,
+        "decode_ms": 13441.066873259842,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "a82703051ce9ca4ff2234fb95dad762dc4d738286ddfe6c0d41bce4b3c623fc5",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 1152
+      },
+      "completed_ms": 18305.718475952744
+    },
+    {
+      "sid": 11,
+      "turn": 2,
+      "input_hash": "be1298b18113920d1909000959441145958108ccc9b327ecd3b6f1ef16060cc9",
+      "input_tokens": 2304,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 2048,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 1024,
+          "storage": 1024,
+          "storage_backend": "SeaweedFSStore",
+          "host_write_back": 1024,
+          "host_prefetch": 0
+        },
+        "prompt_tokens": 2304,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 7889.604820869863,
+        "decode_ms": 13463.108405470848,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "1697e76bf05abed409a75db0d60ef374fc87b3522b5f50a2db39d4ec25062a09",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 2048
+      },
+      "completed_ms": 21352.90100798011
+    },
+    {
+      "sid": 9,
+      "turn": 2,
+      "input_hash": "089b27c6e0f3da2b47ca13b2ad6b0833e9185ce9ab34aeb5c5d50a8d59c02707",
+      "input_tokens": 3328,
+      "p": {
+        "dp_rank": 4,
+        "cached_tokens": 3200,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 3200,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 3328,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5461.6918582469225,
+        "decode_ms": 13483.021782711148,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 3200
+      },
+      "completed_ms": 18944.955642335117
+    },
+    {
+      "sid": 10,
+      "turn": 2,
+      "input_hash": "bd71c15291a2ae659ee235f8173af166f0c385d33a7a1542d18ad22f0bfab30c",
+      "input_tokens": 2816,
+      "p": {
+        "dp_rank": 5,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2816,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 9138.745177537203,
+        "decode_ms": 13461.962782777846,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "e7776753cbe742f3deec7cdc1f8a7cbc32c6070f2a2b5c79677ac73c583453e4",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 0
+      },
+      "completed_ms": 22600.818681530654
+    },
+    {
+      "sid": 1,
+      "turn": 2,
+      "input_hash": "a7ea7a9a08f4b5b17b7dd08c66d879ac5e1cb9ae66c0f8975cf598c463da0875",
+      "input_tokens": 3328,
+      "p": {
+        "dp_rank": 6,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 3328,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 9134.865216910839,
+        "decode_ms": 13463.701248168945,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "2331c8d9c1dad0748fe8876de976a13defcd9d3ce865cbc4c76bb32f35fad976",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 0
+      },
+      "completed_ms": 22598.676924593747
+    },
+    {
+      "sid": 15,
+      "turn": 2,
+      "input_hash": "b0d10b095f143f824d4ce0716088dda28566234239f21d85e72f8ccc7b187755",
+      "input_tokens": 1024,
+      "p": {
+        "dp_rank": 7,
+        "cached_tokens": 896,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 896,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1024,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 6055.26122264564,
+        "decode_ms": 13473.780896514654,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "473c2df8b9adf1e83cdf62363bd9dcd0f5cf6e1b38d745015817c9d3d407cd61",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 896
+      },
+      "completed_ms": 19529.30619008839
+    },
+    {
+      "sid": 18,
+      "turn": 2,
+      "input_hash": "7547d8a63430b3030ccd7ba1700e2a7d146ce103020060570717c9b6663cf080",
+      "input_tokens": 2816,
+      "p": {
+        "dp_rank": 7,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2816,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 8501.333238556981,
+        "decode_ms": 13459.712197072804,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "46dfbe2cd2ffbf710383d0aaada8e91164090c3fb82c3091ccfaf077522f3275",
+        "hashed_tokens": 24,
+        "rank": 5,
+        "cached": 0
+      },
+      "completed_ms": 21961.227495223284
+    },
+    {
+      "sid": 23,
+      "turn": 2,
+      "input_hash": "7d8cac18761e69ee71cd050cac1897c290f2818944ab79fa6b397109f19688b7",
+      "input_tokens": 1024,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 896,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 896,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1024,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 8501.723299734294,
+        "decode_ms": 13459.05832387507,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "f2732e7a1a949aa6b3545b42f9d4ae900aaf0c36b2a660021b98eed740174c6d",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 896
+      },
+      "completed_ms": 21961.077444255352
+    },
+    {
+      "sid": 17,
+      "turn": 2,
+      "input_hash": "114049ecf18b941655c1c20e0580f37cae33212c02d4e5fa2164d49e8b76b86a",
+      "input_tokens": 3328,
+      "p": {
+        "dp_rank": 2,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 3328,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 9125.640470534563,
+        "decode_ms": 13461.031340062618,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "36ae35c229d7a114c922eb377962c2635e9da7d8ca51bedd3130aecfcd0e5fed",
+        "hashed_tokens": 24,
+        "rank": 0,
+        "cached": 0
+      },
+      "completed_ms": 22586.78498119116
+    },
+    {
+      "sid": 3,
+      "turn": 2,
+      "input_hash": "3d75b75c7b9701eecf5f7250be6c9d2e5c01512be780ab34b579b954824a53f8",
+      "input_tokens": 2304,
+      "p": {
+        "dp_rank": 1,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2304,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 9121.793379075825,
+        "decode_ms": 13461.561252363026,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "aba52ad5cf034a42fcc119497d2c55c092e36a1239cf79f0f3c6347002138040",
+        "hashed_tokens": 24,
+        "rank": 2,
+        "cached": 0
+      },
+      "completed_ms": 22583.540052175522
+    },
+    {
+      "sid": 21,
+      "turn": 2,
+      "input_hash": "12d6b219e5b3329357543579ef136f7403290276a5519141e13815a1e025c4da",
+      "input_tokens": 1536,
+      "p": {
+        "dp_rank": 3,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 1536,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 7252.458872273564,
+        "decode_ms": 13448.923495598137,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "1f25c9918f18fcb44c29a6f3506902417a38b38a81ca05df0abebbfea98bef78",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 0
+      },
+      "completed_ms": 20701.56973786652
+    },
+    {
+      "sid": 19,
+      "turn": 2,
+      "input_hash": "9b6608916f587c6d9156f8d5a1f7c18ef9d8e921bbb55cb2caf5d46f2fea84f8",
+      "input_tokens": 2304,
+      "p": {
+        "dp_rank": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": null,
+        "prompt_tokens": 2304,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 8490.894879214466,
+        "decode_ms": 13459.085404872894,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "4d668eee7f4924dc6e8dfe6ef716008e2b45ea0c1b45dccc8e482ccff5258f6f",
+        "hashed_tokens": 24,
+        "rank": 7,
+        "cached": 0
+      },
+      "completed_ms": 21950.205854140222
+    },
+    {
+      "sid": 6,
+      "turn": 2,
+      "input_hash": "3c8f43da554b47cc50bf9cc346d4a9cb00dbcdad2e0e87b357e786360c755461",
+      "input_tokens": 1280,
+      "p": {
+        "dp_rank": 5,
+        "cached_tokens": 1152,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 512,
+          "storage": 640,
+          "storage_backend": "SeaweedFSStore",
+          "host_write_back": 512,
+          "host_prefetch": 0
+        },
+        "prompt_tokens": 1280,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 9116.31448380649,
+        "decode_ms": 13463.31989672035,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+        "hashed_tokens": 24,
+        "rank": 3,
+        "cached": 1152
+      },
+      "completed_ms": 22579.744740389287
+    },
+    {
+      "sid": 5,
+      "turn": 2,
+      "input_hash": "142123a3978d3e07b97ad0b7645016fee47d8f146690d238e128c4502e23a438",
+      "input_tokens": 1536,
+      "p": {
+        "dp_rank": 4,
+        "cached_tokens": 1280,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 1280,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 1536,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 5436.06146518141,
+        "decode_ms": 13480.51339481026,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+        "hashed_tokens": 24,
+        "rank": 4,
+        "cached": 1280
+      },
+      "completed_ms": 18916.75209067762
+    },
+    {
+      "sid": 8,
+      "turn": 2,
+      "input_hash": "7dc67212c8d8668e01402e9eb12832d93991a5775f89da901b6eea9b9ab7f12e",
+      "input_tokens": 4352,
+      "p": {
+        "dp_rank": 6,
+        "cached_tokens": 4224,
+        "cached_tokens_details": {
+          "device": 0,
+          "host": 0,
+          "storage": 4224,
+          "storage_backend": "SeaweedFSStore"
+        },
+        "prompt_tokens": 4352,
+        "completion_tokens": 1
+      },
+      "d": {
+        "first_ms": 9110.460267402232,
+        "decode_ms": 13463.98026868701,
+        "tokens": 24,
+        "events": 23,
+        "output_hash": "20a6af0d458ee61dcbc20b03ddb9b8e3024984a246b681029f775eaf47a0b80b",
+        "hashed_tokens": 24,
+        "rank": 6,
+        "cached": 4224
+      },
+      "completed_ms": 22574.552757665515
+    }
+  ]
+}

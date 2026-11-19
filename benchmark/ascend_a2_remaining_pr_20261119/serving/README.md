@@ -11,6 +11,8 @@ Each comparison verifies that all 72 request hashes and input lengths agree, tha
 | [#48096](../results/48096.md) | evict-control → evict-tail | 12.29 → 12.93 | 11.11 → 12.43 | 11/72 |
 | [#48540](../results/48540.md) | base1 → moe-tile | 23.36 → 17.90 | 11.83 → 13.13 | 13/72 |
 | [#48576](../results/48576.md) | store-object-main → store-trace-object | 11.12 → 9.06 | 16.83 → 16.76 | 13/72 |
+| [#48577](../results/48577.md) | store-object-main → store-metrics | 11.12 → 8.48 | 16.83 → 18.78 | 19/72 |
+| [#48599](../results/48599.md) | store-object-main → store-origins | 11.12 → 8.07 | 16.83 → 20.18 | 11/72 |
 | [#48630](../results/48630.md) | base2 → scan-trace | 9.58 → 8.51 | 18.13 → 19.39 | 13/72 |
 
 | Deployment | Client data | Measured client | Launcher and counters |
@@ -22,7 +24,9 @@ Each comparison verifies that all 72 request hashes and input lengths agree, tha
 | moe-tile | [72 requests](moe-tile.json) | [client](../probes/client-306866803a4a.py) | [launcher](moe-tile-launcher.json) |
 | scan-trace | [72 requests](scan-trace.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](scan-trace-launcher.json) |
 | store-control-r2 | [72 requests](store-control-r2.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-control-r2-launcher.json) |
+| store-metrics | [72 requests](store-metrics.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-metrics-launcher.json) |
 | store-object-main | [72 requests](store-object-main.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-object-main-launcher.json) |
+| store-origins | [72 requests](store-origins.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-origins-launcher.json) |
 | store-trace | [72 requests](store-trace.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-trace-launcher.json) |
 | store-trace-object | [72 requests](store-trace-object.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-trace-object-launcher.json) |
 
@@ -37,7 +41,9 @@ The launchers below are the original measured scripts with node IP addresses rep
 | moe-tile | [launcher](../launchers/launch-988764d3c5d7.sh) | Not collected |
 | scan-trace | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](scan-trace-answer-checks.json) |
 | store-control-r2 | [launcher](../launchers/launch-e21f1997dd87.sh) | [answers](store-control-r2-answer-checks.json) |
+| store-metrics | [launcher](../launchers/launch-dc5f0368d108.sh) | [answers](store-metrics-answer-checks.json) |
 | store-object-main | [launcher](../launchers/launch-85d3f28d9ef2.sh) | [answers](store-object-main-answer-checks.json) |
+| store-origins | [launcher](../launchers/launch-dc5f0368d108.sh) | [answers](store-origins-answer-checks.json) |
 | store-trace | [launcher](../launchers/launch-e21f1997dd87.sh) | [answers](store-trace-answer-checks.json) |
 | store-trace-object | [launcher](../launchers/launch-dc5f0368d108.sh) | [answers](store-trace-object-answer-checks.json) |
 
