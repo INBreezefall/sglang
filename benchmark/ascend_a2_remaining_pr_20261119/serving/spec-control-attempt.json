@@ -1,0 +1,63 @@
+{
+  "client_started": true,
+  "completed_formal_requests": 0,
+  "client_errors": [
+    "aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected"
+  ],
+  "role_status": {
+    "prefill-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 1,
+      "weight_load_end": 16,
+      "error_examples": [
+        "Index out of range in dimension 0: index value 511 exceeds bounds 256!",
+        "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is aclnnIndexPutImpl.",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:11918",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:25728",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:56478",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:51905"
+      ],
+      "errors": {
+        "ImportError": 1,
+        "device_index_out_of_range": 4,
+        "RuntimeError": 5
+      }
+    },
+    "prefill-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 16,
+      "error_examples": [
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:52087"
+      ],
+      "errors": {
+        "RuntimeError": 1
+      }
+    },
+    "decode-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 1,
+      "weight_load_end": 16,
+      "error_examples": [],
+      "errors": {
+        "ImportError": 1
+      }
+    },
+    "decode-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 16,
+      "error_examples": [
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:22414",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:538] Read error [<ip>]:51075: Connection reset by peer",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:20888",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:538] Read error [<ip>]:1920: Connection reset by peer",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:62363",
+        "[/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:547] Connection closed by peer [<ip>]:30099"
+      ],
+      "errors": {
+        "RuntimeError": 6
+      }
+    }
+  }
+}

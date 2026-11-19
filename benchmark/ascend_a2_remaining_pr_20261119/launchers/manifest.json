@@ -29,6 +29,11 @@
     "measured_sha256": "55ca9f29dfa4722f75f28fcbceb1508bad0fe6dba18b68620c6ffc3a7193d108",
     "public_sha256": "f878b2146b1c1926867dd3815ca15f8afb101af7284dcd986b1227536fc83e5c"
   },
+  "spec-control-r2": {
+    "launcher": "../launchers/launch-bcdf2d5ace03.sh",
+    "measured_sha256": "bcdf2d5ace03bb978cbd0451ccf9d3115b732a978cec5d079ff20a26d5b9b41f",
+    "public_sha256": "f04580be86fd65be27b9b9016a1e00ebfe3d6a130bad53d646d5e2048b82cf21"
+  },
   "store-control-r2": {
     "launcher": "../launchers/launch-e21f1997dd87.sh",
     "measured_sha256": "e21f1997dd871aeff65b975120bb3c397521cb983acd43d150a0d4ea671c00a0",

@@ -29,6 +29,11 @@
     "result_sha256": "aed62a4b582550c99505a771edccb437634316fef57463dc44c610b7d3c6721d",
     "client": "../probes/client-8b768e8a88c4.py"
   },
+  "spec-control-r2": {
+    "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
+    "result_sha256": "67455e7841c487e7867f2aa98ee0d403d8bbaaf25c767b714ae5be0f548a6bac",
+    "client": "../probes/client-8b768e8a88c4.py"
+  },
   "store-control-r2": {
     "script_sha256": "8b768e8a88c4ecdc222042d4fd0d6102faf9bf57f20d5d417baaaf6fd0563c73",
     "result_sha256": "963814dfb3714dc1c5eb975959cd48f0dbce1c247c6f2b253220ccb6127e8d3a",

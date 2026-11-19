@@ -1,6 +1,6 @@
 # GLM-5.2 PD workload
 
-Each deployment used four 8-device Ascend 910B4-1 hosts. Two formed one TP16 prefill service and two formed one TP16 decode service. Both used attention DP8, CANN 9.1, ModelSlim W4A8C8 weights, BF16 KV, 128-token pages, eager execution and total-token routing. Prefill enabled HiCache. Decode enabled its device radix cache. Individual profile pages list any changes such as DeepEP, NEXTN, storage and token capacity. The anonymous role and rank launcher files retain the actual command arguments and log and Prometheus counts. A model source SHA is recorded for each role.
+Each deployment used four 8-device Ascend 910B4-1 hosts. Two formed one TP16 prefill service and two formed one TP16 decode service. Both used CANN 9.1, ModelSlim W4A8C8 weights, BF16 KV, 128-token pages, eager execution and total-token routing. The standard and initial NEXTN profiles used attention DP8. The rank-local NEXTN profiles used attention DP16 on both roles, with one attention rank per group. Prefill enabled HiCache. Decode enabled its device radix cache. The role launchers record the model source SHA, command arguments, log counts and Prometheus series. Each matched comparison checks the command arguments on all four roles, including the dedicated positive draft-budget option on #49183. The storage pairs used equivalent loopback S3 gateways on deployment-specific ports.
 
 The client flushed the caches, issued eight warmups, flushed again and started the formal clock. It issued three waves of 24 concurrent sessions. Each session reused a deterministic random token prefix and appended 128 input tokens per turn. Output length was fixed at 24 tokens, temperature zero, ignoring EOS. The client sent a matched native request to both PD roles. It measured the first positive decode stream event for TTFT and divided all 1,728 decoded tokens by the elapsed formal wall time for throughput. The per-request decode metric uses the 23 tokens after the first event. The workload uses synthetic token IDs.
 
@@ -23,6 +23,7 @@ Each comparison verifies that all 72 request hashes and input lengths agree, tha
 | evict-tail | [72 requests](evict-tail.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](evict-tail-launcher.json) |
 | moe-tile | [72 requests](moe-tile.json) | [client](../probes/client-306866803a4a.py) | [launcher](moe-tile-launcher.json) |
 | scan-trace | [72 requests](scan-trace.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](scan-trace-launcher.json) |
+| spec-control-r2 | [72 requests](spec-control-r2.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](spec-control-r2-launcher.json) |
 | store-control-r2 | [72 requests](store-control-r2.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-control-r2-launcher.json) |
 | store-metrics | [72 requests](store-metrics.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-metrics-launcher.json) |
 | store-object-main | [72 requests](store-object-main.json) | [client](../probes/client-8b768e8a88c4.py) | [launcher](store-object-main-launcher.json) |
@@ -40,6 +41,7 @@ The launchers below are the original measured scripts with node IP addresses rep
 | evict-tail | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](evict-tail-answer-checks.json) |
 | moe-tile | [launcher](../launchers/launch-988764d3c5d7.sh) | Not collected |
 | scan-trace | [launcher](../launchers/launch-55ca9f29dfa4.sh) | [answers](scan-trace-answer-checks.json) |
+| spec-control-r2 | [launcher](../launchers/launch-bcdf2d5ace03.sh) | [answers](spec-control-r2-answer-checks.json) |
 | store-control-r2 | [launcher](../launchers/launch-e21f1997dd87.sh) | [answers](store-control-r2-answer-checks.json) |
 | store-metrics | [launcher](../launchers/launch-dc5f0368d108.sh) | [answers](store-metrics-answer-checks.json) |
 | store-object-main | [launcher](../launchers/launch-85d3f28d9ef2.sh) | [answers](store-object-main-answer-checks.json) |
@@ -54,10 +56,13 @@ Mooncake service launchers load a shared Python fixture on both arms. The thread
 
 | Deployment | Completed formal requests | Observed failure |
 | --- | ---: | --- |
+| draft-layout-r2 | 0/72 | [observations](draft-layout-r2-attempt.json) |
+| draft-layout | 0/72 | [observations](draft-layout-attempt.json) |
+| spec-control | 0/72 | [observations](spec-control-attempt.json) |
 | store-control | 0/72 | [observations](store-control-attempt.json) |
 
 
-The storage profile uses stock SGLang SeaweedFS with a genuine loopback S3 server on each prefill host. The source archive was checked against its release digest. Each gateway passes a real put, get and delete before the service starts. The original flat-file profile failed to persist the split Ascend MLA host layout. Its failure-mode runs are reported separately from the S3 comparisons. [Storage release and versions](../runtime/object-storage.json) · [Gateway launcher](../launchers/object-service.sh)
+The storage profile uses stock SGLang SeaweedFS with a genuine loopback S3 server on each prefill host. Place the release executable at /bench/object-runtime/weed, its Python dependencies under /bench/object-runtime/python and the gateway launcher at /bench/object-runtime/start.sh on each prefill host. The source archive was checked against its release digest. Each gateway passes a real put, get and delete before the service starts. The original flat-file profile failed to persist the split Ascend MLA host layout. Its failure-mode runs are reported separately from the S3 comparisons. [Storage release and versions](../runtime/object-storage.json) · [Gateway launcher](../launchers/object-service.sh)
 
 
 [Full checkpoint manifest](../runtime/checkpoint.json) · [Per-deployment source and raw checksums](clients.json)

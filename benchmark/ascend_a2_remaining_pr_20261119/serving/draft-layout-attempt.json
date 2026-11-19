@@ -1,0 +1,70 @@
+{
+  "client_started": false,
+  "completed_formal_requests": 0,
+  "client_errors": [],
+  "role_status": {
+    "prefill-0": {
+      "sha": "05717bb9fda5c3e27647ffe5c8de71932dac8d8d",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [],
+      "errors": {}
+    },
+    "prefill-1": {
+      "sha": "05717bb9fda5c3e27647ffe5c8de71932dac8d8d",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [],
+      "errors": {}
+    },
+    "decode-0": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [],
+      "errors": {}
+    },
+    "decode-1": {
+      "sha": "1ed3e1d04b25ab007b4c80481b7b6e3a36836eb7",
+      "http_ready": 0,
+      "weight_load_end": 0,
+      "error_examples": [],
+      "errors": {}
+    }
+  },
+  "operator_observation": {
+    "stage": "CPU process-group initialization before checkpoint loading",
+    "observations": {
+      "prefill-0": {
+        "seconds_since_log_update": 547,
+        "weights_started": 0,
+        "http_listening": 0,
+        "cpu_group_peer_messages": 4
+      },
+      "prefill-1": {
+        "seconds_since_log_update": 548,
+        "weights_started": 0,
+        "http_listening": 0,
+        "cpu_group_peer_messages": 9
+      },
+      "decode-0": {
+        "seconds_since_log_update": 547,
+        "weights_started": 0,
+        "http_listening": 0,
+        "cpu_group_peer_messages": 16
+      },
+      "decode-1": {
+        "seconds_since_log_update": 547,
+        "weights_started": 0,
+        "http_listening": 0,
+        "cpu_group_peer_messages": 16
+      }
+    },
+    "sampled_scheduler_stacks": [
+      "prefill rank 0: torch.distributed.new_group for the world Gloo subgroup",
+      "prefill rank 2: torch.distributed.new_group for the model-parallel Gloo subgroup"
+    ],
+    "action": "Time-boxed the readiness waiter before a fresh matched deployment.",
+    "observed_at": "2026-11-19T18:13:06.035576+08:00"
+  }
+}
