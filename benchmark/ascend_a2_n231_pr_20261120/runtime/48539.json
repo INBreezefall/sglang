@@ -1,0 +1,38 @@
+{
+  "model": "GLM-5.2 W4A8C8",
+  "device": "Ascend910B4-1",
+  "platform": "aarch64",
+  "cann": "9.1.0",
+  "runtime_image_id": "sha256:7cc852e69586b34e597091f6aa3d6ebec6f20a62014e49c5e47f690a0fe11764",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post6",
+    "transformers": "5.19.0",
+    "sgl-kernel-npu": "2026.11.0.post4"
+  },
+  "main": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "control": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "candidate": "4e344c8953590861701273dcf7fb7f73bf105234",
+  "full_base_files_verified": 6961,
+  "registered_cpu_check": "22 passed, 15 warnings, 11 subtests passed in 9.58s",
+  "protocol_sha256": {
+    "arm_adapter.py": "a5f06bc7373210abbfbcd94c3d63422603e7c0190670378b21acc8fd70240c7e",
+    "lpm_bench.py": "bf2784c4db7cb263f5d95a7a9f4d17939c6d9c3bc3add8bad08c2786083e1a91"
+  },
+  "metrics": [
+    {
+      "label": "Mean per-request completion time in a 16-request queue (ms)",
+      "control": 10.507240779411765,
+      "candidate": 6.6498097040441175,
+      "percent": -36.71212220553682,
+      "digits": 2
+    },
+    {
+      "label": "Mean time to finish the entire queue (ms)",
+      "control": 13.633458558823529,
+      "candidate": 22.053869588235294,
+      "percent": 61.76283877697419,
+      "digits": 2
+    }
+  ]
+}

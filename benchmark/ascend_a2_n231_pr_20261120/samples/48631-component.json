@@ -1,0 +1,181 @@
+{
+  "node": "Ascend A2 host A",
+  "device": "6",
+  "feature": 48631,
+  "mode": "default",
+  "script_sha256": "07a339d3efd10bb29edfa958287eaed31e52b3aa642f9bea48fb82d7eac957f1",
+  "raw_hashes": [
+    "7774ec67037fb904663b3e7974ea4b1d76b19de9c72f17edbde63cf0152fe6c0",
+    "c3ea6974b51db3fcf565dc6acedf29e34ed1f36c179ed3a666ce2e4786792a59",
+    "e646bf22e91ad3858aead08e0650e2b272681a3bd4d5593d7adda966f0b7cc08",
+    "7774ec67037fb904663b3e7974ea4b1d76b19de9c72f17edbde63cf0152fe6c0"
+  ],
+  "runs": [
+    {
+      "feature": 48631,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "device": "Ascend910B4-1",
+      "format": 29,
+      "checkpoint_slice": "model.layers.10.mlp.experts.0.down_proj.weight",
+      "reference_sha256": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+      "words": [
+        256,
+        128
+      ],
+      "rows": [
+        {
+          "ok": false,
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 1,
+      "sha": "39f97b506c1cecf9af83aa14d23b16da466d4b81",
+      "device": "Ascend910B4-1",
+      "format": 29,
+      "checkpoint_slice": "model.layers.10.mlp.experts.0.down_proj.weight",
+      "reference_sha256": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+      "words": [
+        256,
+        128
+      ],
+      "rows": [
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 213.776285,
+          "export_ms": 0.369212,
+          "restore_ms": 0.234411
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.349131,
+          "export_ms": 0.229971,
+          "restore_ms": 0.19136
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.301972,
+          "export_ms": 0.223821,
+          "restore_ms": 0.180241
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.310772,
+          "export_ms": 0.221701,
+          "restore_ms": 0.177281
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.302281,
+          "export_ms": 0.222952,
+          "restore_ms": 0.180901
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.299851,
+          "export_ms": 0.224561,
+          "restore_ms": 0.177671
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 1,
+      "sha": "39f97b506c1cecf9af83aa14d23b16da466d4b81",
+      "device": "Ascend910B4-1",
+      "format": 29,
+      "checkpoint_slice": "model.layers.10.mlp.experts.0.down_proj.weight",
+      "reference_sha256": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+      "words": [
+        256,
+        128
+      ],
+      "rows": [
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 249.813597,
+          "export_ms": 0.497822,
+          "restore_ms": 0.360112
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.404942,
+          "export_ms": 0.282011,
+          "restore_ms": 0.221842
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.362562,
+          "export_ms": 0.278661,
+          "restore_ms": 0.212541
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.366481,
+          "export_ms": 0.276282,
+          "restore_ms": 0.213241
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.358402,
+          "export_ms": 0.281381,
+          "restore_ms": 0.217291
+        },
+        {
+          "ok": true,
+          "hash": "d3a322fb579a1dbdf4ac758d5b6edb9a",
+          "stored": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+          "hash_ms": 0.353602,
+          "export_ms": 0.277572,
+          "restore_ms": 0.211481
+        }
+      ]
+    },
+    {
+      "feature": 48631,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "device": "Ascend910B4-1",
+      "format": 29,
+      "checkpoint_slice": "model.layers.10.mlp.experts.0.down_proj.weight",
+      "reference_sha256": "e237317eb171701450c82333fb870fde0ff0b828d3316b93d3739f2edd9d399e",
+      "words": [
+        256,
+        128
+      ],
+      "rows": [
+        {
+          "ok": false,
+          "error": "RuntimeError",
+          "message": "The Inner error is reported as above. The process exits for this inner error, and the current working operator name is Identity."
+        }
+      ]
+    }
+  ]
+}

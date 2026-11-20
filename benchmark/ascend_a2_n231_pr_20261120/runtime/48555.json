@@ -1,0 +1,45 @@
+{
+  "model": "GLM-5.2 W4A8C8",
+  "device": "Ascend910B4-1",
+  "platform": "aarch64",
+  "cann": "9.1.0",
+  "runtime_image_id": "sha256:7cc852e69586b34e597091f6aa3d6ebec6f20a62014e49c5e47f690a0fe11764",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post6",
+    "transformers": "5.19.0",
+    "sgl-kernel-npu": "2026.11.0.post4"
+  },
+  "main": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "control": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "candidate": "e49b95c6e3573a37208c495227f6134c1830a6b3",
+  "full_base_files_verified": 6961,
+  "registered_cpu_check": "97 passed, 15 warnings, 59 subtests passed in 6.36s",
+  "protocol_sha256": {
+    "arm_adapter.py": "a5f06bc7373210abbfbcd94c3d63422603e7c0190670378b21acc8fd70240c7e",
+    "pool_bench.py": "687168b016879d28619a579031999621c00ef3ec0160c5520c5e787beafbba0a"
+  },
+  "metrics": [
+    {
+      "label": "Physical indexer layers for a 78-layer model",
+      "control": 78.0,
+      "candidate": 21.0,
+      "percent": -73.07692307692308,
+      "digits": 0
+    },
+    {
+      "label": "Allocated BF16 indexer tensor bytes at 1,152 rows",
+      "control": 23003136.0,
+      "candidate": 6193152.0,
+      "percent": -73.07692307692308,
+      "digits": 0
+    },
+    {
+      "label": "Full H2D page-set restore, median (ms)",
+      "control": 13.007972500000001,
+      "candidate": 11.8011215,
+      "percent": -9.277779454100166,
+      "digits": 3
+    }
+  ]
+}

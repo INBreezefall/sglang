@@ -1,0 +1,37 @@
+{
+  "model": "GLM-5.2 W4A8C8",
+  "device": "Ascend910B4-1",
+  "platform": "aarch64",
+  "cann": "9.1.0",
+  "runtime_image_id": "sha256:7cc852e69586b34e597091f6aa3d6ebec6f20a62014e49c5e47f690a0fe11764",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post6",
+    "transformers": "5.19.0",
+    "sgl-kernel-npu": "2026.11.0.post4"
+  },
+  "main": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "control": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "candidate": "f3c1a5bec090eed28079413e63336713eaf656bd",
+  "full_base_files_verified": 6961,
+  "registered_cpu_check": "4 passed, 15 warnings, 7 subtests passed in 4.82s",
+  "protocol_sha256": {
+    "native_probe.py": "07a339d3efd10bb29edfa958287eaed31e52b3aa642f9bea48fb82d7eac957f1"
+  },
+  "metrics": [
+    {
+      "label": "Extra NPU allocator peak at 4,096 rows (B)",
+      "control": 9433088.0,
+      "candidate": 3410944.0,
+      "percent": -63.84064264003474,
+      "digits": 0
+    },
+    {
+      "label": "Median time at 4,096 rows and tile size 512 (ms)",
+      "control": 0.7722439999999999,
+      "candidate": 6.005724,
+      "percent": 677.6977224814956,
+      "digits": 3
+    }
+  ]
+}

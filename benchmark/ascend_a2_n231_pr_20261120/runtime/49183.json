@@ -1,0 +1,44 @@
+{
+  "model": "GLM-5.2 W4A8C8",
+  "device": "Ascend910B4-1",
+  "platform": "aarch64",
+  "cann": "9.1.0",
+  "runtime_image_id": "sha256:7cc852e69586b34e597091f6aa3d6ebec6f20a62014e49c5e47f690a0fe11764",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post6",
+    "transformers": "5.19.0",
+    "sgl-kernel-npu": "2026.11.0.post4"
+  },
+  "main": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "control": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "candidate": "6a79cd13e4c1132ccfcd7162f2331717d4182681",
+  "full_base_files_verified": 6961,
+  "registered_cpu_check": "79 passed, 15 warnings, 109 subtests passed in 4.24s",
+  "protocol_sha256": {
+    "cache_probe.py": "28c37fb9ffcdae2b15e60d3b601ecfd1c8bda3fc65e83b97b5026cc832eff8a1"
+  },
+  "metrics": [
+    {
+      "label": "Draft host tokens with target capacity 1,024",
+      "control": 1024.0,
+      "candidate": 7936.0,
+      "percent": 675.0,
+      "digits": 0
+    },
+    {
+      "label": "Draft host tokens with target capacity 2,048",
+      "control": 2048.0,
+      "candidate": 7936.0,
+      "percent": 287.5,
+      "digits": 0
+    },
+    {
+      "label": "Draft host tokens with target capacity 4,096",
+      "control": 4096.0,
+      "candidate": 7936.0,
+      "percent": 93.75,
+      "digits": 0
+    }
+  ]
+}

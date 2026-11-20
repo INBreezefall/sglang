@@ -1,0 +1,167 @@
+{
+  "node": "Ascend A2 host A",
+  "device": "2",
+  "feature": 49183,
+  "mode": "default",
+  "script_sha256": "28c37fb9ffcdae2b15e60d3b601ecfd1c8bda3fc65e83b97b5026cc832eff8a1",
+  "raw_hashes": [
+    "741de15ebb8a6565319f8e98146e0f97190402cf7e22f478ca17ae397f1ffbd0",
+    "ac78df5b4868fcfcdb1c6bb4626d5cad7c9ec7d37d6a80bc9cefc3639fd7d2a6",
+    "679140a28940f516409429f9bbb41388421d6f8b31aef1507d4a0dbc1ebe0675",
+    "6f7dda7870bec14bcfb7442ec9e1572c31f525aeb205fed0c2fba4bef8f0fb00"
+  ],
+  "runs": [
+    {
+      "feature": 49183,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "target_tokens": 1024,
+          "budget_gb": 0,
+          "actual_tokens": 1024,
+          "host_bytes": 524288,
+          "build_ms": 2.685473,
+          "h2d_ms": 30.461786,
+          "d2h_ms": 18.71334,
+          "hash": "23033baaaf9f47c02fe2349c4c0e34cea5e6ae5f7e151f3bdcc45a786e3bdac9"
+        },
+        {
+          "target_tokens": 2048,
+          "budget_gb": 0,
+          "actual_tokens": 2048,
+          "host_bytes": 1048576,
+          "build_ms": 1.683398,
+          "h2d_ms": 9.193204,
+          "d2h_ms": 0.270241,
+          "hash": "e21c7c889e38eacda5a88b58cd9056176d9d8dfdf4d6cd685bb463b37bbd7354"
+        },
+        {
+          "target_tokens": 4096,
+          "budget_gb": 0,
+          "actual_tokens": 4096,
+          "host_bytes": 2097152,
+          "build_ms": 1.619518,
+          "h2d_ms": 17.229602,
+          "d2h_ms": 0.218521,
+          "hash": "eda5b166359a806d6965ed6c8b7504e8ba26678391d72408c355c560347d1351"
+        }
+      ]
+    },
+    {
+      "feature": 49183,
+      "flag": 1,
+      "sha": "6a79cd13e4c1132ccfcd7162f2331717d4182681",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "target_tokens": 1024,
+          "budget_gb": 0.004,
+          "actual_tokens": 7936,
+          "host_bytes": 4063232,
+          "build_ms": 2.800434,
+          "h2d_ms": 0.504382,
+          "d2h_ms": 0.302532,
+          "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
+        },
+        {
+          "target_tokens": 2048,
+          "budget_gb": 0.004,
+          "actual_tokens": 7936,
+          "host_bytes": 4063232,
+          "build_ms": 1.757429,
+          "h2d_ms": 26.574917,
+          "d2h_ms": 0.400481,
+          "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
+        },
+        {
+          "target_tokens": 4096,
+          "budget_gb": 0.004,
+          "actual_tokens": 7936,
+          "host_bytes": 4063232,
+          "build_ms": 1.645288,
+          "h2d_ms": 0.285932,
+          "d2h_ms": 0.298461,
+          "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
+        }
+      ]
+    },
+    {
+      "feature": 49183,
+      "flag": 1,
+      "sha": "6a79cd13e4c1132ccfcd7162f2331717d4182681",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "target_tokens": 1024,
+          "budget_gb": 0.004,
+          "actual_tokens": 7936,
+          "host_bytes": 4063232,
+          "build_ms": 2.774443,
+          "h2d_ms": 0.518423,
+          "d2h_ms": 0.303031,
+          "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
+        },
+        {
+          "target_tokens": 2048,
+          "budget_gb": 0.004,
+          "actual_tokens": 7936,
+          "host_bytes": 4063232,
+          "build_ms": 1.795119,
+          "h2d_ms": 37.53627,
+          "d2h_ms": 0.449703,
+          "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
+        },
+        {
+          "target_tokens": 4096,
+          "budget_gb": 0.004,
+          "actual_tokens": 7936,
+          "host_bytes": 4063232,
+          "build_ms": 1.685528,
+          "h2d_ms": 10.49018,
+          "d2h_ms": 0.309642,
+          "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
+        }
+      ]
+    },
+    {
+      "feature": 49183,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "target_tokens": 1024,
+          "budget_gb": 0,
+          "actual_tokens": 1024,
+          "host_bytes": 524288,
+          "build_ms": 3.399796,
+          "h2d_ms": 11.459585,
+          "d2h_ms": 0.127801,
+          "hash": "23033baaaf9f47c02fe2349c4c0e34cea5e6ae5f7e151f3bdcc45a786e3bdac9"
+        },
+        {
+          "target_tokens": 2048,
+          "budget_gb": 0,
+          "actual_tokens": 2048,
+          "host_bytes": 1048576,
+          "build_ms": 1.723108,
+          "h2d_ms": 8.694941,
+          "d2h_ms": 0.239851,
+          "hash": "e21c7c889e38eacda5a88b58cd9056176d9d8dfdf4d6cd685bb463b37bbd7354"
+        },
+        {
+          "target_tokens": 4096,
+          "budget_gb": 0,
+          "actual_tokens": 4096,
+          "host_bytes": 2097152,
+          "build_ms": 1.607417,
+          "h2d_ms": 0.178321,
+          "d2h_ms": 0.173681,
+          "hash": "eda5b166359a806d6965ed6c8b7504e8ba26678391d72408c355c560347d1351"
+        }
+      ]
+    }
+  ]
+}

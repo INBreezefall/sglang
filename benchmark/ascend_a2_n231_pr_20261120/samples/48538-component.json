@@ -1,0 +1,335 @@
+{
+  "node": "Ascend A2 host A",
+  "device": "0",
+  "feature": 48538,
+  "mode": "default",
+  "script_sha256": "28c37fb9ffcdae2b15e60d3b601ecfd1c8bda3fc65e83b97b5026cc832eff8a1",
+  "raw_hashes": [
+    "99861946bcdfc98bba36914f05f47bbe96be3f9731ea92c4120108d10a74afc8",
+    "723fa71d4f41d7abd10fc42a6fe9e167ff897cceb37dfef9f45de39559747664",
+    "138e45fc4e0bcb587616ae2960ea723cb2fde26838382fad0c15d554ca281be1",
+    "1edf2a3fa9286eac55137215d884bd9fc6b97bea3f9928bbc07f41c6eeeee851"
+  ],
+  "runs": [
+    {
+      "feature": 48538,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 64,
+          "indexer": false,
+          "plan": "PACKED",
+          "selection_ms": 0.150221,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 34.188614,
+          "h2d_ms": 30.786387,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": true
+        },
+        {
+          "dtype": "torch.float16",
+          "rope": 64,
+          "indexer": false,
+          "plan": "PACKED",
+          "selection_ms": 0.0903,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 5.240595,
+          "h2d_ms": 23.06149,
+          "hash": "5ca23319152174969da0470046b6cb1b706571db01e573f72546b682aa6580cc",
+          "compatible": false
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 32,
+          "indexer": false,
+          "plan": "PACKED",
+          "selection_ms": 0.068661,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 6.810173,
+          "h2d_ms": 0.119891,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": false
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 64,
+          "indexer": true,
+          "plan": "PACKED",
+          "selection_ms": 0.065611,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 20.408498,
+          "h2d_ms": 0.208181,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": false
+        }
+      ]
+    },
+    {
+      "feature": 48538,
+      "flag": 1,
+      "sha": "8dd2008758d4fd7ed657a26c32d84fa92a9bead7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 64,
+          "indexer": false,
+          "plan": "PACKED",
+          "selection_ms": 4.562052,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 19.828205,
+          "h2d_ms": 30.171015,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": true
+        },
+        {
+          "dtype": "torch.float16",
+          "rope": 64,
+          "indexer": false,
+          "plan": "SIDECAR",
+          "selection_ms": 0.164131,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 8.575081,
+          "h2d_ms": 8.378081,
+          "hash": "5ca23319152174969da0470046b6cb1b706571db01e573f72546b682aa6580cc",
+          "compatible": false
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 32,
+          "indexer": false,
+          "plan": "SIDECAR",
+          "selection_ms": 0.12741,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 0.212301,
+          "h2d_ms": 0.120611,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": false
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 64,
+          "indexer": true,
+          "plan": "SIDECAR",
+          "selection_ms": 0.12139,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 0.11439,
+          "h2d_ms": 0.11515,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": false
+        }
+      ]
+    },
+    {
+      "feature": 48538,
+      "flag": 1,
+      "sha": "8dd2008758d4fd7ed657a26c32d84fa92a9bead7",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 64,
+          "indexer": false,
+          "plan": "PACKED",
+          "selection_ms": 4.570082,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 21.596974,
+          "h2d_ms": 0.173631,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": true
+        },
+        {
+          "dtype": "torch.float16",
+          "rope": 64,
+          "indexer": false,
+          "plan": "SIDECAR",
+          "selection_ms": 0.156821,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 0.148081,
+          "h2d_ms": 32.566596,
+          "hash": "5ca23319152174969da0470046b6cb1b706571db01e573f72546b682aa6580cc",
+          "compatible": false
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 32,
+          "indexer": false,
+          "plan": "SIDECAR",
+          "selection_ms": 0.13124,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 25.815104,
+          "h2d_ms": 25.159491,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": false
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 64,
+          "indexer": true,
+          "plan": "SIDECAR",
+          "selection_ms": 0.118801,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 30.140974,
+          "h2d_ms": 23.288752,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": false
+        }
+      ]
+    },
+    {
+      "feature": 48538,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "device": "Ascend910B4-1",
+      "rows": [
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 64,
+          "indexer": false,
+          "plan": "PACKED",
+          "selection_ms": 0.172361,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 23.661474,
+          "h2d_ms": 0.159041,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": true
+        },
+        {
+          "dtype": "torch.float16",
+          "rope": 64,
+          "indexer": false,
+          "plan": "PACKED",
+          "selection_ms": 0.092031,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 0.132721,
+          "h2d_ms": 13.359574,
+          "hash": "5ca23319152174969da0470046b6cb1b706571db01e573f72546b682aa6580cc",
+          "compatible": false
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 32,
+          "indexer": false,
+          "plan": "PACKED",
+          "selection_ms": 0.0696,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 0.209051,
+          "h2d_ms": 0.100091,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": false
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "rope": 64,
+          "indexer": true,
+          "plan": "PACKED",
+          "selection_ms": 0.06718,
+          "device_shape": [
+            4,
+            128,
+            1,
+            512
+          ],
+          "bytes": 524288,
+          "d2h_ms": 0.10598,
+          "h2d_ms": 0.097661,
+          "hash": "aed9a923d18202774c51ec225025074fdec7f81647c1cb1e285341ed65e4e3d9",
+          "compatible": false
+        }
+      ]
+    }
+  ]
+}
