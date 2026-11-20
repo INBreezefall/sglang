@@ -1,0 +1,17 @@
+{
+  "image": "sha256:4a23ec2555c6e49d8e43ccfe4585fb9b07ced470241cb96af45b75542e04f190",
+  "engine_options": {
+    "--concurrent": "44",
+    "--requests": "200",
+    "--top-k": "44",
+    "--warmup-concurrent": "44",
+    "--max-tokens-override": "128",
+    "--first-token-timeout": "1500",
+    "--stream-idle-timeout": "1500",
+    "--timeout": "1500",
+    "--temperature-override": "0.7",
+    "--top-p-override": "1.0"
+  },
+  "at": "2026-11-21T00:39:14.954946+08:00",
+  "preflight": "Unmodified runner and child parser in the image, --help and no network"
+}

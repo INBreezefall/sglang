@@ -1,0 +1,108 @@
+{
+  "checked": "2026-11-21T02:15:11.107956+08:00",
+  "upstream_main": "2b248971db8c8c349586c3757663be9cba5e366d",
+  "method": "Git apply against an isolated index, with a real three-way application and unmerged-file check if direct application fails. Includes the parent for the stacked PR. Hardware results use the recorded tested commits.",
+  "pull_requests": {
+    "48541": {
+      "tested_main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "isolated_control": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "tested_head": "3518681e48b2fbb8ba653783180be1f7520a271d",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "48539": {
+      "tested_main": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "isolated_control": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "tested_head": "4e344c8953590861701273dcf7fb7f73bf105234",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "48560": {
+      "tested_main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "isolated_control": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "tested_head": "288e6f168afbf816c0a13fa0d85da93396141634",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "48562": {
+      "tested_main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "isolated_control": "288e6f168afbf816c0a13fa0d85da93396141634",
+      "tested_head": "d7dad05d1ed4d8b6b6d3a02ae2e947b8da133c68",
+      "complete_pr_patch_applies": false,
+      "mode": "three-way",
+      "unmerged": [
+        "python/sglang/srt/arg_groups/field_order.py"
+      ],
+      "stacked": true
+    },
+    "48555": {
+      "tested_main": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "isolated_control": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "tested_head": "e49b95c6e3573a37208c495227f6134c1830a6b3",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "48538": {
+      "tested_main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "isolated_control": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "tested_head": "e2e1c3acc1d2a187df6699d09638633eec7a17dc",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "48540": {
+      "tested_main": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "isolated_control": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "tested_head": "f3c1a5bec090eed28079413e63336713eaf656bd",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "48543": {
+      "tested_main": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "isolated_control": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "tested_head": "166bf929ff0e8c89bda2ef03ce98b162d1c5a664",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "48631": {
+      "tested_main": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "isolated_control": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "tested_head": "39f97b506c1cecf9af83aa14d23b16da466d4b81",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "49183": {
+      "tested_main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "isolated_control": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "tested_head": "b19942a2f5a4177095b4307277181b844be7218c",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    },
+    "48633": {
+      "tested_main": "ea442ff4ab19171212a9ecaa0e175d0f2dd2a595",
+      "isolated_control": "ea442ff4ab19171212a9ecaa0e175d0f2dd2a595",
+      "tested_head": "7cf8b1dbf44d831d62f7b08223937d30c2149945",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
+      "stacked": false
+    }
+  }
+}

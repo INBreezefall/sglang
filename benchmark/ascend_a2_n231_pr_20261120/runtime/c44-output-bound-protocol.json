@@ -1,0 +1,16 @@
+{
+  "defined": "2026-11-20T23:32:29.920277+08:00",
+  "concurrency": 44,
+  "formal_requests": 200,
+  "model": "GLM-5.2-w4a8c8",
+  "source_dataset": "aa75eb1635a7ea57a8449759a124ab808475816af7c8fc33d95b9aad0952591e",
+  "sampling_temperature": 0.7,
+  "top_p": 1.0,
+  "maximum_completion_tokens": 128,
+  "first_token_seconds": 1500,
+  "stream_idle_seconds": 1500,
+  "total_request_seconds": 1500,
+  "serving_profile": "eager, BF16, main prefill in both arms",
+  "condition": "If the original uncapped matched pair stops early, compare the same original input corpus with this bounded output budget on independently restarted main and PR. Report every original partial run separately.",
+  "reason": "Before observing the PR, the C44 main completed 200/200 fixed requests and 32/32 answers. Its uncapped original replay stopped submitting after 71 requests with several relay cancellations at exactly 300 seconds. A bounded output cohort tests actual session placement without long stochastic generations dominating completion."
+}
