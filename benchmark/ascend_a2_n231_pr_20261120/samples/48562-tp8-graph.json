@@ -1,0 +1,623 @@
+{
+  "events": [
+    {
+      "event": "pool",
+      "rank": 6,
+      "pool_type": "NPUMLATokenToKVPool",
+      "buffers": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            656
+          ],
+          "dtype": "torch.int8",
+          "bytes": 425717760
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            0
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 0
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8",
+          "bytes": 22364160
+        },
+        "index_k_scale_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1
+          ],
+          "dtype": "torch.float16",
+          "bytes": 349440
+        }
+      },
+      "capacity": 8192,
+      "role": "standalone"
+    },
+    {
+      "event": "graph",
+      "rank": 6,
+      "tokens": 1
+    },
+    {
+      "event": "pool",
+      "rank": 0,
+      "pool_type": "NPUMLATokenToKVPool",
+      "buffers": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            656
+          ],
+          "dtype": "torch.int8",
+          "bytes": 425717760
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            0
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 0
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8",
+          "bytes": 22364160
+        },
+        "index_k_scale_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1
+          ],
+          "dtype": "torch.float16",
+          "bytes": 349440
+        }
+      },
+      "capacity": 8192,
+      "role": "standalone"
+    },
+    {
+      "event": "graph",
+      "rank": 0,
+      "tokens": 1
+    },
+    {
+      "event": "pool",
+      "rank": 2,
+      "pool_type": "NPUMLATokenToKVPool",
+      "buffers": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            656
+          ],
+          "dtype": "torch.int8",
+          "bytes": 425717760
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            0
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 0
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8",
+          "bytes": 22364160
+        },
+        "index_k_scale_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1
+          ],
+          "dtype": "torch.float16",
+          "bytes": 349440
+        }
+      },
+      "capacity": 8192,
+      "role": "standalone"
+    },
+    {
+      "event": "graph",
+      "rank": 2,
+      "tokens": 1
+    },
+    {
+      "event": "pool",
+      "rank": 4,
+      "pool_type": "NPUMLATokenToKVPool",
+      "buffers": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            656
+          ],
+          "dtype": "torch.int8",
+          "bytes": 425717760
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            0
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 0
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8",
+          "bytes": 22364160
+        },
+        "index_k_scale_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1
+          ],
+          "dtype": "torch.float16",
+          "bytes": 349440
+        }
+      },
+      "capacity": 8192,
+      "role": "standalone"
+    },
+    {
+      "event": "graph",
+      "rank": 4,
+      "tokens": 1
+    },
+    {
+      "event": "pool",
+      "rank": 3,
+      "pool_type": "NPUMLATokenToKVPool",
+      "buffers": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            656
+          ],
+          "dtype": "torch.int8",
+          "bytes": 425717760
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            0
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 0
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8",
+          "bytes": 22364160
+        },
+        "index_k_scale_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1
+          ],
+          "dtype": "torch.float16",
+          "bytes": 349440
+        }
+      },
+      "capacity": 8192,
+      "role": "standalone"
+    },
+    {
+      "event": "graph",
+      "rank": 3,
+      "tokens": 1
+    },
+    {
+      "event": "pool",
+      "rank": 7,
+      "pool_type": "NPUMLATokenToKVPool",
+      "buffers": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            656
+          ],
+          "dtype": "torch.int8",
+          "bytes": 425717760
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            0
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 0
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8",
+          "bytes": 22364160
+        },
+        "index_k_scale_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1
+          ],
+          "dtype": "torch.float16",
+          "bytes": 349440
+        }
+      },
+      "capacity": 8192,
+      "role": "standalone"
+    },
+    {
+      "event": "graph",
+      "rank": 7,
+      "tokens": 1
+    },
+    {
+      "event": "pool",
+      "rank": 5,
+      "pool_type": "NPUMLATokenToKVPool",
+      "buffers": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            656
+          ],
+          "dtype": "torch.int8",
+          "bytes": 425717760
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            0
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 0
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8",
+          "bytes": 22364160
+        },
+        "index_k_scale_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1
+          ],
+          "dtype": "torch.float16",
+          "bytes": 349440
+        }
+      },
+      "capacity": 8192,
+      "role": "standalone"
+    },
+    {
+      "event": "graph",
+      "rank": 5,
+      "tokens": 1
+    },
+    {
+      "event": "pool",
+      "rank": 1,
+      "pool_type": "NPUMLATokenToKVPool",
+      "buffers": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            656
+          ],
+          "dtype": "torch.int8",
+          "bytes": 425717760
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            0
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 0
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8",
+          "bytes": 22364160
+        },
+        "index_k_scale_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1
+          ],
+          "dtype": "torch.float16",
+          "bytes": 349440
+        }
+      },
+      "capacity": 8192,
+      "role": "standalone"
+    },
+    {
+      "event": "graph",
+      "rank": 1,
+      "tokens": 1
+    }
+  ],
+  "generations": [
+    {
+      "wave": 0,
+      "slot": 0,
+      "input_len": 2576,
+      "input_sha256": "a9c5d038b1b3f9f3563b142d3bb79c8c14749ca4037cce54be00bbbf40c3ba89",
+      "output_ids": [
+        388,
+        79,
+        4527,
+        154842,
+        154842,
+        40,
+        5293,
+        419
+      ]
+    },
+    {
+      "wave": 1,
+      "slot": 0,
+      "input_len": 2576,
+      "input_sha256": "6c3a11affbe5bf176d1805a58697b3928239046c88724b3d01eda8b39c7309a9",
+      "output_ids": [
+        197,
+        197,
+        532,
+        197,
+        197,
+        532,
+        197,
+        532
+      ]
+    },
+    {
+      "wave": 1,
+      "slot": 1,
+      "input_len": 2580,
+      "input_sha256": "da9f5eaf1d014dcb10945e498b591cb858ab15b265b6c2c52b6e452a380fb41b",
+      "output_ids": [
+        154842,
+        40,
+        5293,
+        419,
+        7951,
+        311,
+        387,
+        264
+      ]
+    },
+    {
+      "wave": 2,
+      "slot": 0,
+      "input_len": 1424,
+      "input_sha256": "75297546a6544fedb300c8577a10cddcf5305bded16f098e567cb888f5049476",
+      "output_ids": [
+        197,
+        197,
+        532,
+        197,
+        532,
+        532,
+        154842,
+        40
+      ]
+    },
+    {
+      "wave": 2,
+      "slot": 1,
+      "input_len": 1428,
+      "input_sha256": "1cb71ba47388ee07c12103bad60a1e9549ea795f9802ae7290278bda5a83c1a5",
+      "output_ids": [
+        392,
+        583,
+        82,
+        198,
+        262,
+        659,
+        746,
+        198
+      ]
+    },
+    {
+      "wave": 2,
+      "slot": 2,
+      "input_len": 1432,
+      "input_sha256": "6688553fdb80421c2563eba69d2a5a4e817c35cadbf40c388b9838366abcf7e6",
+      "output_ids": [
+        198,
+        197,
+        197,
+        532,
+        197,
+        197,
+        532,
+        197
+      ]
+    },
+    {
+      "wave": 2,
+      "slot": 3,
+      "input_len": 1436,
+      "input_sha256": "4df04149b2b5c4fa5566fd03f9a59f301a2c05c54b732322778d0c5942c0aa1c",
+      "output_ids": [
+        198,
+        262,
+        659,
+        746,
+        2323,
+        445,
+        5493,
+        497
+      ]
+    },
+    {
+      "wave": 3,
+      "slot": 0,
+      "input_len": 2177,
+      "input_sha256": "9a94756c2013da539ae365077f577799b43f8b66aa9d5ccc36776ddd342b8064",
+      "output_ids": [
+        198,
+        197,
+        197,
+        532,
+        197,
+        532,
+        532,
+        154842
+      ]
+    },
+    {
+      "wave": 3,
+      "slot": 1,
+      "input_len": 2181,
+      "input_sha256": "a409d6f3f3e17e6350761f23e09ea661d6050704b0af99e467a9d319c8548c84",
+      "output_ids": [
+        66,
+        415,
+        154842,
+        154842,
+        2,
+        16841,
+        6,
+        30695
+      ]
+    },
+    {
+      "wave": 4,
+      "slot": 0,
+      "input_len": 3800,
+      "input_sha256": "ed261e9b7f3212f47cb5969adcb5dc1610ddc94261e24ce8959008f52ee626c8",
+      "output_ids": [
+        198,
+        197,
+        197,
+        532,
+        197,
+        197,
+        532,
+        197
+      ]
+    }
+  ],
+  "sha": "fc09186c589a9834b0017ebf1249787acbeea9ca"
+}

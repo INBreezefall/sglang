@@ -6323,6 +6323,41 @@
           }
         ],
         "raw_sha256": "9fa18d88a101e8bc0d7fb5940ca55675fd5fdbd403e2ee21f011873a2e66131b"
+      },
+      "live_pool_per_rank": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            512
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 664535040
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            64
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 83066880
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 44728320
+        }
       }
     },
     "candidate": {
@@ -12648,6 +12683,41 @@
           }
         ],
         "raw_sha256": "710fdeeb3eb58e25b1c383b1eb43ce36846b749c57dfdfa2b0dc6623058fd910"
+      },
+      "live_pool_per_rank": {
+        "k_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            512
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 664535040
+        },
+        "v_buffer": {
+          "shape": [
+            78,
+            65,
+            128,
+            1,
+            64
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 83066880
+        },
+        "index_k_buffer": {
+          "shape": [
+            21,
+            65,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.bfloat16",
+          "bytes": 44728320
+        }
       }
     }
   },
