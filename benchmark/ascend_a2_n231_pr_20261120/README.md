@@ -18,3 +18,5 @@ The 2026-11-20 follow-up uses GLM-5.2 W4A8C8 and Ascend 910B4-1. Each result ide
 [Physical P/D transport checks and runtime compatibility](runtime/transport-checks.md).
 
 [Four-host shared model control](runtime/four-host-control.md).
+
+[Upstream test status and the per-PR CI jobs](runtime/upstream-ci-gate.md).
