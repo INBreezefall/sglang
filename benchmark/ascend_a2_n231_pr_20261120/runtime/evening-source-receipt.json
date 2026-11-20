@@ -1,0 +1,50 @@
+{
+  "upstream": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "compared_on_hosts": 4,
+  "checked_at": "2026-11-20T18:31:48.169139+08:00",
+  "staged_trees": {
+    "main": {
+      "sha": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "base": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "files": 8389,
+      "python_files": 6976,
+      "changed": 78
+    },
+    "48538": {
+      "sha": "e2e1c3acc1d2a187df6699d09638633eec7a17dc",
+      "base": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "files": 8390,
+      "python_files": 6976,
+      "changed": 3
+    },
+    "49183": {
+      "sha": "b19942a2f5a4177095b4307277181b844be7218c",
+      "base": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "files": 8390,
+      "python_files": 6976,
+      "changed": 11
+    },
+    "48541": {
+      "sha": "3518681e48b2fbb8ba653783180be1f7520a271d",
+      "base": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "files": 8391,
+      "python_files": 6977,
+      "changed": 11
+    },
+    "48560": {
+      "sha": "288e6f168afbf816c0a13fa0d85da93396141634",
+      "base": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "files": 8392,
+      "python_files": 6977,
+      "changed": 20
+    },
+    "48562": {
+      "sha": "d7dad05d1ed4d8b6b6d3a02ae2e947b8da133c68",
+      "base": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "files": 8394,
+      "python_files": 6977,
+      "changed": 26
+    }
+  },
+  "archive_sha256": "5ff9387761c9aae9eea68598d07849807701aae43976bc9b3cc76d767a34b12e"
+}

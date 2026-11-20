@@ -10,11 +10,11 @@
     "transformers": "5.19.0",
     "sgl-kernel-npu": "2026.11.0.post4"
   },
-  "main": "68c262b30617731b7e1761169aceb6b17feb918a",
-  "control": "68c262b30617731b7e1761169aceb6b17feb918a",
-  "candidate": "8dd2008758d4fd7ed657a26c32d84fa92a9bead7",
-  "full_base_files_verified": 6961,
-  "registered_cpu_check": "6 passed, 15 warnings in 4.86s",
+  "main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "control": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "candidate": "e2e1c3acc1d2a187df6699d09638633eec7a17dc",
+  "full_base_files_verified": 6976,
+  "registered_cpu_check": "6 passed, 15 warnings in 8.65s",
   "protocol_sha256": {
     "cache_probe.py": "28c37fb9ffcdae2b15e60d3b601ecfd1c8bda3fc65e83b97b5026cc832eff8a1"
   },

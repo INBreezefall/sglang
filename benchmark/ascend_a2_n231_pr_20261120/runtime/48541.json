@@ -10,11 +10,11 @@
     "transformers": "5.19.0",
     "sgl-kernel-npu": "2026.11.0.post4"
   },
-  "main": "68c262b30617731b7e1761169aceb6b17feb918a",
-  "control": "68c262b30617731b7e1761169aceb6b17feb918a",
-  "candidate": "2830f0930baecf05cace3a72abfc1345f9770d5d",
-  "full_base_files_verified": 6961,
-  "registered_cpu_check": "448 passed, 16 warnings, 272 subtests passed in 10.67s",
+  "main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "control": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "candidate": "3518681e48b2fbb8ba653783180be1f7520a271d",
+  "full_base_files_verified": 6976,
+  "registered_cpu_check": "448 passed, 16 warnings, 272 subtests passed in 11.22s",
   "protocol_sha256": {
     "arm_adapter.py": "a5f06bc7373210abbfbcd94c3d63422603e7c0190670378b21acc8fd70240c7e",
     "route_bench.py": "1dc4e6eb3b0c55dab3a09514458e157315cfd4e25ff68a639f71a96e7dcc5f90"

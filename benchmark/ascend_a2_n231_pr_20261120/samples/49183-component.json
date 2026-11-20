@@ -1,20 +1,20 @@
 {
   "node": "Ascend A2 host A",
-  "device": "2",
+  "device": "0",
   "feature": 49183,
   "mode": "default",
   "script_sha256": "28c37fb9ffcdae2b15e60d3b601ecfd1c8bda3fc65e83b97b5026cc832eff8a1",
   "raw_hashes": [
-    "741de15ebb8a6565319f8e98146e0f97190402cf7e22f478ca17ae397f1ffbd0",
-    "ac78df5b4868fcfcdb1c6bb4626d5cad7c9ec7d37d6a80bc9cefc3639fd7d2a6",
-    "679140a28940f516409429f9bbb41388421d6f8b31aef1507d4a0dbc1ebe0675",
-    "6f7dda7870bec14bcfb7442ec9e1572c31f525aeb205fed0c2fba4bef8f0fb00"
+    "c624a356d13d2de6e77d78b2f4194e1cee068707a8eb12f9b0253a90b8f22350",
+    "5671a3420e02ce24498636ac8b175693b16413936ca6f48030ebb1981b656e45",
+    "068e4ea785b0ebe76b052613182be3e69bc0ced1f5dc5b0f4df8bbc02898d71d",
+    "562a68a481cee0d3a3ef81ecdc1d9f8432795c794e1e8959c9f968033479fd57"
   ],
   "runs": [
     {
       "feature": 49183,
       "flag": 0,
-      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "sha": "ad96481482fe9d400195d12286f66a6359c56bb3",
       "device": "Ascend910B4-1",
       "rows": [
         {
@@ -22,9 +22,9 @@
           "budget_gb": 0,
           "actual_tokens": 1024,
           "host_bytes": 524288,
-          "build_ms": 2.685473,
-          "h2d_ms": 30.461786,
-          "d2h_ms": 18.71334,
+          "build_ms": 2.7717,
+          "h2d_ms": 0.275481,
+          "d2h_ms": 0.128211,
           "hash": "23033baaaf9f47c02fe2349c4c0e34cea5e6ae5f7e151f3bdcc45a786e3bdac9"
         },
         {
@@ -32,9 +32,9 @@
           "budget_gb": 0,
           "actual_tokens": 2048,
           "host_bytes": 1048576,
-          "build_ms": 1.683398,
-          "h2d_ms": 9.193204,
-          "d2h_ms": 0.270241,
+          "build_ms": 1.578936,
+          "h2d_ms": 12.515545,
+          "d2h_ms": 0.275521,
           "hash": "e21c7c889e38eacda5a88b58cd9056176d9d8dfdf4d6cd685bb463b37bbd7354"
         },
         {
@@ -42,9 +42,9 @@
           "budget_gb": 0,
           "actual_tokens": 4096,
           "host_bytes": 2097152,
-          "build_ms": 1.619518,
-          "h2d_ms": 17.229602,
-          "d2h_ms": 0.218521,
+          "build_ms": 1.575966,
+          "h2d_ms": 0.200821,
+          "d2h_ms": 0.168841,
           "hash": "eda5b166359a806d6965ed6c8b7504e8ba26678391d72408c355c560347d1351"
         }
       ]
@@ -52,7 +52,7 @@
     {
       "feature": 49183,
       "flag": 1,
-      "sha": "6a79cd13e4c1132ccfcd7162f2331717d4182681",
+      "sha": "b19942a2f5a4177095b4307277181b844be7218c",
       "device": "Ascend910B4-1",
       "rows": [
         {
@@ -60,9 +60,9 @@
           "budget_gb": 0.004,
           "actual_tokens": 7936,
           "host_bytes": 4063232,
-          "build_ms": 2.800434,
-          "h2d_ms": 0.504382,
-          "d2h_ms": 0.302532,
+          "build_ms": 2.86216,
+          "h2d_ms": 19.306508,
+          "d2h_ms": 0.308121,
           "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
         },
         {
@@ -70,9 +70,9 @@
           "budget_gb": 0.004,
           "actual_tokens": 7936,
           "host_bytes": 4063232,
-          "build_ms": 1.757429,
-          "h2d_ms": 26.574917,
-          "d2h_ms": 0.400481,
+          "build_ms": 1.765546,
+          "h2d_ms": 11.867182,
+          "d2h_ms": 0.421872,
           "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
         },
         {
@@ -80,9 +80,9 @@
           "budget_gb": 0.004,
           "actual_tokens": 7936,
           "host_bytes": 4063232,
-          "build_ms": 1.645288,
-          "h2d_ms": 0.285932,
-          "d2h_ms": 0.298461,
+          "build_ms": 1.668645,
+          "h2d_ms": 0.270141,
+          "d2h_ms": 0.240381,
           "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
         }
       ]
@@ -90,7 +90,7 @@
     {
       "feature": 49183,
       "flag": 1,
-      "sha": "6a79cd13e4c1132ccfcd7162f2331717d4182681",
+      "sha": "b19942a2f5a4177095b4307277181b844be7218c",
       "device": "Ascend910B4-1",
       "rows": [
         {
@@ -98,9 +98,9 @@
           "budget_gb": 0.004,
           "actual_tokens": 7936,
           "host_bytes": 4063232,
-          "build_ms": 2.774443,
-          "h2d_ms": 0.518423,
-          "d2h_ms": 0.303031,
+          "build_ms": 2.71476,
+          "h2d_ms": 19.153728,
+          "d2h_ms": 0.317811,
           "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
         },
         {
@@ -108,9 +108,9 @@
           "budget_gb": 0.004,
           "actual_tokens": 7936,
           "host_bytes": 4063232,
-          "build_ms": 1.795119,
-          "h2d_ms": 37.53627,
-          "d2h_ms": 0.449703,
+          "build_ms": 1.738806,
+          "h2d_ms": 2.82514,
+          "d2h_ms": 0.630142,
           "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
         },
         {
@@ -118,9 +118,9 @@
           "budget_gb": 0.004,
           "actual_tokens": 7936,
           "host_bytes": 4063232,
-          "build_ms": 1.685528,
-          "h2d_ms": 10.49018,
-          "d2h_ms": 0.309642,
+          "build_ms": 1.598795,
+          "h2d_ms": 0.335552,
+          "d2h_ms": 0.271181,
           "hash": "a4e3e466cf849f064ce4fd0bd165f5ecaac27da83cd605a3fddcf9b4ae47b6de"
         }
       ]
@@ -128,7 +128,7 @@
     {
       "feature": 49183,
       "flag": 0,
-      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "sha": "ad96481482fe9d400195d12286f66a6359c56bb3",
       "device": "Ascend910B4-1",
       "rows": [
         {
@@ -136,9 +136,9 @@
           "budget_gb": 0,
           "actual_tokens": 1024,
           "host_bytes": 524288,
-          "build_ms": 3.399796,
-          "h2d_ms": 11.459585,
-          "d2h_ms": 0.127801,
+          "build_ms": 2.545859,
+          "h2d_ms": 0.260671,
+          "d2h_ms": 0.12497,
           "hash": "23033baaaf9f47c02fe2349c4c0e34cea5e6ae5f7e151f3bdcc45a786e3bdac9"
         },
         {
@@ -146,9 +146,9 @@
           "budget_gb": 0,
           "actual_tokens": 2048,
           "host_bytes": 1048576,
-          "build_ms": 1.723108,
-          "h2d_ms": 8.694941,
-          "d2h_ms": 0.239851,
+          "build_ms": 1.553025,
+          "h2d_ms": 21.881137,
+          "d2h_ms": 20.952555,
           "hash": "e21c7c889e38eacda5a88b58cd9056176d9d8dfdf4d6cd685bb463b37bbd7354"
         },
         {
@@ -156,9 +156,9 @@
           "budget_gb": 0,
           "actual_tokens": 4096,
           "host_bytes": 2097152,
-          "build_ms": 1.607417,
-          "h2d_ms": 0.178321,
-          "d2h_ms": 0.173681,
+          "build_ms": 1.532605,
+          "h2d_ms": 15.479385,
+          "d2h_ms": 0.194631,
           "hash": "eda5b166359a806d6965ed6c8b7504e8ba26678391d72408c355c560347d1351"
         }
       ]

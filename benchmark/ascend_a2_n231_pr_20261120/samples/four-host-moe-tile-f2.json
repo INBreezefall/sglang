@@ -1,0 +1,7774 @@
+{
+  "prefill": "f3c1a5bec090eed28079413e63336713eaf656bd",
+  "decode": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "physical_hosts": 4,
+  "tp_per_role": 16,
+  "profile": "memory-pressure-moonsegments",
+  "roles": [
+    {
+      "role": "prefill",
+      "node_rank": 0,
+      "sha": "f3c1a5bec090eed28079413e63336713eaf656bd",
+      "argv": [
+        "python3",
+        "-u",
+        "-m",
+        "sglang.launch_server",
+        "--model-path",
+        "/model",
+        "--served-model-name",
+        "glm52",
+        "--trust-remote-code",
+        "--device",
+        "npu",
+        "--dtype",
+        "bfloat16",
+        "--attention-backend",
+        "ascend",
+        "--sampling-backend",
+        "ascend",
+        "--quantization",
+        "modelslim",
+        "--tp-size",
+        "16",
+        "--attn-dp-size",
+        "8",
+        "--ep-size",
+        "1",
+        "--moe-a2a-backend",
+        "none",
+        "--nnodes",
+        "2",
+        "--node-rank",
+        "0",
+        "--dist-init-addr",
+        "<role-rendezvous>",
+        "--dist-timeout",
+        "360",
+        "--page-size",
+        "128",
+        "--kv-cache-dtype",
+        "bf16",
+        "--context-length",
+        "8192",
+        "--max-total-tokens",
+        "8192",
+        "--chunked-prefill-size",
+        "8192",
+        "--max-prefill-tokens",
+        "8192",
+        "--max-running-requests",
+        "32",
+        "--mem-fraction-static",
+        "0.9",
+        "--random-seed",
+        "137309666",
+        "--cuda-graph-backend-decode",
+        "disabled",
+        "--cuda-graph-backend-prefill",
+        "disabled",
+        "--disable-shared-experts-fusion",
+        "--host",
+        "<node-address>",
+        "--port",
+        "18684",
+        "--enable-metrics",
+        "--enable-cache-report",
+        "--disaggregation-mode",
+        "prefill",
+        "--disaggregation-transfer-backend",
+        "mooncake",
+        "--disaggregation-bootstrap-port",
+        "18784",
+        "--load-balance-method",
+        "total_tokens",
+        "--skip-server-warmup",
+        "--enable-hierarchical-cache",
+        "--hicache-ratio",
+        "4",
+        "--hicache-size",
+        "0",
+        "--hicache-write-policy",
+        "write_through",
+        "--hicache-io-backend",
+        "kernel_ascend",
+        "--hicache-mem-layout",
+        "page_first_kv_split",
+        "--schedule-policy",
+        "lpm"
+      ],
+      "counts": {
+        "runtime": 1,
+        "mooncake_support_imports": 19,
+        "distributed_initialized": 8,
+        "load_start": 8,
+        "load_complete": 8,
+        "mooncake_common_registration": 8,
+        "http_ready": 1,
+        "prefill_batches": 192
+      },
+      "host_pool_configs": [
+        {
+          "label": "kv",
+          "tokens": 32896,
+          "reported_decimal_gb": 3.61,
+          "packed_mtp": false,
+          "reports": 8
+        }
+      ],
+      "metrics": {
+        "sglang:hicache_backup_bytes_total": {
+          "series": 8,
+          "summed": 27961589760.0,
+          "peak": 8051097600.0
+        },
+        "sglang:hicache_backup_duration_seconds_sum": {
+          "series": 8,
+          "summed": 2.814405298471451,
+          "peak": 0.9987599588632584
+        },
+        "sglang:hicache_backup_tokens_total": {
+          "series": 8,
+          "summed": 280064.0,
+          "peak": 80640.0
+        },
+        "sglang:hicache_dropped_tokens_total": {
+          "series": 16,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:hicache_host_total_tokens": {
+          "series": 4,
+          "summed": 131584.0,
+          "peak": 32896.0
+        },
+        "sglang:hicache_host_used_tokens": {
+          "series": 4,
+          "summed": 20480.0,
+          "peak": 20480.0
+        },
+        "sglang:spec_accept_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_accept_rate": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_block_accept_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_cap_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_num_draft_tokens": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_num_steps": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        }
+      },
+      "errors": {},
+      "service_profile": "memory-pressure-moonsegments",
+      "launch_script_sha256": "38e9279ef5474fcc06cc673a822185119a945cc3828f16c9111ebd9e133d4ba8"
+    },
+    {
+      "role": "prefill",
+      "node_rank": 1,
+      "sha": "f3c1a5bec090eed28079413e63336713eaf656bd",
+      "argv": [
+        "python3",
+        "-u",
+        "-m",
+        "sglang.launch_server",
+        "--model-path",
+        "/model",
+        "--served-model-name",
+        "glm52",
+        "--trust-remote-code",
+        "--device",
+        "npu",
+        "--dtype",
+        "bfloat16",
+        "--attention-backend",
+        "ascend",
+        "--sampling-backend",
+        "ascend",
+        "--quantization",
+        "modelslim",
+        "--tp-size",
+        "16",
+        "--attn-dp-size",
+        "8",
+        "--ep-size",
+        "1",
+        "--moe-a2a-backend",
+        "none",
+        "--nnodes",
+        "2",
+        "--node-rank",
+        "1",
+        "--dist-init-addr",
+        "<role-rendezvous>",
+        "--dist-timeout",
+        "360",
+        "--page-size",
+        "128",
+        "--kv-cache-dtype",
+        "bf16",
+        "--context-length",
+        "8192",
+        "--max-total-tokens",
+        "8192",
+        "--chunked-prefill-size",
+        "8192",
+        "--max-prefill-tokens",
+        "8192",
+        "--max-running-requests",
+        "32",
+        "--mem-fraction-static",
+        "0.9",
+        "--random-seed",
+        "137309666",
+        "--cuda-graph-backend-decode",
+        "disabled",
+        "--cuda-graph-backend-prefill",
+        "disabled",
+        "--disable-shared-experts-fusion",
+        "--host",
+        "<node-address>",
+        "--port",
+        "18684",
+        "--enable-metrics",
+        "--enable-cache-report",
+        "--disaggregation-mode",
+        "prefill",
+        "--disaggregation-transfer-backend",
+        "mooncake",
+        "--disaggregation-bootstrap-port",
+        "18784",
+        "--load-balance-method",
+        "total_tokens",
+        "--skip-server-warmup",
+        "--enable-hierarchical-cache",
+        "--hicache-ratio",
+        "4",
+        "--hicache-size",
+        "0",
+        "--hicache-write-policy",
+        "write_through",
+        "--hicache-io-backend",
+        "kernel_ascend",
+        "--hicache-mem-layout",
+        "page_first_kv_split",
+        "--schedule-policy",
+        "lpm"
+      ],
+      "counts": {
+        "runtime": 1,
+        "mooncake_support_imports": 18,
+        "distributed_initialized": 8,
+        "load_start": 8,
+        "load_complete": 8,
+        "mooncake_common_registration": 8,
+        "prefill_batches": 74
+      },
+      "host_pool_configs": [
+        {
+          "label": "kv",
+          "tokens": 32896,
+          "reported_decimal_gb": 3.61,
+          "packed_mtp": false,
+          "reports": 8
+        }
+      ],
+      "metrics": {
+        "sglang:hicache_backup_bytes_total": {
+          "series": 8,
+          "summed": 13469614080.0,
+          "peak": 2006384640.0
+        },
+        "sglang:hicache_backup_duration_seconds_sum": {
+          "series": 8,
+          "summed": 1.5465525364875794,
+          "peak": 0.26586917781829833
+        },
+        "sglang:hicache_backup_tokens_total": {
+          "series": 8,
+          "summed": 134912.0,
+          "peak": 20096.0
+        },
+        "sglang:hicache_dropped_tokens_total": {
+          "series": 16,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:hicache_host_total_tokens": {
+          "series": 4,
+          "summed": 131584.0,
+          "peak": 32896.0
+        },
+        "sglang:hicache_host_used_tokens": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_accept_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_accept_rate": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_block_accept_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_cap_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_num_draft_tokens": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_num_steps": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        }
+      },
+      "errors": {},
+      "service_profile": "memory-pressure-moonsegments",
+      "launch_script_sha256": "38e9279ef5474fcc06cc673a822185119a945cc3828f16c9111ebd9e133d4ba8"
+    },
+    {
+      "role": "decode",
+      "node_rank": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "argv": [
+        "python3",
+        "-u",
+        "-m",
+        "sglang.launch_server",
+        "--model-path",
+        "/model",
+        "--served-model-name",
+        "glm52",
+        "--trust-remote-code",
+        "--device",
+        "npu",
+        "--dtype",
+        "bfloat16",
+        "--attention-backend",
+        "ascend",
+        "--sampling-backend",
+        "ascend",
+        "--quantization",
+        "modelslim",
+        "--tp-size",
+        "16",
+        "--attn-dp-size",
+        "8",
+        "--ep-size",
+        "1",
+        "--moe-a2a-backend",
+        "none",
+        "--nnodes",
+        "2",
+        "--node-rank",
+        "0",
+        "--dist-init-addr",
+        "<role-rendezvous>",
+        "--dist-timeout",
+        "360",
+        "--page-size",
+        "128",
+        "--kv-cache-dtype",
+        "bf16",
+        "--context-length",
+        "16384",
+        "--max-total-tokens",
+        "32768",
+        "--chunked-prefill-size",
+        "8192",
+        "--max-prefill-tokens",
+        "8192",
+        "--max-running-requests",
+        "32",
+        "--mem-fraction-static",
+        "0.9",
+        "--random-seed",
+        "137309666",
+        "--cuda-graph-backend-decode",
+        "disabled",
+        "--cuda-graph-backend-prefill",
+        "disabled",
+        "--disable-shared-experts-fusion",
+        "--host",
+        "<node-address>",
+        "--port",
+        "18684",
+        "--enable-metrics",
+        "--enable-cache-report",
+        "--disaggregation-mode",
+        "decode",
+        "--disaggregation-transfer-backend",
+        "mooncake",
+        "--disaggregation-bootstrap-port",
+        "18784",
+        "--load-balance-method",
+        "total_tokens",
+        "--skip-server-warmup",
+        "--disaggregation-decode-enable-radix-cache"
+      ],
+      "counts": {
+        "runtime": 1,
+        "mooncake_support_imports": 19,
+        "distributed_initialized": 8,
+        "load_start": 8,
+        "load_complete": 8,
+        "mooncake_common_registration": 8,
+        "http_ready": 1,
+        "decode_batches": 13
+      },
+      "host_pool_configs": [],
+      "metrics": {
+        "sglang:spec_accept_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_accept_rate": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_block_accept_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_cap_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_num_draft_tokens": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_num_steps": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        }
+      },
+      "errors": {},
+      "service_profile": "memory-pressure-moonsegments",
+      "launch_script_sha256": "38e9279ef5474fcc06cc673a822185119a945cc3828f16c9111ebd9e133d4ba8"
+    },
+    {
+      "role": "decode",
+      "node_rank": 1,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "argv": [
+        "python3",
+        "-u",
+        "-m",
+        "sglang.launch_server",
+        "--model-path",
+        "/model",
+        "--served-model-name",
+        "glm52",
+        "--trust-remote-code",
+        "--device",
+        "npu",
+        "--dtype",
+        "bfloat16",
+        "--attention-backend",
+        "ascend",
+        "--sampling-backend",
+        "ascend",
+        "--quantization",
+        "modelslim",
+        "--tp-size",
+        "16",
+        "--attn-dp-size",
+        "8",
+        "--ep-size",
+        "1",
+        "--moe-a2a-backend",
+        "none",
+        "--nnodes",
+        "2",
+        "--node-rank",
+        "1",
+        "--dist-init-addr",
+        "<role-rendezvous>",
+        "--dist-timeout",
+        "360",
+        "--page-size",
+        "128",
+        "--kv-cache-dtype",
+        "bf16",
+        "--context-length",
+        "16384",
+        "--max-total-tokens",
+        "32768",
+        "--chunked-prefill-size",
+        "8192",
+        "--max-prefill-tokens",
+        "8192",
+        "--max-running-requests",
+        "32",
+        "--mem-fraction-static",
+        "0.9",
+        "--random-seed",
+        "137309666",
+        "--cuda-graph-backend-decode",
+        "disabled",
+        "--cuda-graph-backend-prefill",
+        "disabled",
+        "--disable-shared-experts-fusion",
+        "--host",
+        "<node-address>",
+        "--port",
+        "18684",
+        "--enable-metrics",
+        "--enable-cache-report",
+        "--disaggregation-mode",
+        "decode",
+        "--disaggregation-transfer-backend",
+        "mooncake",
+        "--disaggregation-bootstrap-port",
+        "18784",
+        "--load-balance-method",
+        "total_tokens",
+        "--skip-server-warmup",
+        "--disaggregation-decode-enable-radix-cache"
+      ],
+      "counts": {
+        "runtime": 1,
+        "mooncake_support_imports": 18,
+        "distributed_initialized": 8,
+        "load_start": 8,
+        "load_complete": 8,
+        "mooncake_common_registration": 8,
+        "decode_batches": 8
+      },
+      "host_pool_configs": [],
+      "metrics": {
+        "sglang:spec_accept_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_accept_rate": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_block_accept_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_cap_length": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_num_draft_tokens": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        },
+        "sglang:spec_num_steps": {
+          "series": 4,
+          "summed": 0.0,
+          "peak": 0.0
+        }
+      },
+      "errors": {},
+      "service_profile": "memory-pressure-moonsegments",
+      "launch_script_sha256": "38e9279ef5474fcc06cc673a822185119a945cc3828f16c9111ebd9e133d4ba8"
+    }
+  ],
+  "forwards": {
+    "geometry": [
+      {
+        "role": "prefill",
+        "buffer": "k_buffer",
+        "shape": [
+          78,
+          65,
+          128,
+          1,
+          512
+        ],
+        "count": null,
+        "bytes": 664535040,
+        "dtype": "torch.bfloat16",
+        "observations": 16
+      },
+      {
+        "role": "prefill",
+        "buffer": "v_buffer",
+        "shape": [
+          78,
+          65,
+          128,
+          1,
+          64
+        ],
+        "count": null,
+        "bytes": 83066880,
+        "dtype": "torch.bfloat16",
+        "observations": 16
+      },
+      {
+        "role": "prefill",
+        "buffer": "index_k_buffer",
+        "shape": [
+          78,
+          65,
+          128,
+          1,
+          128
+        ],
+        "count": null,
+        "bytes": 166133760,
+        "dtype": "torch.bfloat16",
+        "observations": 16
+      },
+      {
+        "role": "decode",
+        "buffer": "k_buffer",
+        "shape": [
+          78,
+          257,
+          128,
+          1,
+          512
+        ],
+        "count": null,
+        "bytes": 2627469312,
+        "dtype": "torch.bfloat16",
+        "observations": 16
+      },
+      {
+        "role": "decode",
+        "buffer": "v_buffer",
+        "shape": [
+          78,
+          257,
+          128,
+          1,
+          64
+        ],
+        "count": null,
+        "bytes": 328433664,
+        "dtype": "torch.bfloat16",
+        "observations": 16
+      },
+      {
+        "role": "decode",
+        "buffer": "index_k_buffer",
+        "shape": [
+          78,
+          257,
+          128,
+          1,
+          128
+        ],
+        "count": null,
+        "bytes": 656867328,
+        "dtype": "torch.bfloat16",
+        "observations": 16
+      }
+    ],
+    "graphs": 0,
+    "pool_records": 32,
+    "rank_forwards": 96,
+    "tiled_calls": 6000,
+    "sizes": [
+      {
+        "tokens": 1,
+        "batch": 1,
+        "n": 16,
+        "p50_transient": 100959744.0,
+        "max_transient": 100959744,
+        "max_absolute": 36423880704
+      },
+      {
+        "tokens": 1024,
+        "batch": 1,
+        "n": 80,
+        "p50_transient": 243545600.0,
+        "max_transient": 243676160,
+        "max_absolute": 36566478336
+      }
+    ]
+  },
+  "restore_checks": [],
+  "serving": {
+    "requested": 72,
+    "formal_start_epoch": 1795170671.187534,
+    "formal_end_epoch": 1795170766.1168404,
+    "prefill_sha": "f3c1a5bec090eed28079413e63336713eaf656bd",
+    "decode_sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+    "sessions": 24,
+    "turns": 3,
+    "output_limit": 24,
+    "warmups": 8,
+    "wall_s": 94.92924293800024,
+    "output_tps": 18.203031505566557,
+    "mean_ttft_ms": 12775.388214180262,
+    "p95_ttft_ms": 19107.17774630175,
+    "mean_decode_tps_per_request": 1.8793764814508063,
+    "rows": [
+      {
+        "sid": 21,
+        "turn": 0,
+        "input_hash": "33c66d5eed1f45d6272a03170654d7c2d27cb5d0a81943c1d3a803fbd06e2e74",
+        "input_tokens": 1280,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1280,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7366.654830999323,
+          "decode_ms": 12641.075316001661,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 0
+        },
+        "completed_ms": 20008.017979002034
+      },
+      {
+        "sid": 4,
+        "turn": 0,
+        "input_hash": "fc16bd17a8a9683ea9f4324031cb3aa059be846e1a66922bbd5c9ba0a1577648",
+        "input_tokens": 1536,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1536,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 10028.272937997826,
+          "decode_ms": 12873.944285005564,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "e0cfe2cae2836b048f4d3db8be44516555aa41b967cdb0622721ee2f42fcbf52",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 0
+        },
+        "completed_ms": 22903.679319999355
+      },
+      {
+        "sid": 7,
+        "turn": 0,
+        "input_hash": "d6bc6762402749e15d1cac745c571d660e29aa550b7ef2b4740250eca8d6f1eb",
+        "input_tokens": 768,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 768,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7849.211332999403,
+          "decode_ms": 12805.685988998448,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "36aa9d33fd8cd6bd0580b24d6181fed6c4780d3f41df02209f257691d32e291e",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 0
+        },
+        "completed_ms": 20655.08999300073
+      },
+      {
+        "sid": 18,
+        "turn": 0,
+        "input_hash": "87561709818489b7706e009be0474ceacc64dda5926fce02a578faa2d65d6351",
+        "input_tokens": 2560,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2560,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 12347.664562003047,
+          "decode_ms": 12930.91218299378,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "0dd6c8a81d441dc19c04d923adc6905bf4157606109de689334ce8282a078172",
+          "hashed_tokens": 24,
+          "rank": 3,
+          "cached": 0
+        },
+        "completed_ms": 25278.742075999617
+      },
+      {
+        "sid": 17,
+        "turn": 0,
+        "input_hash": "d95c43b6c9b788981bc0ae618c0edfba728a1836e10770173bdb5c7950cfb097",
+        "input_tokens": 3072,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 3072,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 12342.227044995525,
+          "decode_ms": 12931.92209800327,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "79d13bc2bbe41bdc6241c887d60ac96c7b308aedfb075fc9eb0dea8ddf16ec21",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 0
+        },
+        "completed_ms": 25274.412724000285
+      },
+      {
+        "sid": 16,
+        "turn": 0,
+        "input_hash": "dfbf23d27afecdf3fcfc5bbd6d36a73045ac37c608c01ed2acbf8efd3eb27b1d",
+        "input_tokens": 4096,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 4096,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 14650.659083999926,
+          "decode_ms": 12442.518042000302,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "8275c93ef79744107ca745311d396924a76f91959ff345fbb044cab1ce17796a",
+          "hashed_tokens": 24,
+          "rank": 5,
+          "cached": 0
+        },
+        "completed_ms": 27093.564217997482
+      },
+      {
+        "sid": 19,
+        "turn": 0,
+        "input_hash": "e653d8a2611676530a631fa3b6a9d2815e62d242d69a8775bccb76be84928f35",
+        "input_tokens": 2048,
+        "p": {
+          "dp_rank": 6,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2048,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 10014.887978999468,
+          "decode_ms": 12871.239100997627,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "a7f773fc8166aafde3adce04ed50f31c2fa0f7f8db0fdc7b8d164c7951ffca02",
+          "hashed_tokens": 24,
+          "rank": 6,
+          "cached": 0
+        },
+        "completed_ms": 22886.301070997433
+      },
+      {
+        "sid": 23,
+        "turn": 0,
+        "input_hash": "8408f931fcd378c868e6c156a32df2902f6956bd3e68e5ff1301f9791b061e7c",
+        "input_tokens": 768,
+        "p": {
+          "dp_rank": 7,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 768,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7835.527353003272,
+          "decode_ms": 12802.087231997575,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "e6ec130a6b7b2ea640c7c2c95137be0d5286b084bce42d848f9146af8b003627",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 0
+        },
+        "completed_ms": 20637.894856001367
+      },
+      {
+        "sid": 14,
+        "turn": 0,
+        "input_hash": "6b891a0c599c2c06ce600266659a8a3a90f482be39f90b666b5c278ea704f679",
+        "input_tokens": 1024,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1024,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 10013.730294005654,
+          "decode_ms": 12869.288860994857,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "4b1683c14a14a09262590fb8bcf609e93ba12b0cc8c65fb655ebfc20e1e3b91a",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 0
+        },
+        "completed_ms": 22883.18175599852
+      },
+      {
+        "sid": 13,
+        "turn": 0,
+        "input_hash": "a1204aba9faeb57497d553bb0dce75da0d79169d3df65d1177179afac12e6fbd",
+        "input_tokens": 1280,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1280,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 12332.858326997666,
+          "decode_ms": 12932.769241997448,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "48f092dc1accf7b0977332774f104a200336af4d0d04f7bc9cb08f1d0454f62c",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 0
+        },
+        "completed_ms": 25265.788819997397
+      },
+      {
+        "sid": 15,
+        "turn": 0,
+        "input_hash": "9ba3405899ad7e2fcb3bd6739c7475e7479f687da6987ef964d760f84ae2a2ae",
+        "input_tokens": 768,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 768,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 10010.184755999944,
+          "decode_ms": 12869.177570995816,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "a7fdd780bba846b8f91bad1324b6c53ad66f73a2779eca55c27aeb0c005d02b5",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 0
+        },
+        "completed_ms": 22879.651377996197
+      },
+      {
+        "sid": 0,
+        "turn": 0,
+        "input_hash": "a40a4fe9d27a8539cbcdfa6c5087353af3a88830a4d009316b7b3cbc30ade554",
+        "input_tokens": 4096,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 4096,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 18865.74725000537,
+          "decode_ms": 12356.890559000021,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "a7f773fc8166aafde3adce04ed50f31c2fa0f7f8db0fdc7b8d164c7951ffca02",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 0
+        },
+        "completed_ms": 31222.805290002725
+      },
+      {
+        "sid": 2,
+        "turn": 0,
+        "input_hash": "9fa0539b8313011c85ed18e2cc381996a8c88189f114eba6d9243a8d758a36cb",
+        "input_tokens": 2560,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2560,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 17812.88067400601,
+          "decode_ms": 12366.421116996207,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "e9970d2e840f4034451b855357850dc6181fcf6da75057fd09c80dfa79fec065",
+          "hashed_tokens": 24,
+          "rank": 6,
+          "cached": 0
+        },
+        "completed_ms": 30179.669023003953
+      },
+      {
+        "sid": 22,
+        "turn": 0,
+        "input_hash": "b102b8bcaad70ea6754e6c435bab34ba711bddbf95b772bd9f51f79f628bf80c",
+        "input_tokens": 1024,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1024,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16279.969457995321,
+          "decode_ms": 12372.466958004225,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "b2b26d5389f079d710c9ec526e5d839890967caac6fc9316d2f6c765f876c3a0",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 0
+        },
+        "completed_ms": 28652.61412700056
+      },
+      {
+        "sid": 10,
+        "turn": 0,
+        "input_hash": "fabef060fa9a5e68217cbd3d3b708d498469cdc4b2e812e2e2900b5961cee0e7",
+        "input_tokens": 2560,
+        "p": {
+          "dp_rank": 6,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2560,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16275.54019499803,
+          "decode_ms": 12372.170576003555,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "5407a42e9ddb7bd2bb085fd874516fb6f75415e9dc466411bac0fd1138420f5a",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 0
+        },
+        "completed_ms": 28647.9746920013
+      },
+      {
+        "sid": 5,
+        "turn": 0,
+        "input_hash": "beaff64c81b84bce415dad8bb94893e912f111c3e96594a32b2c6347e59ab8ff",
+        "input_tokens": 1280,
+        "p": {
+          "dp_rank": 7,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1280,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 9996.331326001382,
+          "decode_ms": 12873.425281999516,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "44e710361e70fac2118a301c31237a8a097c1fc72be8810b59c0272aeea51897",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 0
+        },
+        "completed_ms": 22869.915789000515
+      },
+      {
+        "sid": 11,
+        "turn": 0,
+        "input_hash": "a719fd0ec61dd5bf6d88a1ffbe6717443f3f303bdc422676c9dbe1b0f3268550",
+        "input_tokens": 2048,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2048,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 15237.762853997992,
+          "decode_ms": 12347.695662996557,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "ab27d73338b1449ef3b526baf4283de118f16cd9beb988f261d45dfbda3b93ad",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 0
+        },
+        "completed_ms": 27585.66478799912
+      },
+      {
+        "sid": 3,
+        "turn": 0,
+        "input_hash": "81f0c279e47be0e38256b1fc485946e2f9e67dff92b1c3bdb5691ceffe3c186b",
+        "input_tokens": 2048,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2048,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 14627.399355995294,
+          "decode_ms": 12442.488202003005,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "02af0de9f42247416b4038ed6086675edb1defdbda38d7ef6718c35a68137293",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 0
+        },
+        "completed_ms": 27070.05039899377
+      },
+      {
+        "sid": 12,
+        "turn": 0,
+        "input_hash": "792ceceb204ed597c755c77ed38285cffec5122fc0c85486b8962ae6f9cc960f",
+        "input_tokens": 1536,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1536,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 15738.274846997228,
+          "decode_ms": 12394.452159001958,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "57f81788004a9888e024c7fcea1e1405b8b1fc33a7f23f83cf9eeb2d08d6269e",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 0
+        },
+        "completed_ms": 28132.992767998076
+      },
+      {
+        "sid": 9,
+        "turn": 0,
+        "input_hash": "c62a77c1d65f39296731d5c500a87230af7bf6b282166f670e643e3bde2bf776",
+        "input_tokens": 3072,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 3072,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 18845.56302800047,
+          "decode_ms": 12358.049504000519,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "44b021ac03a2276827bc16e9ada1097deb1f6a3d7d1da3439dbcc0c0f0ef3e5f",
+          "hashed_tokens": 24,
+          "rank": 3,
+          "cached": 0
+        },
+        "completed_ms": 31203.852423997887
+      },
+      {
+        "sid": 6,
+        "turn": 0,
+        "input_hash": "18fc0638506acdd8910dac95bd4a79c177fc09d1092acf9c04193606885abeba",
+        "input_tokens": 1024,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1024,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 19411.4608710006,
+          "decode_ms": 12298.26155200135,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "4937701892dc44c10cb63b89f24d88481e89cd2e6ba534013edf66566f9ffd82",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 0
+        },
+        "completed_ms": 31710.111424996285
+      },
+      {
+        "sid": 8,
+        "turn": 0,
+        "input_hash": "9b6a403b4e470be6d3c90c82805a213ecaf413f402120212a91f8afb612aadce",
+        "input_tokens": 4096,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 4096,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 21706.05298999726,
+          "decode_ms": 12126.99522600451,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "b801e4d4c7f24f69412e838778067467669609ab6603e90dfdf2bff58dd86da3",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 0
+        },
+        "completed_ms": 33833.465978001186
+      },
+      {
+        "sid": 20,
+        "turn": 0,
+        "input_hash": "6dc1b72e7b39db880a5701fd2e4a5d6ed3907f331c53874df91a87ae5a1508f1",
+        "input_tokens": 1536,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1536,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 18835.567718000675,
+          "decode_ms": 12362.350256000354,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "a892e52d48fed34d0d06446b3e57c5080decd4913ea769b5f7d5621fb45eb386",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 0
+        },
+        "completed_ms": 31198.079034998955
+      },
+      {
+        "sid": 1,
+        "turn": 0,
+        "input_hash": "403ada20865ac65cad6e872303554ec7ea2153c5bb1b3923bff4d2f29fee98f7",
+        "input_tokens": 3072,
+        "p": {
+          "dp_rank": 6,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 3072,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 19402.259463997325,
+          "decode_ms": 12299.701960000675,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "c654458862b5c71b76dfe5a925b642126b4b3cd05d56f3616f3b8d295da54924",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 0
+        },
+        "completed_ms": 31702.1394350013
+      },
+      {
+        "sid": 1,
+        "turn": 1,
+        "input_hash": "5c57a6ba6f34c1e79e26426dc11174742f4c95f038e50dfeef410d5bbb8bba85",
+        "input_tokens": 3200,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 3200,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 12790.411312998913,
+          "decode_ms": 12070.350309004425,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "a2c4e88283dd10b43474d1a20f3dcb89c8c09758ef9b17ca57b4c891fafe2f17",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 0
+        },
+        "completed_ms": 24861.006633000216
+      },
+      {
+        "sid": 21,
+        "turn": 1,
+        "input_hash": "06b5296a2a153055aa748196028790a856952f3a9899b96cfec5f84d4f35841c",
+        "input_tokens": 1408,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1408,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 9393.703127003391,
+          "decode_ms": 12346.89960799733,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "fb2b1d8e5099912941da4f22bd96afa433121188e895c6c103bbd097be7f89eb",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 0
+        },
+        "completed_ms": 21740.755736005667
+      },
+      {
+        "sid": 20,
+        "turn": 1,
+        "input_hash": "2c967b03d9b11c2ba08de764a5b319bcd34b18458f5350bfd2bbfa22413523f0",
+        "input_tokens": 1664,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1664,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 6763.445058997604,
+          "decode_ms": 12256.878483000037,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "1f3ac3e01224204fecf4d5b40b83f1d3ed54aeb6779bd6c717eca8db47b7ba6c",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 0
+        },
+        "completed_ms": 19020.571272994857
+      },
+      {
+        "sid": 4,
+        "turn": 1,
+        "input_hash": "711188b92ddf2ba16780aed0a3c76380582b852cfa64331790384dbdc98dbf49",
+        "input_tokens": 1664,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1664,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 9388.801492001221,
+          "decode_ms": 12349.318189997575,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "85b981db4cff7a23d38db1ee93993dee8192ce9809edafa2ebb945bdb43a3a87",
+          "hashed_tokens": 24,
+          "rank": 3,
+          "cached": 0
+        },
+        "completed_ms": 21738.273322996974
+      },
+      {
+        "sid": 14,
+        "turn": 1,
+        "input_hash": "a4e1a06b744ae49974e9ff3896ad58c408efd3afd807ef4d6cd15d85071011c7",
+        "input_tokens": 1152,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1152,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 9387.951177996001,
+          "decode_ms": 12346.318834999693,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 0
+        },
+        "completed_ms": 21734.537823998835
+      },
+      {
+        "sid": 8,
+        "turn": 1,
+        "input_hash": "3c673daad1e625bf65b3366a51500b8b795ac71490325a8eee540b58f9e61e41",
+        "input_tokens": 4224,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 4224,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 14301.786598996841,
+          "decode_ms": 12393.705105998379,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "a2dd4dd465c57f999470dfb80c2041f1c20aec3b7f14d7ff0108686863b8d46c",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 0
+        },
+        "completed_ms": 26695.680364995496
+      },
+      {
+        "sid": 11,
+        "turn": 1,
+        "input_hash": "3e256e36299dad5c94471abc6211c824f72d3d5cdb598d98ff5581cfa292c1b6",
+        "input_tokens": 2176,
+        "p": {
+          "dp_rank": 6,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2176,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 11058.819941994443,
+          "decode_ms": 12168.213654003921,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "fa292008f940d9874ba9e81e8faa3593363df17bc1e90485f52b0130ca6097a6",
+          "hashed_tokens": 24,
+          "rank": 6,
+          "cached": 0
+        },
+        "completed_ms": 23227.277706995665
+      },
+      {
+        "sid": 16,
+        "turn": 1,
+        "input_hash": "c1d253ebb0bf91152c735d8190d7e3e181077a82b6396d6f319224aaedcff672",
+        "input_tokens": 4224,
+        "p": {
+          "dp_rank": 7,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 4224,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 14295.868528999563,
+          "decode_ms": 12393.070591999276,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+          "hashed_tokens": 24,
+          "rank": 5,
+          "cached": 4096
+        },
+        "completed_ms": 26689.096091002284
+      },
+      {
+        "sid": 12,
+        "turn": 1,
+        "input_hash": "6815a945d776b9712c215f099ab2d8b31fdc12064e1e2fb19aac5cf60a7484a4",
+        "input_tokens": 1664,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1664,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 11052.938210996217,
+          "decode_ms": 12168.735667000874,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "1a82881a838cd4876d233c74ff746337afa0f343c61fd074ce5e9ce91f9fa89e",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 1536
+        },
+        "completed_ms": 23221.849748995737
+      },
+      {
+        "sid": 18,
+        "turn": 1,
+        "input_hash": "6f222d0bd48f223a7e064df39558dfcee811a22800e8e805275dc40cc79a07b6",
+        "input_tokens": 2688,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2688,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 13253.20463400567,
+          "decode_ms": 12214.417107999907,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "c57a84c421e64c7c4f9d4d2a6121d69038cb1978b24b54229480d9361b9ee29e",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 0
+        },
+        "completed_ms": 25468.01654400042
+      },
+      {
+        "sid": 19,
+        "turn": 1,
+        "input_hash": "caa06f712daa07e67014f495c5531b4a663bbdb299b7c7712ab2c901a5531f98",
+        "input_tokens": 2176,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2176,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 15947.956967997015,
+          "decode_ms": 12242.539309998392,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "502b7bca6b181f2d83def5cccd25d3bb1fc20da5e1cf6dedaffc6084fd154441",
+          "hashed_tokens": 24,
+          "rank": 6,
+          "cached": 2048
+        },
+        "completed_ms": 28190.714869000658
+      },
+      {
+        "sid": 15,
+        "turn": 1,
+        "input_hash": "ea7b8b8d64e5a488387cba516ce25601027b253d630046136e81f73f926871d4",
+        "input_tokens": 896,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 896,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 14288.674023002386,
+          "decode_ms": 12392.434478999348,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "aa8779d8428a016f2bc2e80cd02fdc72b820fa45080386cdec5bdbd96fd22784",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 0
+        },
+        "completed_ms": 26681.261653000547
+      },
+      {
+        "sid": 9,
+        "turn": 1,
+        "input_hash": "005c643830ec12af859d190dbcf2f4496d182b7d3a72a06a982f1889ba1f5273",
+        "input_tokens": 3200,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 3072,
+          "cached_tokens_details": {
+            "device": 3072,
+            "host": 0
+          },
+          "prompt_tokens": 3200,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7358.119368000189,
+          "decode_ms": 12226.858341004117,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "ff12d250d5873a93dcbe88fb73e08c5adb6943d2a06c4ba48ba0a6ad4b67e615",
+          "hashed_tokens": 24,
+          "rank": 3,
+          "cached": 3072
+        },
+        "completed_ms": 19585.2354200033
+      },
+      {
+        "sid": 3,
+        "turn": 1,
+        "input_hash": "d1461f83898ee8d5e8d78024a20622e632c093b6b7e8dfe06e6799de6f1b7f33",
+        "input_tokens": 2176,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2176,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 13243.61114599742,
+          "decode_ms": 12214.949400004116,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "fcb920d4a375e0e7d2a105d8c88db2617a0ba7bb47bc7e118572c885bda72b7e",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 2048
+        },
+        "completed_ms": 25458.661806995224
+      },
+      {
+        "sid": 2,
+        "turn": 1,
+        "input_hash": "9239b95610a05a7a75284d5bdb81286e457a278f03f415f1250790b09fe8ce59",
+        "input_tokens": 2688,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 2560,
+          "cached_tokens_details": {
+            "device": 2560,
+            "host": 0
+          },
+          "prompt_tokens": 2688,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7353.8923360029,
+          "decode_ms": 12224.325228002272,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "a06792f20fa9383a6224fd1ccfded01289353b8dc8a763bae0b53421520d074b",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 2560
+        },
+        "completed_ms": 19578.377285004535
+      },
+      {
+        "sid": 22,
+        "turn": 1,
+        "input_hash": "30fad2ebf3c7190f979aee1b9470d934c7e89891f9a872dcb3be081fea9073ad",
+        "input_tokens": 1152,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 1024,
+          "cached_tokens_details": {
+            "device": 1024,
+            "host": 0
+          },
+          "prompt_tokens": 1152,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7351.623344999098,
+          "decode_ms": 12224.151197005995,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "d3d0bd2f2e530e0a671db9ec96d692fd59e630e3f96ae1ccc6276114ac203973",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 1024
+        },
+        "completed_ms": 19575.99457300239
+      },
+      {
+        "sid": 10,
+        "turn": 1,
+        "input_hash": "068c33c3ebacf958d0392a7b2ee6cf5107f3b5e0ee4a1b672536e690547b0902",
+        "input_tokens": 2688,
+        "p": {
+          "dp_rank": 6,
+          "cached_tokens": 2560,
+          "cached_tokens_details": {
+            "device": 2560,
+            "host": 0
+          },
+          "prompt_tokens": 2688,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7838.730150004267,
+          "decode_ms": 12245.721275998221,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "f6a15cacb0cfb7fac465ad8f8e1bf471758685d9a5705fdfcf357f7576bae00c",
+          "hashed_tokens": 24,
+          "rank": 5,
+          "cached": 2560
+        },
+        "completed_ms": 20084.682157001225
+      },
+      {
+        "sid": 13,
+        "turn": 1,
+        "input_hash": "3d6c1afc745a04d4528a9cb5b830efc96845d9e894a4a1df7965404b2eb831d1",
+        "input_tokens": 1408,
+        "p": {
+          "dp_rank": 7,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1408,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 15365.063678997103,
+          "decode_ms": 12322.124072998122,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "aaae182575b5c8733ef1a2361de476add78292bdc7fa68a8f9ce8f6469beb278",
+          "hashed_tokens": 24,
+          "rank": 6,
+          "cached": 0
+        },
+        "completed_ms": 27687.44092299312
+      },
+      {
+        "sid": 17,
+        "turn": 1,
+        "input_hash": "219f5f4d3b5bae2dac7e1d5d903e0102eebe96f78e041f5bfe27abcba848564e",
+        "input_tokens": 3200,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 3200,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 17818.020418999367,
+          "decode_ms": 11804.000750998966,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "cafb810b6e89ae2dd350848d9f8dbd6a9b214dbaf498a42742ee0965bed85631",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 0
+        },
+        "completed_ms": 29622.282301999803
+      },
+      {
+        "sid": 7,
+        "turn": 1,
+        "input_hash": "b4bc9561b6d15df0db07469f92613067cde517c6b1df7b54d1fa1ed794f6c7c2",
+        "input_tokens": 896,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 896,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 15360.004683003353,
+          "decode_ms": 12324.75536599668,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "3eed419e0b5d342b2242a33e8d51541f3736f8c8cf839dec5ea96d398a06da42",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 768
+        },
+        "completed_ms": 27684.96068999957
+      },
+      {
+        "sid": 5,
+        "turn": 1,
+        "input_hash": "ea5c07d0baa9db7ac9d1990807a44a315eea7d94fdf3a07e95202f5a17b10ec5",
+        "input_tokens": 1408,
+        "p": {
+          "dp_rank": 7,
+          "cached_tokens": 1280,
+          "cached_tokens_details": {
+            "device": 1280,
+            "host": 0
+          },
+          "prompt_tokens": 1408,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7341.136212002311,
+          "decode_ms": 12222.371909003414,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "2b7388943118f27aba18bcab3433ba531f9c8452de976c0cabce99ad91193c8c",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 1280
+        },
+        "completed_ms": 19563.890183002513
+      },
+      {
+        "sid": 6,
+        "turn": 1,
+        "input_hash": "42483b89a795a5401f699654909ef97c0ba9eeae75fde7c99f141c4c709f6ed5",
+        "input_tokens": 1152,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1152,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16544.326144998195,
+          "decode_ms": 12106.072160000622,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "000379f99dbd8b1858893727c9f88bffdc7b5aebe8fcc88ac7a25c75925e11bb",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 0
+        },
+        "completed_ms": 28650.633056000515
+      },
+      {
+        "sid": 0,
+        "turn": 1,
+        "input_hash": "83c0d58eff1fe57901c1499ec4aebcd3f538fa34bd1c40215c37b0d086ace205",
+        "input_tokens": 4224,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 4224,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 19562.547415000154,
+          "decode_ms": 11498.721798001498,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "fe1881ac919cebda55625a926ad52e82b87fbe5f5dccd076b6e9979c44622b23",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 0
+        },
+        "completed_ms": 31061.663544998737
+      },
+      {
+        "sid": 23,
+        "turn": 1,
+        "input_hash": "2b880dda8373433c11da14678501961107dd53ecc4e210df09ac4f428834d38d",
+        "input_tokens": 896,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 896,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 14259.700695998617,
+          "decode_ms": 12390.271237003617,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "b4db4e42c84ce6f19fa1a4e545a8e4fce989f29e2622913fdbf510f23b0472d1",
+          "hashed_tokens": 24,
+          "rank": 3,
+          "cached": 0
+        },
+        "completed_ms": 26650.21105499909
+      },
+      {
+        "sid": 4,
+        "turn": 2,
+        "input_hash": "5d1bd20cde3a0d98784eca8b832d4814026c8a9d789685acc0c95158fd91a425",
+        "input_tokens": 1792,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1792,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7353.652454999974,
+          "decode_ms": 12146.616954996716,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "f6badc531d7d3c95e61bf147ba6130869691e244938e33245389171754d09f11",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 0
+        },
+        "completed_ms": 19500.43197099876
+      },
+      {
+        "sid": 0,
+        "turn": 2,
+        "input_hash": "03d0eda3df8db0b48d683b06fdb1ca116a16aaac7d17f3999fc713f0e05de152",
+        "input_tokens": 4352,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 4352,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16390.88826799707,
+          "decode_ms": 11591.797458000656,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "101d78108ec8595452675a627b45ca330b06a8d24301a2d4075288907d86ef51",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 4096
+        },
+        "completed_ms": 27982.847236999078
+      },
+      {
+        "sid": 20,
+        "turn": 2,
+        "input_hash": "e1a8b8876bc15a3f0ecb7a885ca5c068973cccfbb78759975708f0a7476679c4",
+        "input_tokens": 1792,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 1664,
+          "cached_tokens_details": {
+            "device": 1664,
+            "host": 0
+          },
+          "prompt_tokens": 1792,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7916.392241997528,
+          "decode_ms": 12134.842636005487,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "7100ba216a0baf89c77abbbacbcbc7eea9c87ba22b6260f7581a45c9232d3c87",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 1664
+        },
+        "completed_ms": 20051.389979002124
+      },
+      {
+        "sid": 2,
+        "turn": 2,
+        "input_hash": "b6c735b2146a7e3f53509ca904ecd19a25b468149f2e329070f1069ece50e25b",
+        "input_tokens": 2816,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2816,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 12399.863976002962,
+          "decode_ms": 11886.112896994746,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+          "hashed_tokens": 24,
+          "rank": 3,
+          "cached": 0
+        },
+        "completed_ms": 24286.2988650013
+      },
+      {
+        "sid": 7,
+        "turn": 2,
+        "input_hash": "766d9d64cc1ed3cbb29852765a8f1c284b124765e3a9beafed0272e50308a942",
+        "input_tokens": 1024,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1024,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7343.195702997036,
+          "decode_ms": 12146.94223600236,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "33b59b939639fad7241f682441663c2f037d230f1f681dedfb70731aaa961646",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 0
+        },
+        "completed_ms": 19490.294739996898
+      },
+      {
+        "sid": 16,
+        "turn": 2,
+        "input_hash": "844a548b2d0feb376f07620f2f514442d3bc3ca090e130c9fc75cb76e14a3455",
+        "input_tokens": 4352,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 4096,
+          "cached_tokens_details": {
+            "device": 0,
+            "host": 4096
+          },
+          "prompt_tokens": 4352,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 4644.571318996896,
+          "decode_ms": 12238.028236999526,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "69d843a7c2237eb0e5aa141f9e60ac5b90cc5f3e635824ff2f46325cb3b5c3c5",
+          "hashed_tokens": 24,
+          "rank": 5,
+          "cached": 4224
+        },
+        "completed_ms": 16882.83279699681
+      },
+      {
+        "sid": 12,
+        "turn": 2,
+        "input_hash": "01bfd2bc990bcfa013d6b9495a55de138721c5e0a62a554a49d8d9aa5a866404",
+        "input_tokens": 1792,
+        "p": {
+          "dp_rank": 6,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1792,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 10197.821474997909,
+          "decode_ms": 11938.681522995466,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "ea95d1cbe47bed8f0e44448d44ea2cf812ab5d339008bf0834a9115f503291e4",
+          "hashed_tokens": 24,
+          "rank": 6,
+          "cached": 0
+        },
+        "completed_ms": 22136.671428997943
+      },
+      {
+        "sid": 22,
+        "turn": 2,
+        "input_hash": "8c3ccf203d9c16958b9e536147f7b38545ff4c37de4788af681de856d5d9b619",
+        "input_tokens": 1280,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1280,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 12390.999331000785,
+          "decode_ms": 11886.411079001846,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "d90ce652d9423f99b5168ee75c1e89075650eda0d6c32a01598aef71f8acc61c",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 1024
+        },
+        "completed_ms": 24277.598341002886
+      },
+      {
+        "sid": 13,
+        "turn": 2,
+        "input_hash": "90e1a2b36ab9677bd86f2ba4ac56701cf952290424181158e5013404408724d3",
+        "input_tokens": 1536,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 1280,
+          "cached_tokens_details": {
+            "device": 0,
+            "host": 1280
+          },
+          "prompt_tokens": 1536,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7902.819843999168,
+          "decode_ms": 12135.348297997552,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "d65b1d08e50144da974408a5fb3b29485699b96051cf5ca0c5ecf489318ace85",
+          "hashed_tokens": 24,
+          "rank": 3,
+          "cached": 1280
+        },
+        "completed_ms": 20038.341052997566
+      },
+      {
+        "sid": 14,
+        "turn": 2,
+        "input_hash": "385c74377d0b5b7f94d48bb9063a174504c2ac44e5fc0d3bc09ec9d7258bc28b",
+        "input_tokens": 1280,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1280,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 10191.344412000035,
+          "decode_ms": 11939.465796996956,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "257ebfef78ac9d126944211e03eb9d76fa74f356fb6f052a4346ee54f95a9d86",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 1152
+        },
+        "completed_ms": 22131.125490996055
+      },
+      {
+        "sid": 11,
+        "turn": 2,
+        "input_hash": "be1298b18113920d1909000959441145958108ccc9b327ecd3b6f1ef16060cc9",
+        "input_tokens": 2304,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2304,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16368.146193999564,
+          "decode_ms": 11592.959453999356,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "2b694b3e964c220da6e5cb52db8940193e64ce8e65bdee917f25b772afeb3967",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 0
+        },
+        "completed_ms": 27961.262677999912
+      },
+      {
+        "sid": 9,
+        "turn": 2,
+        "input_hash": "089b27c6e0f3da2b47ca13b2ad6b0833e9185ce9ab34aeb5c5d50a8d59c02707",
+        "input_tokens": 3328,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 3328,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16363.833322000573,
+          "decode_ms": 11592.621331998089,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 0
+        },
+        "completed_ms": 27956.74731500185
+      },
+      {
+        "sid": 10,
+        "turn": 2,
+        "input_hash": "bd71c15291a2ae659ee235f8173af166f0c385d33a7a1542d18ad22f0bfab30c",
+        "input_tokens": 2816,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2816,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16362.843577000604,
+          "decode_ms": 11594.025728998531,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "46a57bbd341dcbfdf69e00ea8a3bc6dcc3d4981ffb04d08fdd4808b93928deb0",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 2560
+        },
+        "completed_ms": 27957.025546995283
+      },
+      {
+        "sid": 1,
+        "turn": 2,
+        "input_hash": "a7ea7a9a08f4b5b17b7dd08c66d879ac5e1cb9ae66c0f8975cf598c463da0875",
+        "input_tokens": 3328,
+        "p": {
+          "dp_rank": 6,
+          "cached_tokens": 3072,
+          "cached_tokens_details": {
+            "device": 3072,
+            "host": 0
+          },
+          "prompt_tokens": 3328,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7886.341639998136,
+          "decode_ms": 12134.416553002666,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "514812ba6bbcf4c1569fb9241e547809795c79acad323bee30ec0da8efba1592",
+          "hashed_tokens": 24,
+          "rank": 6,
+          "cached": 3072
+        },
+        "completed_ms": 20021.05698500236
+      },
+      {
+        "sid": 15,
+        "turn": 2,
+        "input_hash": "b0d10b095f143f824d4ce0716088dda28566234239f21d85e72f8ccc7b187755",
+        "input_tokens": 1024,
+        "p": {
+          "dp_rank": 7,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1024,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7886.124748998554,
+          "decode_ms": 12135.058806998131,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "293bf3de84824e24f24f17750104683e9534ac13267f0a4b53ecc25811f7d680",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 896
+        },
+        "completed_ms": 20021.49775699945
+      },
+      {
+        "sid": 18,
+        "turn": 2,
+        "input_hash": "7547d8a63430b3030ccd7ba1700e2a7d146ce103020060570717c9b6663cf080",
+        "input_tokens": 2816,
+        "p": {
+          "dp_rank": 7,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2816,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 14370.191995003552,
+          "decode_ms": 12075.338124996051,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "19c3f08b2c349ae17a13aae71860274c9847327b6488a9f95cc811b8eb730503",
+          "hashed_tokens": 24,
+          "rank": 3,
+          "cached": 2560
+        },
+        "completed_ms": 26445.795510997414
+      },
+      {
+        "sid": 23,
+        "turn": 2,
+        "input_hash": "7d8cac18761e69ee71cd050cac1897c290f2818944ab79fa6b397109f19688b7",
+        "input_tokens": 1024,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1024,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 14370.40242600051,
+          "decode_ms": 12074.859152002318,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "8099b205c4d58d8e6834bca94aca5ecdb6f83f1fd4b3b09c47a1518dcf065149",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 768
+        },
+        "completed_ms": 26445.442629003082
+      },
+      {
+        "sid": 17,
+        "turn": 2,
+        "input_hash": "114049ecf18b941655c1c20e0580f37cae33212c02d4e5fa2164d49e8b76b86a",
+        "input_tokens": 3328,
+        "p": {
+          "dp_rank": 2,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 3328,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16351.543550001225,
+          "decode_ms": 11591.628426998795,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "41d14be381082ec41e6197746bec826c24b9dc3b8564d61cc9f736e12477eba5",
+          "hashed_tokens": 24,
+          "rank": 2,
+          "cached": 0
+        },
+        "completed_ms": 27943.49081799737
+      },
+      {
+        "sid": 3,
+        "turn": 2,
+        "input_hash": "3d75b75c7b9701eecf5f7250be6c9d2e5c01512be780ab34b579b954824a53f8",
+        "input_tokens": 2304,
+        "p": {
+          "dp_rank": 1,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 2304,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 17349.774789996445,
+          "decode_ms": 11901.805897003214,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "b67d6f8357d3c04888bc624d6a8c2a8ef371ac193c44f2bad7c950ace4a79f67",
+          "hashed_tokens": 24,
+          "rank": 7,
+          "cached": 0
+        },
+        "completed_ms": 29251.855618000263
+      },
+      {
+        "sid": 21,
+        "turn": 2,
+        "input_hash": "12d6b219e5b3329357543579ef136f7403290276a5519141e13815a1e025c4da",
+        "input_tokens": 1536,
+        "p": {
+          "dp_rank": 3,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1536,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 17350.15836200182,
+          "decode_ms": 11900.583490001736,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "05525988106de0db6e4d934652ac81502f722306801d417281c32fd534ff369c",
+          "hashed_tokens": 24,
+          "rank": 1,
+          "cached": 1408
+        },
+        "completed_ms": 29250.910722999834
+      },
+      {
+        "sid": 19,
+        "turn": 2,
+        "input_hash": "9b6608916f587c6d9156f8d5a1f7c18ef9d8e921bbb55cb2caf5d46f2fea84f8",
+        "input_tokens": 2304,
+        "p": {
+          "dp_rank": 0,
+          "cached_tokens": 2176,
+          "cached_tokens_details": {
+            "device": 2176,
+            "host": 0
+          },
+          "prompt_tokens": 2304,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7302.4838359997375,
+          "decode_ms": 12147.147828000016,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "a434e095d70f432f3f5ab2d4f1e1397df8537266678b368e3804da87a3e63955",
+          "hashed_tokens": 24,
+          "rank": 4,
+          "cached": 2176
+        },
+        "completed_ms": 19449.794295003812
+      },
+      {
+        "sid": 6,
+        "turn": 2,
+        "input_hash": "3c8f43da554b47cc50bf9cc346d4a9cb00dbcdad2e0e87b357e786360c755461",
+        "input_tokens": 1280,
+        "p": {
+          "dp_rank": 5,
+          "cached_tokens": 1152,
+          "cached_tokens_details": {
+            "device": 1152,
+            "host": 0
+          },
+          "prompt_tokens": 1280,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 7302.443325999775,
+          "decode_ms": 12143.238458003907,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+          "hashed_tokens": 24,
+          "rank": 5,
+          "cached": 1152
+        },
+        "completed_ms": 19445.940686004178
+      },
+      {
+        "sid": 5,
+        "turn": 2,
+        "input_hash": "142123a3978d3e07b97ad0b7645016fee47d8f146690d238e128c4502e23a438",
+        "input_tokens": 1536,
+        "p": {
+          "dp_rank": 4,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 1536,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 16842.471242998727,
+          "decode_ms": 11806.334384004003,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "5370684d6fedcdd7e090b6f0dd81a399d931756aa57c0a8b88863b121f6bbe63",
+          "hashed_tokens": 24,
+          "rank": 0,
+          "cached": 1408
+        },
+        "completed_ms": 28649.071357998764
+      },
+      {
+        "sid": 8,
+        "turn": 2,
+        "input_hash": "7dc67212c8d8668e01402e9eb12832d93991a5775f89da901b6eea9b9ab7f12e",
+        "input_tokens": 4352,
+        "p": {
+          "dp_rank": 6,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "prompt_tokens": 4352,
+          "completion_tokens": 1
+        },
+        "d": {
+          "first_ms": 17842.618184004095,
+          "decode_ms": 12014.52389699989,
+          "tokens": 24,
+          "events": 23,
+          "output_hash": "7e67cfd82f9b70b69dc60ee44702ed653e9400c87dfb1d66ca37bbac6d5c15bc",
+          "hashed_tokens": 24,
+          "rank": 6,
+          "cached": 0
+        },
+        "completed_ms": 29857.55081300158
+      }
+    ]
+  },
+  "quality": {
+    "cases": [
+      {
+        "name": "add-0",
+        "expected": "36",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "e603f112ea5812a34832ec7028eb8af6860d9813f0833314ce18df57606852a8",
+        "ids": [
+          100632,
+          154827
+        ],
+        "text": "36",
+        "chosen": [
+          [
+            -0.0033860038965940475,
+            100632,
+            null
+          ],
+          [
+            -2.47952248173533e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0033860038965940475,
+              100632,
+              null
+            ],
+            [
+              -6.3783860206604,
+              40,
+              null
+            ],
+            [
+              -7.1283860206604,
+              1249,
+              null
+            ],
+            [
+              -9.128385543823242,
+              785,
+              null
+            ],
+            [
+              -9.503385543823242,
+              1900,
+              null
+            ]
+          ],
+          [
+            [
+              -2.47952248173533e-05,
+              154827,
+              null
+            ],
+            [
+              -11.875024795532227,
+              154842,
+              null
+            ],
+            [
+              -12.000024795532227,
+              154850,
+              null
+            ],
+            [
+              -12.625024795532227,
+              522,
+              null
+            ],
+            [
+              -13.687524795532227,
+              271,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "sub-0",
+        "expected": "75",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "81cb5941d6ae3641f86a0ff4de7397da07e04a5d75463c72514276fdc257ef67",
+        "ids": [
+          100899,
+          154827
+        ],
+        "text": "75",
+        "chosen": [
+          [
+            -0.0006384003208950162,
+            100899,
+            null
+          ],
+          [
+            -9.298280929215252e-06,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0006384003208950162,
+              100899,
+              null
+            ],
+            [
+              -7.625638484954834,
+              40,
+              null
+            ],
+            [
+              -9.500638008117676,
+              1249,
+              null
+            ],
+            [
+              -10.250638008117676,
+              785,
+              null
+            ],
+            [
+              -12.500638008117676,
+              104160,
+              null
+            ]
+          ],
+          [
+            [
+              -9.298280929215252e-06,
+              154827,
+              null
+            ],
+            [
+              -12.750009536743164,
+              154850,
+              null
+            ],
+            [
+              -12.875009536743164,
+              154842,
+              null
+            ],
+            [
+              -14.062509536743164,
+              154843,
+              null
+            ],
+            [
+              -14.250009536743164,
+              522,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "add-1",
+        "expected": "47",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "6495f1766fe7ab32246fcf535f375e887ab860b9271397528dc941a6b325f3a9",
+        "ids": [
+          101655,
+          154827
+        ],
+        "text": "47",
+        "chosen": [
+          [
+            -0.00022635281493421644,
+            101655,
+            null
+          ],
+          [
+            -2.9801876735291444e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.00022635281493421644,
+              101655,
+              null
+            ],
+            [
+              -8.875226020812988,
+              40,
+              null
+            ],
+            [
+              -10.375226020812988,
+              785,
+              null
+            ],
+            [
+              -10.750226020812988,
+              1249,
+              null
+            ],
+            [
+              -12.125226020812988,
+              101562,
+              null
+            ]
+          ],
+          [
+            [
+              -2.9801876735291444e-05,
+              154827,
+              null
+            ],
+            [
+              -11.250029563903809,
+              154842,
+              null
+            ],
+            [
+              -11.625029563903809,
+              154850,
+              null
+            ],
+            [
+              -13.250029563903809,
+              271,
+              null
+            ],
+            [
+              -13.250029563903809,
+              522,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "sub-1",
+        "expected": "82",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "0f3c13ec26ece04a421801a1d07298fd06819c54022fdf412be897b4406f5549",
+        "ids": [
+          104160,
+          154827
+        ],
+        "text": "82",
+        "chosen": [
+          [
+            -0.0003369478799868375,
+            104160,
+            null
+          ],
+          [
+            -1.8000440832111053e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0003369478799868375,
+              104160,
+              null
+            ],
+            [
+              -8.500336647033691,
+              40,
+              null
+            ],
+            [
+              -9.875336647033691,
+              1249,
+              null
+            ],
+            [
+              -10.375336647033691,
+              785,
+              null
+            ],
+            [
+              -12.500336647033691,
+              1454,
+              null
+            ]
+          ],
+          [
+            [
+              -1.8000440832111053e-05,
+              154827,
+              null
+            ],
+            [
+              -12.125018119812012,
+              522,
+              null
+            ],
+            [
+              -12.500018119812012,
+              154842,
+              null
+            ],
+            [
+              -12.500018119812012,
+              154850,
+              null
+            ],
+            [
+              -13.687518119812012,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "add-2",
+        "expected": "58",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "673c247ef7d62067b075b31696cf8832d3a0da0202e869cad4fe37b564def587",
+        "ids": [
+          101729,
+          154827
+        ],
+        "text": "58",
+        "chosen": [
+          [
+            -0.0001776060671545565,
+            101729,
+            null
+          ],
+          [
+            -1.919251008075662e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0001776060671545565,
+              101729,
+              null
+            ],
+            [
+              -9.000177383422852,
+              40,
+              null
+            ],
+            [
+              -11.500177383422852,
+              785,
+              null
+            ],
+            [
+              -11.625177383422852,
+              102486,
+              null
+            ],
+            [
+              -11.875177383422852,
+              1454,
+              null
+            ]
+          ],
+          [
+            [
+              -1.919251008075662e-05,
+              154827,
+              null
+            ],
+            [
+              -11.750019073486328,
+              154850,
+              null
+            ],
+            [
+              -12.125019073486328,
+              154842,
+              null
+            ],
+            [
+              -13.437519073486328,
+              522,
+              null
+            ],
+            [
+              -13.750019073486328,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "sub-2",
+        "expected": "89",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "190a8320b64127106d95daa8fae9a0fd8b80512350aa44dbaad1a735f92e741c",
+        "ids": [
+          103502,
+          154827
+        ],
+        "text": "89",
+        "chosen": [
+          [
+            -0.0010875507723540068,
+            103502,
+            null
+          ],
+          [
+            -2.7894584491150454e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0010875507723540068,
+              103502,
+              null
+            ],
+            [
+              -7.001087665557861,
+              40,
+              null
+            ],
+            [
+              -9.251087188720703,
+              785,
+              null
+            ],
+            [
+              -10.501087188720703,
+              1249,
+              null
+            ],
+            [
+              -12.001087188720703,
+              101252,
+              null
+            ]
+          ],
+          [
+            [
+              -2.7894584491150454e-05,
+              154827,
+              null
+            ],
+            [
+              -11.375027656555176,
+              154842,
+              null
+            ],
+            [
+              -11.875027656555176,
+              154850,
+              null
+            ],
+            [
+              -12.625027656555176,
+              522,
+              null
+            ],
+            [
+              -13.625027656555176,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "add-3",
+        "expected": "69",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "427f2380ff13a08f4bb08c4105c299628c4845cfd584fe91f3bd73182d11b58d",
+        "ids": [
+          103093,
+          154827
+        ],
+        "text": "69",
+        "chosen": [
+          [
+            -0.0022690759506076574,
+            103093,
+            null
+          ],
+          [
+            -3.85038583772257e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0022690759506076574,
+              103093,
+              null
+            ],
+            [
+              -6.377269268035889,
+              40,
+              null
+            ],
+            [
+              -9.12726879119873,
+              785,
+              null
+            ],
+            [
+              -9.37726879119873,
+              19778,
+              null
+            ],
+            [
+              -9.50226879119873,
+              1092,
+              null
+            ]
+          ],
+          [
+            [
+              -3.85038583772257e-05,
+              154827,
+              null
+            ],
+            [
+              -11.625038146972656,
+              522,
+              null
+            ],
+            [
+              -11.625038146972656,
+              154842,
+              null
+            ],
+            [
+              -12.000038146972656,
+              154850,
+              null
+            ],
+            [
+              -12.250038146972656,
+              73022,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "sub-3",
+        "expected": "96",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "38e073207e75378360e2b2232a28ffb1a961711f76741e9b68f060d4fb0eea48",
+        "ids": [
+          102487,
+          154827
+        ],
+        "text": "96",
+        "chosen": [
+          [
+            -0.0016793209360912442,
+            102487,
+            null
+          ],
+          [
+            -1.8715682017500512e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0016793209360912442,
+              102487,
+              null
+            ],
+            [
+              -6.501679420471191,
+              40,
+              null
+            ],
+            [
+              -9.501679420471191,
+              785,
+              null
+            ],
+            [
+              -10.501679420471191,
+              1249,
+              null
+            ],
+            [
+              -12.126679420471191,
+              102807,
+              null
+            ]
+          ],
+          [
+            [
+              -1.8715682017500512e-05,
+              154827,
+              null
+            ],
+            [
+              -12.125019073486328,
+              154842,
+              null
+            ],
+            [
+              -12.375019073486328,
+              154850,
+              null
+            ],
+            [
+              -13.187519073486328,
+              522,
+              null
+            ],
+            [
+              -13.750019073486328,
+              271,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "add-4",
+        "expected": "80",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "be493acaa33ef6f3c54dcdc9c2d6f8215ff28c5b59d47b77c4c32fee058c7d0f",
+        "ids": [
+          99695,
+          154827
+        ],
+        "text": "80",
+        "chosen": [
+          [
+            -0.00028379703871905804,
+            99695,
+            null
+          ],
+          [
+            -8.583031558373477e-06,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.00028379703871905804,
+              99695,
+              null
+            ],
+            [
+              -8.625284194946289,
+              40,
+              null
+            ],
+            [
+              -10.750284194946289,
+              785,
+              null
+            ],
+            [
+              -11.375284194946289,
+              1249,
+              null
+            ],
+            [
+              -12.000284194946289,
+              100702,
+              null
+            ]
+          ],
+          [
+            [
+              -8.583031558373477e-06,
+              154827,
+              null
+            ],
+            [
+              -12.875008583068848,
+              154850,
+              null
+            ],
+            [
+              -13.125008583068848,
+              154842,
+              null
+            ],
+            [
+              -13.875008583068848,
+              522,
+              null
+            ],
+            [
+              -14.125008583068848,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "sub-4",
+        "expected": "103",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "d9f411d07534517fd0adcc9a3a673896cbceed83b179e66e7ccc3d2c40d52e3f",
+        "ids": [
+          110248,
+          154827
+        ],
+        "text": "103",
+        "chosen": [
+          [
+            -0.0009016500553116202,
+            110248,
+            null
+          ],
+          [
+            -2.5152843591058627e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0009016500553116202,
+              110248,
+              null
+            ],
+            [
+              -8.000901222229004,
+              40,
+              null
+            ],
+            [
+              -8.125901222229004,
+              1249,
+              null
+            ],
+            [
+              -9.000901222229004,
+              785,
+              null
+            ],
+            [
+              -11.750901222229004,
+              109871,
+              null
+            ]
+          ],
+          [
+            [
+              -2.5152843591058627e-05,
+              154827,
+              null
+            ],
+            [
+              -11.500024795532227,
+              154842,
+              null
+            ],
+            [
+              -12.125024795532227,
+              154850,
+              null
+            ],
+            [
+              -12.937524795532227,
+              271,
+              null
+            ],
+            [
+              -13.125024795532227,
+              522,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "add-5",
+        "expected": "91",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "68ea0ea59964c570a3ecd211175af9daafbb0670c87cf19cd94feeeb1c945e91",
+        "ids": [
+          104327,
+          154827
+        ],
+        "text": "91",
+        "chosen": [
+          [
+            -0.0007469247793778777,
+            104327,
+            null
+          ],
+          [
+            -3.0397906812140718e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0007469247793778777,
+              104327,
+              null
+            ],
+            [
+              -7.875746726989746,
+              1249,
+              null
+            ],
+            [
+              -8.250746726989746,
+              40,
+              null
+            ],
+            [
+              -11.250746726989746,
+              785,
+              null
+            ],
+            [
+              -11.625746726989746,
+              19778,
+              null
+            ]
+          ],
+          [
+            [
+              -3.0397906812140718e-05,
+              154827,
+              null
+            ],
+            [
+              -11.375030517578125,
+              154842,
+              null
+            ],
+            [
+              -11.500030517578125,
+              154850,
+              null
+            ],
+            [
+              -13.125030517578125,
+              522,
+              null
+            ],
+            [
+              -13.312530517578125,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "sub-5",
+        "expected": "110",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "e0df4617febcd7fb27f3724ce055658d4fb289b59b4fe588a26890504fb8c1a0",
+        "ids": [
+          104550,
+          154827
+        ],
+        "text": "110",
+        "chosen": [
+          [
+            -0.005624184384942055,
+            104550,
+            null
+          ],
+          [
+            -1.8596476365928538e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.005624184384942055,
+              104550,
+              null
+            ],
+            [
+              -5.505624294281006,
+              40,
+              null
+            ],
+            [
+              -7.380624294281006,
+              1249,
+              null
+            ],
+            [
+              -8.380623817443848,
+              785,
+              null
+            ],
+            [
+              -8.380623817443848,
+              99457,
+              null
+            ]
+          ],
+          [
+            [
+              -1.8596476365928538e-05,
+              154827,
+              null
+            ],
+            [
+              -11.750018119812012,
+              154842,
+              null
+            ],
+            [
+              -12.250018119812012,
+              154850,
+              null
+            ],
+            [
+              -13.750018119812012,
+              154843,
+              null
+            ],
+            [
+              -14.500018119812012,
+              522,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "add-6",
+        "expected": "102",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "a8f59543f24d458adfef14fb1fcb81df10740562bb80f1c88fa6276f3b514dc4",
+        "ids": [
+          109871,
+          154827
+        ],
+        "text": "102",
+        "chosen": [
+          [
+            -0.0004419303731992841,
+            109871,
+            null
+          ],
+          [
+            -2.0146166207268834e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0004419303731992841,
+              109871,
+              null
+            ],
+            [
+              -8.625441551208496,
+              40,
+              null
+            ],
+            [
+              -9.500441551208496,
+              101961,
+              null
+            ],
+            [
+              -10.125441551208496,
+              785,
+              null
+            ],
+            [
+              -10.500441551208496,
+              107609,
+              null
+            ]
+          ],
+          [
+            [
+              -2.0146166207268834e-05,
+              154827,
+              null
+            ],
+            [
+              -11.750020027160645,
+              154842,
+              null
+            ],
+            [
+              -11.875020027160645,
+              154850,
+              null
+            ],
+            [
+              -13.625020027160645,
+              522,
+              null
+            ],
+            [
+              -13.625020027160645,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "sub-6",
+        "expected": "117",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "8b1f1ebfd29344955f62ffc0d2dfe1e2ed2deb9ea144e50f7d544c7c6fabbdca",
+        "ids": [
+          114959,
+          154827
+        ],
+        "text": "117",
+        "chosen": [
+          [
+            -0.0010789770167320967,
+            114959,
+            null
+          ],
+          [
+            -2.503363612049725e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0010789770167320967,
+              114959,
+              null
+            ],
+            [
+              -7.626079082489014,
+              1249,
+              null
+            ],
+            [
+              -7.876079082489014,
+              40,
+              null
+            ],
+            [
+              -10.001078605651855,
+              785,
+              null
+            ],
+            [
+              -11.626078605651855,
+              111659,
+              null
+            ]
+          ],
+          [
+            [
+              -2.503363612049725e-05,
+              154827,
+              null
+            ],
+            [
+              -11.375024795532227,
+              154842,
+              null
+            ],
+            [
+              -11.875024795532227,
+              154850,
+              null
+            ],
+            [
+              -13.437524795532227,
+              522,
+              null
+            ],
+            [
+              -13.875024795532227,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "add-7",
+        "expected": "113",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "6d91de3ba50375119fbebea238a5a9fda55d49dd17343933984ea523953f173a",
+        "ids": [
+          114240,
+          154827
+        ],
+        "text": "113",
+        "chosen": [
+          [
+            -7.092700980138034e-05,
+            114240,
+            null
+          ],
+          [
+            -1.5258672647178173e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -7.092700980138034e-05,
+              114240,
+              null
+            ],
+            [
+              -10.125070571899414,
+              40,
+              null
+            ],
+            [
+              -12.625070571899414,
+              785,
+              null
+            ],
+            [
+              -12.625070571899414,
+              100461,
+              null
+            ],
+            [
+              -12.875070571899414,
+              1454,
+              null
+            ]
+          ],
+          [
+            [
+              -1.5258672647178173e-05,
+              154827,
+              null
+            ],
+            [
+              -12.125015258789062,
+              154842,
+              null
+            ],
+            [
+              -12.375015258789062,
+              154850,
+              null
+            ],
+            [
+              -13.500015258789062,
+              522,
+              null
+            ],
+            [
+              -13.687515258789062,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "sub-7",
+        "expected": "124",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "b543b22ee2e7f4fc6095cfb1852de283165de520d54cb20a15711906139c0d93",
+        "ids": [
+          115878,
+          154827
+        ],
+        "text": "124",
+        "chosen": [
+          [
+            -0.0007839705212973058,
+            115878,
+            null
+          ],
+          [
+            -2.098061486321967e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0007839705212973058,
+              115878,
+              null
+            ],
+            [
+              -7.625783920288086,
+              40,
+              null
+            ],
+            [
+              -8.625783920288086,
+              1249,
+              null
+            ],
+            [
+              -10.625783920288086,
+              785,
+              null
+            ],
+            [
+              -11.875783920288086,
+              1092,
+              null
+            ]
+          ],
+          [
+            [
+              -2.098061486321967e-05,
+              154827,
+              null
+            ],
+            [
+              -11.750020980834961,
+              154842,
+              null
+            ],
+            [
+              -12.125020980834961,
+              154850,
+              null
+            ],
+            [
+              -12.625020980834961,
+              522,
+              null
+            ],
+            [
+              -13.812520980834961,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "copy-0",
+        "expected": "Atlas-4871",
+        "correct": true,
+        "token_count": 21,
+        "input_hash": "99239897b2bf28418ec556da938eeff185add05b4b82baebd9dd2b4cc439b3d1",
+        "ids": [
+          60687,
+          12,
+          100933,
+          22,
+          16,
+          154827
+        ],
+        "text": "Atlas-4871",
+        "chosen": [
+          [
+            -0.0034484940115362406,
+            60687,
+            null
+          ],
+          [
+            -0.38701197504997253,
+            12,
+            null
+          ],
+          [
+            -4.529942543740617e-06,
+            100933,
+            null
+          ],
+          [
+            -8.344646289515367e-07,
+            22,
+            null
+          ],
+          [
+            -9.536697689327411e-06,
+            16,
+            null
+          ],
+          [
+            -0.0004231034545227885,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0034484940115362406,
+              60687,
+              null
+            ],
+            [
+              -6.378448486328125,
+              40,
+              null
+            ],
+            [
+              -8.253448486328125,
+              785,
+              null
+            ],
+            [
+              -8.878448486328125,
+              17056,
+              null
+            ],
+            [
+              -8.940948486328125,
+              42101,
+              null
+            ]
+          ],
+          [
+            [
+              -0.38701197504997253,
+              12,
+              null
+            ],
+            [
+              -1.137012004852295,
+              100933,
+              null
+            ],
+            [
+              -9.387011528015137,
+              220,
+              null
+            ],
+            [
+              -10.512011528015137,
+              62,
+              null
+            ],
+            [
+              -12.449511528015137,
+              19,
+              null
+            ]
+          ],
+          [
+            [
+              -4.529942543740617e-06,
+              100933,
+              null
+            ],
+            [
+              -14.250004768371582,
+              19,
+              null
+            ],
+            [
+              -14.625004768371582,
+              23,
+              null
+            ],
+            [
+              -14.812504768371582,
+              101474,
+              null
+            ],
+            [
+              -15.312504768371582,
+              101729,
+              null
+            ]
+          ],
+          [
+            [
+              -8.344646289515367e-07,
+              22,
+              null
+            ],
+            [
+              -15.625000953674316,
+              16,
+              null
+            ],
+            [
+              -15.812500953674316,
+              23,
+              null
+            ],
+            [
+              -15.812500953674316,
+              220,
+              null
+            ],
+            [
+              -15.937500953674316,
+              19,
+              null
+            ]
+          ],
+          [
+            [
+              -9.536697689327411e-06,
+              16,
+              null
+            ],
+            [
+              -12.375009536743164,
+              154827,
+              null
+            ],
+            [
+              -13.000009536743164,
+              17,
+              null
+            ],
+            [
+              -13.625009536743164,
+              15,
+              null
+            ],
+            [
+              -15.687509536743164,
+              21,
+              null
+            ]
+          ],
+          [
+            [
+              -0.0004231034545227885,
+              154827,
+              null
+            ],
+            [
+              -8.500423431396484,
+              42101,
+              null
+            ],
+            [
+              -9.250423431396484,
+              60687,
+              null
+            ],
+            [
+              -10.750423431396484,
+              522,
+              null
+            ],
+            [
+              -11.125423431396484,
+              60505,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "mul-0",
+        "expected": "42",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "2545936a740aa4606894590bf8b79ecb7a2b4642c183be433101387ebea195bc",
+        "ids": [
+          101961,
+          154827
+        ],
+        "text": "42",
+        "chosen": [
+          [
+            -0.00028343949816189706,
+            101961,
+            null
+          ],
+          [
+            -7.3909482125600334e-06,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.00028343949816189706,
+              101961,
+              null
+            ],
+            [
+              -8.750283241271973,
+              1249,
+              null
+            ],
+            [
+              -9.625283241271973,
+              40,
+              null
+            ],
+            [
+              -10.875283241271973,
+              785,
+              null
+            ],
+            [
+              -12.125283241271973,
+              21,
+              null
+            ]
+          ],
+          [
+            [
+              -7.3909482125600334e-06,
+              154827,
+              null
+            ],
+            [
+              -13.000007629394531,
+              154850,
+              null
+            ],
+            [
+              -13.125007629394531,
+              154842,
+              null
+            ],
+            [
+              -14.375007629394531,
+              154843,
+              null
+            ],
+            [
+              -14.562507629394531,
+              522,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "copy-1",
+        "expected": "Atlas-4888",
+        "correct": true,
+        "token_count": 21,
+        "input_hash": "a6fddc72a9259e91a8d681fd3e845cae8a28e159432544efd8294f86cc8b7c79",
+        "ids": [
+          60687,
+          12,
+          100933,
+          23,
+          23,
+          154827
+        ],
+        "text": "Atlas-4888",
+        "chosen": [
+          [
+            -0.00890072900801897,
+            60687,
+            null
+          ],
+          [
+            -0.3486284613609314,
+            12,
+            null
+          ],
+          [
+            -3.933898824470816e-06,
+            100933,
+            null
+          ],
+          [
+            -9.775113539944869e-06,
+            23,
+            null
+          ],
+          [
+            -1.847726889536716e-05,
+            23,
+            null
+          ],
+          [
+            -0.0009005781612358987,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.00890072900801897,
+              60687,
+              null
+            ],
+            [
+              -5.0089006423950195,
+              40,
+              null
+            ],
+            [
+              -8.00890064239502,
+              785,
+              null
+            ],
+            [
+              -8.57140064239502,
+              42101,
+              null
+            ],
+            [
+              -9.07140064239502,
+              17056,
+              null
+            ]
+          ],
+          [
+            [
+              -0.3486284613609314,
+              12,
+              null
+            ],
+            [
+              -1.2236285209655762,
+              100933,
+              null
+            ],
+            [
+              -8.848628044128418,
+              220,
+              null
+            ],
+            [
+              -11.848628044128418,
+              62,
+              null
+            ],
+            [
+              -12.661128044128418,
+              117642,
+              null
+            ]
+          ],
+          [
+            [
+              -3.933898824470816e-06,
+              100933,
+              null
+            ],
+            [
+              -14.562503814697266,
+              101474,
+              null
+            ],
+            [
+              -14.625003814697266,
+              19,
+              null
+            ],
+            [
+              -15.437503814697266,
+              220,
+              null
+            ],
+            [
+              -15.562503814697266,
+              101252,
+              null
+            ]
+          ],
+          [
+            [
+              -9.775113539944869e-06,
+              23,
+              null
+            ],
+            [
+              -12.500009536743164,
+              24,
+              null
+            ],
+            [
+              -13.000009536743164,
+              19,
+              null
+            ],
+            [
+              -13.250009536743164,
+              101252,
+              null
+            ],
+            [
+              -14.375009536743164,
+              22,
+              null
+            ]
+          ],
+          [
+            [
+              -1.847726889536716e-05,
+              23,
+              null
+            ],
+            [
+              -12.250018119812012,
+              22,
+              null
+            ],
+            [
+              -12.250018119812012,
+              154827,
+              null
+            ],
+            [
+              -12.625018119812012,
+              24,
+              null
+            ],
+            [
+              -13.250018119812012,
+              101252,
+              null
+            ]
+          ],
+          [
+            [
+              -0.0009005781612358987,
+              154827,
+              null
+            ],
+            [
+              -7.375900745391846,
+              42101,
+              null
+            ],
+            [
+              -9.875900268554688,
+              60687,
+              null
+            ],
+            [
+              -10.188400268554688,
+              60505,
+              null
+            ],
+            [
+              -10.375900268554688,
+              154842,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "mul-1",
+        "expected": "56",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "7f8ed06b1692e2127d7239697f4df15ecd089af119f3bc73b913474742fcada9",
+        "ids": [
+          101917,
+          154827
+        ],
+        "text": "56",
+        "chosen": [
+          [
+            -0.00041380900074727833,
+            101917,
+            null
+          ],
+          [
+            -1.1444026313256472e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.00041380900074727833,
+              101917,
+              null
+            ],
+            [
+              -8.75041389465332,
+              1249,
+              null
+            ],
+            [
+              -9.00041389465332,
+              40,
+              null
+            ],
+            [
+              -10.00041389465332,
+              785,
+              null
+            ],
+            [
+              -11.37541389465332,
+              334,
+              null
+            ]
+          ],
+          [
+            [
+              -1.1444026313256472e-05,
+              154827,
+              null
+            ],
+            [
+              -12.250011444091797,
+              154850,
+              null
+            ],
+            [
+              -12.875011444091797,
+              154842,
+              null
+            ],
+            [
+              -14.312511444091797,
+              522,
+              null
+            ],
+            [
+              -14.312511444091797,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "copy-2",
+        "expected": "Atlas-4905",
+        "correct": true,
+        "token_count": 21,
+        "input_hash": "3bce31be27006c158b6574d2c88e4c5a41717df505f0216c1717151b72ba9282",
+        "ids": [
+          60687,
+          12,
+          19,
+          100067,
+          20,
+          154827
+        ],
+        "text": "Atlas-4905",
+        "chosen": [
+          [
+            -0.0050846789963543415,
+            60687,
+            null
+          ],
+          [
+            -0.4741670489311218,
+            12,
+            null
+          ],
+          [
+            -1.478184185543796e-05,
+            19,
+            null
+          ],
+          [
+            -2.2649737729807384e-06,
+            100067,
+            null
+          ],
+          [
+            -1.0728777851909399e-05,
+            20,
+            null
+          ],
+          [
+            -0.0008840228547342122,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0050846789963543415,
+              60687,
+              null
+            ],
+            [
+              -5.63008451461792,
+              40,
+              null
+            ],
+            [
+              -8.005084991455078,
+              19116,
+              null
+            ],
+            [
+              -8.630084991455078,
+              17056,
+              null
+            ],
+            [
+              -8.630084991455078,
+              42101,
+              null
+            ]
+          ],
+          [
+            [
+              -0.4741670489311218,
+              12,
+              null
+            ],
+            [
+              -0.9741670489311218,
+              19,
+              null
+            ],
+            [
+              -10.349166870117188,
+              220,
+              null
+            ],
+            [
+              -10.724166870117188,
+              18,
+              null
+            ],
+            [
+              -11.224166870117188,
+              62,
+              null
+            ]
+          ],
+          [
+            [
+              -1.478184185543796e-05,
+              19,
+              null
+            ],
+            [
+              -12.000014305114746,
+              18,
+              null
+            ],
+            [
+              -13.250014305114746,
+              17,
+              null
+            ],
+            [
+              -13.500014305114746,
+              20,
+              null
+            ],
+            [
+              -13.875014305114746,
+              21,
+              null
+            ]
+          ],
+          [
+            [
+              -2.2649737729807384e-06,
+              100067,
+              null
+            ],
+            [
+              -14.312501907348633,
+              220,
+              null
+            ],
+            [
+              -15.000001907348633,
+              101474,
+              null
+            ],
+            [
+              -15.500001907348633,
+              12,
+              null
+            ],
+            [
+              -16.062501907348633,
+              13,
+              null
+            ]
+          ],
+          [
+            [
+              -1.0728777851909399e-05,
+              20,
+              null
+            ],
+            [
+              -12.50001049041748,
+              16,
+              null
+            ],
+            [
+              -13.50001049041748,
+              15,
+              null
+            ],
+            [
+              -13.75001049041748,
+              19,
+              null
+            ],
+            [
+              -13.87501049041748,
+              154827,
+              null
+            ]
+          ],
+          [
+            [
+              -0.0008840228547342122,
+              154827,
+              null
+            ],
+            [
+              -7.250884056091309,
+              42101,
+              null
+            ],
+            [
+              -10.125884056091309,
+              60687,
+              null
+            ],
+            [
+              -11.125884056091309,
+              60505,
+              null
+            ],
+            [
+              -11.125884056091309,
+              154842,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "mul-2",
+        "expected": "72",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "d68de9a6a4ae3735dec07daab6d8eeefe5c90ecc0658d374f8eff459ab6b014b",
+        "ids": [
+          102650,
+          154827
+        ],
+        "text": "72",
+        "chosen": [
+          [
+            -0.0001356509601464495,
+            102650,
+            null
+          ],
+          [
+            -9.536697689327411e-06,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0001356509601464495,
+              102650,
+              null
+            ],
+            [
+              -9.62513542175293,
+              1249,
+              null
+            ],
+            [
+              -11.00013542175293,
+              40,
+              null
+            ],
+            [
+              -11.00013542175293,
+              334,
+              null
+            ],
+            [
+              -11.25013542175293,
+              785,
+              null
+            ]
+          ],
+          [
+            [
+              -9.536697689327411e-06,
+              154827,
+              null
+            ],
+            [
+              -13.000009536743164,
+              154842,
+              null
+            ],
+            [
+              -13.000009536743164,
+              154850,
+              null
+            ],
+            [
+              -13.312509536743164,
+              522,
+              null
+            ],
+            [
+              -14.500009536743164,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "copy-3",
+        "expected": "Atlas-4922",
+        "correct": true,
+        "token_count": 21,
+        "input_hash": "01c1d30d0e854228d4f3f102a4a515594cd6ea44df197dc96d2832c11780bf5c",
+        "ids": [
+          60687,
+          12,
+          101474,
+          17,
+          17,
+          154827
+        ],
+        "text": "Atlas-4922",
+        "chosen": [
+          [
+            -0.0025974130257964134,
+            60687,
+            null
+          ],
+          [
+            -0.6932612657546997,
+            12,
+            null
+          ],
+          [
+            -3.814689989667386e-06,
+            101474,
+            null
+          ],
+          [
+            -9.536738616588991e-07,
+            17,
+            null
+          ],
+          [
+            -2.1815061700181104e-05,
+            17,
+            null
+          ],
+          [
+            -0.0003435021499171853,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0025974130257964134,
+              60687,
+              null
+            ],
+            [
+              -6.627597332000732,
+              40,
+              null
+            ],
+            [
+              -8.37759780883789,
+              785,
+              null
+            ],
+            [
+              -8.75259780883789,
+              19116,
+              null
+            ],
+            [
+              -8.87759780883789,
+              42101,
+              null
+            ]
+          ],
+          [
+            [
+              -0.6932612657546997,
+              12,
+              null
+            ],
+            [
+              -0.6932612657546997,
+              101474,
+              null
+            ],
+            [
+              -9.69326114654541,
+              220,
+              null
+            ],
+            [
+              -10.94326114654541,
+              62,
+              null
+            ],
+            [
+              -11.19326114654541,
+              100933,
+              null
+            ]
+          ],
+          [
+            [
+              -3.814689989667386e-06,
+              101474,
+              null
+            ],
+            [
+              -14.750003814697266,
+              19,
+              null
+            ],
+            [
+              -15.000003814697266,
+              100933,
+              null
+            ],
+            [
+              -15.125003814697266,
+              123004,
+              null
+            ],
+            [
+              -15.250003814697266,
+              98729,
+              null
+            ]
+          ],
+          [
+            [
+              -9.536738616588991e-07,
+              17,
+              null
+            ],
+            [
+              -15.187500953674316,
+              19,
+              null
+            ],
+            [
+              -15.687500953674316,
+              12,
+              null
+            ],
+            [
+              -16.0625,
+              18,
+              null
+            ],
+            [
+              -16.0625,
+              154827,
+              null
+            ]
+          ],
+          [
+            [
+              -2.1815061700181104e-05,
+              17,
+              null
+            ],
+            [
+              -11.375021934509277,
+              99241,
+              null
+            ],
+            [
+              -11.750021934509277,
+              154827,
+              null
+            ],
+            [
+              -15.125021934509277,
+              16,
+              null
+            ],
+            [
+              -15.250021934509277,
+              99590,
+              null
+            ]
+          ],
+          [
+            [
+              -0.0003435021499171853,
+              154827,
+              null
+            ],
+            [
+              -8.500343322753906,
+              42101,
+              null
+            ],
+            [
+              -10.125343322753906,
+              60687,
+              null
+            ],
+            [
+              -10.875343322753906,
+              154842,
+              null
+            ],
+            [
+              -11.125343322753906,
+              154850,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "mul-3",
+        "expected": "90",
+        "correct": true,
+        "token_count": 20,
+        "input_hash": "bf28d30ae7696dfd485a68870022d12f025223b5295c777ba5c724bc1140ef58",
+        "ids": [
+          100067,
+          154827
+        ],
+        "text": "90",
+        "chosen": [
+          [
+            -0.0004242950235493481,
+            100067,
+            null
+          ],
+          [
+            -1.3828181181452237e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0004242950235493481,
+              100067,
+              null
+            ],
+            [
+              -8.7504243850708,
+              1249,
+              null
+            ],
+            [
+              -9.1254243850708,
+              40,
+              null
+            ],
+            [
+              -9.8754243850708,
+              785,
+              null
+            ],
+            [
+              -10.6254243850708,
+              24,
+              null
+            ]
+          ],
+          [
+            [
+              -1.3828181181452237e-05,
+              154827,
+              null
+            ],
+            [
+              -12.25001335144043,
+              154842,
+              null
+            ],
+            [
+              -12.50001335144043,
+              154850,
+              null
+            ],
+            [
+              -14.00001335144043,
+              154843,
+              null
+            ],
+            [
+              -15.06251335144043,
+              271,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "lookup-0",
+        "expected": "15744",
+        "correct": true,
+        "token_count": 350,
+        "input_hash": "220778df75e8860a378f012c34e25f9d8b6001f41d57ad39387ac3b644eaa523",
+        "ids": [
+          123006,
+          101723,
+          154827
+        ],
+        "text": "15744",
+        "chosen": [
+          [
+            -4.005351729574613e-05,
+            123006,
+            null
+          ],
+          [
+            -2.7418097943154862e-06,
+            101723,
+            null
+          ],
+          [
+            -5.912605774938129e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -4.005351729574613e-05,
+              123006,
+              null
+            ],
+            [
+              -11.125040054321289,
+              102486,
+              null
+            ],
+            [
+              -12.500040054321289,
+              15,
+              null
+            ],
+            [
+              -13.500040054321289,
+              22,
+              null
+            ],
+            [
+              -13.500040054321289,
+              99752,
+              null
+            ]
+          ],
+          [
+            [
+              -2.7418097943154862e-06,
+              101723,
+              null
+            ],
+            [
+              -13.62500286102295,
+              19,
+              null
+            ],
+            [
+              -15.00000286102295,
+              102088,
+              null
+            ],
+            [
+              -15.25000286102295,
+              103498,
+              null
+            ],
+            [
+              -15.62500286102295,
+              100461,
+              null
+            ]
+          ],
+          [
+            [
+              -5.912605774938129e-05,
+              154827,
+              null
+            ],
+            [
+              -9.875059127807617,
+              13,
+              null
+            ],
+            [
+              -12.625059127807617,
+              154850,
+              null
+            ],
+            [
+              -13.875059127807617,
+              154842,
+              null
+            ],
+            [
+              -14.750059127807617,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "lookup-1",
+        "expected": "36839",
+        "correct": true,
+        "token_count": 1055,
+        "input_hash": "28eabebf6ad75d48447445fecacc96be2061d61ae02206ad5ac3fad7622574eb",
+        "ids": [
+          100632,
+          23,
+          101294,
+          154827
+        ],
+        "text": "36839",
+        "chosen": [
+          [
+            -5.8412379075889476e-06,
+            100632,
+            null
+          ],
+          [
+            -1.788137637959153e-06,
+            23,
+            null
+          ],
+          [
+            -2.861018856492592e-06,
+            101294,
+            null
+          ],
+          [
+            -4.8397800128441304e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -5.8412379075889476e-06,
+              100632,
+              null
+            ],
+            [
+              -13.875005722045898,
+              101840,
+              null
+            ],
+            [
+              -14.125005722045898,
+              99752,
+              null
+            ],
+            [
+              -14.250005722045898,
+              100919,
+              null
+            ],
+            [
+              -14.375005722045898,
+              18,
+              null
+            ]
+          ],
+          [
+            [
+              -1.788137637959153e-06,
+              23,
+              null
+            ],
+            [
+              -14.000001907348633,
+              18,
+              null
+            ],
+            [
+              -14.875001907348633,
+              24,
+              null
+            ],
+            [
+              -15.375001907348633,
+              22,
+              null
+            ],
+            [
+              -16.000001907348633,
+              21,
+              null
+            ]
+          ],
+          [
+            [
+              -2.861018856492592e-06,
+              101294,
+              null
+            ],
+            [
+              -13.25000286102295,
+              18,
+              null
+            ],
+            [
+              -15.62500286102295,
+              100919,
+              null
+            ],
+            [
+              -15.87500286102295,
+              100104,
+              null
+            ],
+            [
+              -16.500001907348633,
+              98729,
+              null
+            ]
+          ],
+          [
+            [
+              -4.8397800128441304e-05,
+              154827,
+              null
+            ],
+            [
+              -10.125048637390137,
+              13,
+              null
+            ],
+            [
+              -12.875048637390137,
+              154850,
+              null
+            ],
+            [
+              -13.125048637390137,
+              154842,
+              null
+            ],
+            [
+              -14.500048637390137,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "lookup-2",
+        "expected": "02853",
+        "correct": true,
+        "token_count": 2691,
+        "input_hash": "598e866849c1a22b0451204748516e1ae357323cb48575f0b11b3f3291567d3e",
+        "ids": [
+          15,
+          99869,
+          102721,
+          154827
+        ],
+        "text": "02853",
+        "chosen": [
+          [
+            -3.0636318115284666e-05,
+            15,
+            null
+          ],
+          [
+            -1.919251008075662e-05,
+            99869,
+            null
+          ],
+          [
+            -8.22540732769994e-06,
+            102721,
+            null
+          ],
+          [
+            -0.00017510310863144696,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -3.0636318115284666e-05,
+              15,
+              null
+            ],
+            [
+              -12.000030517578125,
+              99752,
+              null
+            ],
+            [
+              -12.500030517578125,
+              99869,
+              null
+            ],
+            [
+              -13.312530517578125,
+              109295,
+              null
+            ],
+            [
+              -13.875030517578125,
+              16127,
+              null
+            ]
+          ],
+          [
+            [
+              -1.919251008075662e-05,
+              99869,
+              null
+            ],
+            [
+              -11.500019073486328,
+              99367,
+              null
+            ],
+            [
+              -13.125019073486328,
+              99243,
+              null
+            ],
+            [
+              -13.625019073486328,
+              99590,
+              null
+            ],
+            [
+              -14.000019073486328,
+              98360,
+              null
+            ]
+          ],
+          [
+            [
+              -8.22540732769994e-06,
+              102721,
+              null
+            ],
+            [
+              -12.125008583068848,
+              20,
+              null
+            ],
+            [
+              -14.375008583068848,
+              102856,
+              null
+            ],
+            [
+              -14.500008583068848,
+              102501,
+              null
+            ],
+            [
+              -15.625008583068848,
+              102486,
+              null
+            ]
+          ],
+          [
+            [
+              -0.00017510310863144696,
+              154827,
+              null
+            ],
+            [
+              -8.750175476074219,
+              13,
+              null
+            ],
+            [
+              -12.562675476074219,
+              154850,
+              null
+            ],
+            [
+              -13.062675476074219,
+              154842,
+              null
+            ],
+            [
+              -13.125175476074219,
+              1773,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "lookup-3",
+        "expected": "07369",
+        "correct": true,
+        "token_count": 4831,
+        "input_hash": "c947e64fce56f442a3faa91473d9a5c524f1c6c83f05efb73b81c0b75ea1b21d",
+        "ids": [
+          100372,
+          18,
+          103093,
+          154827
+        ],
+        "text": "07369",
+        "chosen": [
+          [
+            -0.00013314791431184858,
+            100372,
+            null
+          ],
+          [
+            -1.2993727978027891e-05,
+            18,
+            null
+          ],
+          [
+            -3.337854423079989e-06,
+            103093,
+            null
+          ],
+          [
+            -2.1099820514791645e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.00013314791431184858,
+              100372,
+              null
+            ],
+            [
+              -10.000133514404297,
+              22,
+              null
+            ],
+            [
+              -11.625133514404297,
+              125744,
+              null
+            ],
+            [
+              -11.687633514404297,
+              15,
+              null
+            ],
+            [
+              -12.062633514404297,
+              98503,
+              null
+            ]
+          ],
+          [
+            [
+              -1.2993727978027891e-05,
+              18,
+              null
+            ],
+            [
+              -12.37501335144043,
+              19,
+              null
+            ],
+            [
+              -12.62501335144043,
+              21,
+              null
+            ],
+            [
+              -13.62501335144043,
+              17,
+              null
+            ],
+            [
+              -13.68751335144043,
+              20,
+              null
+            ]
+          ],
+          [
+            [
+              -3.337854423079989e-06,
+              103093,
+              null
+            ],
+            [
+              -14.25000286102295,
+              102626,
+              null
+            ],
+            [
+              -15.00000286102295,
+              100809,
+              null
+            ],
+            [
+              -15.12500286102295,
+              21,
+              null
+            ],
+            [
+              -15.37500286102295,
+              103502,
+              null
+            ]
+          ],
+          [
+            [
+              -2.1099820514791645e-05,
+              154827,
+              null
+            ],
+            [
+              -11.875020980834961,
+              13,
+              null
+            ],
+            [
+              -12.000020980834961,
+              154850,
+              null
+            ],
+            [
+              -12.750020980834961,
+              154842,
+              null
+            ],
+            [
+              -14.062520980834961,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "lookup-4",
+        "expected": "26685",
+        "correct": true,
+        "token_count": 354,
+        "input_hash": "bbac8e52518fe755862eea1ceeb512a36ca02d2432b71519df26788b086e9c16",
+        "ids": [
+          99916,
+          21,
+          102284,
+          154827
+        ],
+        "text": "26685",
+        "chosen": [
+          [
+            -3.886147169396281e-05,
+            99916,
+            null
+          ],
+          [
+            -2.0265558760002023e-06,
+            21,
+            null
+          ],
+          [
+            -5.8412379075889476e-06,
+            102284,
+            null
+          ],
+          [
+            -1.764281842042692e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -3.886147169396281e-05,
+              99916,
+              null
+            ],
+            [
+              -11.500039100646973,
+              99241,
+              null
+            ],
+            [
+              -12.625039100646973,
+              99951,
+              null
+            ],
+            [
+              -12.937539100646973,
+              15,
+              null
+            ],
+            [
+              -13.437539100646973,
+              98503,
+              null
+            ]
+          ],
+          [
+            [
+              -2.0265558760002023e-06,
+              21,
+              null
+            ],
+            [
+              -14.250001907348633,
+              23,
+              null
+            ],
+            [
+              -14.875001907348633,
+              20,
+              null
+            ],
+            [
+              -15.000001907348633,
+              22,
+              null
+            ],
+            [
+              -15.125001907348633,
+              17,
+              null
+            ]
+          ],
+          [
+            [
+              -5.8412379075889476e-06,
+              102284,
+              null
+            ],
+            [
+              -14.125005722045898,
+              104029,
+              null
+            ],
+            [
+              -14.375005722045898,
+              101840,
+              null
+            ],
+            [
+              -14.375005722045898,
+              103878,
+              null
+            ],
+            [
+              -14.500005722045898,
+              154827,
+              null
+            ]
+          ],
+          [
+            [
+              -1.764281842042692e-05,
+              154827,
+              null
+            ],
+            [
+              -11.750017166137695,
+              13,
+              null
+            ],
+            [
+              -12.937517166137695,
+              154850,
+              null
+            ],
+            [
+              -13.812517166137695,
+              154842,
+              null
+            ],
+            [
+              -14.312517166137695,
+              1773,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "lookup-5",
+        "expected": "31381",
+        "correct": true,
+        "token_count": 1051,
+        "input_hash": "c47a3b956dff7fa06282019e152d7644f2d6d486846d5080baf92c7b5d6c2d1f",
+        "ids": [
+          18,
+          99366,
+          104340,
+          154827
+        ],
+        "text": "31381",
+        "chosen": [
+          [
+            -4.184158387943171e-05,
+            18,
+            null
+          ],
+          [
+            -1.0728830375228426e-06,
+            99366,
+            null
+          ],
+          [
+            -5.2451946430664975e-06,
+            104340,
+            null
+          ],
+          [
+            -2.2411095415009186e-05,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -4.184158387943171e-05,
+              18,
+              null
+            ],
+            [
+              -12.625041961669922,
+              100557,
+              null
+            ],
+            [
+              -12.687541961669922,
+              22,
+              null
+            ],
+            [
+              -13.312541961669922,
+              99752,
+              null
+            ],
+            [
+              -13.500041961669922,
+              98503,
+              null
+            ]
+          ],
+          [
+            [
+              -1.0728830375228426e-06,
+              99366,
+              null
+            ],
+            [
+              -15.125000953674316,
+              99367,
+              null
+            ],
+            [
+              -15.375000953674316,
+              99243,
+              null
+            ],
+            [
+              -15.750000953674316,
+              100557,
+              null
+            ],
+            [
+              -15.875000953674316,
+              99619,
+              null
+            ]
+          ],
+          [
+            [
+              -5.2451946430664975e-06,
+              104340,
+              null
+            ],
+            [
+              -12.625004768371582,
+              23,
+              null
+            ],
+            [
+              -13.750004768371582,
+              104160,
+              null
+            ],
+            [
+              -15.375004768371582,
+              99243,
+              null
+            ],
+            [
+              -15.875004768371582,
+              99695,
+              null
+            ]
+          ],
+          [
+            [
+              -2.2411095415009186e-05,
+              154827,
+              null
+            ],
+            [
+              -11.375021934509277,
+              13,
+              null
+            ],
+            [
+              -12.562521934509277,
+              154850,
+              null
+            ],
+            [
+              -13.875021934509277,
+              154842,
+              null
+            ],
+            [
+              -14.687521934509277,
+              154843,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "lookup-6",
+        "expected": "85987",
+        "correct": true,
+        "token_count": 2703,
+        "input_hash": "f4b67354e26834e6c90429eadba9dd99630f34ddcf5b2130a2e7cee505056576",
+        "ids": [
+          102284,
+          24,
+          103878,
+          154827
+        ],
+        "text": "85987",
+        "chosen": [
+          [
+            -0.00033182359766215086,
+            102284,
+            null
+          ],
+          [
+            -6.794906312279636e-06,
+            24,
+            null
+          ],
+          [
+            -7.033323072391795e-06,
+            103878,
+            null
+          ],
+          [
+            -9.059865078597795e-06,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.00033182359766215086,
+              102284,
+              null
+            ],
+            [
+              -9.12533187866211,
+              23,
+              null
+            ],
+            [
+              -9.87533187866211,
+              102807,
+              null
+            ],
+            [
+              -10.12533187866211,
+              99752,
+              null
+            ],
+            [
+              -11.62533187866211,
+              98503,
+              null
+            ]
+          ],
+          [
+            [
+              -6.794906312279636e-06,
+              24,
+              null
+            ],
+            [
+              -12.875006675720215,
+              22,
+              null
+            ],
+            [
+              -13.250006675720215,
+              17,
+              null
+            ],
+            [
+              -13.750006675720215,
+              19,
+              null
+            ],
+            [
+              -14.625006675720215,
+              18,
+              null
+            ]
+          ],
+          [
+            [
+              -7.033323072391795e-06,
+              103878,
+              null
+            ],
+            [
+              -12.625006675720215,
+              23,
+              null
+            ],
+            [
+              -13.750006675720215,
+              103205,
+              null
+            ],
+            [
+              -14.500006675720215,
+              101655,
+              null
+            ],
+            [
+              -14.750006675720215,
+              99951,
+              null
+            ]
+          ],
+          [
+            [
+              -9.059865078597795e-06,
+              154827,
+              null
+            ],
+            [
+              -12.500008583068848,
+              13,
+              null
+            ],
+            [
+              -14.000008583068848,
+              154850,
+              null
+            ],
+            [
+              -14.375008583068848,
+              154842,
+              null
+            ],
+            [
+              -15.000008583068848,
+              198,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "name": "lookup-7",
+        "expected": "76243",
+        "correct": true,
+        "token_count": 4829,
+        "input_hash": "25b9da1a23b02503d6b3fd0e4c44f524c9667624714aeb9006a77ce86b749d43",
+        "ids": [
+          102269,
+          17,
+          102088,
+          154827
+        ],
+        "text": "76243",
+        "chosen": [
+          [
+            -0.0002109781780745834,
+            102269,
+            null
+          ],
+          [
+            -1.8119646483683027e-05,
+            17,
+            null
+          ],
+          [
+            -5.2451946430664975e-06,
+            102088,
+            null
+          ],
+          [
+            -8.463823178317398e-06,
+            154827,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.0002109781780745834,
+              102269,
+              null
+            ],
+            [
+              -10.000210762023926,
+              22,
+              null
+            ],
+            [
+              -11.000210762023926,
+              102114,
+              null
+            ],
+            [
+              -11.375210762023926,
+              100899,
+              null
+            ],
+            [
+              -11.437710762023926,
+              23,
+              null
+            ]
+          ],
+          [
+            [
+              -1.8119646483683027e-05,
+              17,
+              null
+            ],
+            [
+              -11.875018119812012,
+              18,
+              null
+            ],
+            [
+              -12.125018119812012,
+              19,
+              null
+            ],
+            [
+              -12.500018119812012,
+              16,
+              null
+            ],
+            [
+              -13.500018119812012,
+              24,
+              null
+            ]
+          ],
+          [
+            [
+              -5.2451946430664975e-06,
+              102088,
+              null
+            ],
+            [
+              -13.500004768371582,
+              19,
+              null
+            ],
+            [
+              -14.625004768371582,
+              101135,
+              null
+            ],
+            [
+              -14.625004768371582,
+              101961,
+              null
+            ],
+            [
+              -14.625004768371582,
+              102721,
+              null
+            ]
+          ],
+          [
+            [
+              -8.463823178317398e-06,
+              154827,
+              null
+            ],
+            [
+              -12.875008583068848,
+              154850,
+              null
+            ],
+            [
+              -13.375008583068848,
+              13,
+              null
+            ],
+            [
+              -13.437508583068848,
+              154842,
+              null
+            ],
+            [
+              -14.687508583068848,
+              154843,
+              null
+            ]
+          ]
+        ]
+      }
+    ],
+    "free": [
+      {
+        "prefix_hash": "5eebcdb2ee588a14feb153d02be350c8ece656af81039a92869a61efea5ad2a8",
+        "ids": [
+          220,
+          20,
+          198,
+          40,
+          1079,
+          264,
+          2409,
+          8404,
+          315,
+          279,
+          7055,
+          13475
+        ],
+        "text": " 5\nI am a big fan of the band Radio",
+        "chosen": [
+          [
+            -0.5383394360542297,
+            220,
+            null
+          ],
+          [
+            -0.5580579042434692,
+            20,
+            null
+          ],
+          [
+            -0.7043269872665405,
+            198,
+            null
+          ],
+          [
+            -2.2224066257476807,
+            40,
+            null
+          ],
+          [
+            -2.2578976154327393,
+            1079,
+            null
+          ],
+          [
+            -2.399113655090332,
+            264,
+            null
+          ],
+          [
+            -2.7149970531463623,
+            2409,
+            null
+          ],
+          [
+            -0.3215196132659912,
+            8404,
+            null
+          ],
+          [
+            -0.009445265866816044,
+            315,
+            null
+          ],
+          [
+            -1.588355302810669,
+            279,
+            null
+          ],
+          [
+            -1.622475266456604,
+            7055,
+            null
+          ],
+          [
+            -0.04679745435714722,
+            13475,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.5383394360542297,
+              220,
+              null
+            ],
+            [
+              -1.413339376449585,
+              937,
+              null
+            ],
+            [
+              -2.788339376449585,
+              17582,
+              null
+            ],
+            [
+              -4.913339614868164,
+              23688,
+              null
+            ],
+            [
+              -5.288339614868164,
+              1128,
+              null
+            ]
+          ],
+          [
+            [
+              -0.5580579042434692,
+              20,
+              null
+            ],
+            [
+              -0.9330579042434692,
+              19,
+              null
+            ],
+            [
+              -4.68305778503418,
+              18,
+              null
+            ],
+            [
+              -5.18305778503418,
+              99241,
+              null
+            ],
+            [
+              -5.30805778503418,
+              17,
+              null
+            ]
+          ],
+          [
+            [
+              -0.7043269872665405,
+              198,
+              null
+            ],
+            [
+              -2.82932710647583,
+              25,
+              null
+            ],
+            [
+              -3.20432710647583,
+              320,
+              null
+            ],
+            [
+              -3.76682710647583,
+              30,
+              null
+            ],
+            [
+              -3.76682710647583,
+              55864,
+              null
+            ]
+          ],
+          [
+            [
+              -2.2224066257476807,
+              40,
+              null
+            ],
+            [
+              -2.5974066257476807,
+              785,
+              null
+            ],
+            [
+              -3.4724066257476807,
+              11608,
+              null
+            ],
+            [
+              -3.6599066257476807,
+              641,
+              null
+            ],
+            [
+              -3.7849066257476807,
+              32,
+              null
+            ]
+          ],
+          [
+            [
+              -2.2578976154327393,
+              1079,
+              null
+            ],
+            [
+              -2.3828976154327393,
+              614,
+              null
+            ],
+            [
+              -2.3828976154327393,
+              2776,
+              null
+            ],
+            [
+              -2.6328976154327393,
+              572,
+              null
+            ],
+            [
+              -3.2578976154327393,
+              1744,
+              null
+            ]
+          ],
+          [
+            [
+              -2.399113655090332,
+              264,
+              null
+            ],
+            [
+              -2.399113655090332,
+              537,
+              null
+            ],
+            [
+              -3.024113655090332,
+              5023,
+              null
+            ],
+            [
+              -3.274113655090332,
+              4378,
+              null
+            ],
+            [
+              -3.649113655090332,
+              10094,
+              null
+            ]
+          ],
+          [
+            [
+              -2.7149970531463623,
+              2409,
+              null
+            ],
+            [
+              -3.3399970531463623,
+              6765,
+              null
+            ],
+            [
+              -3.4649970531463623,
+              2699,
+              null
+            ],
+            [
+              -3.5899970531463623,
+              2632,
+              null
+            ],
+            [
+              -3.7149970531463623,
+              220,
+              null
+            ]
+          ],
+          [
+            [
+              -0.3215196132659912,
+              8404,
+              null
+            ],
+            [
+              -3.196519613265991,
+              60848,
+              null
+            ],
+            [
+              -3.571519613265991,
+              462,
+              null
+            ],
+            [
+              -4.07151985168457,
+              82069,
+              null
+            ],
+            [
+              -4.32151985168457,
+              9852,
+              null
+            ]
+          ],
+          [
+            [
+              -0.009445265866816044,
+              315,
+              null
+            ],
+            [
+              -5.8844451904296875,
+              323,
+              null
+            ],
+            [
+              -6.5094451904296875,
+              320,
+              null
+            ],
+            [
+              -7.1344451904296875,
+              11,
+              null
+            ],
+            [
+              -7.7594451904296875,
+              13,
+              null
+            ]
+          ],
+          [
+            [
+              -1.588355302810669,
+              279,
+              null
+            ],
+            [
+              -2.713355302810669,
+              13475,
+              null
+            ],
+            [
+              -3.775855302810669,
+              6888,
+              null
+            ],
+            [
+              -4.21335506439209,
+              9852,
+              null
+            ],
+            [
+              -4.33835506439209,
+              576,
+              null
+            ]
+          ],
+          [
+            [
+              -1.622475266456604,
+              7055,
+              null
+            ],
+            [
+              -3.9974751472473145,
+              8885,
+              null
+            ],
+            [
+              -3.9974751472473145,
+              13475,
+              null
+            ],
+            [
+              -4.0599751472473145,
+              17114,
+              null
+            ],
+            [
+              -4.1849751472473145,
+              220,
+              null
+            ]
+          ],
+          [
+            [
+              -0.04679745435714722,
+              13475,
+              null
+            ],
+            [
+              -4.546797275543213,
+              11,
+              null
+            ],
+            [
+              -6.046797275543213,
+              330,
+              null
+            ],
+            [
+              -6.234297275543213,
+              8885,
+              null
+            ],
+            [
+              -6.484297275543213,
+              2598,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "prefix_hash": "5eebcdb2ee588a14feb153d02be350c8ece656af81039a92869a61efea5ad2a8",
+        "ids": [
+          220,
+          20,
+          198,
+          40,
+          1079,
+          264,
+          2409,
+          8404,
+          315,
+          279,
+          7055,
+          13475
+        ],
+        "text": " 5\nI am a big fan of the band Radio",
+        "chosen": [
+          [
+            -0.5383394360542297,
+            220,
+            null
+          ],
+          [
+            -0.5580579042434692,
+            20,
+            null
+          ],
+          [
+            -0.7043269872665405,
+            198,
+            null
+          ],
+          [
+            -2.2224066257476807,
+            40,
+            null
+          ],
+          [
+            -2.2578976154327393,
+            1079,
+            null
+          ],
+          [
+            -2.399113655090332,
+            264,
+            null
+          ],
+          [
+            -2.7149970531463623,
+            2409,
+            null
+          ],
+          [
+            -0.3215196132659912,
+            8404,
+            null
+          ],
+          [
+            -0.009445265866816044,
+            315,
+            null
+          ],
+          [
+            -1.588355302810669,
+            279,
+            null
+          ],
+          [
+            -1.622475266456604,
+            7055,
+            null
+          ],
+          [
+            -0.04679745435714722,
+            13475,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.5383394360542297,
+              220,
+              null
+            ],
+            [
+              -1.413339376449585,
+              937,
+              null
+            ],
+            [
+              -2.788339376449585,
+              17582,
+              null
+            ],
+            [
+              -4.913339614868164,
+              23688,
+              null
+            ],
+            [
+              -5.288339614868164,
+              1128,
+              null
+            ]
+          ],
+          [
+            [
+              -0.5580579042434692,
+              20,
+              null
+            ],
+            [
+              -0.9330579042434692,
+              19,
+              null
+            ],
+            [
+              -4.68305778503418,
+              18,
+              null
+            ],
+            [
+              -5.18305778503418,
+              99241,
+              null
+            ],
+            [
+              -5.30805778503418,
+              17,
+              null
+            ]
+          ],
+          [
+            [
+              -0.7043269872665405,
+              198,
+              null
+            ],
+            [
+              -2.82932710647583,
+              25,
+              null
+            ],
+            [
+              -3.20432710647583,
+              320,
+              null
+            ],
+            [
+              -3.76682710647583,
+              30,
+              null
+            ],
+            [
+              -3.76682710647583,
+              55864,
+              null
+            ]
+          ],
+          [
+            [
+              -2.2224066257476807,
+              40,
+              null
+            ],
+            [
+              -2.5974066257476807,
+              785,
+              null
+            ],
+            [
+              -3.4724066257476807,
+              11608,
+              null
+            ],
+            [
+              -3.6599066257476807,
+              641,
+              null
+            ],
+            [
+              -3.7849066257476807,
+              32,
+              null
+            ]
+          ],
+          [
+            [
+              -2.2578976154327393,
+              1079,
+              null
+            ],
+            [
+              -2.3828976154327393,
+              614,
+              null
+            ],
+            [
+              -2.3828976154327393,
+              2776,
+              null
+            ],
+            [
+              -2.6328976154327393,
+              572,
+              null
+            ],
+            [
+              -3.2578976154327393,
+              1744,
+              null
+            ]
+          ],
+          [
+            [
+              -2.399113655090332,
+              264,
+              null
+            ],
+            [
+              -2.399113655090332,
+              537,
+              null
+            ],
+            [
+              -3.024113655090332,
+              5023,
+              null
+            ],
+            [
+              -3.274113655090332,
+              4378,
+              null
+            ],
+            [
+              -3.649113655090332,
+              10094,
+              null
+            ]
+          ],
+          [
+            [
+              -2.7149970531463623,
+              2409,
+              null
+            ],
+            [
+              -3.3399970531463623,
+              6765,
+              null
+            ],
+            [
+              -3.4649970531463623,
+              2699,
+              null
+            ],
+            [
+              -3.5899970531463623,
+              2632,
+              null
+            ],
+            [
+              -3.7149970531463623,
+              220,
+              null
+            ]
+          ],
+          [
+            [
+              -0.3215196132659912,
+              8404,
+              null
+            ],
+            [
+              -3.196519613265991,
+              60848,
+              null
+            ],
+            [
+              -3.571519613265991,
+              462,
+              null
+            ],
+            [
+              -4.07151985168457,
+              82069,
+              null
+            ],
+            [
+              -4.32151985168457,
+              9852,
+              null
+            ]
+          ],
+          [
+            [
+              -0.009445265866816044,
+              315,
+              null
+            ],
+            [
+              -5.8844451904296875,
+              323,
+              null
+            ],
+            [
+              -6.5094451904296875,
+              320,
+              null
+            ],
+            [
+              -7.1344451904296875,
+              11,
+              null
+            ],
+            [
+              -7.7594451904296875,
+              13,
+              null
+            ]
+          ],
+          [
+            [
+              -1.588355302810669,
+              279,
+              null
+            ],
+            [
+              -2.713355302810669,
+              13475,
+              null
+            ],
+            [
+              -3.775855302810669,
+              6888,
+              null
+            ],
+            [
+              -4.21335506439209,
+              9852,
+              null
+            ],
+            [
+              -4.33835506439209,
+              576,
+              null
+            ]
+          ],
+          [
+            [
+              -1.622475266456604,
+              7055,
+              null
+            ],
+            [
+              -3.9974751472473145,
+              8885,
+              null
+            ],
+            [
+              -3.9974751472473145,
+              13475,
+              null
+            ],
+            [
+              -4.0599751472473145,
+              17114,
+              null
+            ],
+            [
+              -4.1849751472473145,
+              220,
+              null
+            ]
+          ],
+          [
+            [
+              -0.04679745435714722,
+              13475,
+              null
+            ],
+            [
+              -4.546797275543213,
+              11,
+              null
+            ],
+            [
+              -6.046797275543213,
+              330,
+              null
+            ],
+            [
+              -6.234297275543213,
+              8885,
+              null
+            ],
+            [
+              -6.484297275543213,
+              2598,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "prefix_hash": "5eebcdb2ee588a14feb153d02be350c8ece656af81039a92869a61efea5ad2a8",
+        "ids": [
+          220,
+          20,
+          198,
+          40,
+          1079,
+          264,
+          2409,
+          8404,
+          315,
+          279,
+          7055,
+          13475
+        ],
+        "text": " 5\nI am a big fan of the band Radio",
+        "chosen": [
+          [
+            -0.5383394360542297,
+            220,
+            null
+          ],
+          [
+            -0.5580579042434692,
+            20,
+            null
+          ],
+          [
+            -0.7043269872665405,
+            198,
+            null
+          ],
+          [
+            -2.2224066257476807,
+            40,
+            null
+          ],
+          [
+            -2.2578976154327393,
+            1079,
+            null
+          ],
+          [
+            -2.399113655090332,
+            264,
+            null
+          ],
+          [
+            -2.7149970531463623,
+            2409,
+            null
+          ],
+          [
+            -0.3215196132659912,
+            8404,
+            null
+          ],
+          [
+            -0.009445265866816044,
+            315,
+            null
+          ],
+          [
+            -1.588355302810669,
+            279,
+            null
+          ],
+          [
+            -1.622475266456604,
+            7055,
+            null
+          ],
+          [
+            -0.04679745435714722,
+            13475,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.5383394360542297,
+              220,
+              null
+            ],
+            [
+              -1.413339376449585,
+              937,
+              null
+            ],
+            [
+              -2.788339376449585,
+              17582,
+              null
+            ],
+            [
+              -4.913339614868164,
+              23688,
+              null
+            ],
+            [
+              -5.288339614868164,
+              1128,
+              null
+            ]
+          ],
+          [
+            [
+              -0.5580579042434692,
+              20,
+              null
+            ],
+            [
+              -0.9330579042434692,
+              19,
+              null
+            ],
+            [
+              -4.68305778503418,
+              18,
+              null
+            ],
+            [
+              -5.18305778503418,
+              99241,
+              null
+            ],
+            [
+              -5.30805778503418,
+              17,
+              null
+            ]
+          ],
+          [
+            [
+              -0.7043269872665405,
+              198,
+              null
+            ],
+            [
+              -2.82932710647583,
+              25,
+              null
+            ],
+            [
+              -3.20432710647583,
+              320,
+              null
+            ],
+            [
+              -3.76682710647583,
+              30,
+              null
+            ],
+            [
+              -3.76682710647583,
+              55864,
+              null
+            ]
+          ],
+          [
+            [
+              -2.2224066257476807,
+              40,
+              null
+            ],
+            [
+              -2.5974066257476807,
+              785,
+              null
+            ],
+            [
+              -3.4724066257476807,
+              11608,
+              null
+            ],
+            [
+              -3.6599066257476807,
+              641,
+              null
+            ],
+            [
+              -3.7849066257476807,
+              32,
+              null
+            ]
+          ],
+          [
+            [
+              -2.2578976154327393,
+              1079,
+              null
+            ],
+            [
+              -2.3828976154327393,
+              614,
+              null
+            ],
+            [
+              -2.3828976154327393,
+              2776,
+              null
+            ],
+            [
+              -2.6328976154327393,
+              572,
+              null
+            ],
+            [
+              -3.2578976154327393,
+              1744,
+              null
+            ]
+          ],
+          [
+            [
+              -2.399113655090332,
+              264,
+              null
+            ],
+            [
+              -2.399113655090332,
+              537,
+              null
+            ],
+            [
+              -3.024113655090332,
+              5023,
+              null
+            ],
+            [
+              -3.274113655090332,
+              4378,
+              null
+            ],
+            [
+              -3.649113655090332,
+              10094,
+              null
+            ]
+          ],
+          [
+            [
+              -2.7149970531463623,
+              2409,
+              null
+            ],
+            [
+              -3.3399970531463623,
+              6765,
+              null
+            ],
+            [
+              -3.4649970531463623,
+              2699,
+              null
+            ],
+            [
+              -3.5899970531463623,
+              2632,
+              null
+            ],
+            [
+              -3.7149970531463623,
+              220,
+              null
+            ]
+          ],
+          [
+            [
+              -0.3215196132659912,
+              8404,
+              null
+            ],
+            [
+              -3.196519613265991,
+              60848,
+              null
+            ],
+            [
+              -3.571519613265991,
+              462,
+              null
+            ],
+            [
+              -4.07151985168457,
+              82069,
+              null
+            ],
+            [
+              -4.32151985168457,
+              9852,
+              null
+            ]
+          ],
+          [
+            [
+              -0.009445265866816044,
+              315,
+              null
+            ],
+            [
+              -5.8844451904296875,
+              323,
+              null
+            ],
+            [
+              -6.5094451904296875,
+              320,
+              null
+            ],
+            [
+              -7.1344451904296875,
+              11,
+              null
+            ],
+            [
+              -7.7594451904296875,
+              13,
+              null
+            ]
+          ],
+          [
+            [
+              -1.588355302810669,
+              279,
+              null
+            ],
+            [
+              -2.713355302810669,
+              13475,
+              null
+            ],
+            [
+              -3.775855302810669,
+              6888,
+              null
+            ],
+            [
+              -4.21335506439209,
+              9852,
+              null
+            ],
+            [
+              -4.33835506439209,
+              576,
+              null
+            ]
+          ],
+          [
+            [
+              -1.622475266456604,
+              7055,
+              null
+            ],
+            [
+              -3.9974751472473145,
+              8885,
+              null
+            ],
+            [
+              -3.9974751472473145,
+              13475,
+              null
+            ],
+            [
+              -4.0599751472473145,
+              17114,
+              null
+            ],
+            [
+              -4.1849751472473145,
+              220,
+              null
+            ]
+          ],
+          [
+            [
+              -0.04679745435714722,
+              13475,
+              null
+            ],
+            [
+              -4.546797275543213,
+              11,
+              null
+            ],
+            [
+              -6.046797275543213,
+              330,
+              null
+            ],
+            [
+              -6.234297275543213,
+              8885,
+              null
+            ],
+            [
+              -6.484297275543213,
+              2598,
+              null
+            ]
+          ]
+        ]
+      }
+    ],
+    "fixed": [
+      {
+        "context": "2 + 2 =",
+        "input_hash": "5eebcdb2ee588a14feb153d02be350c8ece656af81039a92869a61efea5ad2a8",
+        "ids": [
+          220
+        ],
+        "text": " ",
+        "chosen": [
+          [
+            -0.5383394360542297,
+            220,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.5383394360542297,
+              220,
+              null
+            ],
+            [
+              -1.413339376449585,
+              937,
+              null
+            ],
+            [
+              -2.788339376449585,
+              17582,
+              null
+            ],
+            [
+              -4.913339614868164,
+              23688,
+              null
+            ],
+            [
+              -5.288339614868164,
+              1128,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "context": "2 + 2 = 4",
+        "input_hash": "9fc780fbb41f4b33439a38ded9927bf1cb300560947ff5af9eb13ab8b5155b26",
+        "ids": [
+          284
+        ],
+        "text": " =",
+        "chosen": [
+          [
+            -1.4813140630722046,
+            284,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -1.4813140630722046,
+              284,
+              null
+            ],
+            [
+              -1.6063140630722046,
+              13,
+              null
+            ],
+            [
+              -1.9813140630722046,
+              198,
+              null
+            ],
+            [
+              -2.481314182281494,
+              30,
+              null
+            ],
+            [
+              -3.231314182281494,
+              11,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "context": "The capital city of Japan is",
+        "input_hash": "108275fed6814dff432f4189339237c4094f755e5cacb20e7f9178b3a0ad64f2",
+        "ids": [
+          26113
+        ],
+        "text": " Tokyo",
+        "chosen": [
+          [
+            -0.727100670337677,
+            26113,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.727100670337677,
+              26113,
+              null
+            ],
+            [
+              -2.6021006107330322,
+              264,
+              null
+            ],
+            [
+              -2.9771006107330322,
+              825,
+              null
+            ],
+            [
+              -3.3521006107330322,
+              279,
+              null
+            ],
+            [
+              -3.6021006107330322,
+              7407,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "context": "Carbon dioxide contains",
+        "input_hash": "9cb48d2f77f4d029c12bf43fab5ad85e8f3e8e853423263946d782491ad930eb",
+        "ids": [
+          12493
+        ],
+        "text": " carbon",
+        "chosen": [
+          [
+            -1.176368236541748,
+            12493,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -1.176368236541748,
+              12493,
+              null
+            ],
+            [
+              -1.676368236541748,
+              825,
+              null
+            ],
+            [
+              -1.801368236541748,
+              220,
+              null
+            ],
+            [
+              -2.551368236541748,
+              1378,
+              null
+            ],
+            [
+              -3.176368236541748,
+              902,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "context": "One two three four five",
+        "input_hash": "b62d6df16299912163d53fbe4e554349ad8afc694a75c040f6bab9c9eca6ab65",
+        "ids": [
+          4743
+        ],
+        "text": " six",
+        "chosen": [
+          [
+            -0.8539841175079346,
+            4743,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.8539841175079346,
+              4743,
+              null
+            ],
+            [
+              -2.1039841175079346,
+              2348,
+              null
+            ],
+            [
+              -2.2289841175079346,
+              198,
+              null
+            ],
+            [
+              -3.1039841175079346,
+              11,
+              null
+            ],
+            [
+              -3.1039841175079346,
+              3055,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "context": "Water freezes at",
+        "input_hash": "9e499717c7b1540e60ba7ac93316ecbad6e6c369327a271df12e6facf3fd17c4",
+        "ids": [
+          220
+        ],
+        "text": " ",
+        "chosen": [
+          [
+            -0.2629210650920868,
+            220,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.2629210650920868,
+              220,
+              null
+            ],
+            [
+              -2.887921094894409,
+              400,
+              null
+            ],
+            [
+              -3.262921094894409,
+              17741,
+              null
+            ],
+            [
+              -4.13792085647583,
+              7168,
+              null
+            ],
+            [
+              -4.38792085647583,
+              264,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "context": "The seven days of the",
+        "input_hash": "fa64a395ff69c486c59c66519dec16aa53d4a8eb3efa193a398bcd03ab88a601",
+        "ids": [
+          2003
+        ],
+        "text": " week",
+        "chosen": [
+          [
+            -0.28268754482269287,
+            2003,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.28268754482269287,
+              2003,
+              null
+            ],
+            [
+              -3.7826876640319824,
+              9684,
+              null
+            ],
+            [
+              -4.032687664031982,
+              18747,
+              null
+            ],
+            [
+              -4.970187664031982,
+              220,
+              null
+            ],
+            [
+              -5.157687664031982,
+              2480,
+              null
+            ]
+          ]
+        ]
+      },
+      {
+        "context": "Compute 17 plus 19. The result is",
+        "input_hash": "2793f675d851a2d031a4d53414e278d52c3de68b3138acc432c47c2854bb6df4",
+        "ids": [
+          220
+        ],
+        "text": " ",
+        "chosen": [
+          [
+            -0.39891788363456726,
+            220,
+            null
+          ]
+        ],
+        "top": [
+          [
+            [
+              -0.39891788363456726,
+              220,
+              null
+            ],
+            [
+              -3.5239179134368896,
+              279,
+              null
+            ],
+            [
+              -3.6489179134368896,
+              264,
+              null
+            ],
+            [
+              -4.1489176750183105,
+              537,
+              null
+            ],
+            [
+              -4.5239176750183105,
+              25,
+              null
+            ]
+          ]
+        ]
+      }
+    ],
+    "started_nonce": 13900524
+  },
+  "memory": {
+    "rows": [
+      {
+        "input_tokens": 3073,
+        "input_hash": "ac4c03438904d91ea6c4d8a5fb5a2b5afccf83d07821b33f3b395b9d71a43e48",
+        "output_ids": [
+          154842,
+          40,
+          5293,
+          419
+        ],
+        "prefill_cache": 0,
+        "wall_s": 5.166235357995902
+      },
+      {
+        "input_tokens": 4097,
+        "input_hash": "bab6e8cd9c1a48627ab44c5d5ada6bfa7026ab097811f3655132728747b5b06c",
+        "output_ids": [
+          13,
+          75,
+          2969,
+          67
+        ],
+        "prefill_cache": 0,
+        "wall_s": 6.174173038001754
+      },
+      {
+        "input_tokens": 6145,
+        "input_hash": "9f5331ce18c83d9f16186e00d35fd0cf371d25c19645ca507435dbd11f4004f0",
+        "output_ids": [
+          154842,
+          40,
+          5293,
+          697
+        ],
+        "prefill_cache": 0,
+        "wall_s": 8.002328948001377
+      },
+      {
+        "input_tokens": 7169,
+        "input_hash": "50871d2a721c5db47bcd9477f33fbe7f06d69ae7a419362466c1d2e941dec497",
+        "output_ids": [
+          1047,
+          392,
+          583,
+          82
+        ],
+        "prefill_cache": 0,
+        "wall_s": 8.168199266998272
+      },
+      {
+        "input_tokens": 7169,
+        "input_hash": "24f5d52c9c0e250ce914429aed41541cb7830c36593230b18b1970fbe67774a4",
+        "output_ids": [
+          551,
+          1055,
+          198,
+          154842
+        ],
+        "prefill_cache": 0,
+        "wall_s": 8.271012656005041
+      },
+      {
+        "input_tokens": 6145,
+        "input_hash": "0dc8b7a6ed6e6a34c9e710b8c02d387a37234737c813ed35671808576f9d6384",
+        "output_ids": [
+          154842,
+          40,
+          5293,
+          697
+        ],
+        "prefill_cache": 0,
+        "wall_s": 6.918018570999266
+      },
+      {
+        "input_tokens": 4097,
+        "input_hash": "b8dafc20b54c414774f51d2b241dd9a30ac599189af3336e595ad49b60465671",
+        "output_ids": [
+          276,
+          376,
+          844,
+          198
+        ],
+        "prefill_cache": 0,
+        "wall_s": 6.226161270999
+      },
+      {
+        "input_tokens": 3073,
+        "input_hash": "cff3c0be1e30ec03516024639155f928ee288d813122c756f10e14fa15bbeb6b",
+        "output_ids": [
+          68,
+          198,
+          197,
+          197
+        ],
+        "prefill_cache": 0,
+        "wall_s": 4.871193986000435
+      }
+    ]
+  },
+  "runtime_image_id": "sha256:7cc852e69586b34e597091f6aa3d6ebec6f20a62014e49c5e47f690a0fe11764"
+}
