@@ -1,0 +1,3841 @@
+{
+  "candidate": "d7dad05d1ed4d8b6b6d3a02ae2e947b8da133c68",
+  "rows": [
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 0,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 0,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 0,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 0,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 1,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 1,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 1,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 1,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 2,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 2,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 2,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 2,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 3,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 3,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 3,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 3,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 4,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 4,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 4,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 4,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 5,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 5,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 5,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 5,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 6,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 6,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 6,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 6,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 7,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 7,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 7,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 7,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 8,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 8,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 8,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 8,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 9,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 9,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 9,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 9,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 10,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 10,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 10,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 10,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 11,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 11,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 11,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 11,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 12,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 12,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 12,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 12,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 13,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 13,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 13,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 13,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 14,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 14,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 14,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 14,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 15,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 15,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            4,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            4
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        4,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 15,
+      "capture_context": true,
+      "stream_capturing": false,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    },
+    {
+      "event": "vendor-int8-indexer",
+      "rank": 15,
+      "capture_context": true,
+      "stream_capturing": true,
+      "tensors": {
+        "query": {
+          "shape": [
+            2,
+            32,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key": {
+          "shape": [
+            257,
+            128,
+            1,
+            128
+          ],
+          "dtype": "torch.int8"
+        },
+        "key_scale": {
+          "shape": [
+            257,
+            128,
+            1
+          ],
+          "dtype": "torch.float16"
+        },
+        "metadata": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.int32"
+        },
+        "cu_q_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        },
+        "kv_lens": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int32"
+        }
+      },
+      "output_shape": [
+        2,
+        2048
+      ]
+    }
+  ],
+  "observed_dispatch_ranks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "device_capture_ranks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "actual_graph_captures": {
+    "parent-graph-f2": {
+      "5": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.72,
+        "reported_capture_gb": 1.39
+      },
+      "0": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.74,
+        "reported_capture_gb": 1.39
+      },
+      "1": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.73,
+        "reported_capture_gb": 1.39
+      },
+      "6": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.78,
+        "reported_capture_gb": 1.39
+      },
+      "7": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.82,
+        "reported_capture_gb": 1.39
+      },
+      "2": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.83,
+        "reported_capture_gb": 1.39
+      },
+      "3": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.85,
+        "reported_capture_gb": 1.39
+      },
+      "4": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 54.25,
+        "reported_capture_gb": 1.39
+      },
+      "9": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.67,
+        "reported_capture_gb": 1.39
+      },
+      "8": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.72,
+        "reported_capture_gb": 1.39
+      },
+      "14": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.73,
+        "reported_capture_gb": 1.39
+      },
+      "12": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.76,
+        "reported_capture_gb": 1.39
+      },
+      "15": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.77,
+        "reported_capture_gb": 1.39
+      },
+      "11": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 53.9,
+        "reported_capture_gb": 1.39
+      },
+      "10": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 54.12,
+        "reported_capture_gb": 1.39
+      },
+      "13": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 54.19,
+        "reported_capture_gb": 1.39
+      }
+    },
+    "index-graph-f2": {
+      "4": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.32,
+        "reported_capture_gb": 1.4
+      },
+      "0": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.39,
+        "reported_capture_gb": 1.4
+      },
+      "3": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.4,
+        "reported_capture_gb": 1.4
+      },
+      "6": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.41,
+        "reported_capture_gb": 1.4
+      },
+      "5": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.63,
+        "reported_capture_gb": 1.4
+      },
+      "1": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.73,
+        "reported_capture_gb": 1.4
+      },
+      "2": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.78,
+        "reported_capture_gb": 1.4
+      },
+      "7": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.83,
+        "reported_capture_gb": 1.4
+      },
+      "12": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.33,
+        "reported_capture_gb": 1.4
+      },
+      "14": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.36,
+        "reported_capture_gb": 1.4
+      },
+      "11": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.39,
+        "reported_capture_gb": 1.4
+      },
+      "8": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.39,
+        "reported_capture_gb": 1.4
+      },
+      "13": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.4,
+        "reported_capture_gb": 1.4
+      },
+      "9": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.56,
+        "reported_capture_gb": 1.4
+      },
+      "10": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.71,
+        "reported_capture_gb": 1.4
+      },
+      "15": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 49.0,
+        "reported_capture_gb": 1.4
+      }
+    }
+  },
+  "request_graph_replay_ranks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ]
+}
