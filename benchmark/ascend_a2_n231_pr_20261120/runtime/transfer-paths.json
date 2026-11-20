@@ -1,0 +1,320 @@
+{
+  "r1": [
+    {
+      "role": "send",
+      "card": 1,
+      "peer_card": 2,
+      "kind": "mfzero",
+      "layout": "views",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 234,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 5.687146614000085
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "pair": 1
+    },
+    {
+      "role": "send",
+      "card": 1,
+      "peer_card": 2,
+      "kind": "moon014",
+      "layout": "views",
+      "registration": -1,
+      "peer_registration": -1,
+      "regions": 234,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [],
+      "verified": [
+        0,
+        0,
+        0
+      ],
+      "pair": 2
+    },
+    {
+      "role": "recv",
+      "card": 2,
+      "peer_card": 1,
+      "kind": "mfzero",
+      "layout": "views",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 234,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 5.687146614000085
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "pair": 1
+    },
+    {
+      "role": "recv",
+      "card": 2,
+      "peer_card": 1,
+      "kind": "moon014",
+      "layout": "views",
+      "registration": -1,
+      "peer_registration": -1,
+      "regions": 234,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [],
+      "verified": [
+        0,
+        0,
+        0
+      ],
+      "pair": 2
+    }
+  ],
+  "r2": [
+    {
+      "role": "send",
+      "card": 1,
+      "peer_card": 2,
+      "kind": "mfzero",
+      "layout": "base",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 3,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 5.372837954004353
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "pair": 1
+    },
+    {
+      "role": "send",
+      "card": 1,
+      "peer_card": 2,
+      "kind": "moon014",
+      "layout": "base",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 3,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 0.18107931800477672
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "pair": 2
+    },
+    {
+      "role": "recv",
+      "card": 2,
+      "peer_card": 1,
+      "kind": "mfzero",
+      "layout": "base",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 3,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 5.372837954004353
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "pair": 1
+    },
+    {
+      "role": "recv",
+      "card": 2,
+      "peer_card": 1,
+      "kind": "moon014",
+      "layout": "base",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 3,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 0.18107931800477672
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "pair": 2
+    }
+  ],
+  "r3": [
+    {
+      "role": "send",
+      "card": 1,
+      "peer_card": 2,
+      "kind": "moon014",
+      "layout": "segments",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 3,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 0.17690118499740493
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "registered_spans": 3,
+      "pair": 1
+    },
+    {
+      "role": "send",
+      "card": 1,
+      "peer_card": 2,
+      "kind": "moon014",
+      "layout": "segments",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 3,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 0.18077975600317586
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "registered_spans": 3,
+      "pair": 2
+    },
+    {
+      "role": "recv",
+      "card": 2,
+      "peer_card": 1,
+      "kind": "moon014",
+      "layout": "segments",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 3,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 0.17690118499740493
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "registered_spans": 3,
+      "pair": 1
+    },
+    {
+      "role": "recv",
+      "card": 2,
+      "peer_card": 1,
+      "kind": "moon014",
+      "layout": "segments",
+      "registration": 0,
+      "peer_registration": 0,
+      "regions": 3,
+      "descriptors": 234,
+      "bytes": 84344832,
+      "writes": [
+        {
+          "batch_size": 234,
+          "rc": [
+            0
+          ],
+          "seconds": 0.18077975600317586
+        }
+      ],
+      "verified": [
+        78,
+        78,
+        78
+      ],
+      "registered_spans": 3,
+      "pair": 2
+    }
+  ]
+}
