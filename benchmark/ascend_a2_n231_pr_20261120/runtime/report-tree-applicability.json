@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-21T04:22:49.859634+08:00",
-  "upstream_main": "2b248971db8c8c349586c3757663be9cba5e366d",
-  "upstream_tree": "f6cf7a79b9027d1071851799c8ea81501f4eb138",
+  "checked": "2026-11-21T04:25:55.925016+08:00",
+  "upstream_main": "2eb62cf50ca752ff57823e00b94163c89244d0c5",
+  "upstream_tree": "7891c45d48d3ed0673712f5ec714caf273bb4fc2",
   "method": "Git apply against an isolated index, with a real three-way application and unmerged-file check if direct application fails. Includes the parent for the stacked PR. Hardware results use the recorded tested commits.",
   "pull_requests": {
     "48541": {
