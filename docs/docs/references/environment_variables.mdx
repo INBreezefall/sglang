@@ -786,6 +786,16 @@ SGLang supports various environment variables that can be used to configure its 
       <td style={{padding: "9px 12px", backgroundColor: "rgba(255,255,255,0.02)"}}><code>false</code></td>
     </tr>
     <tr>
+      <td style={{padding: "9px 12px", fontWeight: 500, backgroundColor: "rgba(255,255,255,0.02)"}}><code>SGLANG_DSV41_NPU_INT8_MAIN_CACHE</code></td>
+      <td style={{padding: "9px 12px", backgroundColor: "rgba(255,255,255,0.05)"}}>Store each compressed DeepSeek-V4.1-Flash main KV row in 896 bytes on Ascend 910B. The row holds 448 signed INT8 non-rotary values and their shared scales and selectors. The 64 rotary values and the model’s separate sliding-window attention remain BF16. Set the same value on prefill and decode workers.</td>
+      <td style={{padding: "9px 12px", backgroundColor: "rgba(255,255,255,0.02)"}}><code>false</code></td>
+    </tr>
+    <tr>
+      <td style={{padding: "9px 12px", fontWeight: 500, backgroundColor: "rgba(255,255,255,0.02)"}}><code>SGLANG_DSV41_NPU_INT8_INDEX_CACHE</code></td>
+      <td style={{padding: "9px 12px", backgroundColor: "rgba(255,255,255,0.05)"}}>Store 128-component DeepSeek-V4.1-Flash index keys in 226 bytes on Ascend 910B, including quantization metadata. Long eager prefixes use an integer shortlist and the candidate API from sgl-kernel-npu PR #1045. Selected blocks are reranked with the active keys restored to BF16. Set the same value on prefill and decode workers.</td>
+      <td style={{padding: "9px 12px", backgroundColor: "rgba(255,255,255,0.02)"}}><code>false</code></td>
+    </tr>
+    <tr>
       <td style={{padding: "9px 12px", fontWeight: 500, backgroundColor: "rgba(255,255,255,0.02)"}}><code>SGLANG_OPT_BEAM_DECODE_GEMV</code></td>
       <td style={{padding: "9px 12px", backgroundColor: "rgba(255,255,255,0.05)"}}>Run single-token Beam MoE decode through a fused GEMV on SM103 (GB300) for BF16 experts with MoE TP4 and EP1, where Beam fuses the expert sum into its all-reduce (Triton MoE runner). Requires <code>SGLANG_OPT_FUSE_SWIGLU_INTERLEAVED=1</code>. Unsupported setups and forwards keep their normal MoE path. Only a failed static check (device, BF16 experts, MoE TP/EP or expert shape) logs that the switch is unused.</td>
       <td style={{padding: "9px 12px", backgroundColor: "rgba(255,255,255,0.02)"}}><code>false</code></td>

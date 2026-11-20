@@ -648,11 +648,12 @@ def _dsv4_low_ratio_regions(
             rows = []
             for buffer in index.buffer_info.buffers:
                 full_pages = buffer.shape[0] // index_pages_per_full_page
-                rows.append(
-                    buffer[: full_pages * index_pages_per_full_page]
-                    .view(torch.uint8)
-                    .reshape(full_pages, -1)
-                )
+                live = buffer[: full_pages * index_pages_per_full_page]
+                if index.buffer_info.layout == "pa_nd":
+                    slots = live.shape[1] * index_pages_per_full_page
+                    rows.append(live.reshape(full_pages, slots, *live.shape[2:]))
+                else:
+                    rows.append(live.view(torch.uint8).reshape(full_pages, -1))
             regions.append((name, kvcache.index_pools[ratio], rows, layer_mapping))
     return regions
 

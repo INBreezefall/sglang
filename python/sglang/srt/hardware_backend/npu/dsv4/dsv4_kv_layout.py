@@ -14,12 +14,20 @@ import enum
 
 import torch
 
+from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_kv import (
+    GROUP_SIZE,
+    HEAD_DIM,
+    RECORD_BYTES,
+    ROPE_DIM,
+)
+
 
 class NPUDSV4KVLayout(str, enum.Enum):
     V4_BF16 = "v4_bf16"
     V4_FP8 = "v4_fp8"
     # A3 uses the same unquantized row for SWA and C1/C2, with BF16 index K.
     V41_BF16 = "v41_bf16"
+    V41_INT8 = "v41_int8_g224_s16_v2"
     V41_SWA_FP8 = "v41_fp8"
     V41_CMP_FP4 = "v41_fp4"
 
@@ -27,14 +35,15 @@ class NPUDSV4KVLayout(str, enum.Enum):
     def is_compressed(self) -> bool:
         # A property of the pool role, not of the layer's compress ratio -- a
         # ratio-1 aggregate is still read as cmp_kv by the ds41 attention op.
-        return self is NPUDSV4KVLayout.V41_CMP_FP4
+        return self in (NPUDSV4KVLayout.V41_INT8, NPUDSV4KVLayout.V41_CMP_FP4)
 
     @property
     def quant_group(self) -> int:
-        """Values sharing one quant scale; None = not used by this row."""
+        """Channel group width used when encoding a quantized row."""
         return {
             NPUDSV4KVLayout.V4_BF16: None,
             NPUDSV4KVLayout.V41_BF16: None,
+            NPUDSV4KVLayout.V41_INT8: GROUP_SIZE,
             NPUDSV4KVLayout.V4_FP8: None,
             NPUDSV4KVLayout.V41_SWA_FP8: 32,
             NPUDSV4KVLayout.V41_CMP_FP4: 16,
@@ -50,6 +59,7 @@ class NPUDSV4KVLayout(str, enum.Enum):
         return {
             NPUDSV4KVLayout.V4_BF16: None,
             NPUDSV4KVLayout.V41_BF16: None,
+            NPUDSV4KVLayout.V41_INT8: None,
             NPUDSV4KVLayout.V4_FP8: None,
             NPUDSV4KVLayout.V41_SWA_FP8: "mxfp8_bf16",
             NPUDSV4KVLayout.V41_CMP_FP4: "mxfp4_bf16",
@@ -66,6 +76,7 @@ class NPUDSV4KVLayout(str, enum.Enum):
         return {
             NPUDSV4KVLayout.V4_BF16: None,
             NPUDSV4KVLayout.V41_BF16: None,
+            NPUDSV4KVLayout.V41_INT8: 32,
             NPUDSV4KVLayout.V4_FP8: None,
             NPUDSV4KVLayout.V41_SWA_FP8: 32,
             NPUDSV4KVLayout.V41_CMP_FP4: 32,
@@ -81,6 +92,12 @@ class NPUDSV4KVLayout(str, enum.Enum):
         (mxfp8) or head_dim // 2 (packed mxfp4, two e2m1 per byte), scales are
         G * bf16.
         """
+        if self is NPUDSV4KVLayout.V41_INT8:
+            if nope_dim + rope_dim != HEAD_DIM or rope_dim != ROPE_DIM:
+                raise ValueError(
+                    "DeepSeek-V4.1 INT8 KV requires 448 NoPE and 64 RoPE values"
+                )
+            return RECORD_BYTES, torch.uint8
         if self in (NPUDSV4KVLayout.V4_BF16, NPUDSV4KVLayout.V41_BF16):
             return nope_dim + rope_dim, torch.bfloat16
         if self is NPUDSV4KVLayout.V4_FP8:

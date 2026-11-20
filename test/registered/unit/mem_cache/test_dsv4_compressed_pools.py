@@ -550,6 +550,53 @@ class TestV41KVPoolLayouts(CustomTestCase):
                 pool = self.make_pool([0, 2, 2, 1, 1, 2], [1, 3, 5], KVLayout.V41)
                 self._check_ced_host_capture(pool, split_indexer)
 
+    def test_npu_indexer_keeps_native_slots_for_host_transfer(self):
+        from sglang.srt.mem_cache.deepseek_v4_buffer_info import DSV4PagedBufferInfo
+        from sglang.srt.mem_cache.device_pool_info import DevicePoolInfo
+        from sglang.srt.mem_cache.hybrid_cache import hybrid_pool_assembler as assembler
+
+        pool = self.make_pool([0, 2, 2, 1, 1], [1, 3], KVLayout.V41)
+        infos = assembler._dsv4_pool_infos(pool)
+        for ratio in (1, 2):
+            native_slots = PAGE_SIZE // 2
+            for suffix, width, dtype in (
+                ("INDEXER", 128, torch.int8),
+                ("INDEXER_SCALE", 1, torch.float16),
+            ):
+                name = getattr(PoolName, f"DEEPSEEK_V4_C{ratio}_{suffix}")
+                kv = infos[getattr(PoolName, f"DEEPSEEK_V4_C{ratio}")]
+                buffer = torch.empty(7, native_slots, 1, width, dtype=dtype)
+                infos[name] = DevicePoolInfo(
+                    pool_name=name,
+                    indices_from_pool=PoolName.KV,
+                    layer_ids=kv.layer_ids,
+                    buffer_info=DSV4PagedBufferInfo.from_buffers(
+                        [buffer], page_slots=native_slots, layout="pa_nd"
+                    ),
+                )
+        regions = assembler._dsv4_low_ratio_regions(pool, infos, PAGE_SIZE)
+        for name, _, buffers, _ in regions:
+            native = infos[name].buffer_info
+            if native.layout != "pa_nd":
+                continue
+            ratio = (
+                1
+                if name
+                in (
+                    PoolName.DEEPSEEK_V4_C1_INDEXER,
+                    PoolName.DEEPSEEK_V4_C1_INDEXER_SCALE,
+                )
+                else 2
+            )
+            slots = PAGE_SIZE // ratio
+            src = native.buffers[0]
+            view = buffers[0]
+            self.assertEqual(
+                view.shape, (7 // (slots // native.page_slots), slots, 1, src.shape[-1])
+            )
+            self.assertEqual(view.dtype, src.dtype)
+            self.assertEqual(view.data_ptr(), src.data_ptr())
+
     def _check_ced_host_capture(self, pool, split_indexer):
         from sglang.srt.mem_cache.hicache_storage import PoolName
         from sglang.srt.mem_cache.hybrid_cache import hybrid_pool_assembler as assembler

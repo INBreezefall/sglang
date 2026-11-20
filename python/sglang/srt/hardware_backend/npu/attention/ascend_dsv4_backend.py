@@ -24,6 +24,9 @@ from sglang.srt.hardware_backend.npu.attention.dsv4_prefill_graph import (
     Dsv4PrefillGraphMetadata,
 )
 from sglang.srt.hardware_backend.npu.dsv4.dsv4_rope import Dsv4NpuRoPE, rope_cos_sin
+from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_kv import (
+    materialize_kv_pages,
+)
 from sglang.srt.hardware_backend.npu.utils import is_npu_arch35
 from sglang.srt.layers.cp.base import get_cp_strategy
 from sglang.srt.model_executor.cuda_graph_config import (
@@ -34,6 +37,7 @@ from sglang.srt.model_executor.cuda_graph_config import (
 from sglang.srt.model_executor.forward_batch_info import DSV4OutCacheLoc
 from sglang.srt.model_executor.forward_context import get_attn_backend
 from sglang.srt.model_executor.forward_mode import ForwardMode
+from sglang.srt.model_executor.runner_utils.capture_mode import get_is_capture_mode
 from sglang.srt.runtime_context import get_parallel
 from sglang.srt.speculative.ragged_verify import (
     RaggedVerifyMode,
@@ -1584,6 +1588,40 @@ class LowRatioCompressAscendBackendMixin:
         w = indexer.head_weights(x).view(-1, indexer.n_heads).float()
         return q_packed, descale_q, w
 
+    def _prepare_a2_indexer(
+        self, q, keys, w, layer, forward_batch, kwargs, *, filtered=False
+    ):
+        from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_indexer import (
+            prepare_indexer_operands,
+        )
+
+        pool = self.token_to_kv_pool
+        host_lens = (
+            None
+            if forward_batch.forward_mode.is_target_verify()
+            else getattr(forward_batch, "seq_lens_cpu", None)
+        )
+        indexer = layer.indexer
+        capacity = (
+            indexer.candidate_topk_blocks * indexer.candidate_block_size
+            if (indexer.candidate_topk_blocks, indexer.candidate_block_size)
+            == (2048, 8)
+            and q.shape[-2] in (32, 64)
+            else None
+        )
+        return prepare_indexer_operands(
+            q,
+            keys,
+            w,
+            pool.get_index_scale(layer.layer_id),
+            self._dsv41_a3_kv_lengths(forward_batch),
+            host_lens,
+            kwargs,
+            capture=get_is_capture_mode(),
+            capacity=capacity,
+            filtered=filtered,
+        )
+
     def _dsv41_index_full_topk(
         self, layer, x, q_lora, pos, forward_batch, *, candidate: bool = False
     ):
@@ -1603,6 +1641,30 @@ class LowRatioCompressAscendBackendMixin:
         k = pool.get_index_k(layer.layer_id)
         if not is_npu_arch35():
             kwargs = self._dsv41_a3_index_kwargs(forward_batch, ratio)
+            if k.dtype == torch.int8:
+                q_packed, k, w, descale_q, active_scales = self._prepare_a2_indexer(
+                    q_packed, k, w, layer, forward_batch, kwargs
+                )
+            if k.dtype == torch.int8:
+                from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_indexer import (
+                    index_topk,
+                )
+
+                indices, blocks = index_topk(
+                    q_packed,
+                    k,
+                    w,
+                    descale_q,
+                    active_scales,
+                    self._dsv4_index_topk,
+                    candidate_block_size=indexer.candidate_block_size,
+                    candidate_topk_blocks=indexer.candidate_topk_blocks
+                    if candidate
+                    else 0,
+                    **kwargs,
+                )
+                state = (blocks, indices.new_empty(0)) if candidate else None
+                return indices.reshape(t, self._dsv4_index_topk), state
             if candidate:
                 indices, _, blocks, lengths = _dsv41_a3_ops().candidate(
                     q_packed,
@@ -1760,14 +1822,37 @@ class LowRatioCompressAscendBackendMixin:
             )
         q_packed, descale_q, w = self._dsv41_index_q(layer, x, q_lora, pos)
         if not is_npu_arch35():
+            keys = self.token_to_kv_pool.get_index_k(layer.layer_id)
+            kwargs = self._dsv41_a3_index_kwargs(forward_batch, ratio)
+            if keys.dtype == torch.int8:
+                q_packed, keys, w, descale_q, active_scales = self._prepare_a2_indexer(
+                    q_packed, keys, w, layer, forward_batch, kwargs, filtered=True
+                )
+            if keys.dtype == torch.int8:
+                from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_indexer import (
+                    index_topk,
+                )
+
+                indices, _ = index_topk(
+                    q_packed,
+                    keys,
+                    w,
+                    descale_q,
+                    active_scales,
+                    self._dsv4_index_topk,
+                    candidate_block_size=indexer.candidate_block_size,
+                    candidate_topk_index=candidate_indices,
+                    **kwargs,
+                )
+                return indices.reshape(t, self._dsv4_index_topk)
             indices, _ = _dsv41_a3_ops().sparse_indexer(
                 q_packed,
-                self.token_to_kv_pool.get_index_k(layer.layer_id),
+                keys,
                 w,
                 self._dsv4_index_topk,
                 candidate_indices,
                 candidate_block_size=indexer.candidate_block_size,
-                **self._dsv41_a3_index_kwargs(forward_batch, ratio),
+                **kwargs,
             )
             return indices.view(t, -1)
         page_table = getattr(fm, f"c{ratio}_index_page_table", None)
@@ -2214,6 +2299,14 @@ class LowRatioCompressAscendBackendMixin:
                         torch.int32
                     ),
                 )
+                if kwargs["cmp_kv"].dtype == torch.uint8:
+                    kwargs["cmp_kv"], kwargs["cmp_block_table"] = materialize_kv_pages(
+                        kwargs["cmp_kv"],
+                        kwargs["cmp_block_table"],
+                        kwargs["seqused_cmp_kv"],
+                        fixed_shape=get_is_capture_mode(),
+                    )
+
             attn_out, _ = _dsv41_a3_ops().attention(
                 attention_q,
                 ori_kv=pool.get_swa_buffer(layer.layer_id),

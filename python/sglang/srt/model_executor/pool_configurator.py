@@ -1240,6 +1240,7 @@ class DSV4PoolConfigurator(MemoryPoolConfigurator):
     # object.__new__ stubs (SWA floor tests) skip __init__
     _dspark_draft_on_bf16 = False
     _npu_low_ratio_bf16 = False
+    _npu_int8_main_cache = False
     # A subclass that adds the draft's KV to the per-token bytes itself sets this,
     # replacing the (T+D)/T inflation.
     _draft_kv_priced_exactly = False
@@ -1351,8 +1352,17 @@ class DSV4PoolConfigurator(MemoryPoolConfigurator):
             self.indexer_head_dim, use_fp4_indexer=True
         )
         if self._npu_low_ratio_bf16:
-            # Matches DSV41NPUIndexerPool: BF16 K only, no packed copy/scales.
-            self.low_ratio_index_bytes = self.indexer_head_dim * torch.bfloat16.itemsize
+            from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_indexer import (
+                INDEX_METADATA_BYTES,
+            )
+            from sglang.srt.hardware_backend.npu.utils import dsv41_a2_int8_cache_modes
+
+            self._npu_int8_main_cache, int8_index = dsv41_a2_int8_cache_modes()
+            self.low_ratio_index_bytes = (
+                self.indexer_head_dim + INDEX_METADATA_BYTES
+                if int8_index
+                else self.indexer_head_dim * torch.bfloat16.itemsize
+            )
 
         # kvc.sliding_window_size is None on a runner without SWA layers.
         self._swa_ring_size = get_swa_ring_size(cfg.window_size, self.is_speculative)
@@ -1592,6 +1602,12 @@ class DSV4PoolConfigurator(MemoryPoolConfigurator):
         # through DeepSeekV4SingleKVPool.create_buffer, so they carry no page pad.
         if self._unified or _is_npu or get_exec().kernel.dsv4_attn_backend == "trtllm":
             if self._npu_low_ratio_bf16 and compress_ratio in (0, 1, 2):
+                if compress_ratio and self._npu_int8_main_cache:
+                    from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_kv import (
+                        RECORD_BYTES,
+                    )
+
+                    return RECORD_BYTES
                 return self.attn_head_dim * torch.bfloat16.itemsize
             return self.kv_bytes
         from sglang.srt.mem_cache.deepseek_v4_memory_pool import (

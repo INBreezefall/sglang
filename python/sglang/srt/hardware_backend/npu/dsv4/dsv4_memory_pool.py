@@ -28,7 +28,16 @@ from sgl_kernel_npu.operators.mem_cache import (
 
 from sglang.srt.constants import GPU_MEMORY_TYPE_KV_CACHE
 from sglang.srt.hardware_backend.npu.dsv4.dsv4_kv_layout import NPUDSV4KVLayout
-from sglang.srt.hardware_backend.npu.utils import is_npu_arch35
+from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_indexer import (
+    INDEX_HEAD_DIM,
+    INDEX_METADATA_BYTES,
+    write_index_rows,
+)
+from sglang.srt.hardware_backend.npu.dsv4.dsv41_int8_kv import pack_kv
+from sglang.srt.hardware_backend.npu.utils import (
+    dsv41_a2_int8_cache_modes,
+    is_npu_arch35,
+)
 from sglang.srt.layers.dp_attention import get_eager_max_batch_size
 from sglang.srt.mem_cache.deepseek_v4_buffer_info import (
     DSV4IndexerBufferInfo,
@@ -107,7 +116,7 @@ class NPUDeepSeekV4SingleKVPool(DeepSeekV4SingleKVPool):
         )
 
 
-def _write_dsv41_bf16_rows(buf, loc, cache):
+def _write_dsv41_rows(buf, loc, cache):
     """Fixed-shape A3 scatter; page zero is reserved for padding, never live KV."""
     rows = buf.view(-1, 1, buf.shape[-1])
     slots = loc.reshape(-1).long()
@@ -123,7 +132,7 @@ def _write_dsv41_bf16_rows(buf, loc, cache):
 class DSV41NPUSingleKVPool(NPUDeepSeekV4SingleKVPool):
     """NPU DeepSeek-V4.1 KV pool.
 
-    A3 stores unquantized BF16 rows. A5 rows are fully quantized by
+    The arch22 window stores BF16. A2 can pack the compressed rows as INT8. A5 uses
     ``kv_compress_epilog_v2`` (no bf16 RoPE tail), so
     the row width and store dtype come from :class:`NPUDSV4KVLayout`.
     ``V41_SWA_FP8`` is the model-wide window/main pool (FP8 E4M3 group 32, 544 B)
@@ -143,6 +152,7 @@ class DSV41NPUSingleKVPool(NPUDeepSeekV4SingleKVPool):
     ):
         assert layout in (
             NPUDSV4KVLayout.V41_BF16,
+            NPUDSV4KVLayout.V41_INT8,
             NPUDSV4KVLayout.V41_SWA_FP8,
             NPUDSV4KVLayout.V41_CMP_FP4,
         ), layout
@@ -401,21 +411,37 @@ class DSV41NPUIndexerPool(NPUDeepSeekV4IndexerPool):
 
     def _npu_index_row_dims(self) -> Tuple[int, int, torch.dtype, torch.dtype]:
         assert self.index_head_dim > 0, self.index_head_dim
+        if dsv41_a2_int8_cache_modes()[1]:
+            if self.index_head_dim != INDEX_HEAD_DIM:
+                raise ValueError(
+                    "The 910B DeepSeek-V4.1 INT8 index cache requires 128 values per key"
+                )
+            return self.index_head_dim, INDEX_METADATA_BYTES, torch.int8, torch.uint8
         layout = (
             NPUDSV4KVLayout.V41_CMP_FP4 if is_npu_arch35() else NPUDSV4KVLayout.V41_BF16
         )
         return layout.indexer_kv_info(self.index_head_dim)
 
     def contiguous_page_row_buffers(self) -> List[torch.Tensor]:
-        if is_npu_arch35():
+        if self.index_scale_buffer and self.index_scale_buffer[0].numel():
             return super().contiguous_page_row_buffers()
         return [buf.view(torch.uint8).flatten(1) for buf in self.index_k_buffer]
 
     def set_index_k_scale(self, layer_id, loc, index_k, index_k_scale):
         if is_npu_arch35():
             return super().set_index_k_scale(layer_id, loc, index_k, index_k_scale)
+        if self.index_k_buffer[layer_id].dtype == torch.int8:
+            if index_k_scale is not None:
+                raise ValueError("Expected BF16 index K at the DeepSeek-V4.1 writer")
+            write_index_rows(
+                self.index_k_buffer[layer_id],
+                self.index_scale_buffer[layer_id],
+                loc,
+                index_k,
+            )
+            return
         assert index_k_scale is None, "A3 V4.1 index K is unquantized BF16"
-        _write_dsv41_bf16_rows(self.index_k_buffer[layer_id], loc, index_k)
+        _write_dsv41_rows(self.index_k_buffer[layer_id], loc, index_k)
 
 
 class DSV4NPUTokenToKVPool(DeepSeekV4TokenToKVPool):
@@ -424,10 +450,13 @@ class DSV4NPUTokenToKVPool(DeepSeekV4TokenToKVPool):
     The full / SWA / c4 / c128 KV pools use the NPU PA_ND layout
     (:class:`NPUDeepSeekV4SingleKVPool`), :class:`NPUCompressStatePool` exposes
     the explicit-location ring view required by arch22, and the indexer pool adds
-    dedicated int8 K + fp16 scale buffers (:class:`NPUDeepSeekV4IndexerPool`). The
+    dedicated K and quantization metadata buffers (:class:`NPUDeepSeekV4IndexerPool`). The
     generic-accessor / port-hook methods below stand in for the CUDA store-cache
     chain, which the community base leaves as ``NotImplementedError``.
     """
+
+    _int8_main_cache = False
+    _int8_index_cache = False
 
     def __init__(
         self,
@@ -451,6 +480,7 @@ class DSV4NPUTokenToKVPool(DeepSeekV4TokenToKVPool):
                 f"{npu_window_generation!r}"
             )
         self._npu_window_generation = npu_window_generation
+        self._int8_main_cache, self._int8_index_cache = dsv41_a2_int8_cache_modes()
         super().__init__(*args, **kwargs)
 
     def _is_v41_model(self) -> bool:
@@ -464,12 +494,20 @@ class DSV4NPUTokenToKVPool(DeepSeekV4TokenToKVPool):
     def compressed_kv_layout(self, compress_ratio: int):
         """V4.1 low ratios use BF16 on A3 and epilog_v2 FP4 rows on A5."""
         if compress_ratio in NPUDSV4KVLayout.COMPRESSED_RATIOS and self._is_v41_model():
+            if self._int8_main_cache:
+                return NPUDSV4KVLayout.V41_INT8
             return (
                 NPUDSV4KVLayout.V41_CMP_FP4
                 if is_npu_arch35()
                 else NPUDSV4KVLayout.V41_BF16
             )
         return NPUDSV4KVLayout.V4_FP8 if is_npu_arch35() else NPUDSV4KVLayout.V4_BF16
+
+    def pd_kv_layout(self):
+        layout = super().pd_kv_layout()
+        if self._is_v41_model() and self._int8_index_cache:
+            return layout + ",indexer:int8_g128_s16_v2"
+        return layout
 
     def _window_kv_layout(self):
         """Row format of the non-compressed (full/swa/window) pools.
@@ -522,6 +560,7 @@ class DSV4NPUTokenToKVPool(DeepSeekV4TokenToKVPool):
         )
         if kv_layout in (
             NPUDSV4KVLayout.V41_BF16,
+            NPUDSV4KVLayout.V41_INT8,
             NPUDSV4KVLayout.V41_SWA_FP8,
             NPUDSV4KVLayout.V41_CMP_FP4,
         ):
@@ -891,7 +930,7 @@ class DSV4NPUTokenToKVPool(DeepSeekV4TokenToKVPool):
         buf = pool.kv_buffer[self._swa_local_layer_id(layer_id)]
         if isinstance(pool, DSV41NPUSingleKVPool):
             if not is_npu_arch35():
-                _write_dsv41_bf16_rows(buf, loc, cache)
+                _write_dsv41_rows(buf, loc, cache)
                 return
             # A V4.1 window row is FP8 E4M3 group 32 (544 B), not the V4 584-byte
             # arch35 row: the ds41 attention op reads ori_kv with all head_dim values
@@ -1053,8 +1092,11 @@ class DSV4NPUTokenToKVPool(DeepSeekV4TokenToKVPool):
         compress_pool = item.compress_kv_pool
         assert compress_pool is not None, "Missing compressed KV pool"
         if isinstance(compress_pool, DSV41NPUSingleKVPool) and not is_npu_arch35():
-            assert kv_scale is None, "A3 V4.1 compressed KV is unquantized BF16"
-            _write_dsv41_bf16_rows(compress_pool.kv_buffer[compress_layer_id], loc, kv)
+            assert kv_scale is None, "The arch22 compressor produces BF16 KV"
+            target = compress_pool.kv_buffer[compress_layer_id]
+            if target.dtype == torch.uint8:
+                kv = pack_kv(kv)
+            _write_dsv41_rows(target, loc, kv)
             return
         if device_type == "npu":
             # PA_ND layout: kv_buffer[layer_id] shape = (num_pages, page_size,

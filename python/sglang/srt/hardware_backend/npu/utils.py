@@ -37,6 +37,19 @@ def is_npu_arch35() -> bool:
     return acl.rt.get_device_info(0, 601) == (3510, 0)
 
 
+def dsv41_a2_int8_cache_modes() -> tuple[bool, bool]:
+    """Return the opt-in CSA and index formats supported by this 910B worker."""
+    main = envs.SGLANG_DSV41_NPU_INT8_MAIN_CACHE.get()
+    index = envs.SGLANG_DSV41_NPU_INT8_INDEX_CACHE.get()
+    if (
+        (main or index)
+        and _is_npu
+        and torch.npu.get_device_name().startswith("Ascend910B")
+    ):
+        return main, index
+    return False, False
+
+
 # SoC version reported by Ascend 950 (Atlas A5) devices; later aclnn-only
 # SoCs report higher values and share the same capability gates.
 ASCEND_950_SOC_VERSION = 260
