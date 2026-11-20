@@ -550,39 +550,55 @@ class TestV41KVPoolLayouts(CustomTestCase):
                 pool = self.make_pool([0, 2, 2, 1, 1, 2], [1, 3, 5], KVLayout.V41)
                 self._check_ced_host_capture(pool, split_indexer)
 
-    def test_npu_indexer_keeps_native_slots_for_host_transfer(self):
+    def test_npu_host_entries_allocate_complete_native_pages(self):
         from sglang.srt.mem_cache.deepseek_v4_buffer_info import DSV4PagedBufferInfo
         from sglang.srt.mem_cache.device_pool_info import DevicePoolInfo
         from sglang.srt.mem_cache.hybrid_cache import hybrid_pool_assembler as assembler
+        from sglang.srt.mem_cache.memory_pool_host import DeepSeekV4PagedHostPool
 
         pool = self.make_pool([0, 2, 2, 1, 1], [1, 3], KVLayout.V41)
         infos = assembler._dsv4_pool_infos(pool)
         for ratio in (1, 2):
-            native_slots = PAGE_SIZE // 2
-            for suffix, width, dtype in (
-                ("INDEXER", 128, torch.int8),
-                ("INDEXER_SCALE", 1, torch.float16),
+            kv_name = getattr(PoolName, f"DEEPSEEK_V4_C{ratio}")
+            layer_ids = infos[kv_name].layer_ids
+            for suffix, native_slots, width, dtype in (
+                ("", PAGE_SIZE // ratio, 896, torch.uint8),
+                ("_INDEXER", PAGE_SIZE // 2, 128, torch.int8),
+                ("_INDEXER_SCALE", PAGE_SIZE // 2, 49, torch.float16),
             ):
-                name = getattr(PoolName, f"DEEPSEEK_V4_C{ratio}_{suffix}")
-                kv = infos[getattr(PoolName, f"DEEPSEEK_V4_C{ratio}")]
+                name = getattr(PoolName, f"DEEPSEEK_V4_C{ratio}{suffix}")
                 buffer = torch.empty(7, native_slots, 1, width, dtype=dtype)
                 infos[name] = DevicePoolInfo(
                     pool_name=name,
                     indices_from_pool=PoolName.KV,
-                    layer_ids=kv.layer_ids,
+                    layer_ids=layer_ids,
                     buffer_info=DSV4PagedBufferInfo.from_buffers(
                         [buffer], page_slots=native_slots, layout="pa_nd"
                     ),
                 )
-        regions = assembler._dsv4_low_ratio_regions(pool, infos, PAGE_SIZE)
-        for name, _, buffers, _ in regions:
+        with (
+            patch.object(
+                assembler,
+                "get_memory",
+                return_value=SimpleNamespace(hicache_mem_layout="layer_first"),
+            ),
+            patch.object(assembler, "_get_allocator_type", return_value="default"),
+            patch.object(
+                assembler,
+                "DeepSeekV4PagedHostPool",
+                partial(DeepSeekV4PagedHostPool, pin_memory=False),
+            ),
+        ):
+            entries = assembler._dsv4_low_ratio_entries(pool, infos, PAGE_SIZE, 2, 6)
+        self.assertEqual(len(entries), 6)
+        for entry in entries:
+            name, host = entry.name, entry.host_pool
             native = infos[name].buffer_info
-            if native.layout != "pa_nd":
-                continue
             ratio = (
                 1
                 if name
                 in (
+                    PoolName.DEEPSEEK_V4_C1,
                     PoolName.DEEPSEEK_V4_C1_INDEXER,
                     PoolName.DEEPSEEK_V4_C1_INDEXER_SCALE,
                 )
@@ -590,12 +606,16 @@ class TestV41KVPoolLayouts(CustomTestCase):
             )
             slots = PAGE_SIZE // ratio
             src = native.buffers[0]
-            view = buffers[0]
+            view = host.device_buffers[0]
             self.assertEqual(
                 view.shape, (7 // (slots // native.page_slots), slots, 1, src.shape[-1])
             )
             self.assertEqual(view.dtype, src.dtype)
             self.assertEqual(view.data_ptr(), src.data_ptr())
+            self.assertEqual(host.item_bytes, view[0].nbytes)
+            host_view = host._host_page_view(0)
+            self.assertEqual(host_view.shape, (1, 2, *view.shape[1:]))
+            self.assertEqual(host_view.dtype, src.dtype)
 
     def _check_ced_host_capture(self, pool, split_indexer):
         from sglang.srt.mem_cache.hicache_storage import PoolName

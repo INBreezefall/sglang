@@ -676,7 +676,7 @@ def _dsv4_low_ratio_entries(
                 host_pool=DeepSeekV4PagedHostPool(
                     pool_name=str(name),
                     device_buffers=buffers,
-                    item_bytes=buffers[0].shape[1] * buffers[0].element_size(),
+                    item_bytes=buffers[0].shape[1:].numel() * buffers[0].element_size(),
                     num_host_pages=num_host_pages,
                     slot_page_size=page_size,
                     layout=get_memory().hicache_mem_layout,
