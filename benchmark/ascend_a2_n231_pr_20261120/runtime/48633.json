@@ -1,0 +1,64 @@
+{
+  "main": "ea442ff4ab19171212a9ecaa0e175d0f2dd2a595",
+  "control": "ea442ff4ab19171212a9ecaa0e175d0f2dd2a595",
+  "candidate": "7cf8b1dbf44d831d62f7b08223937d30c2149945",
+  "base_tree_files": 8394,
+  "pr_tree_files": 8395,
+  "runtime_image_id": "sha256:7cc852e69586b34e597091f6aa3d6ebec6f20a62014e49c5e47f690a0fe11764",
+  "vendor_files": {
+    "commit": "f5575fdc835a5b7dcd67d2b81b5b4c7cb7365362",
+    "files": {
+      "python/sgl_kernel_npu/sgl_kernel_npu/implementation/torch_native/mem_cache/alloc_extend_indices.py": "e72283042976d29f0246b034f346dc8a461be559",
+      "python/sgl_kernel_npu/sgl_kernel_npu/implementation/triton/mem_cache/alloc_extend_indices.py": "925f02edc1c40d790811238a27534a8e2d768876",
+      "python/sgl_kernel_npu/sgl_kernel_npu/operators/mem_cache/alloc_extend_indices.py": "862518b036b6d634dbfcd4e09032b4a1ebaeaf0a",
+      "tests/python/operators/mem_cache/test_alloc_extend_indices.py": "9d63570c6177e5460bc3ecfedcf68469a863dfa5"
+    },
+    "installed_source_sha256": {
+      "python/sgl_kernel_npu/sgl_kernel_npu/implementation/torch_native/mem_cache/alloc_extend_indices.py": "cafb27fafaba211a7e1ea534a8d39c461e30444390bf1607c9a91bdccb00b5d5",
+      "python/sgl_kernel_npu/sgl_kernel_npu/implementation/triton/mem_cache/alloc_extend_indices.py": "3f78fbe6f8ebe324101394c37a5c3939924747471788518c9aaf9aef19182460",
+      "python/sgl_kernel_npu/sgl_kernel_npu/operators/mem_cache/alloc_extend_indices.py": "79027095205fd504c4e54f60f66bd9b3d5710a1ecf6f682a898f9e9d5319559e"
+    },
+    "matches_public_blob": {
+      "python/sgl_kernel_npu/sgl_kernel_npu/implementation/torch_native/mem_cache/alloc_extend_indices.py": true,
+      "python/sgl_kernel_npu/sgl_kernel_npu/implementation/triton/mem_cache/alloc_extend_indices.py": true,
+      "python/sgl_kernel_npu/sgl_kernel_npu/operators/mem_cache/alloc_extend_indices.py": true
+    }
+  },
+  "cpu": {
+    "negative_control": "4 failed, 1 passed, 5 subtests passed in 0.04s",
+    "positive": "22 passed, 15 warnings, 9 subtests passed in 9.87s",
+    "code": 0,
+    "tests": [
+      "test/registered/unit/npu/test_alloc_extend_jit_bounds.py",
+      "test/registered/unit/mem_cache/test_paged_allocator_lazy_release.py",
+      "test/registered/unit/mem_cache/test_paged_free_segment.py",
+      "test/registered/unit/mem_cache/test_swa_alloc_extend_page_estimation.py"
+    ]
+  },
+  "raw_statistics": [
+    {
+      "flag": 0,
+      "binaries": 8,
+      "cold_s": 37.576351673999994,
+      "warm_ms": 0.353542
+    },
+    {
+      "flag": 1,
+      "binaries": 3,
+      "cold_s": 23.589905028999997,
+      "warm_ms": 0.358037
+    },
+    {
+      "flag": 1,
+      "binaries": 3,
+      "cold_s": 23.809713033,
+      "warm_ms": 0.353856
+    },
+    {
+      "flag": 0,
+      "binaries": 8,
+      "cold_s": 38.043142179,
+      "warm_ms": 0.3532715
+    }
+  ]
+}

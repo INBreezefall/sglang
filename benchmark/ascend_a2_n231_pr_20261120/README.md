@@ -13,6 +13,7 @@ The 2026-11-20 follow-up uses GLM-5.2 W4A8C8 and Ascend 910B4-1. Each result ide
 | [#48560](https://github.com/sgl-project/sglang/pull/48560) | [Packed INT8 main KV rows](results/48560.md) |
 | [#48562](https://github.com/sgl-project/sglang/pull/48562) | [INT8 DSA indexer graph replay](results/48562.md) |
 | [#48631](https://github.com/sgl-project/sglang/pull/48631) | [Packed-NZ checkpoint restore](results/48631.md) |
+| [#48633](https://github.com/sgl-project/sglang/pull/48633) | [Public NPU allocator cold compilation](results/48633.md) |
 | [#49183](https://github.com/sgl-project/sglang/pull/49183) | [Separate draft host budget](results/49183.md) |
 
 [Physical P/D transport checks and runtime compatibility](runtime/transport-checks.md).
