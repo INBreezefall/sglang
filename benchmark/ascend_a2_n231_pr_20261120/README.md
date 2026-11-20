@@ -16,3 +16,5 @@ The 2026-11-20 follow-up uses GLM-5.2 W4A8C8 and Ascend 910B4-1. Each result ide
 | [#49183](https://github.com/sgl-project/sglang/pull/49183) | [Separate draft host budget](results/49183.md) |
 
 [Physical P/D transport checks and runtime compatibility](runtime/transport-checks.md).
+
+[Four-host shared model control](runtime/four-host-control.md).
