@@ -1,6 +1,6 @@
 # Isolated Ascend hardware validation
 
-The 2026-11-20 follow-up uses GLM-5.2 W4A8C8 and Ascend 910B4-1. Each result identifies the upstream baseline, the individual candidate and the measurement boundary. The raw measurements use synthetic identifiers or public evaluation IDs.
+The 2026-11-20 and 2026-11-21 follow-up uses GLM-5.2 W4A8C8 and Ascend 910B4-1. Each result identifies the upstream baseline, the individual candidate and the measurement boundary. The public records use synthetic identifiers, public evaluation IDs or one-way hashes. Original replay inputs and generated conversations are retained on the test host.
 
 | PR | Validation |
 | --- | --- |
@@ -23,3 +23,5 @@ The 2026-11-20 follow-up uses GLM-5.2 W4A8C8 and Ascend 910B4-1. Each result ide
 [Upstream test status and the per-PR CI jobs](runtime/upstream-ci-gate.md).
 
 [Four-host NEXTN host-cache control](runtime/nextn-control.md).
+
+[Latest packed-KV and indexer source verification](runtime/nov21-index-source.json).

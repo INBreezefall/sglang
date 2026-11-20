@@ -1,6 +1,7 @@
 {
-  "checked": "2026-11-21T02:15:11.107956+08:00",
+  "checked": "2026-11-21T04:22:49.859634+08:00",
   "upstream_main": "2b248971db8c8c349586c3757663be9cba5e366d",
+  "upstream_tree": "f6cf7a79b9027d1071851799c8ea81501f4eb138",
   "method": "Git apply against an isolated index, with a real three-way application and unmerged-file check if direct application fails. Includes the parent for the stacked PR. Hardware results use the recorded tested commits.",
   "pull_requests": {
     "48541": {
@@ -22,23 +23,21 @@
       "stacked": false
     },
     "48560": {
-      "tested_main": "ad96481482fe9d400195d12286f66a6359c56bb3",
-      "isolated_control": "ad96481482fe9d400195d12286f66a6359c56bb3",
-      "tested_head": "288e6f168afbf816c0a13fa0d85da93396141634",
+      "tested_main": "2b248971db8c8c349586c3757663be9cba5e366d",
+      "isolated_control": "2b248971db8c8c349586c3757663be9cba5e366d",
+      "tested_head": "2f88789e29fa339b3632d6a8e29d3f6cf93cfbca",
       "complete_pr_patch_applies": true,
       "mode": "direct",
       "unmerged": [],
       "stacked": false
     },
     "48562": {
-      "tested_main": "ad96481482fe9d400195d12286f66a6359c56bb3",
-      "isolated_control": "288e6f168afbf816c0a13fa0d85da93396141634",
-      "tested_head": "d7dad05d1ed4d8b6b6d3a02ae2e947b8da133c68",
-      "complete_pr_patch_applies": false,
-      "mode": "three-way",
-      "unmerged": [
-        "python/sglang/srt/arg_groups/field_order.py"
-      ],
+      "tested_main": "2b248971db8c8c349586c3757663be9cba5e366d",
+      "isolated_control": "2f88789e29fa339b3632d6a8e29d3f6cf93cfbca",
+      "tested_head": "d2f83b9c50b29c71f8ccaf4df767c3897f2f0aec",
+      "complete_pr_patch_applies": true,
+      "mode": "direct",
+      "unmerged": [],
       "stacked": true
     },
     "48555": {

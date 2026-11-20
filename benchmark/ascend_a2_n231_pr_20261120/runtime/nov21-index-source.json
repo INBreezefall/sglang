@@ -1,0 +1,107 @@
+{
+  "upstream_main": "2b248971db8c8c349586c3757663be9cba5e366d",
+  "verified_on_hosts": 4,
+  "staged_trees": {
+    "main": {
+      "sha": "2b248971db8c8c349586c3757663be9cba5e366d",
+      "base": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "files": 8401,
+      "python_files": 6980,
+      "changed": 90
+    },
+    "48560": {
+      "sha": "2f88789e29fa339b3632d6a8e29d3f6cf93cfbca",
+      "base": "2b248971db8c8c349586c3757663be9cba5e366d",
+      "files": 8404,
+      "python_files": 6981,
+      "changed": 20
+    },
+    "48562": {
+      "sha": "d2f83b9c50b29c71f8ccaf4df767c3897f2f0aec",
+      "base": "2b248971db8c8c349586c3757663be9cba5e366d",
+      "files": 8406,
+      "python_files": 6981,
+      "changed": 26
+    }
+  },
+  "archive_sha256": "366d88108b95b3ba46c72c10ea6d1a8c549414b5ab0f9fc526152aee2df324de",
+  "verified_at": "2026-11-21T03:12:51.165563+08:00",
+  "positional_arguments": {
+    "parent": {
+      "positional_count": 578,
+      "bound_count": 578,
+      "defaults": {
+        "cuda_graph_persistence": "None",
+        "cuda_graph_persistence_config": "None"
+      }
+    },
+    "candidate": {
+      "positional_count": 579,
+      "bound_count": 579,
+      "defaults": {
+        "cuda_graph_persistence": "None",
+        "cuda_graph_persistence_config": "None",
+        "dsa_indexer_kv_dtype": "'auto'"
+      }
+    },
+    "preserved": 578
+  },
+  "port_comparison": {
+    "48560": {
+      "pr": 48560,
+      "old": "288e6f168afbf816c0a13fa0d85da93396141634",
+      "new": "2f88789e29fa339b3632d6a8e29d3f6cf93cfbca",
+      "patched_paths": 22,
+      "identical_added_removed_lines": 22,
+      "changed_edits": []
+    },
+    "48562": {
+      "pr": 48562,
+      "old": "d7dad05d1ed4d8b6b6d3a02ae2e947b8da133c68",
+      "new": "d2f83b9c50b29c71f8ccaf4df767c3897f2f0aec",
+      "patched_paths": 18,
+      "identical_added_removed_lines": 18,
+      "changed_edits": [],
+      "previous_upstream_positions": 576,
+      "current_upstream_positions": 578,
+      "additional_upstream_fields": [
+        "cuda_graph_persistence",
+        "cuda_graph_persistence_config"
+      ]
+    }
+  },
+  "changed_file_style": {
+    "isort_hook": "7.0.0",
+    "ruff_hook": "v0.15.1",
+    "results": {
+      "48560": {
+        "isort": {
+          "returncode": 0,
+          "output": ""
+        },
+        "ruff": {
+          "returncode": 0,
+          "output": "All checks passed!"
+        },
+        "ruff-format": {
+          "returncode": 0,
+          "output": "20 files already formatted"
+        }
+      },
+      "48562": {
+        "isort": {
+          "returncode": 0,
+          "output": ""
+        },
+        "ruff": {
+          "returncode": 0,
+          "output": "All checks passed!"
+        },
+        "ruff-format": {
+          "returncode": 0,
+          "output": "16 files already formatted"
+        }
+      }
+    }
+  }
+}

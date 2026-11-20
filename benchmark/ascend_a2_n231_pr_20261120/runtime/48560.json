@@ -10,11 +10,11 @@
     "transformers": "5.19.0",
     "sgl-kernel-npu": "2026.11.0.post4"
   },
-  "main": "ad96481482fe9d400195d12286f66a6359c56bb3",
-  "control": "ad96481482fe9d400195d12286f66a6359c56bb3",
-  "candidate": "288e6f168afbf816c0a13fa0d85da93396141634",
-  "full_base_files_verified": 6976,
-  "registered_cpu_check": "508 passed, 16 warnings, 309 subtests passed in 9.49s",
+  "main": "2b248971db8c8c349586c3757663be9cba5e366d",
+  "control": "2b248971db8c8c349586c3757663be9cba5e366d",
+  "candidate": "2f88789e29fa339b3632d6a8e29d3f6cf93cfbca",
+  "full_base_files_verified": 6980,
+  "registered_cpu_check": "508 passed, 16 warnings, 309 subtests passed in 12.11s",
   "protocol_sha256": {
     "arm_adapter.py": "a5f06bc7373210abbfbcd94c3d63422603e7c0190670378b21acc8fd70240c7e",
     "numeric_bench.py": "4e8279f595e6e6003c02d750eb37e839421c04d0a2d5516171fe79f80c1cd7da"
@@ -29,9 +29,9 @@
     },
     {
       "label": "Single-layer attention median (ms)",
-      "control": 0.24078149999999998,
-      "candidate": 0.316936,
-      "percent": 31.628052819672625,
+      "control": 0.266941,
+      "candidate": 0.32062650000000004,
+      "percent": 20.11137292510332,
       "digits": 3
     },
     {

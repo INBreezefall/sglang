@@ -10,11 +10,11 @@
     "transformers": "5.19.0",
     "sgl-kernel-npu": "2026.11.0.post4"
   },
-  "main": "ad96481482fe9d400195d12286f66a6359c56bb3",
-  "control": "288e6f168afbf816c0a13fa0d85da93396141634",
-  "candidate": "d7dad05d1ed4d8b6b6d3a02ae2e947b8da133c68",
-  "full_base_files_verified": 6976,
-  "registered_cpu_check": "625 passed, 16 warnings, 516 subtests passed in 10.04s",
+  "main": "2b248971db8c8c349586c3757663be9cba5e366d",
+  "control": "2f88789e29fa339b3632d6a8e29d3f6cf93cfbca",
+  "candidate": "d2f83b9c50b29c71f8ccaf4df767c3897f2f0aec",
+  "full_base_files_verified": 6980,
+  "registered_cpu_check": "625 passed, 16 warnings, 516 subtests passed in 12.39s",
   "protocol_sha256": {
     "arm_adapter.py": "a5f06bc7373210abbfbcd94c3d63422603e7c0190670378b21acc8fd70240c7e",
     "index_bench.py": "98ac7c4b8119c1377207c418ec661cb16e4b088fb4b5aaf1455db0e0f06c42b7"
@@ -22,9 +22,9 @@
   "metrics": [
     {
       "label": "21-layer graph refresh and replay median over four length pairs (ms)",
-      "control": 0.473242,
-      "candidate": 1.022359,
-      "percent": 116.03302327350491,
+      "control": 0.4447915,
+      "candidate": 0.9918039999999999,
+      "percent": 122.98177910324273,
       "digits": 3
     },
     {

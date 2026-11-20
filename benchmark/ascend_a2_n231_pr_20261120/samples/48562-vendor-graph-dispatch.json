@@ -1,5 +1,5 @@
 {
-  "candidate": "d7dad05d1ed4d8b6b6d3a02ae2e947b8da133c68",
+  "candidate": "d2f83b9c50b29c71f8ccaf4df767c3897f2f0aec",
   "rows": [
     {
       "event": "vendor-int8-indexer",
@@ -3559,143 +3559,29 @@
     15
   ],
   "actual_graph_captures": {
-    "parent-graph-f2": {
-      "5": {
+    "parent-graph-n21": {
+      "7": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 53.72,
-        "reported_capture_gb": 1.39
-      },
-      "0": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.74,
-        "reported_capture_gb": 1.39
+        "capture_seconds": 48.51,
+        "reported_capture_gb": 1.4
       },
       "1": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 53.73,
-        "reported_capture_gb": 1.39
-      },
-      "6": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.78,
-        "reported_capture_gb": 1.39
-      },
-      "7": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.82,
-        "reported_capture_gb": 1.39
+        "capture_seconds": 48.58,
+        "reported_capture_gb": 1.4
       },
       "2": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 53.83,
-        "reported_capture_gb": 1.39
-      },
-      "3": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.85,
-        "reported_capture_gb": 1.39
-      },
-      "4": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 54.25,
-        "reported_capture_gb": 1.39
-      },
-      "9": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.67,
-        "reported_capture_gb": 1.39
-      },
-      "8": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.72,
-        "reported_capture_gb": 1.39
-      },
-      "14": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.73,
-        "reported_capture_gb": 1.39
-      },
-      "12": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.76,
-        "reported_capture_gb": 1.39
-      },
-      "15": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.77,
-        "reported_capture_gb": 1.39
-      },
-      "11": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 53.9,
-        "reported_capture_gb": 1.39
-      },
-      "10": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 54.12,
-        "reported_capture_gb": 1.39
-      },
-      "13": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 54.19,
-        "reported_capture_gb": 1.39
-      }
-    },
-    "index-graph-f2": {
-      "4": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 48.32,
+        "capture_seconds": 48.66,
         "reported_capture_gb": 1.4
       },
       "0": {
@@ -3703,10 +3589,42 @@
           2,
           4
         ],
-        "capture_seconds": 48.39,
+        "capture_seconds": 48.68,
+        "reported_capture_gb": 1.4
+      },
+      "6": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.69,
+        "reported_capture_gb": 1.4
+      },
+      "5": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.77,
+        "reported_capture_gb": 1.4
+      },
+      "4": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 49.25,
         "reported_capture_gb": 1.4
       },
       "3": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 49.28,
+        "reported_capture_gb": 1.4
+      },
+      "14": {
         "buckets": [
           2,
           4
@@ -3714,36 +3632,70 @@
         "capture_seconds": 48.4,
         "reported_capture_gb": 1.4
       },
-      "6": {
+      "12": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 48.41,
+        "capture_seconds": 48.43,
+        "reported_capture_gb": 1.39
+      },
+      "15": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.43,
         "reported_capture_gb": 1.4
       },
-      "5": {
+      "11": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 48.63,
+        "capture_seconds": 48.45,
         "reported_capture_gb": 1.4
       },
-      "1": {
+      "8": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 48.73,
+        "capture_seconds": 48.58,
         "reported_capture_gb": 1.4
       },
-      "2": {
+      "13": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 48.78,
+        "capture_seconds": 48.61,
+        "reported_capture_gb": 1.4
+      },
+      "10": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.96,
+        "reported_capture_gb": 1.4
+      },
+      "9": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 49.1,
+        "reported_capture_gb": 1.4
+      }
+    },
+    "index-graph-n21": {
+      "3": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.17,
         "reported_capture_gb": 1.4
       },
       "7": {
@@ -3751,18 +3703,42 @@
           2,
           4
         ],
-        "capture_seconds": 48.83,
+        "capture_seconds": 48.24,
         "reported_capture_gb": 1.4
       },
-      "12": {
+      "5": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 48.33,
+        "capture_seconds": 48.24,
         "reported_capture_gb": 1.4
       },
-      "14": {
+      "4": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.28,
+        "reported_capture_gb": 1.4
+      },
+      "6": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.28,
+        "reported_capture_gb": 1.4
+      },
+      "2": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.35,
+        "reported_capture_gb": 1.4
+      },
+      "1": {
         "buckets": [
           2,
           4
@@ -3770,12 +3746,12 @@
         "capture_seconds": 48.36,
         "reported_capture_gb": 1.4
       },
-      "11": {
+      "0": {
         "buckets": [
           2,
           4
         ],
-        "capture_seconds": 48.39,
+        "capture_seconds": 48.35,
         "reported_capture_gb": 1.4
       },
       "8": {
@@ -3783,15 +3759,7 @@
           2,
           4
         ],
-        "capture_seconds": 48.39,
-        "reported_capture_gb": 1.4
-      },
-      "13": {
-        "buckets": [
-          2,
-          4
-        ],
-        "capture_seconds": 48.4,
+        "capture_seconds": 48.16,
         "reported_capture_gb": 1.4
       },
       "9": {
@@ -3799,7 +3767,7 @@
           2,
           4
         ],
-        "capture_seconds": 48.56,
+        "capture_seconds": 48.2,
         "reported_capture_gb": 1.4
       },
       "10": {
@@ -3807,7 +3775,23 @@
           2,
           4
         ],
-        "capture_seconds": 48.71,
+        "capture_seconds": 48.24,
+        "reported_capture_gb": 1.4
+      },
+      "14": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.23,
+        "reported_capture_gb": 1.4
+      },
+      "11": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.25,
         "reported_capture_gb": 1.4
       },
       "15": {
@@ -3815,7 +3799,23 @@
           2,
           4
         ],
-        "capture_seconds": 49.0,
+        "capture_seconds": 48.3,
+        "reported_capture_gb": 1.4
+      },
+      "13": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.72,
+        "reported_capture_gb": 1.4
+      },
+      "12": {
+        "buckets": [
+          2,
+          4
+        ],
+        "capture_seconds": 48.88,
         "reported_capture_gb": 1.4
       }
     }
