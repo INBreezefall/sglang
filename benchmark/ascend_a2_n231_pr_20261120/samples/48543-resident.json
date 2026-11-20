@@ -1,0 +1,1507 @@
+{
+  "node": "Ascend A2 host A",
+  "device": "0",
+  "feature": 48543,
+  "mode": "default",
+  "script_sha256": "35c4bfb50a05ea78cd5786163753cd53ced650749beceeeca7e1b5698f5fd3d3",
+  "raw_hashes": [
+    "67b1ecd54558f94911f146dc889e8077abde64a31169e81f5bd327f8ed2a67f1",
+    "3e3316491b2d87c8fa0cbbaefb89ef91dee2ee40275bc4294adfa1cd8e6ea4b1",
+    "5232ebf5769457d5b58599932b61ebf27b087005a48c127443874101c47665e9",
+    "b684d3c986448196538139ec79a353f52b97a311d8977feb288e6d147bae1bb0"
+  ],
+  "runs": [
+    {
+      "feature": 48543,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "rows": [
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            27.413550997152925,
+            0.5726329982280731,
+            21.474483000929467
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8800724975616,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2516254720,
+              "RssAnon": 1931542528,
+              "RssFile": 584712192,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8800953827328,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2519203840,
+              "RssAnon": 1934426112,
+              "RssFile": 584777728,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801021591552,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2519990272,
+              "RssAnon": 1934163968,
+              "RssFile": 585826304,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521300992,
+              "RssAnon": 1934163968,
+              "RssFile": 587137024,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.45313200098462403,
+              "d2h_ms": 0.11573100346140563,
+              "sha256": "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2"
+            },
+            {
+              "h2d_ms": 22.26271700055804,
+              "d2h_ms": 0.20422099623829126,
+              "sha256": "2f3a8afc10aaf9ffa17a4612303d44ce5ca768be9fe91375ec45cc7209122674"
+            },
+            {
+              "h2d_ms": 0.12969000090379268,
+              "d2h_ms": 0.08252100087702274,
+              "sha256": "0e1360589114ce5120b2f142cdb32581dfdebfd55ef6f77fa8b6abae44c9548a"
+            }
+          ]
+        },
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            0.1412210040143691,
+            0.14612000086344779,
+            0.1021999996737577
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521694208,
+              "RssAnon": 1934491648,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521694208,
+              "RssAnon": 1934491648,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521694208,
+              "RssAnon": 1934491648,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521694208,
+              "RssAnon": 1934491648,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.270141004875768,
+              "d2h_ms": 0.15931099915178493,
+              "sha256": "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024"
+            },
+            {
+              "h2d_ms": 0.10184999700868502,
+              "d2h_ms": 0.08098100079223514,
+              "sha256": "098a4be78ce2088b21995fcf7bc7273e43770c6e62989249338874a9885f1cb8"
+            },
+            {
+              "h2d_ms": 0.13701100397156551,
+              "d2h_ms": 0.08712999988347292,
+              "sha256": "d6de16041970b40bf4c7653ad60f95ae46976f16550b1d54988463980a19fbc2"
+            }
+          ]
+        },
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            0.14507999730994925,
+            0.16964000678854063,
+            0.067070999648422
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521694208,
+              "RssAnon": 1934491648,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521694208,
+              "RssAnon": 1934491648,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521694208,
+              "RssAnon": 1934491648,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801063862272,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 2521694208,
+              "RssAnon": 1934491648,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 11.952417000429705,
+              "d2h_ms": 0.14565099991159514,
+              "sha256": "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986"
+            },
+            {
+              "h2d_ms": 0.08433000039076433,
+              "d2h_ms": 0.07821100007276982,
+              "sha256": "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a"
+            },
+            {
+              "h2d_ms": 0.08176000119419768,
+              "d2h_ms": 0.07781000022077933,
+              "sha256": "17a0b5995918986de2232368481b84b3c4f6207d9ecbc43dc7f08a2bb9f0341f"
+            }
+          ]
+        }
+      ],
+      "after_empty_cache": {
+        "process": {
+          "VmSize": 8801063862272,
+          "VmLck": 0,
+          "VmPin": 0,
+          "VmRSS": 2521694208,
+          "RssAnon": 1934491648,
+          "RssFile": 587202560,
+          "VmSwap": 0
+        },
+        "pool_vmas": {
+          "Rss": 0,
+          "Pss": 0,
+          "Locked": 0,
+          "Anonymous": 0,
+          "AnonHugePages": 0,
+          "Private_Dirty": 0,
+          "Size": 0,
+          "requested_covered": 0
+        },
+        "vma_count": 0
+      },
+      "device": "Ascend910B4-1",
+      "torch": "2.10.0+cpu"
+    },
+    {
+      "feature": 48543,
+      "flag": 1,
+      "sha": "166bf929ff0e8c89bda2ef03ce98b162d1c5a664",
+      "rows": [
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            27.00221999839414,
+            0.7720240027992986,
+            13.9162560008117
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8800723927040,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1975779328,
+              "RssAnon": 1391263744,
+              "RssFile": 584515584,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8800952778752,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1978793984,
+              "RssAnon": 1394081792,
+              "RssFile": 584712192,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8800953434112,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1978793984,
+              "RssAnon": 1394081792,
+              "RssFile": 584712192,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982201856,
+              "RssAnon": 1395195904,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.5544930027099326,
+              "d2h_ms": 0.2036809964920394,
+              "sha256": "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2"
+            },
+            {
+              "h2d_ms": 34.02316299616359,
+              "d2h_ms": 17.884966000565328,
+              "sha256": "2f3a8afc10aaf9ffa17a4612303d44ce5ca768be9fe91375ec45cc7209122674"
+            },
+            {
+              "h2d_ms": 16.877410998858977,
+              "d2h_ms": 30.97452899964992,
+              "sha256": "0e1360589114ce5120b2f142cdb32581dfdebfd55ef6f77fa8b6abae44c9548a"
+            }
+          ]
+        },
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            16.3059879996581,
+            0.6818830006523058,
+            40.46621399902506
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982201856,
+              "RssAnon": 1395195904,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982201856,
+              "RssAnon": 1395195904,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982201856,
+              "RssAnon": 1395195904,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982267392,
+              "RssAnon": 1395261440,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 10.959782994177658,
+              "d2h_ms": 0.11763000657083467,
+              "sha256": "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024"
+            },
+            {
+              "h2d_ms": 0.1128899966715835,
+              "d2h_ms": 0.07299100252566859,
+              "sha256": "098a4be78ce2088b21995fcf7bc7273e43770c6e62989249338874a9885f1cb8"
+            },
+            {
+              "h2d_ms": 0.10655100049916655,
+              "d2h_ms": 0.06889000360388309,
+              "sha256": "d6de16041970b40bf4c7653ad60f95ae46976f16550b1d54988463980a19fbc2"
+            }
+          ]
+        },
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            15.140293005970307,
+            0.6953130068723112,
+            13.911227004427928
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982267392,
+              "RssAnon": 1395261440,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982267392,
+              "RssAnon": 1395261440,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982267392,
+              "RssAnon": 1395261440,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982267392,
+              "RssAnon": 1395261440,
+              "RssFile": 587005952,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.2789310019579716,
+              "d2h_ms": 0.10005100193666294,
+              "sha256": "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986"
+            },
+            {
+              "h2d_ms": 0.11106100282631814,
+              "d2h_ms": 0.07256000390043482,
+              "sha256": "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a"
+            },
+            {
+              "h2d_ms": 0.11570999777177349,
+              "d2h_ms": 0.0703610057826154,
+              "sha256": "17a0b5995918986de2232368481b84b3c4f6207d9ecbc43dc7f08a2bb9f0341f"
+            }
+          ]
+        }
+      ],
+      "after_empty_cache": {
+        "process": {
+          "VmSize": 8801062813696,
+          "VmLck": 0,
+          "VmPin": 0,
+          "VmRSS": 1982267392,
+          "RssAnon": 1395261440,
+          "RssFile": 587005952,
+          "VmSwap": 0
+        },
+        "pool_vmas": {
+          "Rss": 0,
+          "Pss": 0,
+          "Locked": 0,
+          "Anonymous": 0,
+          "AnonHugePages": 0,
+          "Private_Dirty": 0,
+          "Size": 0,
+          "requested_covered": 0
+        },
+        "vma_count": 0
+      },
+      "device": "Ascend910B4-1",
+      "torch": "2.10.0+cpu"
+    },
+    {
+      "feature": 48543,
+      "flag": 1,
+      "sha": "166bf929ff0e8c89bda2ef03ce98b162d1c5a664",
+      "rows": [
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            9.874798000964802,
+            0.8303540016640909,
+            22.480318002635613
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8800723927040,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1975320576,
+              "RssAnon": 1390804992,
+              "RssFile": 584515584,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8800952778752,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1979252736,
+              "RssAnon": 1393688576,
+              "RssFile": 585564160,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8800953434112,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1979252736,
+              "RssAnon": 1393688576,
+              "RssFile": 585564160,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981677568,
+              "RssAnon": 1394737152,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.7587239961139858,
+              "d2h_ms": 0.25433100381633267,
+              "sha256": "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2"
+            },
+            {
+              "h2d_ms": 21.800814000016544,
+              "d2h_ms": 0.19696099479915574,
+              "sha256": "2f3a8afc10aaf9ffa17a4612303d44ce5ca768be9fe91375ec45cc7209122674"
+            },
+            {
+              "h2d_ms": 0.1167800000985153,
+              "d2h_ms": 0.08132099901558831,
+              "sha256": "0e1360589114ce5120b2f142cdb32581dfdebfd55ef6f77fa8b6abae44c9548a"
+            }
+          ]
+        },
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            18.38771800248651,
+            0.8807539998088032,
+            15.908436005702242
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981677568,
+              "RssAnon": 1394737152,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981677568,
+              "RssAnon": 1394737152,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981743104,
+              "RssAnon": 1394802688,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981743104,
+              "RssAnon": 1394802688,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.3430619981372729,
+              "d2h_ms": 0.1189600006910041,
+              "sha256": "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024"
+            },
+            {
+              "h2d_ms": 0.20849100110353902,
+              "d2h_ms": 0.080110999988392,
+              "sha256": "098a4be78ce2088b21995fcf7bc7273e43770c6e62989249338874a9885f1cb8"
+            },
+            {
+              "h2d_ms": 0.11785099923145026,
+              "d2h_ms": 0.07701000140514225,
+              "sha256": "d6de16041970b40bf4c7653ad60f95ae46976f16550b1d54988463980a19fbc2"
+            }
+          ]
+        },
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            25.878733998979442,
+            0.835604005260393,
+            4.794653003045823
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981743104,
+              "RssAnon": 1394802688,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981743104,
+              "RssAnon": 1394802688,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981743104,
+              "RssAnon": 1394802688,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1981743104,
+              "RssAnon": 1394802688,
+              "RssFile": 586940416,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 14.854230998025741,
+              "d2h_ms": 0.17802100046537817,
+              "sha256": "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986"
+            },
+            {
+              "h2d_ms": 0.14189100329531357,
+              "d2h_ms": 0.08734999573789537,
+              "sha256": "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a"
+            },
+            {
+              "h2d_ms": 0.1275710019399412,
+              "d2h_ms": 0.08322999929077923,
+              "sha256": "17a0b5995918986de2232368481b84b3c4f6207d9ecbc43dc7f08a2bb9f0341f"
+            }
+          ]
+        }
+      ],
+      "after_empty_cache": {
+        "process": {
+          "VmSize": 8801062813696,
+          "VmLck": 0,
+          "VmPin": 0,
+          "VmRSS": 1981743104,
+          "RssAnon": 1394802688,
+          "RssFile": 586940416,
+          "VmSwap": 0
+        },
+        "pool_vmas": {
+          "Rss": 0,
+          "Pss": 0,
+          "Locked": 0,
+          "Anonymous": 0,
+          "AnonHugePages": 0,
+          "Private_Dirty": 0,
+          "Size": 0,
+          "requested_covered": 0
+        },
+        "vma_count": 0
+      },
+      "device": "Ascend910B4-1",
+      "torch": "2.10.0+cpu"
+    },
+    {
+      "feature": 48543,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "rows": [
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            7.094593995134346,
+            0.5939530019531958,
+            0.9758039959706366
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8800723861504,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1978466304,
+              "RssAnon": 1393754112,
+              "RssFile": 584712192,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8800952778752,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1979383808,
+              "RssAnon": 1394671616,
+              "RssFile": 584712192,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801020542976,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982267392,
+              "RssAnon": 1396441088,
+              "RssFile": 585826304,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1982267392,
+              "RssAnon": 1396441088,
+              "RssFile": 585826304,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.41618200339144096,
+              "d2h_ms": 0.20334099826868623,
+              "sha256": "4c10346577bf7e578fd0b43e8fa114a71aca5dee1b16ebb6c9cb50123e669fd2"
+            },
+            {
+              "h2d_ms": 0.38333200063789263,
+              "d2h_ms": 0.1741009982652031,
+              "sha256": "2f3a8afc10aaf9ffa17a4612303d44ce5ca768be9fe91375ec45cc7209122674"
+            },
+            {
+              "h2d_ms": 0.09134999709203839,
+              "d2h_ms": 0.07235000521177426,
+              "sha256": "0e1360589114ce5120b2f142cdb32581dfdebfd55ef6f77fa8b6abae44c9548a"
+            }
+          ]
+        },
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            0.14609099889639765,
+            0.1539209988550283,
+            0.062439998146146536
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1983971328,
+              "RssAnon": 1396768768,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1983971328,
+              "RssAnon": 1396768768,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1983971328,
+              "RssAnon": 1396768768,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1983971328,
+              "RssAnon": 1396768768,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.5956730019534007,
+              "d2h_ms": 0.4844819995923899,
+              "sha256": "1937c5c79ed05c95654073b7ac86e79553fc63bfcf37c0307f99b05cef3d8024"
+            },
+            {
+              "h2d_ms": 0.16471100389026105,
+              "d2h_ms": 0.09524999768473208,
+              "sha256": "098a4be78ce2088b21995fcf7bc7273e43770c6e62989249338874a9885f1cb8"
+            },
+            {
+              "h2d_ms": 0.12060999870300293,
+              "d2h_ms": 0.169751001521945,
+              "sha256": "d6de16041970b40bf4c7653ad60f95ae46976f16550b1d54988463980a19fbc2"
+            }
+          ]
+        },
+        {
+          "pages": 385,
+          "payload_bytes": 5412126720,
+          "alloc_ms": [
+            0.13527100236387923,
+            0.14429000293603167,
+            0.06411100184777752
+          ],
+          "before": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1983971328,
+              "RssAnon": 1396768768,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 0,
+              "requested_covered": 0
+            },
+            "vma_count": 0
+          },
+          "full": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1983971328,
+              "RssAnon": 1396768768,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "kept_by_views": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1983971328,
+              "RssAnon": 1396768768,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "after_last_view": {
+            "process": {
+              "VmSize": 8801062813696,
+              "VmLck": 0,
+              "VmPin": 0,
+              "VmRSS": 1983971328,
+              "RssAnon": 1396768768,
+              "RssFile": 587202560,
+              "VmSwap": 0
+            },
+            "pool_vmas": {
+              "Rss": 0,
+              "Pss": 0,
+              "Locked": 0,
+              "Anonymous": 0,
+              "AnonHugePages": 0,
+              "Private_Dirty": 0,
+              "Size": 8796093022208,
+              "requested_covered": 5412126720
+            },
+            "vma_count": 1
+          },
+          "transfers": [
+            {
+              "h2d_ms": 0.2960420024464838,
+              "d2h_ms": 0.50690199714154,
+              "sha256": "59d618a746823072f865f765ebac71e8920ab17a323e7d922af3e3edb825c986"
+            },
+            {
+              "h2d_ms": 0.09544000204186887,
+              "d2h_ms": 0.0863110035425052,
+              "sha256": "212f1e2b39963394be237d6115d96de47d276ffb68b9d669ae318428a4a42c1a"
+            },
+            {
+              "h2d_ms": 0.0888800059328787,
+              "d2h_ms": 0.08313999569509178,
+              "sha256": "17a0b5995918986de2232368481b84b3c4f6207d9ecbc43dc7f08a2bb9f0341f"
+            }
+          ]
+        }
+      ],
+      "after_empty_cache": {
+        "process": {
+          "VmSize": 8801062813696,
+          "VmLck": 0,
+          "VmPin": 0,
+          "VmRSS": 1983971328,
+          "RssAnon": 1396768768,
+          "RssFile": 587202560,
+          "VmSwap": 0
+        },
+        "pool_vmas": {
+          "Rss": 0,
+          "Pss": 0,
+          "Locked": 0,
+          "Anonymous": 0,
+          "AnonHugePages": 0,
+          "Private_Dirty": 0,
+          "Size": 0,
+          "requested_covered": 0
+        },
+        "vma_count": 0
+      },
+      "device": "Ascend910B4-1",
+      "torch": "2.10.0+cpu"
+    }
+  ]
+}

@@ -1,0 +1,1537 @@
+{
+  "node": "Ascend A2 host A",
+  "device": "7",
+  "feature": 48543,
+  "mode": "default",
+  "script_sha256": "d5c06d6a374a72449761ae9b05c6229bebd5f632ab2fc098633a3bcd0c37eed2",
+  "raw_hashes": [
+    "5109b7370997ee26ef15333e6d54c01310afaf9dcd065b0a37c296e399b8f1f3",
+    "aac4dbbe2cb0278b0d74662de3257d8ea08843062069b1436631bca2350fe615",
+    "aac4dbbe2cb0278b0d74662de3257d8ea08843062069b1436631bca2350fe615",
+    "5109b7370997ee26ef15333e6d54c01310afaf9dcd065b0a37c296e399b8f1f3"
+  ],
+  "runs": [
+    {
+      "feature": 48543,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "device": "Ascend910B4-1",
+      "source": "torch.npu.host_memory_stats allocated_bytes.current plus currently outstanding successful ACL requests",
+      "rows": [
+        {
+          "pages": 385,
+          "logical_bytes": 5412126720,
+          "requested_mapping_bytes": [
+            3936092160,
+            492011520,
+            984023040
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 4294967296,
+                "active_bytes.current": 4294967296,
+                "allocations.current": 1,
+                "active_requests.current": 1,
+                "num_host_alloc": 1,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 4294967296
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 4831838208,
+                "active_bytes.current": 4831838208,
+                "allocations.current": 2,
+                "active_requests.current": 2,
+                "num_host_alloc": 2,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 4831838208
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 5905580032,
+                "allocations.current": 3,
+                "active_requests.current": 3,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 5905580032,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 5905580032,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 5905580032,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "verified_dma": [
+            "d2e3f3709d10c5371cb39ddce17284b91d531b6d53a7e7d007f42ecf93d141e1",
+            "91698b1ce3d8aeb940c0dbc6ffc875b684387248e6c5fd06ec806e19a0691d08",
+            "713dbb018b85490492334491827b018641ab7875c5be6608388c5676565a628f"
+          ]
+        },
+        {
+          "pages": 385,
+          "logical_bytes": 5412126720,
+          "requested_mapping_bytes": [
+            3936092160,
+            492011520,
+            984023040
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 5905580032,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 10200547331,
+                "allocations.current": 3,
+                "active_requests.current": 1,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 10737418243,
+                "allocations.current": 3,
+                "active_requests.current": 2,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 11811160067,
+                "allocations.current": 3,
+                "active_requests.current": 3,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 11811160067,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 11811160067,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 11811160067,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "verified_dma": [
+            "c7c30d39e53d47176c6232a437971ab217a280b934175d6683a651301eab6b54",
+            "84e27eb14781b163c2bc6aaff2a22cdc5e6577f8e73cf54973e60cd747ccd6e6",
+            "956b0e8e899cafe6e697f647b6938b8e102a8d6bb3adc98d271a7440ee60a33b"
+          ]
+        },
+        {
+          "pages": 397,
+          "logical_bytes": 5580816384,
+          "requested_mapping_bytes": [
+            4058775552,
+            507346944,
+            1014693888
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 11811160067,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 16106127366,
+                "allocations.current": 3,
+                "active_requests.current": 1,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 16642998278,
+                "allocations.current": 3,
+                "active_requests.current": 2,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 17716740102,
+                "allocations.current": 3,
+                "active_requests.current": 3,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 17716740102,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 17716740102,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 17716740102,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "verified_dma": [
+            "2e0f3404e73da31d5cb6871808e40f540335122d53a89f197383c7aa6da7f319",
+            "3f08475c4ea71d42f21629f87b865f3da4ca9e72abde0f3b3670ad62fd1900f7",
+            "2fa792933f3561bb96b6d1008d9849fcf0af948a8d90abeb5762bd6d021978f4"
+          ]
+        }
+      ],
+      "direct_acl_events": [],
+      "after_explicit_torch_host_cache_purge": {
+        "torch_pinned": {
+          "allocated_bytes.current": 0,
+          "active_bytes.current": 17716740105,
+          "allocations.current": 0,
+          "active_requests.current": 0,
+          "num_host_alloc": 3,
+          "num_host_free": 3
+        },
+        "acl_outstanding_bytes": 0,
+        "acl_outstanding_buffers": 0,
+        "total_driver_requested_bytes": 0
+      }
+    },
+    {
+      "feature": 48543,
+      "flag": 1,
+      "sha": "166bf929ff0e8c89bda2ef03ce98b162d1c5a664",
+      "device": "Ascend910B4-1",
+      "source": "torch.npu.host_memory_stats allocated_bytes.current plus currently outstanding successful ACL requests",
+      "rows": [
+        {
+          "pages": 385,
+          "logical_bytes": 5412126720,
+          "requested_mapping_bytes": [
+            3936092160,
+            492011520,
+            984023040
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 3936092160,
+              "acl_outstanding_buffers": 1,
+              "total_driver_requested_bytes": 3936092160
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 4428103680,
+              "acl_outstanding_buffers": 2,
+              "total_driver_requested_bytes": 4428103680
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 5412126720,
+              "acl_outstanding_buffers": 3,
+              "total_driver_requested_bytes": 5412126720
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5412126720,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5412126720
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5412126720,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5412126720
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "verified_dma": [
+            "d2e3f3709d10c5371cb39ddce17284b91d531b6d53a7e7d007f42ecf93d141e1",
+            "91698b1ce3d8aeb940c0dbc6ffc875b684387248e6c5fd06ec806e19a0691d08",
+            "713dbb018b85490492334491827b018641ab7875c5be6608388c5676565a628f"
+          ]
+        },
+        {
+          "pages": 385,
+          "logical_bytes": 5412126720,
+          "requested_mapping_bytes": [
+            3936092160,
+            492011520,
+            984023040
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 3936092160,
+              "acl_outstanding_buffers": 1,
+              "total_driver_requested_bytes": 3936092160
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 4428103680,
+              "acl_outstanding_buffers": 2,
+              "total_driver_requested_bytes": 4428103680
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 5412126720,
+              "acl_outstanding_buffers": 3,
+              "total_driver_requested_bytes": 5412126720
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5412126720,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5412126720
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5412126720,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5412126720
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "verified_dma": [
+            "c7c30d39e53d47176c6232a437971ab217a280b934175d6683a651301eab6b54",
+            "84e27eb14781b163c2bc6aaff2a22cdc5e6577f8e73cf54973e60cd747ccd6e6",
+            "956b0e8e899cafe6e697f647b6938b8e102a8d6bb3adc98d271a7440ee60a33b"
+          ]
+        },
+        {
+          "pages": 397,
+          "logical_bytes": 5580816384,
+          "requested_mapping_bytes": [
+            4058775552,
+            507346944,
+            1014693888
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 4058775552,
+              "acl_outstanding_buffers": 1,
+              "total_driver_requested_bytes": 4058775552
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 4566122496,
+              "acl_outstanding_buffers": 2,
+              "total_driver_requested_bytes": 4566122496
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 5580816384,
+              "acl_outstanding_buffers": 3,
+              "total_driver_requested_bytes": 5580816384
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5580816384,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5580816384
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5580816384,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5580816384
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "verified_dma": [
+            "2e0f3404e73da31d5cb6871808e40f540335122d53a89f197383c7aa6da7f319",
+            "3f08475c4ea71d42f21629f87b865f3da4ca9e72abde0f3b3670ad62fd1900f7",
+            "2fa792933f3561bb96b6d1008d9849fcf0af948a8d90abeb5762bd6d021978f4"
+          ]
+        }
+      ],
+      "direct_acl_events": [
+        [
+          "alloc",
+          3936092160
+        ],
+        [
+          "alloc",
+          492011520
+        ],
+        [
+          "alloc",
+          984023040
+        ],
+        [
+          "free",
+          984023040
+        ],
+        [
+          "free",
+          492011520
+        ],
+        [
+          "free",
+          3936092160
+        ],
+        [
+          "alloc",
+          3936092160
+        ],
+        [
+          "alloc",
+          492011520
+        ],
+        [
+          "alloc",
+          984023040
+        ],
+        [
+          "free",
+          984023040
+        ],
+        [
+          "free",
+          492011520
+        ],
+        [
+          "free",
+          3936092160
+        ],
+        [
+          "alloc",
+          4058775552
+        ],
+        [
+          "alloc",
+          507346944
+        ],
+        [
+          "alloc",
+          1014693888
+        ],
+        [
+          "free",
+          1014693888
+        ],
+        [
+          "free",
+          507346944
+        ],
+        [
+          "free",
+          4058775552
+        ]
+      ],
+      "after_explicit_torch_host_cache_purge": {
+        "torch_pinned": {
+          "allocated_bytes.current": 0,
+          "active_bytes.current": 0,
+          "allocations.current": 0,
+          "active_requests.current": 0,
+          "num_host_alloc": 0,
+          "num_host_free": 0
+        },
+        "acl_outstanding_bytes": 0,
+        "acl_outstanding_buffers": 0,
+        "total_driver_requested_bytes": 0
+      }
+    },
+    {
+      "feature": 48543,
+      "flag": 1,
+      "sha": "166bf929ff0e8c89bda2ef03ce98b162d1c5a664",
+      "device": "Ascend910B4-1",
+      "source": "torch.npu.host_memory_stats allocated_bytes.current plus currently outstanding successful ACL requests",
+      "rows": [
+        {
+          "pages": 385,
+          "logical_bytes": 5412126720,
+          "requested_mapping_bytes": [
+            3936092160,
+            492011520,
+            984023040
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 3936092160,
+              "acl_outstanding_buffers": 1,
+              "total_driver_requested_bytes": 3936092160
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 4428103680,
+              "acl_outstanding_buffers": 2,
+              "total_driver_requested_bytes": 4428103680
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 5412126720,
+              "acl_outstanding_buffers": 3,
+              "total_driver_requested_bytes": 5412126720
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5412126720,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5412126720
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5412126720,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5412126720
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "verified_dma": [
+            "d2e3f3709d10c5371cb39ddce17284b91d531b6d53a7e7d007f42ecf93d141e1",
+            "91698b1ce3d8aeb940c0dbc6ffc875b684387248e6c5fd06ec806e19a0691d08",
+            "713dbb018b85490492334491827b018641ab7875c5be6608388c5676565a628f"
+          ]
+        },
+        {
+          "pages": 385,
+          "logical_bytes": 5412126720,
+          "requested_mapping_bytes": [
+            3936092160,
+            492011520,
+            984023040
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 3936092160,
+              "acl_outstanding_buffers": 1,
+              "total_driver_requested_bytes": 3936092160
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 4428103680,
+              "acl_outstanding_buffers": 2,
+              "total_driver_requested_bytes": 4428103680
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 5412126720,
+              "acl_outstanding_buffers": 3,
+              "total_driver_requested_bytes": 5412126720
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5412126720,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5412126720
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5412126720,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5412126720
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "verified_dma": [
+            "c7c30d39e53d47176c6232a437971ab217a280b934175d6683a651301eab6b54",
+            "84e27eb14781b163c2bc6aaff2a22cdc5e6577f8e73cf54973e60cd747ccd6e6",
+            "956b0e8e899cafe6e697f647b6938b8e102a8d6bb3adc98d271a7440ee60a33b"
+          ]
+        },
+        {
+          "pages": 397,
+          "logical_bytes": 5580816384,
+          "requested_mapping_bytes": [
+            4058775552,
+            507346944,
+            1014693888
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 4058775552,
+              "acl_outstanding_buffers": 1,
+              "total_driver_requested_bytes": 4058775552
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 4566122496,
+              "acl_outstanding_buffers": 2,
+              "total_driver_requested_bytes": 4566122496
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 0,
+                "active_bytes.current": 0,
+                "allocations.current": 0,
+                "active_requests.current": 0,
+                "num_host_alloc": 0,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 5580816384,
+              "acl_outstanding_buffers": 3,
+              "total_driver_requested_bytes": 5580816384
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5580816384,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5580816384
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 5580816384,
+            "acl_outstanding_buffers": 3,
+            "total_driver_requested_bytes": 5580816384
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "verified_dma": [
+            "2e0f3404e73da31d5cb6871808e40f540335122d53a89f197383c7aa6da7f319",
+            "3f08475c4ea71d42f21629f87b865f3da4ca9e72abde0f3b3670ad62fd1900f7",
+            "2fa792933f3561bb96b6d1008d9849fcf0af948a8d90abeb5762bd6d021978f4"
+          ]
+        }
+      ],
+      "direct_acl_events": [
+        [
+          "alloc",
+          3936092160
+        ],
+        [
+          "alloc",
+          492011520
+        ],
+        [
+          "alloc",
+          984023040
+        ],
+        [
+          "free",
+          984023040
+        ],
+        [
+          "free",
+          492011520
+        ],
+        [
+          "free",
+          3936092160
+        ],
+        [
+          "alloc",
+          3936092160
+        ],
+        [
+          "alloc",
+          492011520
+        ],
+        [
+          "alloc",
+          984023040
+        ],
+        [
+          "free",
+          984023040
+        ],
+        [
+          "free",
+          492011520
+        ],
+        [
+          "free",
+          3936092160
+        ],
+        [
+          "alloc",
+          4058775552
+        ],
+        [
+          "alloc",
+          507346944
+        ],
+        [
+          "alloc",
+          1014693888
+        ],
+        [
+          "free",
+          1014693888
+        ],
+        [
+          "free",
+          507346944
+        ],
+        [
+          "free",
+          4058775552
+        ]
+      ],
+      "after_explicit_torch_host_cache_purge": {
+        "torch_pinned": {
+          "allocated_bytes.current": 0,
+          "active_bytes.current": 0,
+          "allocations.current": 0,
+          "active_requests.current": 0,
+          "num_host_alloc": 0,
+          "num_host_free": 0
+        },
+        "acl_outstanding_bytes": 0,
+        "acl_outstanding_buffers": 0,
+        "total_driver_requested_bytes": 0
+      }
+    },
+    {
+      "feature": 48543,
+      "flag": 0,
+      "sha": "68c262b30617731b7e1761169aceb6b17feb918a",
+      "device": "Ascend910B4-1",
+      "source": "torch.npu.host_memory_stats allocated_bytes.current plus currently outstanding successful ACL requests",
+      "rows": [
+        {
+          "pages": 385,
+          "logical_bytes": 5412126720,
+          "requested_mapping_bytes": [
+            3936092160,
+            492011520,
+            984023040
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 0,
+              "active_bytes.current": 0,
+              "allocations.current": 0,
+              "active_requests.current": 0,
+              "num_host_alloc": 0,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 0
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 4294967296,
+                "active_bytes.current": 4294967296,
+                "allocations.current": 1,
+                "active_requests.current": 1,
+                "num_host_alloc": 1,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 4294967296
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 4831838208,
+                "active_bytes.current": 4831838208,
+                "allocations.current": 2,
+                "active_requests.current": 2,
+                "num_host_alloc": 2,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 4831838208
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 5905580032,
+                "allocations.current": 3,
+                "active_requests.current": 3,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 5905580032,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 5905580032,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 5905580032,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "verified_dma": [
+            "d2e3f3709d10c5371cb39ddce17284b91d531b6d53a7e7d007f42ecf93d141e1",
+            "91698b1ce3d8aeb940c0dbc6ffc875b684387248e6c5fd06ec806e19a0691d08",
+            "713dbb018b85490492334491827b018641ab7875c5be6608388c5676565a628f"
+          ]
+        },
+        {
+          "pages": 385,
+          "logical_bytes": 5412126720,
+          "requested_mapping_bytes": [
+            3936092160,
+            492011520,
+            984023040
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 5905580032,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 10200547331,
+                "allocations.current": 3,
+                "active_requests.current": 1,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 10737418243,
+                "allocations.current": 3,
+                "active_requests.current": 2,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 11811160067,
+                "allocations.current": 3,
+                "active_requests.current": 3,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 11811160067,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 11811160067,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 11811160067,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "verified_dma": [
+            "c7c30d39e53d47176c6232a437971ab217a280b934175d6683a651301eab6b54",
+            "84e27eb14781b163c2bc6aaff2a22cdc5e6577f8e73cf54973e60cd747ccd6e6",
+            "956b0e8e899cafe6e697f647b6938b8e102a8d6bb3adc98d271a7440ee60a33b"
+          ]
+        },
+        {
+          "pages": 397,
+          "logical_bytes": 5580816384,
+          "requested_mapping_bytes": [
+            4058775552,
+            507346944,
+            1014693888
+          ],
+          "before": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 11811160067,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_each_allocation": [
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 16106127366,
+                "allocations.current": 3,
+                "active_requests.current": 1,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 16642998278,
+                "allocations.current": 3,
+                "active_requests.current": 2,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            },
+            {
+              "torch_pinned": {
+                "allocated_bytes.current": 5905580032,
+                "active_bytes.current": 17716740102,
+                "allocations.current": 3,
+                "active_requests.current": 3,
+                "num_host_alloc": 3,
+                "num_host_free": 0
+              },
+              "acl_outstanding_bytes": 0,
+              "acl_outstanding_buffers": 0,
+              "total_driver_requested_bytes": 5905580032
+            }
+          ],
+          "fully_allocated": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 17716740102,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "kept_by_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 17716740102,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "after_last_views": {
+            "torch_pinned": {
+              "allocated_bytes.current": 5905580032,
+              "active_bytes.current": 17716740102,
+              "allocations.current": 3,
+              "active_requests.current": 3,
+              "num_host_alloc": 3,
+              "num_host_free": 0
+            },
+            "acl_outstanding_bytes": 0,
+            "acl_outstanding_buffers": 0,
+            "total_driver_requested_bytes": 5905580032
+          },
+          "verified_dma": [
+            "2e0f3404e73da31d5cb6871808e40f540335122d53a89f197383c7aa6da7f319",
+            "3f08475c4ea71d42f21629f87b865f3da4ca9e72abde0f3b3670ad62fd1900f7",
+            "2fa792933f3561bb96b6d1008d9849fcf0af948a8d90abeb5762bd6d021978f4"
+          ]
+        }
+      ],
+      "direct_acl_events": [],
+      "after_explicit_torch_host_cache_purge": {
+        "torch_pinned": {
+          "allocated_bytes.current": 0,
+          "active_bytes.current": 17716740105,
+          "allocations.current": 0,
+          "active_requests.current": 0,
+          "num_host_alloc": 3,
+          "num_host_free": 3
+        },
+        "acl_outstanding_bytes": 0,
+        "acl_outstanding_buffers": 0,
+        "total_driver_requested_bytes": 0
+      }
+    }
+  ]
+}

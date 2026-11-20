@@ -1,0 +1,25 @@
+{
+  "device": "Ascend910B4-1",
+  "platform": "aarch64",
+  "runtime_image_id": "sha256:7cc852e69586b34e597091f6aa3d6ebec6f20a62014e49c5e47f690a0fe11764",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post6",
+    "transformers": "5.19.0",
+    "sgl-kernel-npu": "2026.11.0.post4"
+  },
+  "cann": "9.1.0",
+  "source_python_files_verified": 6961,
+  "main": "68c262b30617731b7e1761169aceb6b17feb918a",
+  "candidate": "166bf929ff0e8c89bda2ef03ce98b162d1c5a664",
+  "framework_stats": "torch.npu.host_memory_stats allocated_bytes.current counts active and cached rounded blocks requested from the NPU runtime",
+  "checkpoint": "GLM-5.2 W4A8C8",
+  "page_size": 128,
+  "model_layers": 78,
+  "widths": [
+    512,
+    64,
+    128
+  ],
+  "torch_pinned_reserve_segment_mb": 64
+}
