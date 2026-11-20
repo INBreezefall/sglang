@@ -1,0 +1,84 @@
+{
+  "native-control-eager-c44": {
+    "requested": 200,
+    "requests": 71,
+    "success": 59,
+    "completed_warmups": 44,
+    "observed_formal_concurrency": 44,
+    "mean_ttft_s": 161.2525418072022,
+    "p95_ttft_s": 281.3123803172959,
+    "maximum_ttft_s": 299.9419988580048,
+    "output_tokens": 14505,
+    "token_lengths": {
+      "prompt": {
+        "count": 59,
+        "min": 17547,
+        "p95": 109743.39999999994,
+        "max": 124275
+      },
+      "completion": {
+        "count": 59,
+        "min": 8,
+        "p95": 975.7999999999997,
+        "max": 2337
+      }
+    },
+    "client_mean_decode_tps": 1.8447196683185223,
+    "client_weighted_decode_tps": 1.8352447017974924,
+    "client_formal_window_s": 1685.0763359069824,
+    "expected_intervals": 14446,
+    "observed_intervals": 16857.0,
+    "counters_match": false,
+    "same_rank_continuations": 4,
+    "continuations": 27,
+    "joined_formal": 71,
+    "receipt_watermarks": {},
+    "official_outcome": {
+      "timeouts": {
+        "request_timeout": 1500,
+        "connect_timeout": 10.0,
+        "first_token_timeout": 300.0,
+        "stream_idle_timeout": 300.0,
+        "warmup_settle_timeout_seconds": 600
+      },
+      "stop_policy": "remaining_sessions_below_concurrency",
+      "failed": 12,
+      "failure_counts": {
+        "timeout": 12
+      },
+      "timeout_kinds": {
+        "first_token": 11,
+        "total": 1
+      },
+      "retries": {
+        "retry_scheduled": 0,
+        "retry_recovered": 0,
+        "retry_exhausted": 1,
+        "retry_cancelled_after_global_stop": 0,
+        "abandoned_sessions": 1,
+        "bad_request_skipped_sessions": 0
+      }
+    },
+    "full_client_result_sha256": "ed6849ed5030cc165c8ed3d1bf8ca3be22db875f1bd34d45da074d955607d485",
+    "relay_sha256": "f30ad953b3efdfcd69c1d8e6e6297451bccd6e6c1a47142059cc7492b9d17423",
+    "source": {
+      "case": "native-control-eager-c44",
+      "profile": "native-eager-replay1500-headroom-moonsegments",
+      "prefill": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "decode": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "physical_hosts": 4,
+      "tp_per_role": 16,
+      "started_at": 1795186225.4322371,
+      "roles": [
+        "prefill",
+        "decode"
+      ],
+      "source_round": "evening",
+      "launcher_sha256": "70e78ef51ad97d1c5caa6701c9df324175b42d0658abaefbf5e02fe7f7ed8603"
+    },
+    "matching_opening_hashes": 44,
+    "opening_count": 44,
+    "matched_dispatch_identities": 71,
+    "forced_rank_hints": 0
+  }
+}

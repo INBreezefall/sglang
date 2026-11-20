@@ -1,0 +1,10 @@
+{
+  "image": "sha256:4a23ec2555c6e49d8e43ccfe4585fb9b07ced470241cb96af45b75542e04f190",
+  "script_sha256": "64c090762d30ed106297e2d9d3220c10dc589f2166403d5812d971c55f9643f2",
+  "total_request_seconds": 1500,
+  "default_first_token_seconds": 300.0,
+  "default_stream_idle_seconds": 300.0,
+  "warmup_uses_total_only": true,
+  "source_file": "glm_replay.py",
+  "configuration_argument": "--timeout 1500"
+}

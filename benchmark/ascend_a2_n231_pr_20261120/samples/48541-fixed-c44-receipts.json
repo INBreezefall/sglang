@@ -1,0 +1,344 @@
+{
+  "native-control-eager-c44": {
+    "placement": {
+      "case": "native-control-eager-c44",
+      "concurrency": 44,
+      "formal": 200,
+      "matched_inputs_and_returned_worker_ranks": 200,
+      "forced_rank_hints": 0,
+      "positive_receipt_tags": 0,
+      "acked_in_formal_window": 0,
+      "acked_by_observation": 0,
+      "per_rank": {
+        "0": {
+          "requests": 25,
+          "tagged": 0,
+          "acked_in_formal_window": 0,
+          "acked_by_observation": 0,
+          "highest_formal_sequence": 0
+        },
+        "1": {
+          "requests": 22,
+          "tagged": 0,
+          "acked_in_formal_window": 0,
+          "acked_by_observation": 0,
+          "highest_formal_sequence": 0
+        },
+        "2": {
+          "requests": 20,
+          "tagged": 0,
+          "acked_in_formal_window": 0,
+          "acked_by_observation": 0,
+          "highest_formal_sequence": 0
+        },
+        "3": {
+          "requests": 23,
+          "tagged": 0,
+          "acked_in_formal_window": 0,
+          "acked_by_observation": 0,
+          "highest_formal_sequence": 0
+        },
+        "4": {
+          "requests": 27,
+          "tagged": 0,
+          "acked_in_formal_window": 0,
+          "acked_by_observation": 0,
+          "highest_formal_sequence": 0
+        },
+        "5": {
+          "requests": 27,
+          "tagged": 0,
+          "acked_in_formal_window": 0,
+          "acked_by_observation": 0,
+          "highest_formal_sequence": 0
+        },
+        "6": {
+          "requests": 27,
+          "tagged": 0,
+          "acked_in_formal_window": 0,
+          "acked_by_observation": 0,
+          "highest_formal_sequence": 0
+        },
+        "7": {
+          "requests": 29,
+          "tagged": 0,
+          "acked_in_formal_window": 0,
+          "acked_by_observation": 0,
+          "highest_formal_sequence": 0
+        }
+      },
+      "cached_token_observations": 200,
+      "requests_with_cached_tokens": 62,
+      "returned_cached_tokens": 144384
+    },
+    "control_comparison": {
+      "formal": {
+        "sessions": 44,
+        "turns": 5,
+        "output_limit": 24,
+        "warmups": 8
+      },
+      "paired_requests": 200,
+      "identical_outputs": 200,
+      "prefill_affinity": [
+        19,
+        19
+      ],
+      "decode_affinity": [
+        19,
+        19
+      ],
+      "source_arms": {
+        "control": [
+          "ad96481482fe9d400195d12286f66a6359c56bb3",
+          "ad96481482fe9d400195d12286f66a6359c56bb3"
+        ],
+        "candidate": [
+          "ad96481482fe9d400195d12286f66a6359c56bb3",
+          "ad96481482fe9d400195d12286f66a6359c56bb3"
+        ]
+      },
+      "input_manifest_sha256": "c9a376551df1df764535dd5941aa4bf869e8f2396660bda4b06c394cf470cbdb",
+      "mean_ttft_ms": {
+        "before": 12590.543176534484,
+        "after": 12590.543176534484,
+        "relative_percent": 0.0
+      },
+      "p95_ttft_ms": {
+        "before": 22162.832880300994,
+        "after": 22162.832880300994,
+        "relative_percent": 0.0
+      },
+      "mean_decode_tps_per_request": {
+        "before": 1.6824598299361093,
+        "after": 1.6824598299361093,
+        "relative_percent": 0.0
+      },
+      "output_tps": {
+        "before": 29.551271727061934,
+        "after": 29.551271727061934,
+        "relative_percent": 0.0
+      }
+    },
+    "quality": {
+      "items": 32,
+      "correct": [
+        32,
+        32
+      ],
+      "identical_output_tokens": 32,
+      "changed_answers": [],
+      "free_hashes": [
+        [
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98",
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98",
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98"
+        ],
+        [
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98",
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98",
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98"
+        ]
+      ],
+      "same_fixed_next_token": 8
+    },
+    "source": {
+      "case": "native-control-eager-c44",
+      "profile": "native-eager-replay1500-headroom-moonsegments",
+      "prefill": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "decode": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "physical_hosts": 4,
+      "tp_per_role": 16,
+      "started_at": 1795186225.4322371,
+      "roles": [
+        "prefill",
+        "decode"
+      ],
+      "source_round": "evening",
+      "launcher_sha256": "70e78ef51ad97d1c5caa6701c9df324175b42d0658abaefbf5e02fe7f7ed8603"
+    },
+    "times": {
+      "stability": {
+        "start": 1795186582.5049238,
+        "rc": 0,
+        "end": 1795186790.9122229
+      },
+      "quality": {
+        "start": 1795186790.912757,
+        "rc": 0,
+        "end": 1795186929.7717261
+      }
+    }
+  },
+  "native-route-r1-eager-c44": {
+    "placement": {
+      "case": "native-route-r1-eager-c44",
+      "concurrency": 44,
+      "formal": 200,
+      "matched_inputs_and_returned_worker_ranks": 200,
+      "forced_rank_hints": 0,
+      "positive_receipt_tags": 200,
+      "acked_in_formal_window": 183,
+      "acked_by_observation": 200,
+      "per_rank": {
+        "0": {
+          "requests": 27,
+          "tagged": 27,
+          "acked_in_formal_window": 25,
+          "acked_by_observation": 27,
+          "highest_formal_sequence": 28
+        },
+        "1": {
+          "requests": 24,
+          "tagged": 24,
+          "acked_in_formal_window": 21,
+          "acked_by_observation": 24,
+          "highest_formal_sequence": 25
+        },
+        "2": {
+          "requests": 20,
+          "tagged": 20,
+          "acked_in_formal_window": 17,
+          "acked_by_observation": 20,
+          "highest_formal_sequence": 21
+        },
+        "3": {
+          "requests": 35,
+          "tagged": 35,
+          "acked_in_formal_window": 32,
+          "acked_by_observation": 35,
+          "highest_formal_sequence": 36
+        },
+        "4": {
+          "requests": 23,
+          "tagged": 23,
+          "acked_in_formal_window": 21,
+          "acked_by_observation": 23,
+          "highest_formal_sequence": 24
+        },
+        "5": {
+          "requests": 21,
+          "tagged": 21,
+          "acked_in_formal_window": 21,
+          "acked_by_observation": 21,
+          "highest_formal_sequence": 22
+        },
+        "6": {
+          "requests": 19,
+          "tagged": 19,
+          "acked_in_formal_window": 17,
+          "acked_by_observation": 19,
+          "highest_formal_sequence": 20
+        },
+        "7": {
+          "requests": 31,
+          "tagged": 31,
+          "acked_in_formal_window": 29,
+          "acked_by_observation": 31,
+          "highest_formal_sequence": 32
+        }
+      },
+      "cached_token_observations": 200,
+      "requests_with_cached_tokens": 156,
+      "returned_cached_tokens": 359936
+    },
+    "control_comparison": {
+      "formal": {
+        "sessions": 44,
+        "turns": 5,
+        "output_limit": 24,
+        "warmups": 8
+      },
+      "paired_requests": 200,
+      "identical_outputs": 35,
+      "prefill_affinity": [
+        19,
+        15
+      ],
+      "decode_affinity": [
+        19,
+        156
+      ],
+      "source_arms": {
+        "control": [
+          "ad96481482fe9d400195d12286f66a6359c56bb3",
+          "ad96481482fe9d400195d12286f66a6359c56bb3"
+        ],
+        "candidate": [
+          "ad96481482fe9d400195d12286f66a6359c56bb3",
+          "3518681e48b2fbb8ba653783180be1f7520a271d"
+        ]
+      },
+      "input_manifest_sha256": "c9a376551df1df764535dd5941aa4bf869e8f2396660bda4b06c394cf470cbdb",
+      "mean_ttft_ms": {
+        "before": 12590.543176534484,
+        "after": 10524.425564199628,
+        "relative_percent": -16.410075271300173
+      },
+      "p95_ttft_ms": {
+        "before": 22162.832880300994,
+        "after": 17560.579579803016,
+        "relative_percent": -20.765636438961742
+      },
+      "mean_decode_tps_per_request": {
+        "before": 1.6824598299361093,
+        "after": 1.7537992835995484,
+        "relative_percent": 4.240187634444026
+      },
+      "output_tps": {
+        "before": 29.551271727061934,
+        "after": 31.974417879391574,
+        "relative_percent": 8.199803293442077
+      }
+    },
+    "quality": {
+      "items": 32,
+      "correct": [
+        32,
+        32
+      ],
+      "identical_output_tokens": 32,
+      "changed_answers": [],
+      "free_hashes": [
+        [
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98",
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98",
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98"
+        ],
+        [
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98",
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98",
+          "c6eff5af111aad48774a6efc8ae6197b00dbbc190bc38778c67ee9b852575a98"
+        ]
+      ],
+      "same_fixed_next_token": 8
+    },
+    "source": {
+      "case": "native-route-r1-eager-c44",
+      "profile": "native-eager-replay1500-headroom-moonsegments",
+      "prefill": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "decode": "3518681e48b2fbb8ba653783180be1f7520a271d",
+      "physical_hosts": 4,
+      "tp_per_role": 16,
+      "started_at": 1795189323.7645729,
+      "roles": [
+        "prefill",
+        "decode"
+      ],
+      "source_round": "evening",
+      "launcher_sha256": "70e78ef51ad97d1c5caa6701c9df324175b42d0658abaefbf5e02fe7f7ed8603"
+    },
+    "times": {
+      "stability": {
+        "start": 1795189675.228523,
+        "rc": 0,
+        "end": 1795189926.525457
+      },
+      "quality": {
+        "start": 1795189926.525989,
+        "rc": 0,
+        "end": 1795190100.084703
+      }
+    }
+  }
+}
