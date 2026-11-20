@@ -1,0 +1,15 @@
+{
+  "case": "native-control-headroom",
+  "source": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "concurrency": 48,
+  "warmup_ok": 48,
+  "formal_attempted": 55,
+  "formal_success": 7,
+  "joined": 55,
+  "scope": "upstream main, full decode graph",
+  "driver_error": 507057,
+  "kernel": "GatherV2",
+  "after_failure_npu_health": "OK",
+  "formal_intervals_complete": false,
+  "next_profile": "eager, C44, source and settings held constant within the comparison"
+}

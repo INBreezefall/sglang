@@ -1,0 +1,18 @@
+{
+  "case": "native-control-h1536b",
+  "nodes": {
+    "231": {
+      "capacity": 75008,
+      "sha": "ad96481482fe9d400195d12286f66a6359c56bb3"
+    },
+    "233": {
+      "capacity": 76160,
+      "sha": "ad96481482fe9d400195d12286f66a6359c56bb3"
+    }
+  },
+  "source": "C48 native replay, archived opening prompt token counts",
+  "archive_sha256": "fdae64487bb439767838d815a54d1c5482641943c0f7080e3eb59b3ade802ffe",
+  "opening_requests": 48,
+  "longest_opening": 136239,
+  "openings_larger_than_pool": 14
+}

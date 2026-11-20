@@ -1,0 +1,29 @@
+{
+  "case": "native-control-standard-hi",
+  "main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "observed": {
+    "231": {
+      "timeouts": 10,
+      "warmup": {
+        "ok-200": 16,
+        "backend_error-500": 20
+      },
+      "formal": 0,
+      "timeout_seconds_in_log": [
+        180
+      ]
+    },
+    "233": {
+      "timeouts": 14,
+      "warmup": {},
+      "formal": 0,
+      "timeout_seconds_in_log": [
+        180
+      ]
+    }
+  },
+  "configured_transfer_timeout_seconds": 180,
+  "archived_transfer_timeout_seconds": 1500,
+  "next_profile": "native-graph-replay1500-moonsegments",
+  "collected": "2026-11-20T22:18:17.320239+08:00"
+}

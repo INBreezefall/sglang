@@ -1,0 +1,18 @@
+{
+  "case": "native-control-f2",
+  "main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "phase": "first target-verify NPU graph capture before HTTP ready",
+  "operator": "aclnnMoeLowLatencyDispatchV2",
+  "requested_hccl_device_bytes": 6443499520,
+  "configured_deepep_hccl_mib": 3072,
+  "archived_deepep_hccl_mib": 1536,
+  "reported_graph_start_free_gb": 6.34,
+  "observed_initial_kv_capacity": 76160,
+  "secondary_diagnostic": "CANN multiprocessing forkserver found a non-Python signal handler with a process-wide vendor LD_PRELOAD",
+  "measure": "1536 MiB archived DeepEP buffer, vendor op library on LD_LIBRARY_PATH, no process-wide vendor preload, otherwise identical current-main settings",
+  "at": "2026-11-20T21:46:40.773551+08:00",
+  "first_pr_failed_before_http": true,
+  "first_pr_hccl_allocation_bytes": [
+    6443499520
+  ]
+}

@@ -80,5 +80,96 @@
     "opening_count": 44,
     "matched_dispatch_identities": 71,
     "forced_rank_hints": 0
+  },
+  "native-route-r1-eager-c44": {
+    "requested": 200,
+    "requests": 72,
+    "success": 59,
+    "completed_warmups": 44,
+    "observed_formal_concurrency": 44,
+    "mean_ttft_s": 148.46118900015426,
+    "p95_ttft_s": 240.30235077200047,
+    "maximum_ttft_s": 282.7327884289989,
+    "output_tokens": 11804,
+    "token_lengths": {
+      "prompt": {
+        "count": 59,
+        "min": 17547,
+        "p95": 108789.39999999992,
+        "max": 124275
+      },
+      "completion": {
+        "count": 59,
+        "min": 8,
+        "p95": 672.2999999999982,
+        "max": 1950
+      }
+    },
+    "client_mean_decode_tps": 1.8076430880464822,
+    "client_weighted_decode_tps": 1.7987453094052668,
+    "client_formal_window_s": 1500.144634962082,
+    "expected_intervals": 11745,
+    "observed_intervals": 14270.0,
+    "counters_match": false,
+    "same_rank_continuations": 6,
+    "continuations": 28,
+    "joined_formal": 72,
+    "receipt_watermarks": {
+      "0": 85,
+      "1": 43,
+      "2": 36,
+      "3": 50,
+      "4": 41,
+      "5": 32,
+      "6": 32,
+      "7": 46
+    },
+    "official_outcome": {
+      "timeouts": {
+        "request_timeout": 1500,
+        "connect_timeout": 10.0,
+        "first_token_timeout": 300.0,
+        "stream_idle_timeout": 300.0,
+        "warmup_settle_timeout_seconds": 600
+      },
+      "stop_policy": "remaining_sessions_below_concurrency",
+      "failed": 13,
+      "failure_counts": {
+        "timeout": 13
+      },
+      "timeout_kinds": {
+        "first_token": 12,
+        "total": 1
+      },
+      "retries": {
+        "retry_scheduled": 0,
+        "retry_recovered": 0,
+        "retry_exhausted": 1,
+        "retry_cancelled_after_global_stop": 0,
+        "abandoned_sessions": 1,
+        "bad_request_skipped_sessions": 0
+      }
+    },
+    "full_client_result_sha256": "f3187b5a50b90ed25908c5d3c17455618b74091bc221f3434688c0db5c7e9874",
+    "relay_sha256": "f30ad953b3efdfcd69c1d8e6e6297451bccd6e6c1a47142059cc7492b9d17423",
+    "source": {
+      "case": "native-route-r1-eager-c44",
+      "profile": "native-eager-replay1500-headroom-moonsegments",
+      "prefill": "ad96481482fe9d400195d12286f66a6359c56bb3",
+      "decode": "3518681e48b2fbb8ba653783180be1f7520a271d",
+      "physical_hosts": 4,
+      "tp_per_role": 16,
+      "started_at": 1795189323.7645729,
+      "roles": [
+        "prefill",
+        "decode"
+      ],
+      "source_round": "evening",
+      "launcher_sha256": "70e78ef51ad97d1c5caa6701c9df324175b42d0658abaefbf5e02fe7f7ed8603"
+    },
+    "matching_opening_hashes": 44,
+    "opening_count": 44,
+    "matched_dispatch_identities": 72,
+    "forced_rank_hints": 0
   }
 }

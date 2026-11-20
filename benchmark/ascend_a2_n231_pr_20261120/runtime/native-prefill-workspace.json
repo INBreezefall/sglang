@@ -1,0 +1,63 @@
+{
+  "requested_gib": 1.5,
+  "reported_free_gib": 1.44,
+  "frames": [
+    [
+      "module.py",
+      1787,
+      "_call_impl"
+    ],
+    [
+      "layer.py",
+      1751,
+      "forward"
+    ],
+    [
+      "layer.py",
+      1772,
+      "forward_impl"
+    ],
+    [
+      "layer.py",
+      1837,
+      "run_moe_core"
+    ],
+    [
+      "modelslim.py",
+      1149,
+      "apply"
+    ],
+    [
+      "runner.py",
+      254,
+      "run"
+    ],
+    [
+      "ascend.py",
+      297,
+      "run"
+    ],
+    [
+      "moe_methods.py",
+      841,
+      "apply"
+    ],
+    [
+      "matmul.py",
+      41,
+      "forward"
+    ],
+    [
+      "_ops.py",
+      1209,
+      "__call__"
+    ]
+  ],
+  "main": "ad96481482fe9d400195d12286f66a6359c56bb3",
+  "case": "native-control-original-wait",
+  "prefill_tokens": 209280,
+  "configured_prefill_chunk": 16384,
+  "decode_tokens": 212992,
+  "warmup_failed_http_500": 48,
+  "formal_requests": 0
+}
