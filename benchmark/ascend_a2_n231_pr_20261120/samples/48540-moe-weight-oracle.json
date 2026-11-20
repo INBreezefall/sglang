@@ -1,0 +1,2350 @@
+{
+  "revisions": [
+    "f3c1a5bec090eed28079413e63336713eaf656bd",
+    "68c262b30617731b7e1761169aceb6b17feb918a"
+  ],
+  "records": [
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 0,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 0,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 0,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 0,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 0,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 0,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 1,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 1,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 1,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 1,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 1,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 1,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 2,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 2,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 2,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 2,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 2,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 2,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 3,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 3,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 3,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 3,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 3,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 3,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 4,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 4,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 4,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 4,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 4,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 4,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 5,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 5,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 5,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 5,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 5,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 5,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 6,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 6,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 6,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 6,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 6,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 6,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 7,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 7,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 7,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 7,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 7,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 7,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 8,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 8,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 8,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 8,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 8,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 8,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 9,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 9,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 9,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 9,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 9,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 9,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 10,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 10,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 10,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 10,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 10,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 10,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 11,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 11,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 11,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 11,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 11,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 11,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 12,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 12,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 12,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 12,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 12,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 12,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 13,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 13,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 13,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 13,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 13,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 13,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 14,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 14,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 14,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 14,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 14,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 14,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 15,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 15,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 15,
+      "sample": 1,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 3,
+      "rank": 15,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 32,
+      "rank": 15,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    },
+    {
+      "event": "moe-oracle",
+      "layer": 64,
+      "rank": 15,
+      "sample": 2,
+      "rows": 1024,
+      "hidden": 6144,
+      "dtype": "torch.bfloat16",
+      "quantization": "ModelSlimFusedMoEMethod",
+      "tiled_vs_untiled": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      },
+      "untiled_repeat": {
+        "equal_values": 6291456,
+        "values": 6291456,
+        "finite": true,
+        "max_abs": 0.0,
+        "relative_l2": 0.0
+      }
+    }
+  ],
+  "aggregated": {
+    "tiled_vs_untiled": {
+      "exact": 603979776,
+      "total": 603979776,
+      "max_absolute": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "untiled_repeat": {
+      "exact": 603979776,
+      "total": 603979776,
+      "max_absolute": 0.0,
+      "max_relative_l2": 0.0
+    }
+  },
+  "layers": [
+    3,
+    32,
+    64
+  ],
+  "profile": "memory-pressure-moeoracle-moonsegments",
+  "ranks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ]
+}
